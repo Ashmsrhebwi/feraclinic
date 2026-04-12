@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap');
+
+@import "tailwindcss";
+
+/* ─────────────────────────────────────── 
+   COLOR TOKENS — FeRa Clinic Identity
+   Primary: #006693  Light: #008BC9  Deep: #1b4698
+   White: #fff  Surface: #F5F7FA
+──────────────────────────────────────── */
+@theme {
+  --color-fera-primary:   #006693;
+  --color-fera-light:     #008BC9;
+  --color-fera-deep:      #1b4698;
+  --color-fera-white:     #FFFFFF;
+  --color-fera-surface:   #F5F7FA;
+  --color-fera-gray:      #6B7280;
+  --color-fera-border:    #E2E8F0;
+
+  /* Legacy aliases kept for other pages (mapped to blue, not gold) */
+  --color-fera-navy:      #1b4698;
+  --color-fera-off-white: #F5F7FA;
+  --color-fera-ivory:     #F5F7FA;
+  --color-fera-gold:      #008BC9; /* Mapped to light blue — removes gold everywhere */
+
+  --shadow-card:    0 2px 12px 0 rgba(27, 70, 152, 0.08);
+  --shadow-card-lg: 0 8px 32px 0 rgba(27, 70, 152, 0.13);
+  --shadow-luxury:    0 2px 12px 0 rgba(27, 70, 152, 0.08);
+  --shadow-luxury-lg: 0 8px 32px 0 rgba(27, 70, 152, 0.13);
+  --shadow-luxury-xl: 0 16px 48px 0 rgba(27, 70, 152, 0.16);
+
+  --ease-std: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+:root {
+  --overlay-hero: rgba(27, 70, 152, 0.60);
+}
+
+/* ─────────────────────────────────────── 
+   BASE
+──────────────────────────────────────── */
+@layer base {
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #FFFFFF;
+    color: #1b4698;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+    color: #1b4698;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+  }
+
+  p, span, li, a, button, input, select, textarea {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.7;
+  }
+
+  *:focus-visible {
+    outline: 2px solid #006693;
+    outline-offset: 3px;
+  }
+}
+
+/* ─────────────────────────────────────── 
+   COMPONENTS
+──────────────────────────────────────── */
+@layer components {
+  /* Section standard rhythm */
+  .section {
+    @apply py-20 px-6;
+  }
+  .container-std {
+    @apply max-w-7xl mx-auto;
+  }
+
+  /* Clinical label above headings */
+  .section-label {
+    @apply text-xs font-semibold uppercase tracking-[0.3em] text-fera-primary mb-4 block;
+  }
+
+  /* Section heading */
+  .section-heading {
+    @apply text-3xl lg:text-4xl font-bold text-fera-deep leading-snug;
+  }
+
+  /* Body description */
+  .section-body {
+    @apply text-fera-gray font-normal text-base leading-relaxed;
+  }
+
+  /* ── Dropdown hover (CSS-only, no JS for desktop) ── */
+  .nav-dropdown:hover .nav-dropdown-menu,
+  .nav-dropdown:focus-within .nav-dropdown-menu {
+    @apply opacity-100 visible translate-y-0;
+  }
+}
+
+/* ─────────────────────────────────────── 
+   UTILITIES
+──────────────────────────────────────── */
+@layer utilities {
+  /* Soft page background */
+  .bg-surface { background-color: #F5F7FA; }
+
+  /* Keep this class used by other pages but make it do nothing now */
+  .soft-blue-glow { position: relative; }
+}

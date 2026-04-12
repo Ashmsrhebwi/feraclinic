@@ -1,0 +1,79 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "treatments": "Treatments",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "consultation": "Consultation",
+    "dentalTourism": "Dental Tourism"
+  },
+  "hero": {
+    "title": "We Are The Smile Makers",
+    "subtitle": "Experience premium dental care in Istanbul, Türkiye",
+    "ctaPrimary": "Our Treatments",
+    "ctaSecondary": "Free Consultation"
+  },
+  "about": {
+    "title": "About FeRa Clinic",
+    "subtitle": "We are The Smile Makers - a premier dental clinic in Istanbul dedicated to transforming lives through exceptional dental care and personalized treatment experiences.",
+    "storyTitle": "Our Story",
+    "story": "Founded in 2009, FeRa Clinic began with a simple mission: to provide world-class dental care that combines Turkish hospitality with international medical standards. Our name 'FeRa' represents the perfect balance between precision and artistry in dentistry.",
+    "whyChooseUs": "Why Patients Choose Us",
+    "whyChooseUsSubtitle": "Our commitment to excellence has earned us recognition as a leading dental clinic in Turkey",
+    "teamTitle": "Meet Our Expert Team",
+    "teamSubtitle": "Internationally trained specialists dedicated to creating your perfect smile",
+    "valuesTitle": "Our Values",
+    "valuesSubtitle": "The principles that guide everything we do at FeRa Clinic"
+  },
+  "treatments": {
+    "title": "Our Comprehensive Treatments",
+    "subtitle": "Advanced treatments using latest technology and materials for your perfect smile",
+    "categories": {
+      "all": "All",
+      "cosmetic": "Cosmetic",
+      "restorative": "Restorative",
+      "orthodontics": "Orthodontics",
+      "comprehensive": "Comprehensive"
+    },
+    "learnMore": "Learn More",
+    "duration": "Duration",
+    "price": "Price"
+  },
+  "contact": {
+    "title": "Get in Touch With Us",
+    "subtitle": "Have questions about our treatments? Ready to start your smile transformation? Our team is here to help you every step of the way.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address", 
+      "phone": "Phone Number",
+      "treatment": "Treatment Interest",
+      "message": "Message",
+      "submit": "Send Consultation Request"
+    },
+    "info": {
+      "phone": "Phone",
+      "email": "Email",
+      "location": "Location",
+      "hours": "Working Hours"
+    },
+    "cta": {
+      "title": "Need Immediate Assistance?",
+      "subtitle": "Our team is available 24/7 for emergency consultations and international patient support.",
+      "callNow": "Call Now",
+      "whatsapp": "WhatsApp Support"
+    }
+  },
+  "common": {
+    "readMore": "Read More",
+    "viewDetails": "View Details",
+    "bookNow": "Book Now",
+    "freeConsultation": "Free Consultation",
+    "contactUs": "Contact Us",
+    "learnMore": "Learn More",
+    "allTreatments": "View All Treatments",
+    "internationalPatients": "International Patient Support",
+    "lifetimeWarranty": "Lifetime Warranty",
+    "satisfactionGuaranteed": "Satisfaction Guaranteed"
+  }
+}

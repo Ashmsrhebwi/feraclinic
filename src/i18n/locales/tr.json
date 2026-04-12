@@ -1,0 +1,78 @@
+{
+  "navigation": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "treatments": "Tedaviler",
+    "gallery": "Galeri",
+    "contact": "İletişim",
+    "consultation": "Danışmanlık",
+    "dentalTourism": "Diş Turizmi"
+  },
+  "hero": {
+    "title": "Biz Gülümse Yaratıcılarıyız",
+    "subtitle": "İstanbul, Türkiye'de premium diş bakımı deneyimi",
+    "ctaPrimary": "Tedavilerimiz",
+    "ctaSecondary": "Ücretsiz Danışmanlık"
+  },
+  "about": {
+    "title": "FeRa Klinik Hakkında",
+    "subtitle": "Biz Gülümse Yaratıcılarıyız - olağanüstü diş bakımı ve kişiselleştirilmiş tedavi deneyimleri aracılığıyla hayatları dönüştüren İstanbul'deki lider bir diş kliniği.",
+    "storyTitle": "Hikayemiz",
+    "story": "2009 yılında kurulan FeRa Klinik, basit bir misyonla başladı: Türk misafirperverliği ile uluslararası tıbbi standartları birleştiren dünya sınıfı diş bakımı sağlamak. 'FeRa' adımız, diş hekimliğinde hassasiyet ve sanat arasındaki mükemmel dengeyi temsil eder.",
+    "whyChooseUs": "Hastalar Neden Bizi Seçiyor",
+    "whyChooseUsSubtitle": "Mükemmellik taahhüdümüz, Türkiye'de lider bir diş kliniği olarak tanınmamızı sağladı",
+    "teamTitle": "Uzman Ekibimizle Tanışın",
+    "teamSubtitle": "Mükemmel gülümsemenizi yaratmaya adanmış uluslararası eğitimli uzmanlar",
+    "valuesTitle": "Değerlerimiz",
+    "valuesSubtitle": "FeRa Kliniği'nde yaptığımız her şeyi yönlendiren ilkeler"
+  },
+  "treatments": {
+    "title": "Kapsamlı Tedavilerimiz",
+    "subtitle": "Mükemmel gülümsemeniz için en son teknoloji ve malzemeleri kullanan gelişmiş tedaviler",
+    "categories": {
+      "all": "Tümü",
+      "cosmetic": "Kozmetik",
+      "restorative": "Restoratif",
+      "orthodontics": "Ortodonti",
+      "comprehensive": "Kapsamlı"
+    },
+    "learnMore": "Daha Fazla Bilgi",
+    "duration": "Süre",
+    "price": "Fiyat"
+  },
+  "contact": {
+    "title": "Bizimle İletişime Geçin",
+    "subtitle": "Tedavilerimiz hakkında sorularınız mı var? Gülümse dönüşümünüzü başlamaya hazır mısınız? Ekibimiz her adımda size yardımcı olmak için burada.",
+    "form": {
+      "name": "Tam Ad",
+      "email": "E-posta Adresi",
+      "phone": "Telefon Numarası",
+      "treatment": "Tedavi İlgisi",
+      "message": "Mesaj",
+      "submit": "Danışmanlık İsteği Gönder"
+    },
+    "info": {
+      "phone": "Telefon",
+      "email": "E-posta",
+      "location": "Konum",
+      "hours": "Çalışma Saatleri"
+    },
+    "cta": {
+      "title": "Acil Yardıma İhtiyacınız Var mı?",
+      "subtitle": "Ekibimiz acil danışmanlıklar ve uluslararası hasta desteği için 24/7 hizmetinizdedir.",
+      "callNow": "Şimdi Ara",
+      "whatsapp": "WhatsApp Desteği"
+    }
+  },
+  "common": {
+    "readMore": "Daha Fazla Oku",
+    "viewDetails": "Detayları Gör",
+    "bookNow": "Şimdi Rezervasyon Yap",
+    "freeConsultation": "Ücretsiz Danışmanlık",
+    "contactUs": "Bize Ulaşın",
+    "allTreatments": "Tüm Tedavileri Gör",
+    "internationalPatients": "Uluslararası Hasta Desteği",
+    "lifetimeWarranty": "Ömür Boyu Garanti",
+    "satisfactionGuaranteed": "Memnuniyet Garantili"
+  }
+}

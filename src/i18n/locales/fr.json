@@ -1,0 +1,79 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "about": "À propos",
+    "treatments": "Traitements",
+    "gallery": "Galerie",
+    "contact": "Contact",
+    "consultation": "Consultation",
+    "dentalTourism": "Tourisme Dentaire"
+  },
+  "hero": {
+    "title": "Nous Sommes les Créateurs de Sourires",
+    "subtitle": "Découvrez des soins dentaires premium à Istanbul, Turquie",
+    "ctaPrimary": "Nos Traitements",
+    "ctaSecondary": "Consultation Gratuite"
+  },
+  "about": {
+    "title": "À Propos de la Clinique FeRa",
+    "subtitle": "Nous sommes les Créateurs de Sourires - une clinique dentaire de premier plan à Istanbul dédiée à transformer les vies par des soins dentaires exceptionnels et des expériences de traitement personnalisées.",
+    "storyTitle": "Notre Histoire",
+    "story": "Fondée en 2009, la Clinique FeRa a commencé avec une mission simple : fournir des soins dentaires de classe mondiale qui combinent l'hospitalité turque avec des normes médicales internationales. Notre nom 'FeRa' représente l'équilibre parfait entre précision et art en dentisterie.",
+    "whyChooseUs": "Pourquoi les Patients Nous Choisisent",
+    "whyChooseUsSubtitle": "Notre engagement envers l'excellence nous a valu la reconnaissance comme une clinique dentaire leader en Turquie",
+    "teamTitle": "Rencontrez Notre Équipe d'Experts",
+    "teamSubtitle": "Spécialistes formés internationalement dédiés à créer votre sourire parfait",
+    "valuesTitle": "Nos Valeurs",
+    "valuesSubtitle": "Les principes qui guident tout ce que nous Faisons à la Clinique FeRa"
+  },
+  "treatments": {
+    "title": "Nos Traitements Comprehensifs",
+    "subtitle": "Traitements avancés utilisant la dernière technologie et matériaux pour votre sourire parfait",
+    "categories": {
+      "all": "Tous",
+      "cosmetic": "Cosmétique",
+      "restorative": "Restaurateur",
+      "orthodontics": "Orthodontie",
+      "comprehensive": "Comprehensif"
+    },
+    "learnMore": "En Savoir Plus",
+    "duration": "Durée",
+    "price": "Prix"
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "subtitle": "Avez-vous des questions sur nos traitements ? Prêt à commencer votre transformation de sourire ? Notre équipe est là pour vous aider à chaque étape du chemin.",
+    "form": {
+      "name": "Nom Complet",
+      "email": "Adresse E-mail",
+      "phone": "Numéro de Téléphone",
+      "treatment": "Intérêt de Traitement",
+      "message": "Message",
+      "submit": "Envoyer la Demande de Consultation"
+    },
+    "info": {
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "location": "Emplacement",
+      "hours": "Heures de Travail"
+    },
+    "cta": {
+      "title": "Besoin d'Aide Immédiate ?",
+      "subtitle": "Notre équipe est disponible 24/7 pour les consultations d'urgence et le soutien des patients internationaux.",
+      "callNow": "Appeler Maintenant",
+      "whatsapp": "Support WhatsApp"
+    }
+  },
+  "common": {
+    "readMore": "Lire Plus",
+    "viewDetails": "Voir les Détails",
+    "bookNow": "Réserver Maintenant",
+    "freeConsultation": "Consultation Gratuite",
+    "contactUs": "Contactez-Nous",
+    "learnMore": "En Savoir Plus",
+    "allTreatments": "Voir Tous les Traitements",
+    "internationalPatients": "Soutien des Patients Internationaux",
+    "lifetimeWarranty": "Garantie à Vie",
+    "satisfactionGuaranteed": "Satisfaction Garantie"
+  }
+}
