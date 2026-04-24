@@ -41,9 +41,9 @@ export const AboutTeaser = () => {
   ]
 
   return (
-    <section className="relative overflow-hidden bg-fera-ivory py-24 px-6 lg:px-8">
+    <section className="relative overflow-hidden bg-fera-ivory py-20 lg:py-32 px-6 lg:px-8">
       <div className="absolute inset-0" style={{ background: 'radial-gradient(circle at top right, rgba(212,175,55,0.08), transparent 28%)' }} />
-      <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-fera-gold/40 to-transparent" />
+      <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[#008BC9]/40 to-transparent" />
 
       <div className="relative mx-auto max-w-7xl">
         <div className="grid grid-cols-1 items-center gap-16 lg:grid-cols-2 lg:gap-20">
@@ -58,7 +58,7 @@ export const AboutTeaser = () => {
             <div className="space-y-5">
               <motion.span
                 variants={itemVariants}
-                className="block text-xs font-semibold uppercase tracking-[0.35em] text-fera-gold"
+                className="block text-xs font-semibold uppercase tracking-[0.35em] text-[#006693]"
               >
                 About FeRa Clinic
               </motion.span>
@@ -68,12 +68,12 @@ export const AboutTeaser = () => {
                 className="max-w-2xl text-4xl font-semibold leading-tight text-fera-navy md:text-5xl"
                 style={{ fontFamily: 'Cormorant Garamond, serif' }}
               >
-                Redefining <span className="italic text-fera-gold">Dental Excellence</span> in Istanbul
+                Redefining <span className="italic text-[#006693]">Dental Excellence</span> in Istanbul
               </motion.h2>
 
               <motion.div
                 variants={itemVariants}
-                className="h-[2px] w-20 rounded-full bg-fera-gold"
+                className="h-[2px] w-20 rounded-full bg-[#008BC9]"
               />
 
               <motion.p
@@ -93,8 +93,8 @@ export const AboutTeaser = () => {
                   variants={itemVariants}
                   className="flex items-start gap-4 rounded-2xl border border-black/5 bg-white/80 p-5 shadow-[0_10px_30px_rgba(15,23,42,0.04)] backdrop-blur-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_14px_36px_rgba(15,23,42,0.08)]"
                 >
-                  <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-2xl bg-fera-gold/10">
-                    <feature.icon className="h-5 w-5 text-fera-gold" />
+                  <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-2xl bg-[#008BC9]/10">
+                    <feature.icon className="h-5 w-5 text-[#008BC9]" />
                   </div>
 
                   <div>
@@ -130,8 +130,8 @@ export const AboutTeaser = () => {
             transition={{ duration: 0.7, ease: 'easeOut' }}
             className="relative"
           >
-            <div className="absolute -left-6 -top-6 hidden h-32 w-32 rounded-full bg-fera-gold/10 blur-2xl md:block" />
-            <div className="absolute -bottom-8 -right-4 hidden h-40 w-40 rounded-full bg-fera-navy/5 blur-3xl md:block" />
+            <div className="absolute -start-6 -top-6 hidden h-32 w-32 rounded-full bg-[#008BC9]/10 blur-2xl md:block" />
+            <div className="absolute -bottom-8 -end-4 hidden h-40 w-40 rounded-full bg-fera-navy/5 blur-3xl md:block" />
 
             <div className="relative overflow-hidden rounded-[2rem] border border-white/60 bg-white p-3 shadow-[0_24px_70px_rgba(15,23,42,0.12)]">
               <img
@@ -147,7 +147,7 @@ export const AboutTeaser = () => {
                   </div>
 
                   <div>
-                    <p className="text-sm font-semibold uppercase tracking-[0.22em] text-fera-gold">
+                    <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[#006693]">
                       Trusted Care
                     </p>
                     <p className="mt-1 text-sm leading-6 text-slate-700">

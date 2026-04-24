@@ -1,4 +1,11 @@
 // Treatment Types
+export interface TreatmentRow {
+  eyebrow: string
+  heading: string
+  description: string
+  image: string
+}
+
 export interface Treatment {
   id: string
   slug: string
@@ -10,6 +17,7 @@ export interface Treatment {
   image: string
   features: string[]
   benefits: string[]
+  editorial?: TreatmentRow[]
 }
 
 // Navigation Types

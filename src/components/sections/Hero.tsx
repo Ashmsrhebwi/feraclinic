@@ -1,101 +1,118 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { LocalizedLink as Link } from '../ui/LocalizedLink'
 import { motion } from 'framer-motion'
-import { ArrowRight, Phone, Mail, CheckCircle2 } from 'lucide-react'
+import { ArrowRight, ShieldCheck, Award, Users } from 'lucide-react'
 import { Button } from '../ui/button'
+import { useTranslation } from 'react-i18next'
 
 export const Hero = () => {
+  const { t } = useTranslation()
+
   return (
-    <section className="relative min-h-screen flex items-center bg-fera-navy overflow-hidden">
-      {/* Background Image */}
-      <div className="absolute inset-0">
+    <section className="relative min-h-[780px] md:min-h-[820px] lg:min-h-[92vh] flex items-start overflow-hidden">
+      {/* Cinematic Background */}
+      <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&q=90&w=1920"
-          className="w-full h-full object-cover opacity-40"
+          src="https://feraclinic.com/wp-content/uploads/Anasafya-scaled-3.webp?v=123"
+          alt={t('alt.feraClinic', 'FeRa Clinic')}
+          className="w-full h-full object-cover object-[center_35%] scale-[1.03]"
+          style={{ animation: 'heroZoom 45s linear infinite alternate' }}
+          loading="eager"
+          fetchPriority="high"
         />
+        <div className="absolute inset-0 bg-gradient-to-r rtl:bg-gradient-to-l from-white/90 via-white/70 to-transparent" />
       </div>
 
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-fera-navy via-fera-navy/80 to-transparent"></div>
-
-      <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-20 lg:py-32">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          
-          {/* LEFT CONTENT */}
+      <div className="relative z-10 max-w-[1600px] mx-auto w-full px-6 lg:px-10 2xl:px-16 pt-24 sm:pt-28 md:pt-32 lg:pt-24 flex justify-start">
+        <div className="w-full max-w-[94vw] sm:max-w-[680px] lg:max-w-[860px] 2xl:max-w-[1080px] bg-white/75 backdrop-blur-md rounded-3xl p-5 sm:p-6 md:p-8 lg:p-10 shadow-[0_10px_40px_rgba(0,0,0,0.06)]">
+          {/* Trust Eyebrow */}
           <motion.div
-            initial={{ opacity: 0, y: 40 }}
+            initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-left"
+            transition={{ duration: 0.8, ease: 'easeOut' }}
+            className="flex items-center gap-3 mb-5 sm:mb-6"
           >
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.1, duration: 0.6 }}
-              className="text-fera-accent mb-6 uppercase tracking-[0.2em] text-sm"
-            >
-              FeRa Clinic Istanbul
-            </motion.p>
+            <div className="w-8 sm:w-10 h-[1px] bg-fera-accent" />
+            <span className="text-[9px] sm:text-[10px] md:text-xs font-bold text-fera-accent uppercase tracking-[0.25em]">
+              {t('home.heroEyebrow', 'Institutional Excellence')}
+            </span>
+          </motion.div>
 
-            <motion.h1
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.2, duration: 0.8 }}
-              className="text-5xl lg:text-6xl text-white font-semibold leading-tight mb-6"
-              style={{ fontFamily: 'Cormorant Garamond, serif' }}
-            >
-              Professional Dental
-              <span className="block text-fera-accent">Care</span>
-            </motion.h1>
+          {/* Headline */}
+          <motion.h1
+            initial={{ opacity: 0, y: 15 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
+            className="text-[clamp(2.2rem,8vw,3.6rem)] lg:text-[clamp(3.6rem,5vw,4.6rem)] font-semibold text-fera-deep tracking-tight leading-[0.98] mb-6"
+          >
+            {t('home.heroTitle', 'Clinical Excellence, Mastered Aesthetics')}
+          </motion.h1>
 
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.3, duration: 0.6 }}
-              className="text-white/80 text-lg mb-8 max-w-lg"
-            >
-              FeRa Clinic provides comprehensive dental services with modern technology and experienced specialists in the heart of Istanbul.
-            </motion.p>
+          {/* Description */}
+          <motion.p
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2, ease: 'easeOut' }}
+            className="text-[15px] sm:text-base lg:text-lg text-fera-deep/90 max-w-[58ch] font-normal leading-[1.75] mb-8"
+          >
+            {t('home.heroDesc', 'Redefining the standard of biological dentistry through the marriage of clinical precision and patient-centered luxury.')}
+          </motion.p>
 
-            <motion.div
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.4, duration: 0.6 }}
-              className="flex flex-col sm:flex-row gap-4 mb-8"
-            >
-              <Link to="/consultation">
-                <Button size="lg" className="px-8">
-                  Schedule Consultation
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </Button>
-              </Link>
-              
-              <a
-                href="https://wa.me/905551234567"
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="border border-white/30 text-white px-6 py-3 rounded-lg hover:bg-white/10 transition flex items-center gap-2"
+          {/* CTAs */}
+          <motion.div
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.3, ease: 'easeOut' }}
+            className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 sm:gap-5 lg:gap-6 mb-8"
+          >
+            <Link to="/consultation" className="w-full sm:w-auto">
+              <Button
+                size="xl"
+                variant="primary"
+                className="w-full sm:min-w-[260px] h-12 sm:h-14 px-12 group active-press"
               >
-                <Phone className="h-4 w-4" />
-                WhatsApp
-              </a>
-            </motion.div>
+                <span className="uppercase tracking-widest text-sm font-bold">
+                  {t('common.getConsultation', 'Free Consultation')}
+                </span>
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1.5 rtl:group-hover:-translate-x-1.5 transition-transform duration-300" />
+              </Button>
+            </Link>
 
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.5, duration: 0.6 }}
-              className="flex items-center gap-8 text-white/70 text-sm"
-            >
-              <div className="flex items-center gap-2">
-                <Phone className="h-4 w-4 text-fera-accent" />
-                <span>+90 555 123 45 67</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Mail className="h-4 w-4 text-fera-accent" />
-                <span>info@feraclinic.com</span>
-              </div>
-            </motion.div>
+            <Link to="/gallery" className="w-full sm:w-auto">
+              <Button
+                size="xl"
+                variant="outline"
+                className="w-full sm:min-w-[260px] h-12 sm:h-14 px-12 group active-press"
+              >
+                <span className="uppercase tracking-widest text-sm font-bold">
+                  {t('common.viewGallery', 'View Gallery')}
+                </span>
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1.5 rtl:group-hover:-translate-x-1.5 transition-transform duration-300" />
+              </Button>
+            </Link>
+          </motion.div>
+
+          {/* Trust Line */}
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4, ease: 'easeOut' }}
+            className="flex flex-wrap items-center gap-x-10 gap-y-4 text-fera-deep text-[10px] font-bold uppercase tracking-[0.25em]"
+          >
+            <div className="flex items-center gap-3">
+              <ShieldCheck className="w-3.5 h-3.5 text-fera-primary" />
+              <span>{t('common.trustBadges.iso', 'ISO Certified')}</span>
+            </div>
+            <div className="w-1 h-1 rounded-full bg-fera-deep/10 hidden sm:block" />
+            <div className="flex items-center gap-3">
+              <Award className="w-3.5 h-3.5 text-fera-primary" />
+              <span>{t('common.trustBadges.specialists', '15+ Specialist Dentists')}</span>
+            </div>
+            <div className="w-1 h-1 rounded-full bg-fera-deep/10 hidden sm:block" />
+            <div className="flex items-center gap-3">
+              <Users className="w-3.5 h-3.5 text-fera-primary" />
+              <span>{t('common.trustBadges.patients', 'Thousands of Happy Patients')}</span>
+            </div>
           </motion.div>
         </div>
       </div>

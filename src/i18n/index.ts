@@ -6,13 +6,15 @@ import ar from './locales/ar.json'
 import tr from './locales/tr.json'
 import ru from './locales/ru.json'
 import fr from './locales/fr.json'
+import es from './locales/es.json'
 
 const resources = {
   en: { translation: en },
   ar: { translation: ar },
   tr: { translation: tr },
   ru: { translation: ru },
-  fr: { translation: fr }
+  fr: { translation: fr },
+  es: { translation: es }
 }
 
 i18n

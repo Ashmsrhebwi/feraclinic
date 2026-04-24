@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion'
+import { motion, useMotionValue, useSpring, useTransform, useReducedMotion } from 'framer-motion'
 import { cn } from './utils'
 
 interface TiltCardProps {
@@ -8,6 +8,7 @@ interface TiltCardProps {
 }
 
 export const TiltCard = ({ children, className }: TiltCardProps) => {
+  const shouldReduceMotion = useReducedMotion()
   const x = useMotionValue(0)
   const y = useMotionValue(0)
 
@@ -19,6 +20,7 @@ export const TiltCard = ({ children, className }: TiltCardProps) => {
   const rotateY = useTransform(mouseXSpring, [-0.5, 0.5], ["-1.5deg", "1.5deg"])
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+    if (shouldReduceMotion) return
     const rect = e.currentTarget.getBoundingClientRect()
     const width = rect.width
     const height = rect.height
@@ -40,8 +42,8 @@ export const TiltCard = ({ children, className }: TiltCardProps) => {
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
       style={{
-        rotateY,
-        rotateX,
+        rotateY: shouldReduceMotion ? 0 : rotateY,
+        rotateX: shouldReduceMotion ? 0 : rotateX,
         transformStyle: "preserve-3d",
       }}
       className={cn(
@@ -51,7 +53,7 @@ export const TiltCard = ({ children, className }: TiltCardProps) => {
     >
       <div
         style={{
-          transform: "translateZ(20px)",
+          transform: shouldReduceMotion ? "none" : "translateZ(20px)",
           transformStyle: "preserve-3d",
         }}
       >

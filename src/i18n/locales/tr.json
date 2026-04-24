@@ -1,55 +1,370 @@
 {
   "navigation": {
-    "home": "Ana Sayfa",
+    "home": "Anasayfa",
     "about": "Hakkımızda",
     "treatments": "Tedaviler",
     "gallery": "Galeri",
     "contact": "İletişim",
-    "consultation": "Danışmanlık",
-    "dentalTourism": "Diş Turizmi"
+    "consultation": "Konsültasyon",
+    "dentalTourism": "Diş Turizmi",
+    "testimonials": "Yorumlar",
+    "blog": "Blog",
+    "gallery_beforeAfter": "Önce & Sonra",
+    "gallery_clinicPhotos": "Klinik Fotoğrafları"
+  },
+  "gallery": {
+    "heroEyebrow": "Cerrahi Mükemmellik",
+    "heroTitle": "Hastalarımızın Gerçek Gülüş Dönüşümleri",
+    "heroDesc": "Yarattığımız her gülüş, tıbbi hassasiyet ve sanatsal vizyonun bir dengesidir. Belgelenmiş dönüşümlerimizi ve son teknoloji tesislerimizi keşfedin.",
+    "ctaPrimary": "Gülüş Yolculuğuna Başla",
+    "ctaSecondary": "Gerçek Sonuçları Gör",
+    "tabCases": "Vaka Dönüşümleri",
+    "tabFacility": "Tesis Denetimi",
+    "clinicalRecord": "Klinik Kayıt",
+    "protocolOutcome": "Protokol Sonucu",
+    "clinicalWindow": "Klinik Pencere",
+    "evidence": {
+      "compliance": "Restoratif Uyumluluk",
+      "safety": "Biyolojik Güvenlik",
+      "warranty": "Klinik Garanti"
+    },
+    "footerTitle1": "Yeni Bölümünü",
+    "footerTitle2": "Tasarlamaya Başla.",
+    "exploreProtocols": "Cerrahi Protokolleri Keşfet"
+  },
+  "whatsapp": {
+    "title": "FeRa Clinic",
+    "status": "Genellikle hızlı yanıt verir",
+    "greeting": "Merhaba! 👋 FeRa Klinik'e hoş geldiniz. Size nasıl yardımcı olabiliriz?",
+    "cta": "Uzmanla Konuş"
+  },
+  "chat": {
+    "welcomeTitle": "FeRa Asistan",
+    "welcomeMsg": "Merhaba! 👋 FeRa Clinic'e hoş geldiniz. Size nasıl yardımcı olabiliriz?",
+    "quickActions": "Hızlı İşlemler",
+    "actionConsultation": "Ücretsiz Konsültasyon Al",
+    "actionTreatments": "Tedavileri Görüntüle",
+    "actionTourism": "Dental Turizm",
+    "actionGallery": "Önce & Sonra",
+    "actionWhatsApp": "WhatsApp'tan Sohbet Et",
+    "actionTeam": "Ekibimizle Konuşun",
+    "actionAskTreatment": "Bu Tedavi Hakkında Sor",
+    "actionAskQuestion": "Soru Sor",
+    "actionRelatedTreatments": "İlgili Tedaviler",
+    "actionTourismPackages": "Seyahat Paketleri",
+    "actionTourismServices": "Havalimanı & Otel",
+    "actionDuration": "Kaç Gün Gerekiyor?",
+    "formTitle": "Ücretsiz Konsültasyon",
+    "formName": "Ad Soyad",
+    "formPhone": "Telefon / WhatsApp",
+    "formTreatment": "Tedavi İlginiz",
+    "formLanguage": "Tercih Edilen Dil",
+    "formSubmit": "Talebi Gönder",
+    "formBack": "Menüye Dön",
+    "formSuccess": "Teşekkürler! Tıbbi ekibimiz kısa süre içinde sizinle iletişime geçecektir.",
+    "formSelectTreatment": "Tedavi Seçin",
+    "formSelectLanguage": "Dil Seçin",
+    "faqTitle": "Sıkça Sorulan Sorular",
+    "faqQ1": "Otel ve transfer sağlıyor musunuz?",
+    "faqA1": "Evet, tüm uluslararası hastalarımız için stressiz bir yolculuk sağlamak amacıyla VIP havaalanı transferleri ve 5 yıldızlı otel koordinasyonu sağlıyoruz.",
+    "faqQ2": "Hollywood Gülüşü ne kadar sürer?",
+    "faqA2": "Hollywood Gülüşü dönüşümü İstanbul'da genellikle 5 ila 7 gün sürer ve tasarım ile yerleştirme için 2-3 klinik ziyareti gerektirir.",
+    "faqQ3": "Konsültasyon ücretsiz mi?",
+    "faqA3": "Evet, FeRa Klinik'te ilk klinik konsültasyonlar ve 3D tedavi planlaması tamamen ücretsizdir.",
+    "faqQ4": "Tedavi maliyeti ne kadar?",
+    "faqA4": "Maliyetler kişiye özeldir. Ancak hastalar, birinci sınıf malzemeler alırken Batı fiyatlarına kıyasla genellikle %70'e varan tasarruf sağlarlar.",
+    "status": "Çevrimiçi · Anında yanıt verir"
   },
   "hero": {
-    "title": "Biz Gülümse Yaratıcılarıyız",
-    "subtitle": "İstanbul, Türkiye'de premium diş bakımı deneyimi",
-    "ctaPrimary": "Tedavilerimiz",
-    "ctaSecondary": "Ücretsiz Danışmanlık"
+    "heroEyebrow": "İstanbul'da Güvenilir Diş Kliniği",
+    "heroTitle": "Güvenebileceğiniz Bir Gülüş. Hissedebileceğiniz Bir Özgüven.",
+    "heroDesc": "FeRa Klinik'te, uzmanlar eşliğinde ve özenle sunulan, size özel doğal ve kalıcı gülüşler yaratmak için klinik hassasiyeti sanatsal tasarımla birleştiriyoruz.",
+    "ctaPrimary": "Gülüş Yolculuğuna Başla",
+    "ctaSecondary": "Hasta Hikayelerini Gör",
+    "trustLine": "ISO Sertifikalı • 15+ Uzman Diş Hekimi • Küresel Hasta Merkezi"
   },
   "about": {
     "title": "FeRa Klinik Hakkında",
-    "subtitle": "Biz Gülümse Yaratıcılarıyız - olağanüstü diş bakımı ve kişiselleştirilmiş tedavi deneyimleri aracılığıyla hayatları dönüştüren İstanbul'deki lider bir diş kliniği.",
+    "subtitle": "Biz Gülüş Tasarımcılarıyız - İstanbul'da istisnai diş bakımı ve kişiselleştirilmiş tedavi deneyimleri yoluyla hayatları dönüştürmeye adanmış önde gelen bir diş kliniğiyiz.",
     "storyTitle": "Hikayemiz",
-    "story": "2009 yılında kurulan FeRa Klinik, basit bir misyonla başladı: Türk misafirperverliği ile uluslararası tıbbi standartları birleştiren dünya sınıfı diş bakımı sağlamak. 'FeRa' adımız, diş hekimliğinde hassasiyet ve sanat arasındaki mükemmel dengeyi temsil eder.",
-    "whyChooseUs": "Hastalar Neden Bizi Seçiyor",
-    "whyChooseUsSubtitle": "Mükemmellik taahhüdümüz, Türkiye'de lider bir diş kliniği olarak tanınmamızı sağladı",
+    "story": "2009 yılında kurulan FeRa Klinik, Türk misafirperverliğini uluslararası tıbbi standartlarla birleştiren dünya standartlarında diş bakımı sağlama misyonuyla yola çıktı. 'FeRa' ismimiz diş hekimliğinde hassasiyet ve sanat arasındaki mükemmel dengeyi temsil eder.",
+    "whyChooseUs": "Hastalar Neden Bizi Seçiyor?",
+    "whyChooseUsSubtitle": "Mükemmelliğe olan bağlılığımız bize Türkiye'de lider bir diş kliniği olarak tanınma kazandırdı",
     "teamTitle": "Uzman Ekibimizle Tanışın",
-    "teamSubtitle": "Mükemmel gülümsemenizi yaratmaya adanmış uluslararası eğitimli uzmanlar",
+    "teamSubtitle": "Mükemmel gülüşünüzü oluşturmaya adanmış uluslararası eğitimli uzmanlar",
     "valuesTitle": "Değerlerimiz",
-    "valuesSubtitle": "FeRa Kliniği'nde yaptığımız her şeyi yönlendiren ilkeler"
+    "valuesSubtitle": "FeRa Klinik'te yaptığımız her şeye rehberlik eden ilkeler",
+    "heroEyebrow": "Miras ve Mükemmellik",
+    "heroTitle": "Nişantaşı, İstanbul'da Uzman Diş Bakımı",
+    "heroDesc": "FeRa Klinik, uluslararası cerrahi hassasiyeti butik hasta bakımıyla birleştirir. Protokollerimiz uzun vadeli klinik mükemmellik için tasarlanmıştır.",
+    "ctaPrimary": "Gülüş Yolculuğuna Başla",
+    "ctaSecondary": "Hasta Hikayelerini Gör",
+    "pillarsTitle1": "Yüksek Kalite",
+    "pillarsTitle2": "Bakım Standartları.",
+    "pillarsDesc": "Kliniğimiz, her hastanın en yüksek biyolojik standartta restoratif ve estetik bakım almasını sağlayan sıkı uluslararası tıbbi protokoller altında çalışmaktadır.",
+    "pillars": {
+      "riskTitle": "Risk Yönetimi",
+      "riskDesc": "Tüm invaziv prosedürler için katı küresel güvenlik standartlarını takip ediyoruz.",
+      "techTitle": "Biyo-Dijital Teknoloji",
+      "techDesc": "Aşırı cerrahi doğruluk için en son 3D görüntülemeyi uyguluyoruz.",
+      "triageTitle": "Uzman Triyajı",
+      "triageDesc": "Karmaşık restoratif vakalar için multidisipliner koordinasyon.",
+      "careTitle": "Concierge Bakımı",
+      "careDesc": "Tüm tıbbi yolculuğunuzu destekleyen özel koordinatörler."
+    },
+    "boutiqueHub": "İstanbul'un Cerrahi Mükemmellik İçin Butik Merkezi",
+    "teamTitle1": "Uzman",
+    "teamTitle2": "Hekimler.",
+    "teamDesc": "Cerrahi ekibimiz, 15 yılı aşkın kanıta dayalı klinik deneyime sahip sertifikalı uzmanlardan oluşmaktadır.",
+    "boardCertified": "Klinik Kurul Onaylı",
+    "viewOutcomes": "Dönüşüm Sonuçlarını Görüntüle",
+    "ctaTitle1": "Değerlendirme İçin",
+    "ctaTitle2": "Hazır mısınız?",
+    "ctaDesc": "Özel bir maliyet tahmini ve seyahat protokolü için klinik koordinatörlerimizle iletişime geçin."
+  },
+  "home": {
+    "heroEyebrow": "Kurumsal Mükemmellik",
+    "heroTitle": "Klinik Mükemmellik, Estetik Ustalığı",
+    "heroDesc": "Klinik hassasiyet ve hasta odaklı lüksün birleşimiyle biyolojik diş hekimliğinin standartlarını yeniden tanımlıyoruz.",
+    "whyChooseUs": "Neden FeRa Klinik?",
+    "precisionCare": "Tıbbi Hassasiyet.",
+    "premiumCare": "Üstün Bakım.",
+    "precisionDesc": "FeRa Klinik'teki her tedavi, sadece uzman doktorlar tarafından sunulan bakım, gelişmiş diyagnostik ve her adımda tam şeffaflık ile uluslararası protokolleri takip eder.",
+    "technology": {
+      "title": "Klinik Teknoloji",
+      "subtitle": "Cerrahi Hassasiyet için Gelişmiş Tanı",
+      "desc": "Her hasta ziyaretinde öngörülebilir, uzun vadeli sonuçlar için en son tıbbi teknolojiye yatırım yapıyoruz.",
+      "t1": "3D CBCT Görüntüleme",
+      "t1Desc": "İmplant yerleşiminde aşırı cerrahi doğruluk için yüksek çözünürlüklü dijital taramalar.",
+      "t2": "Dijital Gülüş Tasarımı",
+      "t2Desc": "Gelişmiş yüz haritalama ile tedavi başlamadan önce nihai sonucunuzu simüle edin.",
+      "t3": "Biolase Lazer Teknolojisi",
+      "t3Desc": "Daha hızlı iyileşme ve sıfır rahatsızlık ile minimal invaziv yumuşak doku prosedürleri."
+    },
+    "reasons": {
+      "sterilization": {
+        "title": "Avrupa Standartlarında Sterilizasyon",
+        "desc": "Her tedavi odasında B Sınıfı otoklav sistemleri ve HEPA filtreli cerrahi üniteler."
+      },
+      "planning": {
+        "title": "3D Tedavi Planlaması",
+        "desc": "Herhangi bir klinik prosedür başlamadan önce tamamlanan CBCT görüntüleme ve dijital gülüş tasarımı."
+      },
+      "doctors": {
+        "title": "Sadece Uzman Doktorlar",
+        "desc": "Her prosedür, kendi uzmanlık alanında ileri dereceye sahip bir doktor tarafından gerçekleştirilir."
+      },
+      "coordination": {
+        "title": "Tam Uluslararası Koordinasyon",
+        "desc": "Uluslararası hastalar için özel vaka koordinatörü, VIP transferler ve otel rezervasyonu."
+      }
+    },
+    "beforeAfterDesc": "Dönüşümü görmek için her bir vakanın üzerine gelin veya dokunun. FeRa Klinik'te gerçek hastalar, gerçek sonuçlar.",
+    "viewFullGallery": "Tüm Galeriyi Görüntüle",
+    "theClinic": "Klinik",
+    "stateOfArt1": "En Son Teknoloji",
+    "stateOfArt2": "İstanbul'daki Tesisler",
+    "stateOfArtDesc": "Kliniğimiz; hasta güvenliği ve klinik hassasiyet için uluslararası standartları karşılayan 3D CBCT görüntüleme, dijital gülüş tasarımı istasyonları ve B Sınıfı sterilizasyon sistemleri ile tam donanımlıdır.",
+    "clinic": {
+      "feature1": "Her odada B Sınıfı sterilizasyon",
+      "feature2": "3D CBCT diyagnostik görüntüleme",
+      "feature3": "Dijital Gülüş Tasarımı (DSD)",
+      "feature4": "ISO sertifikalı protokoller",
+      "feature5": "Kişisel vaka koordinatörü"
+    },
+    "aboutOurClinic": "Kliniğimiz Hakkında",
+    "medicalTourism": "Sağlık Turizmi",
+    "completeCare1": "Uluslararası Hastalar İçin",
+    "completeCare2": "Eksiksiz Bakım",
+    "completeCareDesc": "FeRa Klinik, havaalanı transferlerinden otel rezervasyonlarına ve klinik koordinasyonuna kadar her şeyi yönetir, böylece tamamen tedavinize ve iyileşmenize odaklanabilirsiniz.",
+    "tourism": {
+      "vip": "VIP Havaalanı Transferi",
+      "hotel": "Otel Koordinasyonu",
+      "language": "Dil Desteği",
+      "coordinator": "Vaka Koordinatörü"
+    },
+    "planYourVisit": "İstanbul Ziyaretinizi Planlayın",
+    "planYourVisitDesc": "Ekibimiz, sorularınızı yanıtlamak ve İstanbul'daki diş tedavinizi planlamanıza yardımcı olmak için haftanın 7 günü hizmetinizdedir. Taahhüt yok, baskı yok.",
+    "requestFreeConsultation": "Ücretsiz Konsültasyon Talep Et",
+    "patientTestimonials": "Hasta Yorumları",
+    "whatOurPatientsSay": "Hastalarımız Ne Diyor?",
+    "realOutcomes": "Tedavilerini FeRa Klinik'te tamamlayan uluslararası hastaların gerçek sonuçları.",
+    "viewBeforeAfterGallery": "Önce & Sonra Galerisini Görüntüle",
+    "readyToGetStarted": "Başlamaya Hazır mısınız?",
+    "readyToGetStartedDesc": "Bugün klinik koordinatörlerimizle iletişime geçin. Ücretsiz konsültasyon, taahhüt yok, hızlı yanıt.",
+    "whatsappTooltip": "Ekibimizle konuşun ve ücretsiz konsültasyonunuzu alın.",
+    "treatments": {
+      "0": {
+        "desc": "Ömür boyu garantili premium titanyum implantlar. Eksik dişler için 3D rehberli cerrahi ve doğal görünümlü sonuçlar ile kalıcı çözüm."
+      },
+      "1": {
+        "desc": "Mükemmel bir Hollywood gülüşü için özel tasarlanmış porselen laminalar; minimum diş hazırlığı ve leke tutmayan seramik."
+      },
+      "2": {
+        "desc": "Sadece 4 implant ile tam çene restorasyonu. Anında fonksiyon ve güzel, doğal görünümlü estetik ile aynı gün dişler."
+      }
+    },
+    "testimonials": {
+      "t1": "Dijital tasarımdan son yerleşime kadar hassasiyet olağanüstüydü. Söz verildiği gibi 5 günde tamamlandı. Yeni gülüşümden çok mutluyum.",
+      "t2": "Son derece profesyonel bir cerrahi ortam. All-on-4 protokolü her aşamada açıklandı. Havaalanı transferleri ve otel koordinasyonu sorunsuzdu.",
+      "t3": "Tıbbi hassasiyete odaklandıkları için FeRa'yı seçtim. Sonuç tamamen doğal ve fonksiyonel. Takip bakımı tüm beklentilerimi aştı."
+    },
+    "newsletter": {
+      "title": "Bültenimize Abone Olun",
+      "subtitle": "Bizimle bağlantıda kalın. Nişantaşı'ndaki kliniğimizden seçilmiş gülüş ipuçları, tedavi hikayeleri ve özel güncellemeler alın.",
+      "emailPlaceholder": "E-posta adresiniz",
+      "subscribe": "Abone Ol",
+      "success": "Abone olduğunuz için teşekkürler! Onay için e-postanızı kontrol edin.",
+      "error": "Bir sorun oluştu. Lütfen tekrar deneyin."
+    },
+    "ctaPrimary": "Ücretsiz Konsültasyon",
+    "ctaSecondary": "Galeriyi Görüntüle",
+    "social": {
+      "googleReviews": "Google Yorumları",
+      "verifiedReviews": "Doğrulanmış Yorumlar"
+    },
+    "experience": {
+      "exclusiveTour": "Özel Tur"
+    }
   },
   "treatments": {
+    "heroEyebrow": "Klinik Uzmanlık",
+    "heroTitle": "İstanbul'da İleri Düzey Diş Tedavileri",
+    "heroDesc": "Tüm restoratif ve estetik diş hekimliği disiplinlerinde uzman liderliğinde bakım. Tıbbi hassasiyeti en son dijital teknolojiyle birleştiriyoruz.",
+    "ctaPrimary": "Tedavileri Keşfedin",
+    "ctaSecondary": "Gerçek Sonuçları Gör",
     "title": "Kapsamlı Tedavilerimiz",
-    "subtitle": "Mükemmel gülümsemeniz için en son teknoloji ve malzemeleri kullanan gelişmiş tedaviler",
+    "subtitle": "Mükemmel gülüşünüz için son teknoloji ve malzemeler kullanan gelişmiş tedaviler",
     "categories": {
-      "all": "Tümü",
+      "all": "Hepsi",
       "cosmetic": "Kozmetik",
       "restorative": "Restoratif",
       "orthodontics": "Ortodonti",
       "comprehensive": "Kapsamlı"
     },
+    "data": {
+      "1": {
+        "title": "Diş İmplantları",
+        "desc": "Ömür boyu garantili premium kalite titanyum implantlar. Eksik dişler için doğal görünümlü sonuçlarla mükemmel çözüm.",
+        "category": "Restoratif",
+        "duration": "İmplant başına 1-2 saat"
+      },
+      "2": {
+        "title": "Porselen Laminalar",
+        "desc": "Özel tasarlanmış porselen laminalar ile gülüşünüzü dönüştürün. Minimum diş hazırlığı ile mükemmel bir Hollywood gülüşü elde edin.",
+        "category": "Kozmetik",
+        "duration": "2 haftada 2-3 ziyaret"
+      },
+      "3": {
+        "title": "Invisalign",
+        "desc": "Şeffaf plaklarla dişlerinizi görünmez bir şekilde düzeltin. Geleneksel tellere modern alternatif.",
+        "category": "Ortodonti",
+        "duration": "6-18 ay"
+      },
+      "4": {
+        "title": "Diş Beyazlatma",
+        "desc": "Profesyonel diş beyazlatma tedavimiz ile daha parlak bir gülüşe sahip olun. Güvenli, etkili ve uzun ömürlü sonuçlar.",
+        "category": "Kozmetik",
+        "duration": "1 saat"
+      },
+      "5": {
+        "title": "Gülüş Tasarımı",
+        "desc": "Mükemmel gülüşünüz için birden fazla tedaviyi birleştiren tam gülüş dönüşümü. Kişiselleştirilmiş tedavi planı.",
+        "category": "Kapsamlı",
+        "duration": "2-12 hafta"
+      },
+      "6": {
+        "title": "All-on-4 İmplantlar",
+        "desc": "Sadece 4 implant ile tam çene restorasyonu. Tam diş kaybı için anında fonksiyon ve güzel estetik.",
+        "category": "Restoratif",
+        "duration": "Aynı gün cerrahi"
+      },
+      "7": {
+        "title": "Kron ve Köprüler",
+        "desc": "Hasarlı dişleri yüksek kaliteli seramik kron ve köprülerle onarın. Güç, fonksiyon ve estetik bir arada.",
+        "category": "Restoratif",
+        "duration": "2 haftada 2-3 ziyaret"
+      },
+      "8": {
+        "title": "Diş Eti Şekillendirme",
+        "desc": "Hassas diş eti şekillendirme ile gülüş hattınızı iyileştirin. Dişleriniz için mükemmel çerçeveyi oluşturun.",
+        "category": "Kozmetik",
+        "duration": "1-2 saat"
+      }
+    },
     "learnMore": "Daha Fazla Bilgi",
     "duration": "Süre",
-    "price": "Fiyat"
+    "price": "Fiyat",
+    "implants": "Diş İmplantları",
+    "veneers": "Porselen Laminalar",
+    "invisalign": "Invisalign",
+    "fullMouth": "Tam Ağız Restorasyonu",
+    "whitening": "Diş Beyazlatma",
+    "crowns": "Diş Kuronları",
+    "allTreatments": "Tüm Tedaviler",
+    "smileMakeover": "Hollywood Gülüşü",
+    "allOn4": "All-on-4 Restorasyonu",
+    "sinusLifting": "Sinüs Lifting",
+    "smileDesign": "Dijital Gülüş Tasarımı",
+    "detail": {
+      "implants": {
+        "title": "Diş İmplantları",
+        "desc": "Dayanıklılık, konfor ve doğal estetik sonuçlar için tasarlanmış gelişmiş implant çözümleri.",
+        "duration": "2-3 saat",
+        "price": "800$'dan başlayan fiyatlarla"
+      },
+      "hollywood": {
+        "title": "Hollywood Gülüşü",
+        "desc": "Gülüşünüzü hassasiyet ve uyumla geliştirmek için hazırlanmış özel tasarımlı laminalar.",
+        "duration": "2-3 ziyaret",
+        "price": "Diş başına 500$'dan başlayan fiyatlarla"
+      },
+      "ortho": {
+        "title": "Ortodonti",
+        "desc": "Hafif ve etkili sonuçlar için şeffaf plaklar dahil modern hizalama çözümleri.",
+        "duration": "6-18 ay",
+        "price": "2.500$'dan başlayan fiyatlarla"
+      },
+      "badges": {
+        "specialist": "Uzman Prosedürü",
+        "globalStandards": "Küresel Klinik Standartlar"
+      },
+      "cta": {
+        "speak": "Koordinatörlerimizle Konuşun"
+      }
+    },
+    "notFound": "Tedavi Bulunamadı",
+    "notFoundDesc": "Aradığınız tedavi mevcut değil.",
+    "backToTreatments": "Tedavilere Dön",
+    "isRightForYou": "Bu tedavi sizin için uygun mu?",
+    "getTreatmentPlan": "Tedavinizi Tartışın",
+    "quickQuestions": "WhatsApp Danışma",
+    "treatmentFeatures": "Tedavi Özellikleri",
+    "benefits": "Avantajlar",
+    "readyToTransform": "Gülüşünüzü Dönüştürmeye Hazır mısınız?",
+    "getPlanDesc": "Uzman ekibimizden kişiselleştirilmiş bir tedavi planı ve maliyet tahmini alın. Sürecin her adımında size rehberlik edeceğiz.",
+    "askQuestions": "Bir Uzmana Danışın",
+    "yourJourney": "Tedavi Yolu",
+    "transformInIstanbul": "Gülüşünüzu İstanbul'da Dönüştürün",
+    "transformDesc": "Kişiselleştirilmiş tedavi planınızı ve maliyet tahmininizi alın. Ekibimiz uluslararası hastalara her adımda rehberlik eder.",
+    "whatsappConsultation": "WhatsApp Konsültasyonu",
+    "saveNotice": "Üstün bakım alırken Batı fiyatlarına kıyasla %70'e varan tasarruf sağlayın",
+    "explore": "Tedaviyi Keşfet"
   },
   "contact": {
+    "heroEyebrow": "Bizimle İletişime Geçin",
+    "heroTitle": "FeRa Clinic ile İletişime Geçin",
+    "heroDesc": "Ekibimiz sorularınızı yanıtlamak ve İstanbul'daki diş tedavinizi planlamanıza yardımcı olmak için haftanın 7 günü hizmetinizdedir. Bugün uzmanlarımızla iletişime geçin.",
     "title": "Bizimle İletişime Geçin",
-    "subtitle": "Tedavilerimiz hakkında sorularınız mı var? Gülümse dönüşümünüzü başlamaya hazır mısınız? Ekibimiz her adımda size yardımcı olmak için burada.",
+    "subtitle": "Tedavilerimiz hakkında sorularınız mı var? Gülüş dönüşümünüze başlamaya hazır mısınız? Ekibimiz her adımda size yardımcı olmak için burada.",
     "form": {
-      "name": "Tam Ad",
+      "name": "Ad Soyad",
       "email": "E-posta Adresi",
       "phone": "Telefon Numarası",
-      "treatment": "Tedavi İlgisi",
+      "treatment": "Tedavi İlginiz",
       "message": "Mesaj",
-      "submit": "Danışmanlık İsteği Gönder"
+      "submit": "Konsültasyon Talebi Gönder",
+      "phonePlaceholder": "+1 234 567 8900"
     },
     "info": {
       "phone": "Telefon",
@@ -58,21 +373,272 @@
       "hours": "Çalışma Saatleri"
     },
     "cta": {
-      "title": "Acil Yardıma İhtiyacınız Var mı?",
-      "subtitle": "Ekibimiz acil danışmanlıklar ve uluslararası hasta desteği için 24/7 hizmetinizdedir.",
+      "title": "Hızlı Yardıma mı İhtiyacınız Var?",
+      "subtitle": "Ekibimiz acil konsültasyonlar ve uluslararası hasta desteği için 7/24 hizmetinizdedir.",
       "callNow": "Şimdi Ara",
-      "whatsapp": "WhatsApp Desteği"
-    }
+      "whatsapp": "WhatsApp Desteği",
+      "whatsappDesc": "Ekibimizle konuşun ve ücretsiz konsültasyonunuzu alın."
+    },
+    "whatsapp": "WhatsApp",
+    "whatsappBase": "Merhaba FeRa Klinik! Konsültasyon almak istiyorum",
+    "whatsappLink": "https://wa.me/905551234567",
+    "ctaPrimary": "Ücretsiz Konsültasyon",
+    "ctaSecondary": "Galeriyi Görüntüle"
   },
   "common": {
     "readMore": "Daha Fazla Oku",
-    "viewDetails": "Detayları Gör",
-    "bookNow": "Şimdi Rezervasyon Yap",
-    "freeConsultation": "Ücretsiz Danışmanlık",
+    "viewDetails": "Detayları Görüntüle",
+    "bookNow": "Şimdi Randevu Al",
+    "freeConsultation": "Ücretsiz Konsültasyon",
+    "getConsultation": "Ücretsiz Konsültasyon",
     "contactUs": "Bize Ulaşın",
-    "allTreatments": "Tüm Tedavileri Gör",
+    "learnMore": "Daha Fazla Bilgi",
+    "allTreatments": "Tüm Tedavileri Görüntüle",
     "internationalPatients": "Uluslararası Hasta Desteği",
     "lifetimeWarranty": "Ömür Boyu Garanti",
-    "satisfactionGuaranteed": "Memnuniyet Garantili"
+    "satisfactionGuaranteed": "Memnuniyet Garantisi",
+    "clinicName": "FeRa Klinik",
+    "defaultDesc": "İstanbul'da birinci sınıf diş bakımı deneyimi. Uzman cerrahlar, 3D teknoloji ve uluslararası hastalar için VIP misafirperverlik.",
+    "whatsappNumber": "905551234567",
+    "whatsappMessage": "Merhaba, tedaviler hakkında bir sorum var.",
+    "readyFor1": "Yeni bir",
+    "readyFor2": "Gülüşe Hazır mısınız?",
+    "viewAll": "Tümünü Gör",
+    "viewGallery": "Galeriyi Görüntüle",
+    "realResults": "Gerçek Hasta Sonuçları",
+    "beforeAndAfter": "Önce ve Sonra",
+    "before": "Önce",
+    "after": "Sonra",
+    "tapToReveal": "Dokun · Üzerine Gel",
+    "tapToSeeBefore": "Önceki hali için dokunun",
+    "countries": {
+      "italy": "İtalya",
+      "uk": "Birleşik Krallık",
+      "germany": "Almanya",
+      "us": "Amerika Birleşik Devletleri",
+      "turkey": "Türkiye",
+      "france": "Fransa"
+    },
+    "whatsappNumberDisplay": "+90 555 123 45 67",
+    "trustBadges": {
+      "iso": "ISO Sertifikalı",
+      "specialists": "15+ Uzman Diş Hekimi",
+      "patients": "Binlerce Mutlu Hasta"
+    }
+  },
+  "stats": {
+    "patients": "Mutlu Hasta",
+    "countries": "Ülke",
+    "satisfaction": "Memnuniyet Oranı",
+    "rating": "Ortalama Puan",
+    "experience": "Yıllık Deneyim",
+    "specialists": "Uzman Doktor",
+    "certified": "Klinik Onaylı",
+    "results": "Kanıtlanmış Sonuçlar"
+  },
+  "testimonials": {
+    "heroTitle": "Hasta Hikayeleri",
+    "heroDesc": "Gülüş yolculuklarında FeRa Klinik'e güvenen hastaların paylaştığı deneyimler.",
+    "subtitle": "Gülüş yolculuklarında FeRa Klinik'e güvenen hastaların paylaştığı deneyimler.",
+    "stats": {
+      "patients": "Mutlu Hasta",
+      "countries": "Ülke",
+      "satisfaction": "Memnuniyet Oranı",
+      "rating": "Ortalama Puan"
+    },
+    "filters": {
+      "all": "Tüm Tedaviler"
+    },
+    "videoTitle": "Video Hikayeleri",
+    "videoDesc": "Seçilmiş hasta video yorumları ve röportaj içerikleri için ayrılmış alan.",
+    "patientStory": "Hasta Hikayesi",
+    "ctaTitle": "Kendi Gülüş Yolculuğunuzu Başlatın",
+    "ctaDesc": "Ekibimizle konuşun ve size özel bir tedavi planına doğru bir sonraki adımı atın.",
+    "ctaButton": "Yolculuğunuza Başlayın"
+  },
+  "blog": {
+    "heroEyebrow": "Diş Hekimi Görüşleri",
+    "journal": "FeRa Journal",
+    "heroTitle": "Diş Sağlığı Bilgileri ve Hasta Rehberleri",
+    "heroDesc": "Tedavileri, gülüş tasarımı seçeneklerini ve diş bakımı kararlarını daha iyi anlamanıza yardımcı olmak için tasarlanmış uzman makaleleri.",
+    "searchPlaceholder": "Makale ara...",
+    "filters": {
+      "all": "Tümü"
+    },
+    "featuredArticles": "Öne Çıkan Makaleler",
+    "latestArticles": "Son Makaleler",
+    "searchResults": "Arama Sonuçları",
+    "noArticlesFound": "Kriterlerinize uygun makale bulunamadı.",
+    "clearFilters": "Filtreleri temizle",
+    "postNotFound": "Blog Yazısı Bulunamadı",
+    "backToBlog": "Bloga Dön",
+    "articleBy": "Yazar:",
+    "share": "Paylaş:",
+    "tags": "Etiketler",
+    "authorDesc": "Kanıta dayalı bakım, hasta eğitimi ve hem fonksiyonu hem de estetiği destekleyen tedavi planlamasına odaklanan diş sağlığı profesyoneli.",
+    "relatedArticles": "İlgili Makaleler",
+    "ctaDesc": "Ekibimizle konuşun ve ihtiyaçlarınıza, hedeflerinize ve seyahat planlarınıza göre uyarlanmış bir tedavi konsültasyonu alın.",
+    "ctaPrimary": "Ücretsiz Konsültasyon",
+    "ctaSecondary": "Galeriyi Görüntüle"
+  },
+  "footer": {
+    "brandSubtitle": "Seçkin Diş Sağlığı · İstanbul",
+    "description": "Kişiselleştirilmiş tedavi planlaması, ileri teknoloji ve güven ile doğal görünümlü sonuçlar üzerine kurulu bir hasta yolculuğu ile İstanbul'da rafine diş bakımı deneyimi yaşayın.",
+    "quickLinks": "Hızlı Bağlantılar",
+    "allRightsReserved": "Tüm hakları saklıdır.",
+    "privacyPolicy": "Gizlilik Politikası",
+    "termsOfService": "Hizmet Şartları"
+  },
+  "consultation": {
+    "heroEyebrow": "Tıbbi Kayıt",
+    "heroTitle": "İstanbul'da Gülüş Protokolünü Başlat",
+    "heroDesc": "İstanbul'da profesyonel diş hekimliği yolculuğunuza başlayın. Uzman doktorlarımız tarafından standart bir klinik değerlendirme için bilgilerinizi gönderin.",
+    "ctaPrimary": "Başvuruyu Gönder",
+    "ctaSecondary": "Klinik Gizlilik Politikası",
+    "trustTitle": "Klinik Güven",
+    "trustDesc": "FeRa Klinik'te tıbbi standart güvenliğine ve hasta gizliliğine öncelik veriyoruz. Her gönderim, Nişantaşı'ndaki bölüm başkanlarımız tarafından doğrudan incelenir.",
+    "trustFeatures": {
+      "dataTitle": "Şifreli Veri",
+      "dataDesc": "Hasta verileri için güvenli tıbbi düzeyde SSL protokolleri.",
+      "secrecyTitle": "Mesleki Sır",
+      "secrecyDesc": "Tıbbi gizlilik standartlarına uygundur.",
+      "globalTitle": "Küresel Koordinasyon",
+      "globalDesc": "Uluslararası hastalar için özel destek."
+    },
+    "priorityIntake": "Doğrudan Öncelikli Kayıt",
+    "form": {
+      "appDetails": "Başvuru Detayları",
+      "section1": "Bölüm 01",
+      "section2": "Bölüm 02",
+      "clinicalAssessment": "Klinik Değerlendirme",
+      "treatment": "İlgilenilen Birincil Tedavi",
+      "selectTreatment": "Tedavi Branşını Seçin",
+      "history": "Ek Tıbbi Geçmiş (İsteğe Bağlı)",
+      "historyPlaceholder": "Diş ihtiyaçlarınızı veya mevcut endişelerinizi kısaca açıklayın...",
+      "submitting": "Klinik Veriler İşleniyor...",
+      "estimateNotice": "Tahmininiz 24 saat içinde belirtilen e-postaya gönderilecektir.",
+      "countryCode": "Ülke Kodu",
+      "namePlaceholder": "John Doe",
+      "emailPlaceholder": "john@example.com",
+      "phonePlaceholder": "1234567890"
+    },
+    "intake": "Kayıt",
+    "received": "Alındı.",
+    "successDesc": "Tıbbi kaydınız klinik koordinatörlerimize iletildi. Uzman bir tedavi koordinatörü talebinizi inceleyecek ve 24 saat içinde sizinle iletişime geçecektir.",
+    "returnHome": "Kliniğe Dön"
+  },
+  "tourism": {
+    "subtitle": "Uluslararası hastalar için üstün tıbbi koordinasyon.",
+    "steps": {
+      "contact": {
+        "title": "Bize Ulaşın",
+        "desc": "İlk konsültasyon için WhatsApp veya online form aracılığıyla ekibimizle iletişime geçin."
+      },
+      "estimate": {
+        "title": "Maliyet Tahmini Alın",
+        "desc": "Kişiselleştirilmiş bir fiyat teklifi almak için diş fotoğraflarınızı veya röntgenlerinizi bize gönderin."
+      },
+      "plan": {
+        "title": "Seyahat Planlaması",
+        "desc": "Havaalanı transferlerinizi ve İstanbul'daki 5 yıldızlı otel konaklamanızı organize ediyoruz."
+      },
+      "treatment": {
+        "title": "Diş Tedavisi",
+        "desc": "Tedaviniz için modern kliniğimizi ziyaret edin ve yeni gülüşünüzün tadını çıkarın."
+      }
+    },
+    "packages": {
+      "basic": {
+        "title": "Temel Paket",
+        "f1": "Dijital Gülüş Haritalama",
+        "f2": "VIP Havaalanı Transferleri",
+        "f3": "Tercüme Hizmetleri",
+        "f4": "Tedavi Sonrası Destek"
+      },
+      "standard": {
+        "title": "Standart Paket",
+        "f1": "Tam Gülüş Tasarımı",
+        "f2": "5 Yıldızlı Otel Konaklaması",
+        "f3": "VIP Transfer Hizmeti",
+        "f4": "7/24 Hasta Desteği",
+        "f5": "İstanbul Şehir Turu"
+      },
+      "luxury": {
+        "title": "Lüks Paket",
+        "f1": "Tam Restorasyon",
+        "f2": "Lüks Süit Konaklama",
+        "f3": "Özel Hasta Yöneticisi",
+        "f4": "Uzatılmış Garanti",
+        "f5": "Her Şey Dahil Destek"
+      },
+      "tier1": "Kademe 01",
+      "tier2": "Kademe 02",
+      "tier3": "Kademe 03",
+      "popular": "Kurumsal Tercih"
+    },
+    "heroEyebrow": "Küresel Hasta Konsiyerj",
+    "heroTitle": "İstanbul, Türkiye'de Diş Turizmi",
+    "heroDesc": "Uluslararası hastalar için premium tıbbi koordinasyon. Nişantaşı'nın kalbinde VIP misafirperverlik ile eşleştirilmiş uzman cerrahi sonuçlar.",
+    "ctaPrimary": "Gülüş Yolculuğuna Başla",
+    "ctaSecondary": "Seyahat Paketlerini Gör",
+    "coordTitle1": "Sistematik",
+    "coordTitle2": "Koordinasyon.",
+    "coordDesc": "İlk dijital triyajdan operasyon sonrası iyileşmeye kadar, concierge ekibimiz her cerrahi ve lojistik detayı yönetir.",
+    "beginTriage": "İlk Triyajı Başlatın",
+    "costTitle1": "Kaliteli Bakım",
+    "costTitle2": "Uygun Fiyatlar.",
+    "costDesc": "İstanbul, operasyonel verimlilikle yüksek hassasiyetli klinik bakım sunar. Önde gelen AB kliniklerinde kullanılan aynı premium malzemeleri ve teknolojiyi yerel oranlarda kullanıyoruz.",
+    "compEconomics": "Karşılaştırmalı Ekonomi",
+    "table": {
+      "protocol": "Cerrahi Protokol",
+      "ukCost": "Ort. İngiltere Maliyeti",
+      "feraEstimate": "FeRa Tahmini",
+      "implantUK": "£2,500",
+      "implantFera": "£650",
+      "veneerUK": "£800",
+      "veneerFera": "£250",
+      "smileUK": "£15,000",
+      "smileFera": "£5,500"
+    },
+    "locationBadge": "Nişantaşı Sağlık Merkezinde Stratejik Konum.",
+    "packagesTitle1": "Concierge",
+    "packagesTitle2": "Deneyimi.",
+    "packagesDesc": "Geçiş kademenizi seçin. Karmaşıklığı biz yönetiyoruz, böylece cerrahi ziyaretiniz gerçekten olduğu gibi lüks bir kaçamak hissi verir.",
+    "selectPathway": "Tedavi Yolunu Seçin",
+    "ctaDesc": "İstanbul'da yüksek kaliteli diş bakımı için FeRa Klinik'i seçen binlerce uluslararası hastaya katılın."
+  },
+  "search": {
+    "globalSearch": "FeRa Kapsamlı Arama"
+  },
+  "a11y": {
+    "closeAssistant": "Asistanı Kapat",
+    "toggleAssistant": "Asistanı Aç/Kapat",
+    "home": "FeRa Klinik – Anasayfa",
+    "search": "Ara",
+    "changeLanguage": "Dil Değiştir",
+    "contactWhatsApp": "WhatsApp ile İletişime Geç",
+    "toggleMenu": "Menüyü Aç/Kapat",
+    "scrollToTop": "Sayfanın Başına Dön",
+    "closeSearch": "Aramayı Kapat",
+    "toggleWhatsApp": "WhatsApp Sohbetini Aç/Kapat",
+    "viewGoogleMaps": "FeRa Klinik'i Google Haritalar'da Görüntüle"
+  },
+  "alt": {
+    "homeInterior": "FeRa Klinik İç Mekan",
+    "surgicalSuite": "FeRa Klinik Ameliyat Odası",
+    "reception": "FeRa Klinik Resepsiyon",
+    "waitingArea": "FeRa Klinik Bekleme Alanı",
+    "patientJourney": "Hasta Yolculuğuna Genel Bakış",
+    "clinicInstitutional": "FeRa Klinik Kurumsal",
+    "surgicalTheater": "Son Teknoloji Ameliyathane",
+    "clinicalMastery": "FeRa Klinik Klinik Ustalığı",
+    "labTech": "Yüksek Kaliteli Diş Laboratuvar Teknolojisi",
+    "clinicGallery": "FeRa Klinik Galeri",
+    "hospitality": "Klinik Misafirperverliği",
+    "dentalTourism": "İstanbul Diş Turizmi",
+    "medicalDistrict": "Nişantaşı, İstanbul Sağlık Merkezi",
+    "consultation": "FeRa Klinik Konsültasyon",
+    "clinicJournal": "FeRa Klinik Dergisi",
+    "feraClinic": "FeRa Klinik"
   }
 }

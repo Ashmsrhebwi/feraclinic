@@ -22,7 +22,7 @@ export const Card: React.FC<CardProps> = ({
   const variants = {
     default: 'shadow-[0_10px_30px_rgba(15,23,42,0.04)]',
     elevated: 'shadow-[0_18px_40px_rgba(15,23,42,0.08)]',
-    soft: 'bg-fera-gold/5 border-fera-gold/10',
+    soft: 'bg-[#008BC9]/5 border-[#008BC9]/10',
     glass: 'bg-white/70 backdrop-blur-md border-white/40'
   }
 

@@ -1,7 +1,7 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import { LocalizedLink as Link } from './LocalizedLink'
 import { motion } from 'framer-motion'
 import { ArrowRight } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 
 interface PremiumCardProps {
   title: string
@@ -23,37 +23,36 @@ export const PremiumCard: React.FC<PremiumCardProps> = ({
   href,
   metadata
 }) => {
+  const { t } = useTranslation()
   return (
     <motion.div
-      initial={{ opacity: 0, y: 20 }}
+      initial={{ opacity: 0, y: 15 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
+      viewport={{ once: true, margin: "-20px" }}
+      transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
       className="h-full"
     >
       <Link to={href} className="block h-full group">
-        <div className="bg-white rounded-2xl overflow-hidden flex flex-col h-full
-                        border border-fera-border/30
-                        transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]
-                        hover:shadow-luxury-lg hover:border-fera-primary/15 hover:-translate-y-1">
+        <div className="card-premium-hover bg-white rounded-luxury-lg overflow-hidden flex flex-col h-full
+                        border border-fera-border/30 shadow-luxury-sm transition-all duration-700">
 
           {/* Image */}
-          <div className="aspect-[16/10] w-full overflow-hidden relative bg-fera-off-white">
+          <div className="aspect-[16/10] w-full overflow-hidden relative bg-gray-50">
             <img
               src={image}
               alt={title}
               loading="lazy"
               decoding="async"
-              className="w-full h-full object-cover transition-transform duration-[1600ms] ease-out
+              className="w-full h-full object-cover transition-transform duration-[1200ms] ease-out
                          group-hover:scale-105"
             />
             {/* Subtle overlay on hover for depth */}
-            <div className="absolute inset-0 bg-fera-deep/0 group-hover:bg-fera-deep/5 transition-colors duration-500" />
+            <div className="absolute inset-0 bg-black/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
             {category && (
-              <div className="absolute top-4 left-4 z-10">
+              <div className="absolute top-4 start-4 z-10">
                 <span className="bg-white/95 backdrop-blur-sm px-3 py-1.5 rounded-full
-                                 text-[9px] font-bold uppercase tracking-widest text-fera-deep shadow-sm">
+                                 text-[9px] font-bold uppercase tracking-widest text-[#1b4698] shadow-sm border border-[#1b4698]/5">
                   {category}
                 </span>
               </div>
@@ -61,30 +60,28 @@ export const PremiumCard: React.FC<PremiumCardProps> = ({
           </div>
 
           {/* Content */}
-          <div className="p-7 flex flex-col flex-grow">
-            <h3 className="text-xl font-bold text-fera-deep mb-2.5 leading-tight
+          <div className="p-8 flex flex-col flex-grow">
+            <h3 className="text-xl font-bold text-fera-deep mb-3 leading-tight
                            group-hover:text-fera-primary transition-colors duration-300 tracking-tight">
               {title}
             </h3>
-            <p className="text-fera-gray text-sm font-light leading-relaxed flex-grow line-clamp-2 mb-6">
+            <p className="text-fera-gray text-sm font-light leading-relaxed flex-grow line-clamp-2 mb-8">
               {description}
             </p>
 
-            <footer className="pt-5 border-t border-fera-border/20 flex items-center justify-between">
+            <footer className="pt-6 border-t border-slate-50 flex items-center justify-between">
               {metadata ? (
                 <div>
-                  <span className="block text-[9px] uppercase tracking-[0.2em] text-fera-gray/50 font-bold mb-0.5">
+                  <span className="block text-[9px] uppercase tracking-[0.2em] text-[#6B7280]/40 font-bold mb-1">
                     {metadata.label}
                   </span>
-                  <span className="text-xs font-bold text-fera-deep/70 tracking-tight">{metadata.value}</span>
+                  <span className="text-xs font-bold text-[#1b4698]/60 tracking-tight">{metadata.value}</span>
                 </div>
               ) : <div />}
 
-              <span className="text-fera-primary font-bold text-[10px] uppercase tracking-widest
-                               flex items-center gap-1.5 group-hover:text-fera-deep transition-colors">
-                Learn More
-                <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform duration-300" />
-              </span>
+              <div className="w-9 h-9 rounded-full border border-slate-100 flex items-center justify-center text-[#006693] transition-all group-hover:bg-[#1b4698] group-hover:text-white group-hover:border-transparent">
+                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5" />
+              </div>
             </footer>
           </div>
         </div>

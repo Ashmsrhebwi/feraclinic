@@ -3,7 +3,13 @@ import { motion, useInView } from 'motion/react'
 import { Star, Quote, Globe, Calendar } from 'lucide-react'
 import { Button } from '../components/ui/button'
 
+import { useTranslation } from 'react-i18next'
+import { useSEO } from '../components/useSEO'
+import { LocalizedLink as Link } from '../components/ui/LocalizedLink'
+
 export function Testimonials() {
+  const { t } = useTranslation()
+  useSEO({ title: t('navigation.testimonials'), description: t('testimonials.subtitle', 'Experiences shared by patients.') })
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: '-100px' })
   const [filter, setFilter] = useState('all')
@@ -11,80 +17,74 @@ export function Testimonials() {
   const testimonials = [
     {
       id: 1,
-      name: 'Michael Schmidt',
-      location: 'Berlin, Germany',
-      treatment: 'Dental Implants',
+      name: t('testimonials.list.t1.name', 'Michael Schmidt'),
+      location: t('testimonials.list.t1.location', 'Berlin, Germany'),
+      treatment: 'dental-implants',
       rating: 5,
-      quote:
-        'The treatment process felt clear and well organized. I appreciated the professionalism of the team and the attention given to every step.',
-      date: 'March 2024',
-      image: '👨‍💼'
+      quote: t('testimonials.list.t1.quote', 'The treatment process felt clear and well organized. I appreciated the professionalism of the team and the attention given to every step.'),
+      date: t('testimonials.list.t1.date', 'March 2024'),
+      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200&h=200'
     },
     {
       id: 2,
-      name: 'Emma Johnson',
-      location: 'Manchester, UK',
-      treatment: 'Veneers & Smile Design',
+      name: t('testimonials.list.t2.name', 'Emma Johnson'),
+      location: t('testimonials.list.t2.location', 'Manchester, UK'),
+      treatment: 'veneers-smile-design',
       rating: 5,
-      quote:
-        'I felt supported from consultation to treatment. The final result looked natural, balanced, and exactly what I hoped for.',
-      date: 'February 2024',
-      image: '👩‍💼'
+      quote: t('testimonials.list.t2.quote', 'I felt supported from consultation to treatment. The final result looked natural, balanced, and exactly what I hoped for.'),
+      date: t('testimonials.list.t2.date', 'February 2024'),
+      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200&h=200'
     },
     {
       id: 3,
-      name: 'David Williams',
-      location: 'New York, USA',
-      treatment: 'Full Mouth Reconstruction',
+      name: t('testimonials.list.t3.name', 'David Williams'),
+      location: t('testimonials.list.t3.location', 'New York, USA'),
+      treatment: 'full-mouth-reconstruction',
       rating: 5,
-      quote:
-        'The clinic experience was smooth and reassuring. Communication was clear, and the team handled the case with real care and expertise.',
-      date: 'January 2024',
-      image: '👨‍⚕️'
+      quote: t('testimonials.list.t3.quote', 'The clinic experience was smooth and reassuring. Communication was clear, and the team handled the case with real care and expertise.'),
+      date: t('testimonials.list.t3.date', 'January 2024'),
+      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200&h=200'
     },
     {
       id: 4,
-      name: 'Sophie Laurent',
-      location: 'Paris, France',
-      treatment: 'Invisalign',
+      name: t('testimonials.list.t4.name', 'Sophie Laurent'),
+      location: t('testimonials.list.t4.location', 'Paris, France'),
+      treatment: 'invisalign',
       rating: 5,
-      quote:
-        'Everything felt modern, organized, and easy to follow. I appreciated how clearly the treatment steps were explained.',
-      date: 'December 2023',
-      image: '👩‍🎨'
+      quote: t('testimonials.list.t4.quote', 'Everything felt modern, organized, and easy to follow. I appreciated how clearly the treatment steps were explained.'),
+      date: t('testimonials.list.t4.date', 'December 2023'),
+      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=200&h=200'
     },
     {
       id: 5,
-      name: 'Ahmed Hassan',
-      location: 'Dubai, UAE',
-      treatment: 'Teeth Whitening',
+      name: t('testimonials.list.t5.name', 'Ahmed Hassan'),
+      location: t('testimonials.list.t5.location', 'Dubai, UAE'),
+      treatment: 'teeth-whitening',
       rating: 5,
-      quote:
-        'A very polished and comfortable experience. The team was welcoming, and the result gave my smile a noticeably fresher look.',
-      date: 'November 2023',
-      image: '👨‍💻'
+      quote: t('testimonials.list.t5.quote', 'A very polished and comfortable experience. The team was welcoming, and the result gave my smile a noticeably fresher look.'),
+      date: t('testimonials.list.t5.date', 'November 2023'),
+      image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=200&h=200'
     },
     {
       id: 6,
-      name: 'Maria Petrova',
-      location: 'Moscow, Russia',
-      treatment: 'Dental Crowns',
+      name: t('testimonials.list.t6.name', 'Maria Petrova'),
+      location: t('testimonials.list.t6.location', 'Moscow, Russia'),
+      treatment: 'dental-crowns',
       rating: 5,
-      quote:
-        'The care quality was excellent, and I felt confident throughout the process. The final result looked very natural.',
-      date: 'October 2023',
-      image: '👩‍🏫'
+      quote: t('testimonials.list.t6.quote', 'The care quality was excellent, and I felt confident throughout the process. The final result looked very natural.'),
+      date: t('testimonials.list.t6.date', 'October 2023'),
+      image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200&h=200'
     }
   ]
 
   const treatments = [
-    'all',
-    'Dental Implants',
-    'Veneers & Smile Design',
-    'Invisalign',
-    'Full Mouth Reconstruction',
-    'Teeth Whitening',
-    'Dental Crowns'
+    { key: 'all', label: t('testimonials.filters.all', 'All Treatments') },
+    { key: 'dental-implants', label: t('treatments.implants', 'Dental Implants') },
+    { key: 'veneers-smile-design', label: t('treatments.veneers', 'Veneers & Smile Design') },
+    { key: 'invisalign', label: t('treatments.invisalign', 'Invisalign') },
+    { key: 'full-mouth-reconstruction', label: t('treatments.fullMouth', 'Full Mouth Reconstruction') },
+    { key: 'teeth-whitening', label: t('treatments.whitening', 'Teeth Whitening') },
+    { key: 'dental-crowns', label: t('treatments.crowns', 'Dental Crowns') }
   ]
 
   const filteredTestimonials =
@@ -93,15 +93,15 @@ export function Testimonials() {
       : testimonials.filter((t) => t.treatment === filter)
 
   const stats = [
-    { number: '10,000+', label: 'Happy Patients' },
-    { number: '50+', label: 'Countries' },
-    { number: '98%', label: 'Satisfaction Rate' },
-    { number: '5.0', label: 'Average Rating' }
+    { number: '10,000+', label: t('testimonials.stats.patients', 'Happy Patients') },
+    { number: '50+', label: t('testimonials.stats.countries', 'Countries') },
+    { number: '98%', label: t('testimonials.stats.satisfaction', 'Satisfaction Rate') },
+    { number: '5.0', label: t('testimonials.stats.rating', 'Average Rating') }
   ]
 
   return (
     <div className="min-h-screen bg-white">
-      <section className="bg-fera-navy px-6 pb-24 pt-32 lg:px-8">
+      <section className="bg-[#1b4698] px-6 pb-24 pt-32 lg:px-8">
         <div className="mx-auto max-w-7xl text-center">
           <motion.h1
             initial={{ opacity: 0, y: 28 }}
@@ -109,7 +109,7 @@ export function Testimonials() {
             className="mb-6 text-5xl font-semibold text-white lg:text-6xl"
             style={{ fontFamily: 'Cormorant Garamond, serif' }}
           >
-            Patient Stories
+            {t('testimonials.heroTitle', 'Patient Stories')}
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 28 }}
@@ -117,12 +117,12 @@ export function Testimonials() {
             transition={{ delay: 0.15 }}
             className="mx-auto max-w-3xl text-xl leading-8 text-white/80"
           >
-            Experiences shared by patients who trusted FeRa Clinic with their smile journey.
+            {t('testimonials.heroDesc', 'Experiences shared by patients who trusted FeRa Clinic with their smile journey.')}
           </motion.p>
         </div>
       </section>
 
-      <section className="bg-fera-ivory px-6 py-16 lg:px-8">
+      <section className="bg-[#F5F7FA] px-6 py-16 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <div className="grid grid-cols-2 gap-8 lg:grid-cols-4">
             {stats.map((stat, index) => (
@@ -134,7 +134,7 @@ export function Testimonials() {
                 transition={{ delay: index * 0.08, duration: 0.45 }}
                 className="text-center"
               >
-                <div className="mb-2 text-4xl font-semibold text-fera-navy lg:text-5xl">
+                <div className="mb-2 text-4xl font-semibold text-[#1b4698] lg:text-5xl">
                   {stat.number}
                 </div>
                 <div className="text-sm font-medium text-slate-500">{stat.label}</div>
@@ -149,12 +149,12 @@ export function Testimonials() {
           <div className="flex flex-wrap justify-center gap-3">
             {treatments.map((treatment) => (
               <Button
-                key={treatment}
-                onClick={() => setFilter(treatment)}
-                variant={filter === treatment ? 'primary' : 'outline'}
+                key={treatment.key}
+                onClick={() => setFilter(treatment.key)}
+                variant={filter === treatment.key ? 'primary' : 'outline'}
                 size="sm"
               >
-                {treatment === 'all' ? 'All Treatments' : treatment}
+                {treatment.label}
               </Button>
             ))}
           </div>
@@ -170,15 +170,17 @@ export function Testimonials() {
                 initial={{ opacity: 0, y: 28 }}
                 animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 28 }}
                 transition={{ delay: index * 0.08, duration: 0.45 }}
-                className="rounded-[2rem] border border-black/5 bg-fera-ivory p-8"
+                className="rounded-[2rem] border border-black/5 bg-[#F5F7FA] p-8"
               >
                 <div className="mb-6 flex items-start justify-between gap-4">
                   <div className="flex items-center gap-4">
-                    <div className="flex h-16 w-16 items-center justify-center rounded-full bg-fera-gold/10 text-2xl">
-                      {testimonial.image}
-                    </div>
+                    <img 
+                      src={testimonial.image} 
+                      alt={testimonial.name}
+                      className="h-16 w-16 rounded-full object-cover shadow-sm border border-black/5"
+                    />
                     <div>
-                      <h3 className="text-lg font-semibold text-fera-navy">{testimonial.name}</h3>
+                      <h3 className="text-lg font-semibold text-[#1b4698]">{testimonial.name}</h3>
                       <div className="flex items-center gap-2 text-sm text-slate-500">
                         <Globe className="h-4 w-4" />
                         {testimonial.location}
@@ -188,16 +190,16 @@ export function Testimonials() {
 
                   <div className="flex gap-1">
                     {Array.from({ length: testimonial.rating }).map((_, i) => (
-                      <Star key={i} className="h-4 w-4 fill-current text-fera-gold" />
+                      <Star key={i} className="h-4 w-4 fill-current text-[#008BC9]" />
                     ))}
                   </div>
                 </div>
 
-                <Quote className="mb-4 h-8 w-8 text-fera-gold/30" />
+                <Quote className="mb-4 h-8 w-8 text-[#008BC9]/30" />
                 <p className="mb-6 leading-8 text-slate-600">“{testimonial.quote}”</p>
 
                 <div className="border-t border-black/5 pt-4">
-                  <p className="text-sm font-medium text-fera-navy">{testimonial.treatment}</p>
+                  <p className="text-sm font-medium text-[#1b4698]">{treatments.find(tObj => tObj.key === testimonial.treatment)?.label}</p>
                   <div className="mt-1 flex items-center gap-1 text-xs text-slate-500">
                     <Calendar className="h-3 w-3" />
                     {testimonial.date}
@@ -209,17 +211,17 @@ export function Testimonials() {
         </div>
       </section>
 
-      <section className="bg-fera-ivory px-6 py-20 lg:px-8">
+      <section className="bg-[#F5F7FA] px-6 py-20 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <div className="mb-14 text-center">
             <h2
-              className="mb-4 text-4xl font-semibold text-fera-navy lg:text-5xl"
+              className="mb-4 text-4xl font-semibold text-[#1b4698] lg:text-5xl"
               style={{ fontFamily: 'Cormorant Garamond, serif' }}
             >
-              Video Stories
+              {t('testimonials.videoTitle', 'Video Stories')}
             </h2>
             <p className="mx-auto max-w-2xl text-lg leading-8 text-slate-600">
-              Space reserved for selected patient video testimonials and interview content.
+              {t('testimonials.videoDesc', 'Space reserved for selected patient video testimonials and interview content.')}
             </p>
           </div>
 
@@ -235,10 +237,10 @@ export function Testimonials() {
               >
                 <div className="aspect-video bg-slate-100 flex items-center justify-center">
                   <div className="text-center">
-                    <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-fera-gold transition-transform group-hover:scale-105">
-                      <div className="ml-1 h-0 w-0 border-b-[8px] border-l-[12px] border-t-[8px] border-b-transparent border-l-white border-t-transparent" />
+                    <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[#1b4698] transition-transform group-hover:scale-105">
+                      <div className="ms-1 h-0 w-0 border-b-[8px] border-s-[12px] border-t-[8px] border-b-transparent border-s-white border-t-transparent" />
                     </div>
-                    <p className="text-slate-500">Patient Story {item}</p>
+                    <p className="text-slate-500">{t('testimonials.patientStory', 'Patient Story')} {item}</p>
                   </div>
                 </div>
               </motion.div>
@@ -247,7 +249,7 @@ export function Testimonials() {
         </div>
       </section>
 
-      <section className="bg-fera-navy px-6 py-20 lg:px-8">
+      <section className="bg-[#1b4698] px-6 py-20 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <motion.h2
             initial={{ opacity: 0, y: 28 }}
@@ -255,7 +257,7 @@ export function Testimonials() {
             className="mb-6 text-4xl font-semibold text-white"
             style={{ fontFamily: 'Cormorant Garamond, serif' }}
           >
-            Start Your Own Smile Journey
+            {t('testimonials.ctaTitle', 'Start Your Own Smile Journey')}
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 28 }}
@@ -263,16 +265,18 @@ export function Testimonials() {
             transition={{ delay: 0.15 }}
             className="mb-8 text-xl text-white/80"
           >
-            Speak with our team and take the next step toward a treatment plan tailored to you.
+            {t('testimonials.ctaDesc', 'Speak with our team and take the next step toward a treatment plan tailored to you.')}
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 28 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
           >
-            <Button variant="primary" size="lg">
-              Start Your Journey
-            </Button>
+            <Link to="/consultation">
+              <Button variant="primary" size="lg">
+                {t('testimonials.ctaButton', 'Start Your Journey')}
+              </Button>
+            </Link>
           </motion.div>
         </div>
       </section>
