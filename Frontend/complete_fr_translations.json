@@ -1,0 +1,95 @@
+{
+  "navigation": {
+    "consultation": "Consultation",
+    "testimonials": "Témoignages",
+    "joinUs": "Nous rejoindre",
+    "corporate": "Entreprises",
+    "partnership": "Partenariat",
+    "gallery_beforeAfter": "Avant & Après",
+    "gallery_clinicPhotos": "Photos de la clinique"
+  },
+  "topbar": {
+    "bookAppointment": "Prendre rendez-vous",
+    "book": "Réserver",
+    "whatsappIconText": "7/24",
+    "whatsappNumber": "+90 536 746 01 00",
+    "instagramText": "Suivez-nous sur Instagram"
+  },
+  "gallery": {
+    "heroEyebrow": "Excellence chirurgicale",
+    "heroTitle": "Transformations de sourires de patients réels",
+    "heroDesc": "Chaque sourire que nous créons est un équilibre entre précision médicale et vision artistique. Explorez nos transformations documentées et nos installations de pointe.",
+    "ctaPrimary": "Commencez votre parcours de sourire",
+    "ctaSecondary": "Voir les résultats des patients réels",
+    "tabCases": "Transformations de cas",
+    "tabFacility": "Audit des installations",
+    "clinicalRecord": "Dossier clinique",
+    "protocolOutcome": "Résultat du protocole",
+    "clinicalWindow": "Fenêtre clinique",
+    "evidence": {
+      "compliance": "Conformité restauratrice",
+      "safety": "Sécurité biologique",
+      "warranty": "Garantie clinique"
+    },
+    "footerTitle1": "Concevez votre",
+    "footerTitle2": "prochain chapitre.",
+    "exploreProtocols": "Explorer les protocoles chirurgicaux"
+  },
+  "whatsapp": {
+    "title": "FeRa Clinic",
+    "status": "Répond généralement rapidement",
+    "greeting": "Bonjour ! 👋 Bienvenue à la FeRa Clinic. Comment pouvons-nous vous aider aujourd'hui ?",
+    "cta": "Parler à un spécialiste"
+  },
+  "chat": {
+    "welcomeTitle": "Assistant FeRa",
+    "welcomeMsg": "Bonjour ! 👋 Nous sommes très heureux que vous soyez ici. Comment pouvons-nous soutenir votre parcours de sourire aujourd'hui ?",
+    "quickActions": "Actions rapides",
+    "actionConsultation": "Prendre consultation gratuite",
+    "actionTreatments": "Voir les traitements",
+    "actionTourism": "Tourisme dentaire",
+    "actionGallery": "Avant & Après",
+    "actionWhatsApp": "Discuter sur WhatsApp",
+    "actionTeam": "Parler avec l'équipe",
+    "actionAskTreatment": "Demander à propos de ce traitement",
+    "actionAskQuestion": "Poser une question",
+    "actionRelatedTreatments": "Traitements connexes",
+    "actionTourismPackages": "Forfaits de voyage",
+    "actionTourismServices": "Aéroport & Hôtel",
+    "actionDuration": "Combien de jours nécessaires ?",
+    "formTitle": "Consultation gratuite",
+    "formName": "Nom complet",
+    "formPhone": "Téléphone / WhatsApp",
+    "formTreatment": "Intérêt de traitement",
+    "formLanguage": "Langue préférée",
+    "formSubmit": "Soumettre la demande",
+    "formBack": "Retour au menu",
+    "formSuccess": "Merci ! Notre équipe médicale vous contactera bientôt.",
+    "formSelectTreatment": "Sélectionner traitement",
+    "formSelectLanguage": "Sélectionner langue",
+    "faqTitle": "Questions fréquentes",
+    "faqQ1": "Offrez-vous hôtel et transfert ?",
+    "faqA1": "Oui, nous fournissons des transferts VIP d'aéroport et la coordination d'hôtels 5 étoiles pour tous nos patients internationaux pour assurer un voyage sans stress.",
+    "faqQ2": "Combien de temps prend le Sourire Hollywood ?",
+    "faqA2": "Une transformation de Sourire Hollywood prend généralement 5 à 7 jours à Istanbul, impliquant 2-3 visites cliniques pour la conception artisanale et le placement.",
+    "faqQ3": "La consultation est-elle gratuite ?",
+    "faqA3": "Oui, les consultations cliniques initiales et la planification de traitement 3D sont complètement gratuites à la FeRa Clinic.",
+    "faqQ4": "Combien coûte le traitement ?",
+    "faqA4": "Les coûts sont personnalisés. Cependant, les patients économisent généralement jusqu'à 70% par rapport aux prix occidentaux tout en recevant des matériaux d'ingénierie suisses premium.",
+    "status": "En ligne · Répond généralement instantanément",
+    "phonePlaceholder": "+90..."
+  },
+  "hero": {
+    "heroEyebrow": "Clinique dentaire de confiance à Istanbul",
+    "heroTitle": "Un sourire en qui vous pouvez faire confiance. Une confiance que vous pouvez ressentir.",
+    "heroDesc": "À la FeRa Clinic, nous combinons précision clinique et design artistique pour créer des sourires naturels et durables — adaptés à vous, guidés par des spécialistes, et livrés avec soin.",
+    "ctaPrimary": "Commencez votre parcours de sourire",
+    "ctaSecondary": "Voir les histoires de patients",
+    "trustLine": "Certifié ISO • 15+ dentistes spécialistes • Hub mondial de patients"
+  },
+  "about": {
+    "title": "À propos de FeRa Clinic",
+    "subtitle": "Nous sommes les Créateurs de Sourires - une clinique dentaire primée à Istanbul dédiée à transformer les vies grâce à des soins dentaires exceptionnels et des expériences de traitement personnalisées.",
+    "storyTitle": "Notre histoire"
+  }
+}

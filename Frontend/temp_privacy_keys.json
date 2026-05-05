@@ -1,0 +1,30 @@
+{
+  "privacy": {
+    "aboutUsTitle": "About Us / Hakkımızda",
+    "companyInfo": "Company Information and Services",
+    "companyInfoTitle": "Company Information",
+    "companyDescription": "FeRa Clinic is a premium dental healthcare provider located in Istanbul, Turkey. We specialize in advanced dental treatments, cosmetic dentistry, and international patient services.",
+    "clinicName": "Clinic Name",
+    "ourServices": "Our Services",
+    "service1": "Dental consultations and treatment planning",
+    "service2": "Cosmetic dentistry and smile makeovers",
+    "service3": "International patient support and coordination",
+    "service4": "Dental implants and restorative procedures",
+    "websitePurpose": "Website Purpose",
+    "websiteDescription": "This website serves as a consultation booking and payment platform for dental services. It is not an e-commerce platform for direct product sales. All payments processed through this site are for consultation fees, treatment deposits, or service-related payments.",
+    "dataProtection": "KVKK/GDPR Compliant Data Protection",
+    "privacSection": "B) Privacy Policy / Gizlilik Politikası",
+    "consultationData": "Consultation Data:",
+    "dataItem1": "Full name and surname",
+    "dataItem2": "Phone number",
+    "dataItem3": "Email address",
+    "dataItem4": "Country of residence",
+    "dataItem5": "Preferred language",
+    "treatmentInfo": "Treatment Information:",
+    "dataItem6": "Treatment interests",
+    "dataItem7": "Consultation details",
+    "dataItem8": "Medical history (relevant)",
+    "dataItem9": "Appointment preferences",
+    "dataItem10": "Payment information (secure)"
+  }
+}

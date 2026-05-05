@@ -1,0 +1,95 @@
+{
+  "navigation": {
+    "consultation": "Konsültasyon",
+    "testimonials": "Referanslar",
+    "joinUs": "Bize Katılın",
+    "corporate": "Kurumsal",
+    "partnership": "Ortaklık",
+    "gallery_beforeAfter": "Önce & Sonra",
+    "gallery_clinicPhotos": "Klinik Fotoğrafları"
+  },
+  "topbar": {
+    "bookAppointment": "Randevu Al",
+    "book": "Rezervasyon",
+    "whatsappIconText": "7/24",
+    "whatsappNumber": "+90 536 746 01 00",
+    "instagramText": "Instagram'da bizi takip edin"
+  },
+  "gallery": {
+    "heroEyebrow": "Cerrahi Mükemmelliği",
+    "heroTitle": "Gerçek Hasta Gülüş Dönüşümleri",
+    "heroDesc": "Oluşturduğumuz her gülüş, tıbbi hassasiyet ile sanatsal vizyonun dengesidir. Belgelenmiş dönüşümlerimizi ve son teknoloji tesislerimizi keşfedin.",
+    "ctaPrimary": "Gülüş Yolculuğunuza Başlayın",
+    "ctaSecondary": "Gerçek Hasta Sonuçlarını Görün",
+    "tabCases": "Vaka Dönüşümleri",
+    "tabFacility": "Tesis Denetimi",
+    "clinicalRecord": "Klinik Kayıt",
+    "protocolOutcome": "Protokol Sonucu",
+    "clinicalWindow": "Klinik Penceresi",
+    "evidence": {
+      "compliance": "Restoratif Uyum",
+      "safety": "Biyolojik Güvenlik",
+      "warranty": "Klinik Garanti"
+    },
+    "footerTitle1": "Bir Sonraki",
+    "footerTitle2": "Bölümünüzü Tasarlayın.",
+    "exploreProtocols": "Cerrahi Protokolleri Keşfedin"
+  },
+  "whatsapp": {
+    "title": "FeRa Clinic",
+    "status": "Genellikle hızlı yanıt verir",
+    "greeting": "Merhaba! 👋 FeRa Clinic'e hoş geldiniz. Bugün size nasıl yardımcı olabiliriz?",
+    "cta": "Uzmanla Konuşun"
+  },
+  "chat": {
+    "welcomeTitle": "FeRa Asistanı",
+    "welcomeMsg": "Merhaba! 👋 Burada olmanızdan çok mutluyuz. Bugün gülüş yolculuğunuzu nasıl destekleyebiliriz?",
+    "quickActions": "Hızlı İşlemler",
+    "actionConsultation": "Ücretsiz Konsültasyon Al",
+    "actionTreatments": "Tedavileri Gör",
+    "actionTourism": "Diş Turizmi",
+    "actionGallery": "Önce & Sonra",
+    "actionWhatsApp": "WhatsApp'ta Sohbet Et",
+    "actionTeam": "Ekiple Konuş",
+    "actionAskTreatment": "Bu Tedavi Hakkında Sor",
+    "actionAskQuestion": "Soru Sor",
+    "actionRelatedTreatments": "İlgili Tedaviler",
+    "actionTourismPackages": "Seyahat Paketleri",
+    "actionTourismServices": "Havalimanı & Otel",
+    "actionDuration": "Kaç Gün Gerekli?",
+    "formTitle": "Ücretsiz Konsültasyon",
+    "formName": "Tam Ad",
+    "formPhone": "Telefon / WhatsApp",
+    "formTreatment": "Tedavi İlgi Alanı",
+    "formLanguage": "Tercih Edilen Dil",
+    "formSubmit": "Talebi Gönder",
+    "formBack": "Menüye dön",
+    "formSuccess": "Teşekkürler! Tıbbi ekibimiz en kısa sürede sizinle iletişime geçecektir.",
+    "formSelectTreatment": "Tedavi Seç",
+    "formSelectLanguage": "Dil Seç",
+    "faqTitle": "Sıkça Sorulan Sorular",
+    "faqQ1": "Otel ve transfer hizmeti sunuyor musunuz?",
+    "faqA1": "Evet, uluslararası hastalarımızın stressiz bir yolculuk sağlamak için VIP havalimanı transferleri ve 5 yıldızlı otel koordinasyonu sağlıyoruz.",
+    "faqQ2": "Hollywood Gülüşü ne kadar sürer?",
+    "faqA2": "Hollywood Gülüşü dönüşümü genellikle İstanbul'da 5 ila 7 gün sürer, zanaatsal tasarım ve yerleştirme için 2-3 klinik ziyaret içerir.",
+    "faqQ3": "Konsültasyon ücretsiz mi?",
+    "faqA3": "Evet, ilk klinik konsültasyonlar ve 3D tedavi planlaması FeRa Clinic'te tamamen ücretsizdir.",
+    "faqQ4": "Tedavi ne kadara mal olur?",
+    "faqA4": "Maliyetler kişiselleştirilmiştir. Ancak hastalar genellikle Batı fiyatlarına kıyasla %70'e kadar tasarruf ederken premium İsviçre mühendislikli malzemeler alırlar.",
+    "status": "Çevrimiçi · Genellikle anında yanıt verir",
+    "phonePlaceholder": "+90..."
+  },
+  "hero": {
+    "heroEyebrow": "İstanbul'da Güvenilir Diş Kliniği",
+    "heroTitle": "Güvenebileceğiniz Bir Gülüş. Hissedebileceğiniz Bir Güven.",
+    "heroDesc": "FeRa Clinic'te, doğal, kalıcı gülüşler yaratmak için klinik hassasiyeti sanatsal tasarım ile birleştiriyoruz — size özel, uzmanlar tarafından yönlendirilen ve özenle sunulan.",
+    "ctaPrimary": "Gülüş Yolculuğunuza Başlayın",
+    "ctaSecondary": "Hasta Hikayelerini Görün",
+    "trustLine": "ISO Sertifikalı • 15+ Uzman Diş Hekimi • Global Hastalar Merkezi"
+  },
+  "about": {
+    "title": "FeRa Clinic Hakkında",
+    "subtitle": "Biz Gülüş Tasarımcılarıyız - olağanüstü diş bakımı ve kişiselleştirilmiş tedavi deneyimleri yoluyla hayatları dönüştürmeye adanmış İstanbul'da birinci sınıf bir diş kliniği.",
+    "storyTitle": "Hikayemiz"
+  }
+}

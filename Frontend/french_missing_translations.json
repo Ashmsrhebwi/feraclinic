@@ -1,0 +1,84 @@
+{
+  "navigation": {
+    "consultation": "Consultation",
+    "testimonials": "Témoignages",
+    "joinUs": "Nous rejoindre",
+    "corporate": "Entreprises",
+    "partnership": "Partenariat"
+  },
+  "home": {
+    "technology": {
+      "technology": {
+        "t1Desc": "Nous utilisons les technologies numériques les plus récentes pour la planification de traitement 3D, garantissant une précision inégalée dans le positionnement dentaire et la conception du sourire",
+        "t2Desc": "Le scanner buccal CBCT haute précision fournit un modèle numérique 3D pour une compréhension anatomique détaillée de la structure dentaire, permettant une planification de traitement personnalisée avant toute procédure",
+        "t3Desc": "La technique innovante All-on-4 offre une restauration fonctionnelle complète avec des dents en zircone fixes en une journée, donnant des dents naturelles et l'esthétique simultanément"
+      }
+    },
+    "reasons": {
+      "sterilization": {
+        "title": "Normes de stérilisation",
+        "desc": "Nous utilisons des protocoles de stérilisation approuvés par le Ministère turc de la Santé, avec des autoclaves de pointe pour garantir les normes de sécurité les plus élevées"
+      },
+      "planning": {
+        "title": "Planification numérique",
+        "desc": "Nous utilisons des logiciels spécialisés pour concevoir des sourires et planifier des traitements avec une précision exceptionnelle"
+      },
+      "doctors": {
+        "title": "Équipe d'experts",
+        "desc": "Nos dentistes ont une vaste expérience en implantologie, esthétique dentaire et implants immédiats, avec des certifications internationales reconnues"
+      },
+      "coordination": {
+        "title": "Coordination multidisciplinaire",
+        "desc": "Nous coordonnons entre différentes spécialités médicales pour assurer un plan de traitement intégré et complet"
+      }
+    },
+    "clinic": {
+      "feature5": "Emplacement stratégique au cœur d'Istanbul"
+    },
+    "aboutOurClinic": "À propos de notre clinique",
+    "requestFreeConsultation": "Demander une consultation gratuite",
+    "viewBeforeAfterGallery": "Voir la galerie avant-après",
+    "readyToGetStarted": "Prêt à commencer",
+    "whatsappTooltip": "Contactez-nous via WhatsApp",
+    "treatments": {
+      "0": {
+        "desc": "L'esthétique dentaire numérique offre des sourires personnalisés en utilisant les technologies numériques les plus récentes"
+      },
+      "1": {
+        "desc": "Les implants dentaires immédiats permettent la restauration de dents extraites le jour même"
+      },
+      "11": {
+        "desc": "L'orthodontie numérique corrige les problèmes d'occlusion et les dents mal alignées, améliorant l'apparence du sourire"
+      },
+      "22": {
+        "desc": "Le blanchiment dentaire professionnel offre des sourires plus éclatants et un éclat naturel"
+      }
+    },
+    "testimonials": {
+      "t1": "Modèle initial",
+      "t2": "Après traitement",
+      "t3": "Après 6 mois"
+    },
+    "newsletter": {
+      "error": "Une erreur s'est produite lors de l'inscription à la newsletter"
+    },
+    "social": {
+      "googleReviews": "Avis Google",
+      "verifiedReviews": "Avis vérifiés"
+    }
+  },
+  "treatments": {
+    "hero": {
+      "eyebrow": "Excellence clinique",
+      "title": "Traitements dentaires avancés",
+      "desc": "Découvrez nos traitements dentaires complets dans notre clinique d'Istanbul, des implants dentaires à l'esthétique dentaire, en utilisant les technologies médicales les plus récentes"
+    },
+    "seo": {
+      "title": "Traitements dentaires à Istanbul | FeRa Clinic",
+      "description": "Découvrez les traitements dentaires complets à la FeRa Clinic d'Istanbul. Implants dentaires, esthétique dentaire, orthodontie, et bien plus encore."
+    }
+  },
+  "newsletter": {
+    "error": "Une erreur s'est produite lors de l'inscription à la newsletter"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "terms": {
+    "responsibility1": "Provide accurate, complete, and current information for consultation purposes",
+    "responsibility2": "Disclose relevant medical history and conditions that may affect dental treatment",
+    "responsibility3": "Follow provided pre-treatment and post-treatment care instructions",
+    "responsibility4": "Attend scheduled appointments or provide reasonable notice for changes",
+    "responsibility5": "Pay for services rendered according to agreed terms and conditions",
+    "medicalDisclaimer": "Medical Disclaimer",
+    "importantMedicalInfo": "Important Medical Information",
+    "disclaimer1": "We do not guarantee specific medical results or treatment outcomes",
+    "disclaimer2": "Dental treatment results may vary based on individual factors",
+    "disclaimer3": "All treatments carry potential risks and benefits",
+    "disclaimer4": "Patients should discuss all concerns with our dental professionals",
+    "cancellationAndRefunds": "Cancellation and Refunds",
+    "cancellationPolicyDesc": "Cancellation and refund policies are detailed in our separate \"Delivery & Refund Policy\" document. Key points include:",
+    "cancellation1": "Appointment cancellations require minimum notice periods",
+    "cancellation2": "Refund eligibility depends on timing and treatment type",
+    "cancellation3": "Deposits may be non-refundable for late cancellations",
+    "cancellation4": "Refunds are processed through original payment method when applicable",
+    "intellectualProperty": "Intellectual Property",
+    "intellectualPropertyDesc": "All content, materials, and intellectual property on this website belong to FeRa Clinic or are used with permission. This includes but is not limited to:",
+    "ip1": "Treatment descriptions and medical information",
+    "ip2": "Images, videos, and patient testimonials",
+    "ip3": "Website design and layout",
+    "ip4": "Marketing materials and branding",
+    "limitationOfLiability": "Limitation of Liability",
+    "limitationOfLiabilityDesc": "To the fullest extent permitted by law, FeRa Clinic shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of our services. Our liability is limited to the amount paid for the specific service in question.",
+    "contactInformation": "Contact Information",
+    "contactQuestions": "For questions about these Terms of Service or service-related inquiries:"
+  },
+  "legal": {
+    "lastUpdated": "Last Updated"
+  }
+}

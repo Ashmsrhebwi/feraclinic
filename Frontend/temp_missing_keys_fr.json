@@ -1,0 +1,80 @@
+{
+  "home": {
+    "callUsNow": "Appelez-nous maintenant",
+    "phoneNumber": "+90 536 746 01 00",
+    "verifiedReview": "Avis vérifié"
+  },
+  "testimonials": {
+    "videoTitle": "Histoires vidéo",
+    "patientStory": "Patient vérifié",
+    "successCase": "Cas de succès #",
+    "successCaseDesc": "Regardez l'analyse détaillée de l'approche clinique et du parcours de récupération du patient.",
+    "ctaTitle": "Commencez votre propre histoire de succès",
+    "ctaDesc": "Parlez à notre équipe et faites le prochain pas vers un plan de traitement adapté à vous.",
+    "caseImageAlt": ""
+  },
+  "terms": {
+    "healthcareServices": "Services de santé",
+    "healthcareServicesDesc": "FeRa Clinic fournit des consultations dentaires, une planification de traitement et des services de soins dentaires. Nous ne sommes pas une plateforme de commerce électronique de produits mais un fournisseur de services médicaux.",
+    "consultationProcess": "Processus de consultation",
+    "consultationProcessDesc": "Nos services incluent des consultations en ligne, une planification de traitement, la prise de rendez-vous et la coordination des procédures dentaires dans notre installation d'Istanbul.",
+    "paymentProcessing": "Traitement des paiements",
+    "paymentProcessingDesc": "Les paiements sont traités en toute sécurité via l'infrastructure de paiement iyzico. Nous acceptons diverses méthodes de paiement pour les acomptes de traitement et les frais de service.",
+    "treatmentPricing": "Tarification des traitements",
+    "treatmentPricingDesc": "Les plans de traitement et les prix finaux peuvent varier en fonction de l'évaluation clinique. Les devis initiaux sont des estimations et peuvent être ajustés après un examen complet.",
+    "depositRequirements": "Exigences d'acompte",
+    "depositRequirementsDesc": "Certains traitements peuvent nécessiter des acomptes pour garantir les rendez-vous et réserver le temps de traitement. Les montants des acomptes et les conditions de remboursement sont spécifiés dans notre politique de remboursement et d'annulation.",
+    "userResponsibilities": "Responsabilités de l'utilisateur"
+  },
+  "privacy": {
+    "distanceSalesAgreement": "D) Contrat de vente à distance / Mesafeli Satış Sözleşmesi",
+    "legalAgreementDesc": "Accord juridique pour les services à distance",
+    "agreementParties": "Parties à l'accord",
+    "serviceProvider": "Prestataire de services (Satıcı):",
+    "company": "Entreprise",
+    "address": "Adresse",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "customer": "Client (Alıcı):",
+    "customerName": "Nom",
+    "customerNamePlaceholder": "Nom du client",
+    "customerAddress": "Adresse",
+    "customerAddressPlaceholder": "Adresse du client",
+    "customerPhone": "Téléphone",
+    "customerPhonePlaceholder": "Téléphone du client",
+    "customerEmail": "E-mail",
+    "customerEmailPlaceholder": "E-mail du client",
+    "serviceDescription": "Description du service",
+    "serviceDescriptionText": "Services de consultation et de traitement dentaires fournis via un système de réservation et de paiement à distance.",
+    "paymentTerms": "Conditions de paiement",
+    "paymentSecure": "Paiement traité en toute sécurité via iyzico",
+    "supportedCards": "Supporte Visa et Mastercard",
+    "consumerRights": "Droits du consommateur",
+    "consumerRightsText": "Les clients ont le droit d'annuler les services dans un délai spécifié et de recevoir des remboursements selon la politique d'annulation.",
+    "termsOfService": "E) Conditions d'utilisation / Kullanım Şartları",
+    "websiteDisclaimer": "Utilisation du site et avis médical",
+    "websiteUsage": "Utilisation du site",
+    "websiteUsage1": "Ce site est pour la réservation de consultations et services dentaires",
+    "websiteUsage2": "Les utilisateurs doivent fournir des informations exactes et complètes",
+    "medicalDisclaimer": "Avis médical",
+    "medicalDisclaimerText": "Les informations fournies sur ce site sont à des fins éducatives uniquement et ne constituent pas un avis médical. La planification finale du traitement nécessite un examen direct et une consultation par des professionnels dentaires qualifiés dans notre clinique d'Istanbul.",
+    "limitationOfLiability": "Limitation de responsabilité",
+    "limitationOfLiabilityText": "FeRa Clinic n'est pas responsable des dommages indirects ou consécutifs découlant de l'utilisation de ce site ou de nos services dentaires. Notre responsabilité est limitée au montant payé pour les services spécifiques rendus.",
+    "paymentSecurity": "F) Sécurité des paiements / Ödeme Güvenliği",
+    "paymentSecurityDesc": "Traitement sécurisé des paiements avec iyzico",
+    "paymentSecurityIntegration": "Sécurité des paiements et intégration iyzico",
+    "sslEncryption": "Chiffrement de certificat SSL (256-bit)",
+    "pciCompliant": "Traitement des paiements conforme PCI DSS",
+    "acceptedPaymentMethods": "Méthodes de paiement acceptées",
+    "visaCards": "Cartes Visa",
+    "mastercard": "Mastercard",
+    "troyCards": "Cartes Troy"
+  },
+  "treatments": {
+    "data": {
+      "testDriveHeading": "L'\"essai\" de votre sourire",
+      "testDriveDesc": "Avant toute étape irréversible, nous fournissons un \"maquillage en cire\" temporaire de votre nouvelle sourire, vous permettant de voir et ressentir la transformation dans votre propre bouche.",
+      "gingivalDesc": "Parfait le cadre de votre sourire. Nos spécialistes laser utilisent un contouring gingival précis pour corriger les sourires \"gencives\" et les lignes gingivales inégales, créant des proportions équilibrées entre vos dents et vos gencives pour une apparence plus symétrique."
+    }
+  }
+}

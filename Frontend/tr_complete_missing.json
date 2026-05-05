@@ -1,0 +1,51 @@
+{
+  "home": {
+    "heroTitleMain": "Istanbul Dental Excellence, (TR)",
+    "heroTitleSub": "World-Class Smiles (TR)"
+  },
+  "common": {
+    "designYourSmile": "Design Your Smile (TR)",
+    "whatsappConsultationLong": "Smile Design Consultation via WhatsApp (TR)",
+    "phoneNumber": "+90 536 746 01 00 (TR)",
+    "emailAddress": "consultation@feraclinic.com (TR)",
+    "socialMedia": {
+      "facebook": "Facebook (TR)",
+      "instagram": "Instagram (TR)",
+      "youtube": "YouTube (TR)",
+      "linkedin": "LinkedIn (TR)",
+      "tiktok": "TikTok (TR)"
+    },
+    "brandName": "FeRa Clinic (TR)",
+    "whatsappBase": "Hello, I'm interested in learning more about your dental services (TR)",
+    "for": "for (TR)",
+    "other": "Other (TR)",
+    "backToHome": "Back to Home (TR)",
+    "consultationSteps": {
+      "personalInfo": "Personal Info (TR)",
+      "treatment": "Treatment (TR)",
+      "contactMethod": "Contact Method (TR)",
+      "review": "Review (TR)"
+    },
+    "legalPages": {
+      "deliveryRefund": "Delivery & Refund Policy (TR)",
+      "distanceSales": "Distance Sales Agreement (TR)"
+    },
+    "email": "Email (TR)",
+    "phone": "Phone (TR)",
+    "address": "Address (TR)",
+    "expert": "Expert (TR)",
+    "faq": "FAQ (TR)",
+    "keyboard": {
+      "enter": "Enter (TR)",
+      "esc": "Esc (TR)"
+    }
+  },
+  "joinUs": {
+    "form": {
+      "cvUpload": "Upload CV (TR)",
+      "cvOptional": "Optional (TR)",
+      "dropCV": "Drop your CV here or click to browse (TR)",
+      "cvFormats": "PDF, DOC, DOCX (Max 5MB) (TR)"
+    }
+  }
+}

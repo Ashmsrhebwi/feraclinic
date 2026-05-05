@@ -1,0 +1,27 @@
+{
+  "totalMissingKeys": 2,
+  "allSynchronized": false,
+  "allValid": true,
+  "languageReports": {
+    "ar": {
+      "missing": 0,
+      "keys": []
+    },
+    "fr": {
+      "missing": 1,
+      "keys": [
+        "partnership.validation"
+      ]
+    },
+    "ru": {
+      "missing": 1,
+      "keys": [
+        "partnership.validation"
+      ]
+    },
+    "tr": {
+      "missing": 0,
+      "keys": []
+    }
+  }
+}

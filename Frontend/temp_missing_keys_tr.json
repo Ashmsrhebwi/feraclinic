@@ -1,0 +1,80 @@
+{
+  "home": {
+    "callUsNow": "Şimdi Ara",
+    "phoneNumber": "+90 536 746 01 00",
+    "verifiedReview": "Doğrulanmış Yorum"
+  },
+  "testimonials": {
+    "videoTitle": "Video Hikayeleri",
+    "patientStory": "Doğrulanmış Hasta",
+    "successCase": "Başarı Durumu #",
+    "successCaseDesc": "Klinik yaklaşımın ve hastanın iyileşme yolunun detaylı analizini izleyin.",
+    "ctaTitle": "Kendi Başarı Hikayenizi Başlatın",
+    "ctaDesc": "Ekibimizle konuşun ve size özel bir tedavi planına bir sonraki adımı atın.",
+    "caseImageAlt": ""
+  },
+  "terms": {
+    "healthcareServices": "Sağlık Hizmetleri",
+    "healthcareServicesDesc": "FeRa Clinic diş konsültasyonu, tedavi planlaması ve diş sağlığı hizmetleri sunmaktadır. Ürün e-ticaret platformu değil, bir tıbbi hizmet sağlayıcısıyız.",
+    "consultationProcess": "Danışmanlık Süreci",
+    "consultationProcessDesc": "Hizmetlerimiz çevrimiçi konsültasyonları, tedavi planlaması, randevu planlaması ve İstanbul tesisimizdeki diş prosedürlerinin koordinasyonunu içermektedir.",
+    "paymentProcessing": "Ödeme İşlemi",
+    "paymentProcessingDesc": "Ödemeler iyzico ödeme altyapısı üzerinden güvenli bir şekilde işlenmektedir. Tedavi depozitları ve hizmet ücretleri için çeşitli ödeme yöntemleri kabul ediyoruz.",
+    "treatmentPricing": "Tedavi Fiyatlandırması",
+    "treatmentPricingDesc": "Nihai tedavi planları ve fiyatlar klinik değerlendirmesine göre değişebilir. Başlangıç teklifleri tahminlerdir ve kapsamlı muayene sonrasında ayarlanabilir.",
+    "depositRequirements": "Depozito Gereksinimleri",
+    "depositRequirementsDesc": "Bazı tedaviler randevuları güvence altına almak ve tedavi süresini ayırmak için avans depozito gerektirebilir. Depozito miktarları ve iade koşulları İptal ve İade Politikamızda belirtilmiştir.",
+    "userResponsibilities": "Kullanıcı Sorumlulukları"
+  },
+  "privacy": {
+    "distanceSalesAgreement": "D) Mesafeli Satış Sözleşmesi / Mesafeli Satış Sözleşmesi",
+    "legalAgreementDesc": "Uzaktan Hizmetler için Yasal Anlaşma",
+    "agreementParties": "Anlaşma Tarafları",
+    "serviceProvider": "Hizmet Sağlayıcı (Satıcı):",
+    "company": "Şirket",
+    "address": "Adres",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "customer": "Müşteri (Alıcı):",
+    "customerName": "İsim",
+    "customerNamePlaceholder": "Müşteri Adı",
+    "customerAddress": "Adres",
+    "customerAddressPlaceholder": "Müşteri Adresi",
+    "customerPhone": "Telefon",
+    "customerPhonePlaceholder": "Müşteri Telefonu",
+    "customerEmail": "E-posta",
+    "customerEmailPlaceholder": "Müşteri E-postası",
+    "serviceDescription": "Hizmet Tanımı",
+    "serviceDescriptionText": "Uzaktan rezervasyon ve ödeme sistemi üzerinden diş konsültasyonu ve tedavi hizmetleri.",
+    "paymentTerms": "Ödeme Koşulları",
+    "paymentSecure": "Ödemeler iyzico üzerinden güvenli bir şekilde işlenmektedir",
+    "supportedCards": "Visa ve Mastercard'ı destekler",
+    "consumerRights": "Tüketici Hakları",
+    "consumerRightsText": "Müşteriler, belirtilen süre içinde hizmetleri iptal etme hakkına sahiptir ve iptal politikasına göre iade alabilirler.",
+    "termsOfService": "E) Kullanım Şartları / Kullanım Şartları",
+    "websiteDisclaimer": "Web Sitesi Kullanımı ve Tıbbi Feragatname",
+    "websiteUsage": "Web Sitesi Kullanımı",
+    "websiteUsage1": "Bu web sitesi diş konsültasyonları ve hizmetler için rezervasyon yapmaktır",
+    "websiteUsage2": "Kullanıcılar doğru ve tam bilgi sağlamak zorundadır",
+    "medicalDisclaimer": "Tıbbi Feragatname",
+    "medicalDisclaimerText": "Bu web sitesinde sağlanan bilgiler sadece eğitim amaçlıdır ve tıbbi tavsiye teşkil etmez. Nihai tedavi planlaması, İstanbul kliniğimizdeki nitelikli diş hekimleri tarafından doğrudan muayene ve konsültasyon gerektirir.",
+    "limitationOfLiability": "Sorumluluğun Sınırlandırılması",
+    "limitationOfLiabilityText": "FeRa Clinic, bu web sitesinin veya diş hizmetlerimizin kullanımından kaynaklanan dolaylı veya sonuçsal zararlardan sorumlu değildir. Sorumluluğumuz, sunulan belirli hizmetler için ödenen miktarla sınırlıdır.",
+    "paymentSecurity": "F) Ödeme Güvenliği / Ödeme Güvenliği",
+    "paymentSecurityDesc": "iyzico ile Güvenli Ödeme İşlemi",
+    "paymentSecurityIntegration": "Ödeme Güvenliği ve iyzico Entegrasyonu",
+    "sslEncryption": "SSL Sertifika şifreleme (256-bit)",
+    "pciCompliant": "PCI DSS uyumlu ödeme işlemi",
+    "acceptedPaymentMethods": "Kabul Edilen Ödeme Yöntemleri",
+    "visaCards": "Visa Kartlar",
+    "mastercard": "Mastercard",
+    "troyCards": "Troy Kartlar"
+  },
+  "treatments": {
+    "data": {
+      "testDriveHeading": "Gülüşünüzün \"Test Sürüşü\"",
+      "testDriveDesc": "Geri döndürülemez adımlardan önce, yeni gülüşünüzün geçici bir \"balm mumu\" sunarak, kendi ağzınızda dönüşümü görmenize ve hissetmenize izin veriyoruz.",
+      "gingivalDesc": "Gülüşünüzün çerçevesini mükemmelleştirin. Lazer uzmanlarımızımız, daha simetrik bir görünüm için dişleriniz ve diş etleriniz arasında dengeli oranlar yaratmak üzere \"diş etli\" gülüşleri ve düzensiz diş et çizgilerini düzeltmek için hassas diş eti konturlama kullanır."
+    }
+  }
+}

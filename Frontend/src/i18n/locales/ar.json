@@ -1,0 +1,1672 @@
+{
+  "navigation": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "treatments": "العلاجات",
+    "gallery": "المعرض",
+    "dentalTourism": "السياحة العلاجية",
+    "blog": "المجلة الطبية",
+    "contact": "اتصل بنا",
+    "search": "بحث",
+    "language": "اللغة",
+    "gallery_beforeAfter": "قبل وبعد",
+    "gallery_clinicPhotos": "صور العيادة",
+    "discoverExcellence": "اكتشف التميز",
+    "learnMore": "تعرف على المزيد",
+    "consultation": "استشارة",
+    "testimonials": "الشهادات",
+    "joinUs": "انضم إلينا",
+    "corporate": "الشركات",
+    "partnership": "الشراكة"
+  },
+  "topbar": {
+    "bookAppointment": "احجز موعد",
+    "book": "احجز",
+    "whatsappIconText": "7/24",
+    "whatsappNumber": "+90 536 746 01 00",
+    "instagramText": "تابعنا على إنستغرام"
+  },
+  "gallery": {
+    "subtitle": "شاهد تحولات الابتسامة الحقيقية وصور عيادتنا المتطورة في إسطنبول. حالات واقعية تعكس التزامنا بالتميز الطبي.",
+    "tabCases": "تحولات الحالات",
+    "tabFacility": "مراجعة المرافق",
+    "heroEyebrow": "التميز الجراحي",
+    "heroTitle": "تحولات الابتسامات للمرضى الحقيقيين",
+    "heroDesc": "كل ابتسامة نخلقها هي توازن بين الدقة الطبية والرؤية الفنية. استكشف تحولاتنا الموثقة ومرافقنا المتطورة.",
+    "ctaDesc": "تعتمد نتائجنا على الدقة الجراحية وطب الأسنان القائم على الأدلة العلمية. تواصل معنا للحصول على خطة علاجية مخصصة لك.",
+    "ctaPrimary": "ابدأ رحلة ابتسامتك",
+    "ctaSecondary": "شاهد نتائج المرضى الحقيقيين",
+    "clinicalRecord": "السجل السريري",
+    "protocolOutcome": "نتيجة البروتوكول",
+    "clinicalWindow": "النافذة السريرية",
+    "evidence": {
+      "compliance": "الامتثال الترميمي",
+      "safety": "السلامة البيولوجية",
+      "warranty": "الضمان السريري"
+    },
+    "footerTitle1": "صمم فصلك",
+    "footerTitle2": "التالي.",
+    "exploreProtocols": "استكشف البروتوكولات الجراحية",
+    "cases": {
+      "c1": {
+        "title": "ترميم الابتسامة الأمامية",
+        "category": "إعادة تأهيل الفم الكامل",
+        "res": "تناغم طبيعي",
+        "time": "علاج لمدة 3 أسابيع"
+      },
+      "c2": {
+        "title": "دمج زراعة الأسنان",
+        "category": "جراحة الزراعة",
+        "res": "الاندماج العظمي",
+        "time": "4 أشهر من الالتئام"
+      },
+      "c3": {
+        "title": "إعادة بناء تصميم الابتسامة",
+        "category": "فينير البورسلين",
+        "res": "توازن جمالي",
+        "time": "زيارتان"
+      },
+      "c4": {
+        "title": "تصحيح التقويم",
+        "category": "التقويم الشفاف",
+        "res": "محاذاة العضة",
+        "time": "علاج لمدة 12 شهراً"
+      },
+      "c5": {
+        "title": "ترميم القوس الكامل",
+        "category": "زراعة All-on-4",
+        "res": "وظيفة كاملة",
+        "time": "إجراء خلال 24 ساعة"
+      }
+    },
+    "clinic": {
+      "p1": {
+        "title": "مركز جراحي متقدم",
+        "desc": "مجهز بتصوير CBCT ثلاثي الأبعاد وبروتوكولات تعقيم دولية للدقة الجراحية وسلامة المرضى."
+      },
+      "p2": {
+        "title": "منطقة استقبال المرضى",
+        "desc": "تم تصميم منطقة استقبال المرضى الاحترافية والودودة لدينا في إسطنبول لتجعلك تشعر بالراحة منذ لحظة وصولك."
+      },
+      "p3": {
+        "title": "صالة المرضى",
+        "desc": "تم تصميم صالة المرضى المريحة لدينا في إسطنبول للاسترخاء خلال مراحل التشخيص والعلاج."
+      }
+    }
+  },
+  "whatsapp": {
+    "title": "عيادة فيرا",
+    "status": "عادةً ما ترد بسرعة",
+    "greeting": "مرحباً! 👋 أهلاً بك في عيادة فيرا. كيف يمكننا مساعدتك اليوم؟",
+    "cta": "تحدث مع أخصائي"
+  },
+  "chat": {
+    "welcomeTitle": "مساعد فيرا",
+    "welcomeMsg": "مرحباً! 👋 سعداء جداً بوجودك هنا. كيف يمكننا دعم رحلة ابتسامتك اليوم؟",
+    "quickActions": "إجراءات سريعة",
+    "actionConsultation": "احجز استشارة مجانية",
+    "actionTreatments": "شاهد العلاجات",
+    "actionTourism": "سياحة الأسنان",
+    "actionGallery": "قبل وبعد",
+    "actionWhatsApp": "دردشة عبر واتساب",
+    "actionTeam": "تحدث مع الفريق",
+    "actionAskTreatment": "اسأل عن هذا العلاج",
+    "actionAskQuestion": "اطرح سؤالاً",
+    "actionRelatedTreatments": "علاجات ذات صلة",
+    "actionTourismPackages": "باقات السفر",
+    "actionTourismServices": "المطار والفندق",
+    "actionDuration": "كم يوم مطلوب؟",
+    "formTitle": "استشارة مجانية",
+    "formName": "الاسم الكامل",
+    "formPhone": "الهاتف / واتساب",
+    "formTreatment": "اهتمام العلاج",
+    "formLanguage": "اللغة المفضلة",
+    "formSubmit": "قدم الطلب",
+    "formBack": "العودة إلى القائمة",
+    "formSuccess": "شكراً! سيتواصل معك فريقنا الطبي قريباً.",
+    "formSelectTreatment": "اختر العلاج",
+    "formSelectLanguage": "اختر اللغة",
+    "faqTitle": "الأسئلة الشائعة",
+    "faqQ1": "هل تقدمون فندق وخدمات نقل؟",
+    "faqA1": "نعم، نقدم خدمات VIP للنقل من المطار وتنسيق فنادق 5 نجوم لجميع مرضانا الدوليين لضمان رحلة خالية من التوتر.",
+    "faqQ2": "كم من الوقت يستغرق ابتسامة هوليوود؟",
+    "faqA2": "تحويل ابتسامة هوليوود يستغرق عادةً 5 إلى 7 أيام في إسطنبول، ويشمل 2-3 زيارات سريرية للتصميم الفني والتركيب.",
+    "faqQ3": "هل الاستشارة مجانية؟",
+    "faqA3": "نعم، الاستشارات السريرية الأولية وتخطيط العلاج ثلاثي الأبعاد مجانية تماماً في عيادة فيرا.",
+    "faqQ4": "كم يكلف العلاج؟",
+    "faqA4": "التكاليف مخصصة. ومع ذلك، يوفر المرضى عادةً ما يصل إلى 70% مقارنة بالأسعار الغربية مع الحصول على مواد هندسية سويسرية فائقة.",
+    "status": "متصل · عادةً ما يرد فورياً",
+    "submitError": "فشل الإرسال. يرجى المحاولة مرة أخرى.",
+    "formType": "مساعد الدردشة",
+    "phonePlaceholder": "+90..."
+  },
+  "hero": {
+    "heroEyebrow": "عيادة أسنان موثوقة في إسطنبول",
+    "heroTitle": "ابتسامة يمكنك الوثوق بها. ثقة يمكنك الشعور بها.",
+    "heroDesc": "في عيادة فيرا، نجمع بين الدقة السريرية والتصميم الفني لخلق ابتسامات طبيعية دائمة — مصممة خصيصاً لك، موجهة من قبل الأخصائيين، ومقدمة بعناية.",
+    "ctaPrimary": "ابدأ رحلة ابتسامتك",
+    "ctaSecondary": "شاهد قصص المرضى",
+    "trustLine": "معتمد من ISO • 15+ أخصائي أسنان • مركز عالمي للمرضى"
+  },
+  "about": {
+    "title": "حول عيادة فيرا",
+    "subtitle": "نحن صانعو الابتسامات - عيادة أسنان مميزة في إسطنبول مكرسة لتحويل الحياة من خلال رعاية أسنان استثنائية وتجارب علاجية مخصصة.",
+    "storyTitle": "قصتنا",
+    "story": "تأسست عيادة فيرا في عام 2009 بمهمة بسيطة: تقديم رعاية أسنان بمعايير عالمية تجمع بين كرم الضيافة التركية وأرقى المعايير الطبية الدولية. اسم 'فيرا' يجسد التوازن المثالي بين الدقة والفن في عالم طب الأسنان.",
+    "whyChooseUs": "لماذا يختارنا المرضى؟",
+    "whyChooseUsSubtitle": "التزامنا بالتميز جعلنا وجهة رائدة لطب الأسنان في تركيا.",
+    "teamTitle": "تعرف على فريق الخبراء",
+    "teamSubtitle": "نخبة من الأخصائيين الحاصلين على تدريب دولي مكرسون لرسم ابتسامتك المثالية.",
+    "valuesTitle": "قيمنا",
+    "valuesSubtitle": "المبادئ التي توجه كل ما نقوم به في عيادة فيرا.",
+    "heroEyebrow": "إرث من التميز الطبي",
+    "heroTitle": "رعاية أسنان متخصصة",
+    "heroTitle2": "في إسطنبول",
+    "heroDesc": "موجهين بالتزامنا بأمانة المرضى والتميز السريري، تمثل عيادة فيرا قمة الخبرة التركية في طب الأسنان في إسطنبول.",
+    "ctaPrimary": "ابدأ رحلة ابتسامتك",
+    "ctaSecondary": "شاهد قصص المرضى",
+    "storyTitle1": "أعلى معايير",
+    "storyTitle2": "الجودة والتميز.",
+    "storyDesc": "تعمل عيادة الأسنان في إسطنبول وفق بروتوكولات طبية دولية صارمة، لضمان حصول كل مريض على رعاية ترميمية وتجميلية بأعلى المعايير السريرية.",
+    "storyPillars": {
+      "riskTitle": "إدارة المخاطر",
+      "riskDesc": "نتبع معايير سلامة دولية صارمة لجميع إجراءات طب الأسنان.",
+      "techTitle": "التقنيات الرقمية",
+      "techDesc": "نستخدم أحدث تقنيات التصوير ثلاثي الأبعاد للأسنان لضمان دقة جراحية متناهية.",
+      "triageTitle": "التقييم المتخصص",
+      "triageDesc": "تنسيق متعدد التخصصات للحالات الترميمية المعقدة للأسنان.",
+      "careTitle": "رعاية فائقة الخصوصية",
+      "careDesc": "منسقون مخصصون لدعمك طوال رحلة علاج الأسنان."
+    },
+    "valuesTitle1": "لماذا تختار",
+    "valuesTitle2": "عيادة فيرا؟",
+    "valuesDesc": "اختبر الفرق الذي تحدثه رعاية الأسنان المتميزة. التزامنا بالتميز يضمن نتائج استثنائية لكل مريض.",
+    "values": {
+      "riskTitle": "إدارة المخاطر",
+      "riskDesc": "معايير سلامة عالمية صارمة لجميع الإجراءات.",
+      "techTitle": "التكنولوجيا الحيوية الرقمية",
+      "techDesc": "أحدث تقنيات التصوير ثلاثي الأبعاد للدقة الجراحية.",
+      "triageTitle": "الفرز الطبي المتخصص",
+      "triageDesc": "تنسيق متعدد التخصصات للحالات المعقدة.",
+      "careTitle": "رعاية فائقة الخصوصية",
+      "careDesc": "منسقون مخصصون لكل رحلتك."
+    },
+    "trustTitle1": "اعتماد &",
+    "trustTitle2": "التميز السريري",
+    "trustDesc": "التزامنا بالمعايير الدولية والتحسين المستمر يضمن أعلى جودة لرعاية الأسنان لكل مريض.",
+    "trust": {
+      "isoTitle": "ISO 9001 معتمدة",
+      "isoDesc": "نظام إدارة الجودة معترف به دولياً للمرافق الطبية.",
+      "experienceTitle": "15+ سنة خبرة",
+      "experienceDesc": "عقود من ممارسة طب الأسنان المتخصصة مع آلاف العلاجات الناجحة.",
+      "patientsTitle": "5000+ مريض راضٍ",
+      "patientsDesc": "موثوقة من قبل المرضى الدوليين من أكثر من 50 دولة حول العالم.",
+      "specialistsTitle": "أطباء متخصصون فقط",
+      "specialistsDesc": "كل إجراء يتم بواسطة أطباء لديهم تدريب متقدم في تخصصاتهم.",
+      "technologyTitle": "تقنية متقدمة",
+      "technologyDesc": "معدات من أحدث جيل وأنظمة تخطيط العلاج الرقمي.",
+      "careTitle": "رعاية تركز على المريض",
+      "careDesc": "خطط علاج مخصصة مع منسقين مخصصين للمرضى الدوليين."
+    },
+    "standardsTitle": "المعايير والبروتوكولات السريرية",
+    "standardsDesc": "نحافظ على أعلى المعايير الدولية في التعقيم والسلامة وبروتوكولات العلاج لضمان نتائج استثنائية للمرضى في عيادة الأسنان في إسطنبول.",
+    "standard1": "التعقيم الأوروبي",
+    "standard1Desc": "أنظمة أوتوكلاف من الفئة B",
+    "standard2": "تخطيط العلاج الرقمي",
+    "standard2Desc": "تصوير CBCT ثلاثي الأبعاد",
+    "standard3": "سلامة المريض أولاً",
+    "standard3Desc": "بيئات مزودة بفلاتر HEPA",
+    "boutiqueHub": "مركز بوتيك إسطنبول السريري",
+    "boutiqueDesc": "التميز الجراحي في قلب إسطنبول النابض",
+    "boardCertified": "أخصائي معتمد من المجلس الطبي",
+    "viewOutcomes": "عرض نتائج التحول السريري",
+    "teamTitle1": "نخبة",
+    "teamTitle2": "الأخصائيين",
+    "team": {
+      "0": {
+        "role": "المدير الطبي الرئيسي",
+        "specialty": "جراحة الفم والفكين وزراعة الأسنان",
+        "desc": "متخصص في ترميمات الأسنان المعقدة مع أكثر من 15 عاماً من التميز الجراحي وخبرة في زراعة الأسنان. خطط العلاج مخصصة بناءً على التقييم السريري الفردي وقد تختلف."
+      },
+      "1": {
+        "role": "المهندس الجمالي الرئيسي",
+        "specialty": "تصميم الابتسامة الرقمي",
+        "desc": "خبير في تناغم جماليات الأسنان ونسب الوجه باستخدام تقنية تصميم الابتسامة الرقمي CAD/CAM المتقدمة. النتائج تعتمد على الحالات السريرية الفردية والاستجابة الطبيعية للشفاء."
+      },
+      "2": {
+        "role": "أخصائي التركيبات الرئيسي",
+        "specialty": "تركيبات عالية الدقة",
+        "desc": "مكرس لتحقيق التوازن المثالي بين التركيبات الوظيفية الحاملة للأوزان وشفافية الأسنان الطبيعية. كل حل تركيبي مخصص بناءً على التقييم السريري."
+      }
+    },
+    "clinicRoomAlt": "غرفة علاج الأسنان في عيادة فيرا"
+  },
+  "home": {
+    "heroEyebrow": "الرعاية الأسنان المميزة",
+    "heroTitleMain": "التميز في طب الأسنان في إسطنبول،",
+    "heroTitleSub": "ابتسامات عالم المستوى",
+    "heroDesc": "اكتشف عيادة الأسنان الرائدة في إسطنبول حيث يلتقي الخبرة العالمية بالدقة الفنية لتوفير تحولات حياتية للابتسامة في قلب تركيا.",
+    "ctaPrimary": "ابدأ رحلة ابتسامتك",
+    "ctaSecondary": "شاهد نتائج المرضى",
+    "whyChooseUs": "التميز الطبي",
+    "precisionCare": "رعاية الأسنان المتخصصة.",
+    "premiumCare": "معايير دولية.",
+    "precisionDesc": "في عيادة FeRa، يتبع كل علاج للأسنان بروتوكول دولية مع رعاية يقودها متخصصون وتقنيات تشخيص متقدمة وشفافية كاملة طوال رحلة المريض.",
+    "clinicalProtocol": "البروتوكول الطبية",
+    "euCertified": "معايير تعقيم معتمدة من الاتحاد الأوروبي",
+    "technology": {
+      "title": "التكنولوجيا",
+      "subtitle": "الدقة السريرية المتقدمة",
+      "desc": "نستخدم أحدث التقنيات الرقمية والتصميم ثلاثي الأبعاد لضمان نتائج علاج دقيقة ومريحة للمرضى.",
+      "t1": "تصوير ثلاثي الأبعاد CBCT",
+      "t2": "التصميم الرقمي للابتسامة",
+      "t3": "تقنية ليزر Biolase",
+      "technology": {
+        "t1Desc": "نستخدم أحدث التقنيات الرقمية في تخطيط العلاج ثلاثي الأبعاد، مما يضمن دقة لا مثيلية في وضع الأسنان وتصميم الابتسامة",
+        "t2Desc": "ماسح الفم CBCT عالي الدقة يوفر نموذج رقمي ثلاثي الأبعاد لفك تشريح دقيق لبنية الأسنان، مما يسمح بوضع خطة علاج مخصصة قبل بدء أي إجراء",
+        "t3Desc": "نظام All-on-4 المبتكر يوفر استعادة وظيفية كاملة بأسنان زركونية ثابتة في يوم واحد، مما يمنح الأسنان الطبيعية والجماليات معًا"
+      },
+      "t1Desc": "High-resolution digital scans for extreme surgical accuracy in implant placement.",
+      "t2Desc": "Simulate your final result before treatment begins with advanced facial mapping.",
+      "t3Desc": "Minimally invasive soft tissue procedures with faster healing and zero discomfort."
+    },
+    "treatments": {
+      "0": {
+        "desc": "تجميل الأسنان الرقمي يوفر ابتسامات مخصصة باستخدام أحدث التقنيات الرقمية"
+      },
+      "1": {
+        "desc": "زراعة الأسنان الفورية تسمح باستعادة الأسنان المستخرجة في نفس اليوم"
+      },
+      "2": {
+        "desc": "Immediate full-arch rehabilitation for total tooth loss using the proven All-on-4 protocol."
+      },
+      "11": {
+        "desc": "تقويم الأسنان الرقمي يصحح مشاكل الإطباق والأسنان الملتوية ويحسن مظهر الابتسامة"
+      },
+      "22": {
+        "desc": "تبييض الأسنان الاحترافي يوفر ابتسامات أكثر إشراقًا وإشراقًا طبيعيًا"
+      },
+      "title": "علاجاتنا",
+      "subtitle": "علاجات أسنان متقدمة مصممة خصيصًا لتحقيق أهداف ابتسامتك"
+    },
+    "beforeAndAfter": "قبل وبعد",
+    "realResults": "نتائج حقيقية للمرضى",
+    "beforeAfterDesc": "مرضى حقيقيون، نتائج حقيقية في عيادة FeRa. قد تختلف النتائج بناءً على الحالات السريرية الفردية.",
+    "viewFullGallery": "شاهد الأرشيف السريري",
+    "theClinic": "العيادة",
+    "stateOfArt1": "أسنان متقدمة",
+    "stateOfArt2": "عيادة في إسطنبول",
+    "stateOfArtDesc": "تتميز عيادتنا في إسطنبول بتقنية تصوير ثلاثي الأبعاد CBCT، وتقنية التصميم الرقمي للابتسامة، وأنظمة تعقيم من الفئة ب - لتلبية معايير السلامة والتميز الطبي للمرضى.",
+    "clinic": {
+      "feature1": "تعقيم من الفئة ب في كل غرفة",
+      "feature2": "تصوير تشخيصي ثلاثي الأبعاد CBCT",
+      "feature3": "التصميم الرقمي للابتسامة (DSD)",
+      "feature4": "بروتوكول معتمدة من ISO",
+      "feature5": "موقع استراتيجي في قلب إسطنبول"
+    },
+    "medicalTourism": "رعاية المرضى العالمية",
+    "completeCare1": "رعاية سياحية طبية",
+    "completeCare2": "شاملة في إسطنبول",
+    "completeCareDesc": "توفر عيادة FeRa خدمات سياحية طبية شاملة - من النقل من المطار والإقامة في الفنادق إلى التنسيق السريري - مما يسمح لك بالتركيز بالكامل على علاجك وتعافيك في إسطنبول.",
+    "tourism": {
+      "vip": "النقل المميز",
+      "hotel": "إقامة فاخرة",
+      "language": "متعدد اللغات",
+      "coordinator": "التنسيق"
+    },
+    "planYourVisit": "اطلب استشاريتك",
+    "planYourVisitDesc": "فريقنا للأسنان متاح 7 أيام في الأسبوع للإجابة على أسئلتك ومساعدتك في تخطيط علاج الأسنان في إسطنبول، تركيا.",
+    "patientTestimonials": "تجارب المرضى الموثقة",
+    "whatOurPatientsSay": "تجارب المرضى",
+    "realOutcomes": "تجارب حقيقية من مرضى دوليين أكملوا علاجاتهم للأسنان في عيادة FeRa في إسطنبول.",
+    "experience": {
+      "exclusiveTour": "جولة سريرية حصرية"
+    },
+    "faq": {
+      "label": "الأسئلة الشائعة",
+      "title": "الأسئلة الشائعة",
+      "desc": "إجابات واضحة حول زراعة الأسنان وتصميم الابتسامة وتخطيط العلاج ورعاية المرضى في عيادتنا في إسطنبول."
+    },
+    "newsletter": {
+      "title": "ابقَ على اطلاع",
+      "subtitle": "رؤى خبراء الأسنان وأخبار عيادة إسطنبول",
+      "desc": "تلق رؤى خبراء الأسنان وتحديثات العلاجات وعروض حصرية مباشرة من فريقنا السريري في إسطنبول.",
+      "trust": "موثوق من قبل أكثر من 10,000 مريض",
+      "emailPlaceholder": "عنوان بريدك الإلكتروني",
+      "subscribe": "اشترك الآن",
+      "success": "شكراً لاشتراكك!",
+      "error": "حدث خطأ في الاشتراك في النشرة البريدية"
+    },
+    "cta": {
+      "title1": "ابدأ رحلة التحوّل",
+      "title2": "الخاصة بك"
+    },
+    "readyToGetStartedDesc": "تواصل مع منسقي العلاج لدينا اليوم. استشارة مجانية، لا التزام، استجابة احترافية من فريقنا في إسطنبول.",
+    "trustBadge1": "معتمد من وزارة الصحة",
+    "trustBadge1Label": "الجهة التنظيمية",
+    "trustBadge2": "السياحة الصحية الدولية",
+    "trustBadge2Label": "الاعتماد الرسمي",
+    "trustBadge3": "معتمد من وزارة السياحة",
+    "trustBadge3Label": "الثقة المؤسسية",
+    "googleAlt": "جوجل",
+    "trustpilotAlt": "ترستبايلوت",
+    "reviewsAlt": "ريفيوز.آي أو",
+    "videoTitle": "تجربة المريض في عيادة فيرا",
+    "callUsNow": "اتصل بنا الآن",
+    "phoneNumber": "+90 536 746 01 00",
+    "verifiedReview": "مراجعة موثقة",
+    "reasons": {
+      "sterilization": {
+        "title": "معايير التعقيم",
+        "desc": "نستخدم بروتوكولات التعقيم المعتمدة من قبل وزارة الصحة التركية، مع أجهزة الأوتوكلاف المتقدمة لضمان أعلى معايير السلامة"
+      },
+      "planning": {
+        "title": "التخطيط الرقمي",
+        "desc": "نستخدم برامج الكمبيوتر المتخصصة لتصميم الابتسامات وتخطيط العلاجات بدقة فائقة"
+      },
+      "doctors": {
+        "title": "فريق الخبراء",
+        "desc": "أطباء الأسنان لدينا خبرة واسعة في مجالات زراعة الأسنان، تجميل الأسنان، وزراعة الأسنان الفورية، مع شهادات معتمدة دولياً"
+      },
+      "coordination": {
+        "title": "التنسيق متعدد التخصصات",
+        "desc": "ننسق بين مختلف التخصصات الطبية لضمان خطة علاج متكاملة وشاملة"
+      }
+    },
+    "aboutOurClinic": "حول عيادتنا",
+    "requestFreeConsultation": "اطلب استشارة مجانية",
+    "viewBeforeAfterGallery": "شاهد معرض قبل وبعد",
+    "readyToGetStarted": "مستعد للبدء",
+    "whatsappTooltip": "تواصل معنا عبر واتساب",
+    "testimonials": {
+      "t1": "النموذج الأولي",
+      "t2": "بعد العلاج",
+      "t3": "بعد 6 أشهر"
+    },
+    "social": {
+      "googleReviews": "مراجعات جوجل",
+      "verifiedReviews": "المراجعات الموثقة"
+    }
+  },
+  "treatments": {
+    "treatment": "العلاج",
+    "transformInIstanbul": "ابتسامتك الجديدة في إسطنبول",
+    "transformDesc": "فريقنا المتخصص مستعد لتصميم ابتسامتك المثالية. احصل على عرض سعر طبي وخطة مخصصة اليوم.",
+    "implants": "زراعة الأسنان",
+    "veneers": "الفينير / هوليوود سمايل",
+    "ortho": "تقويم الأسنان",
+    "fullMouth": "ترميم الفم الكامل",
+    "whitening": "تبييض الأسنان",
+    "smileMakeover": "تجميل الابتسامة",
+    "allOn4": "زراعة All-on-4",
+    "crowns": "تيجان الزيركون",
+    "getTreatmentPlan": "احصل على خطة علاجية",
+    "quickQuestions": "لديك سؤال؟",
+    "duration": "الوقت المقدر",
+    "overview": "نظرة عامة",
+    "understanding": "فهم إجراء",
+    "whoIsItFor": "هل هذا العلاج مناسب لك؟",
+    "clinicalWorkflow": "سير العمل السريري",
+    "yourJourney": "رحلتك العلاجية",
+    "benefits": "الفوائد",
+    "whyChoose": "لماذا يختار المرضى",
+    "benefitsDescription": "تم تصميم بروتوكولاتنا السريرية لتقديم ليس فقط الكمال الجمالي، ولكن أيضاً الاستقرار الوظيفي طويل الأمد وصحة الفم المستدامة.",
+    "process": {
+      "step1Desc": "بروتوكول سريري موحد يضمن الدقة والسلامة طوال الإجراء.",
+      "step2Desc": "تخطيط رقمي متقدم وتجهيز دقيق لضمان أفضل النتائج.",
+      "step3Desc": "تنفيذ احترافي باستخدام أحدث التقنيات والمواد الطبية.",
+      "step4Desc": "متابعة ورعاية لاحقة لضمان ديمومة ونجاح العلاج."
+    },
+    "detail": {
+      "badges": {
+        "globalStandards": "المعايير",
+        "isoCertified": "معتمد دولياً",
+        "specialist": "الأخصائي",
+        "boardCertified": "أطباء معتمدون",
+        "aesthetics": "الجماليات",
+        "naturalResults": "نتائج طبيعية"
+      },
+      "implants": {
+        "title": "Dental Implants Istanbul",
+        "desc": "The gold standard for permanent tooth replacement. Our surgical specialists utilize Swiss-engineered titanium implants and 3D computer-guided protocols to restore full biological function and natural aesthetics with a lifetime clinical warranty.",
+        "duration": "1-2 hours per implant",
+        "price": "From EUR 500",
+        "seo": {
+          "title": "Dental Implants Istanbul | Implant Treatment Turkey | Permanent Tooth Replacement",
+          "description": "Premium dental implants in Istanbul, Turkey. Swiss-engineered titanium implants with 3D guided surgery. Permanent tooth replacement with lifetime warranty. Specialist oral surgeons."
+        },
+        "heroEyebrow": "Implant Excellence",
+        "heroTitle": "Permanent Tooth Replacement in Istanbul",
+        "heroDesc": "Experience the pinnacle of implant dentistry at FeRa Clinic. Our board-certified oral surgeons combine Swiss precision engineering with advanced 3D surgical planning to deliver permanent, natural-looking tooth replacements that restore both function and confidence.",
+        "benefitsOverview": "Why choose dental implants at FeRa Clinic? Our implant protocols represent the fusion of biological science and surgical precision, offering a permanent solution that looks, feels, and functions like your natural teeth.",
+        "process": [
+          "Comprehensive 3D CBCT imaging and digital treatment planning",
+          "Computer-guided implant placement with sub-millimeter precision",
+          "Osseointegration monitoring and healing support",
+          "Custom crown fabrication and final aesthetic integration"
+        ],
+        "candidates": [
+          "Missing one or multiple teeth",
+          "Unstable or failing dental restorations",
+          "Jawbone preservation needs",
+          "Desire for permanent tooth replacement",
+          "Facial structure support requirements"
+        ],
+        "features": [
+          "Grade-5 bio-compatible titanium integration",
+          "3D CBCT surgical planning and precision",
+          "Immediate loading protocols when clinically appropriate",
+          "Computer-guided surgical navigation",
+          "ISO-certified sterilization and safety protocols",
+          "Lifetime clinical warranty on implant success"
+        ],
+        "benefits": [
+          "Prevents jawbone resorption and facial collapse",
+          "Restores 100% natural bite force and function",
+          "Custom porcelain crowns with natural translucency",
+          "Preserves adjacent healthy tooth structure",
+          "Long-term clinical stability and durability",
+          "Maintains facial proportions and youthful appearance"
+        ]
+      },
+      "hollywood": {
+        "title": "Hollywood Smile Istanbul",
+        "desc": "A comprehensive smile transformation using ultra-thin E-Max porcelain veneers. Our master ceramists craft each veneer to enhance your facial symmetry and create a radiant, natural-looking smile that reflects your personality.",
+        "duration": "5-7 days in Istanbul",
+        "price": "From EUR 300 per unit",
+        "seo": {
+          "title": "Hollywood Smile Istanbul | Smile Makeover Turkey | Porcelain Veneers",
+          "description": "Premium Hollywood Smile makeovers in Istanbul, Turkey. Custom E-Max porcelain veneers with Digital Smile Design. Natural-looking smile transformations with master ceramists."
+        },
+        "heroEyebrow": "Aesthetic Excellence",
+        "heroTitle": "Transform Your Smile in Istanbul",
+        "heroDesc": "Experience the art of smile design at FeRa Clinic. Our master ceramists combine advanced Digital Smile Design with hand-crafted E-Max porcelain veneers to create a smile that enhances your natural beauty and confidence.",
+        "benefitsOverview": "Why choose a Hollywood Smile at FeRa Clinic? Our approach combines artistic excellence with dental science to create smile transformations that look completely natural while delivering lasting aesthetic results.",
+        "process": [
+          "Comprehensive Digital Smile Design analysis",
+          "Custom shade and translucency mapping",
+          "Minimal preparation ultra-thin veneer placement",
+          "Final aesthetic refinement and bonding"
+        ],
+        "candidates": [
+          "Discolored or stained teeth",
+          "Chipped or worn teeth",
+          "Gaps between teeth",
+          "Irregular tooth shape or size",
+          "Desire for enhanced smile aesthetics"
+        ],
+        "features": [
+          "Digital Smile Design (DSD) technology",
+          "E-Max lithium disilicate porcelain",
+          "Ultra-thin minimal preparation",
+          "Custom translucency and shade mapping",
+          "Gingival symmetry alignment",
+          "Hand-finished artistic characterization"
+        ],
+        "benefits": [
+          "Stain-resistant ceramic material",
+          "Perfect facial harmony and balance",
+          "Instant aesthetic transformation",
+          "High durability (15+ years lifespan)",
+          "Minimal biological impact on natural teeth",
+          "Natural light-reflective properties"
+        ],
+        "beforeAfter": {
+          "title": "Natural Smile Transformation",
+          "description": "Our smile makeovers focus on enhancing your natural beauty rather than creating artificial results. Each transformation is designed to complement your facial features and personality.",
+          "note": "Results vary based on individual clinical evaluation and personal aesthetic goals. Treatment planning includes comprehensive assessment of dental health and facial structure."
+        }
+      },
+      "ortho": {
+        "title": "Orthodontics Istanbul",
+        "desc": "Advanced teeth straightening solutions for a perfectly aligned, healthy bite. Our specialist orthodontists use modern clear aligners and precise digital planning to create beautiful, functional smiles with predictable results.",
+        "duration": "6-18 months",
+        "price": "From EUR 2,200",
+        "seo": {
+          "title": "Orthodontics Istanbul | Braces Turkey | Clear Aligners | Teeth Straightening",
+          "description": "Expert orthodontic treatment in Istanbul, Turkey. Clear aligners and modern braces for teeth straightening. Specialist orthodontists with digital planning for predictable results."
+        },
+        "heroEyebrow": "Precision Alignment",
+        "heroTitle": "Straighten Your Smile in Istanbul",
+        "heroDesc": "Experience advanced orthodontic care at FeRa Clinic. Our specialist orthodontists combine digital treatment planning with modern clear aligner technology to create perfectly aligned smiles that enhance both function and aesthetics.",
+        "whatIsIt": {
+          "title": "What is Orthodontics?",
+          "description": "Orthodontics is a specialized branch of dentistry focused on correcting teeth and jaw alignment. Using modern clear aligners and precise digital planning, we gradually move teeth into their ideal positions for a healthy, functional bite and beautiful smile."
+        },
+        "whoNeedsIt": {
+          "title": "Who Needs Orthodontic Treatment?",
+          "candidates": [
+            "Crooked or crowded teeth",
+            "Overbite, underbite, or crossbite",
+            "Gaps between teeth",
+            "Jaw misalignment or TMJ issues",
+            "Difficulty chewing or speaking",
+            "Desire for a straighter, more confident smile"
+          ]
+        },
+        "benefits": {
+          "title": "Benefits of Orthodontic Treatment",
+          "list": [
+            "Improved oral health and easier cleaning",
+            "Enhanced bite function and chewing efficiency",
+            "Reduced risk of dental problems and wear",
+            "Increased confidence and self-esteem",
+            "Long-term stability with proper retention",
+            "Natural-looking, harmonious smile"
+          ]
+        },
+        "treatmentProcess": {
+          "title": "Your Orthodontic Journey",
+          "steps": [
+            "Comprehensive digital assessment and 3D scanning",
+            "Personalized treatment plan with predicted results",
+            "Custom clear aligner fabrication",
+            "Regular progress monitoring and adjustments",
+            "Retention phase for lasting results"
+          ]
+        },
+        "technology": {
+          "title": "Advanced Orthodontic Technology",
+          "features": [
+            "3D digital scanning and treatment planning",
+            "Clear aligner therapy with precise control",
+            "Computer-aided design and manufacturing",
+            "Progress tracking with digital monitoring",
+            "Predictable outcome visualization"
+          ]
+        },
+        "trustFactors": {
+          "title": "Why Choose FeRa Clinic for Orthodontics?",
+          "points": [
+            "Specialist orthodontists with advanced training",
+            "Digital precision treatment planning",
+            "Modern clear aligner technology",
+            "Comprehensive care and follow-up",
+            "International patient support services"
+          ]
+        },
+        "safetyNote": "Treatment duration and results vary based on individual clinical assessment and treatment complexity. All orthodontic treatments include comprehensive planning and regular monitoring by specialist orthodontists."
+      },
+      "cta": {
+        "speak": "Speak with our coordinators"
+      }
+    },
+    "data": {
+      "testDriveHeading": "\"اختبار قيادة\" ابتسامتك",
+      "testDriveDesc": "قبل أي خطوات لا رجعة فيها، نقدم \"شمع مؤقت\" لابتسامتك الجديدة، مما يسمح لك برؤية وتحول التحول في فمك.",
+      "gingivalDesc": "أكمل إطار ابتسامتك. يستخدم أخصائيو الليزر لدينا نحت اللثة الدقيق لتصحيح الابتسامات \"اللثوية\" وخطوط اللثة غير المستوية، مما يخلق نسبًا متوازنة بين أسنانك ولثتك لمظهر أكثر تناسقًا."
+    },
+    "hero": {
+      "eyebrow": "التميز السريري",
+      "title": "علاجات الأسنان المتقدمة",
+      "desc": "اكتشف علاجات الأسنان الشاملة التي نقدمها في عيادتنا في إسطنبول، من زراعة الأسنان إلى تجميل الأسنان، باستخدام أحدث التقنيات الطبية"
+    },
+    "seo": {
+      "title": "علاجات الأسنان في إسطنبول | عيادة فيرا",
+      "description": "اكتشف علاجات الأسنان الشاملة في عيادة فيرا بإسطنبول. زراعة الأسنان، تجميل الأسنان، تقويم الأسنان، وغيرها الكثير."
+    },
+    "heroEyebrow": "Dental Excellence",
+    "heroTitle": "Advanced Dental Treatments in Istanbul",
+    "heroDesc": "Discover world-class dental care in Istanbul. From cosmetic dentistry to full-mouth rehabilitation, our specialist dentists deliver exceptional results with advanced technology and personalized treatment planning.",
+    "ctaPrimary": "Free Consultation",
+    "ctaSecondary": "View Gallery",
+    "title": "Clinical Disciplines",
+    "subtitle": "Expert dental treatments designed for your unique smile goals",
+    "collectionEyebrow": "Treatment Portfolio",
+    "collectionDesc": "Each dental treatment at FeRa Clinic is carefully planned to deliver exceptional results with minimal discomfort and maximum precision. Treatment plans are personalized based on individual clinical evaluation.",
+    "heroTitle1": "Transform Your",
+    "heroTitle2": "Smile.",
+    "learnMore": "View Treatment",
+    "price": "Investment",
+    "viewGallery": "View Before & After Gallery",
+    "ctaDesc": "Contact our Istanbul clinic today for a complimentary consultation and personalized treatment plan. Our specialist dentists are ready to help you achieve your dental health goals.",
+    "categories": {
+      "all": "All Disciplines",
+      "cosmetic": "Cosmetic",
+      "restorative": "Restorative",
+      "orthodontics": "Orthodontics",
+      "comprehensive": "Rehabilitative"
+    },
+    "invisalign": "Clear Aligners",
+    "allTreatments": "All Disciplines",
+    "sinusLifting": "Sinus Augmentation",
+    "smileDesign": "Digital Smile Design",
+    "notFound": "Clinical Page Not Found",
+    "notFoundDesc": "The requested treatment protocol is currently being reviewed and updated by our chief medical board.",
+    "backToTreatments": "Back to Disciplines",
+    "isRightForYou": "Is a Hollywood Smile right for you?",
+    "treatmentFeatures": "Smile Design Technology",
+    "readyToTransform": "Ready to Transform Your Smile?",
+    "getPlanDesc": "Receive a personalized smile design consultation and treatment plan from our master ceramists and cosmetic dentists.",
+    "askQuestions": "Consult a Smile Designer",
+    "whatsappConsultation": "Smile Design Consultation via WhatsApp",
+    "saveNotice": "Premium cosmetic dentistry at Istanbul rates â€” save up to 70% compared to Western clinics.",
+    "explore": "Explore Smile Transformation"
+  },
+  "contact": {
+    "heroEyebrow": "تواصل معنا",
+    "heroTitle": "ابدأ رحلتك",
+    "heroDesc": "منسقو المرضى الدوليون لدينا جاهزون لمساعدتك في كل خطوة من تجربتك التحويلية للأسنان.",
+    "title": "تواصل مع فريق الأسنان",
+    "subtitle": "هل لديك أسئلة حول العلاجات؟ مستعد لبدء رحلتك السنية؟ فريق عيادة إسطنبول لدينا جاهز لتقديم إرشاد متخصص واستشارة شخصية.",
+    "form": {
+      "submit": "أرسل لنا رسالة",
+      "desc": "املأ النموذج أدناه وسيعاود فريقنا الاتصال بك خلال 24 ساعة.",
+      "success": "تم استلام الطلب",
+      "successDesc": "شكراً لتواصلك مع عيادة فيرا. سيراجع فريقنا معلوماتك ويتواصل معك قريباً لمناقشة خيارات العلاج.",
+      "name": "الاسم",
+      "namePlaceholder": "اسمك الكامل",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "your.email@example.com",
+      "phone": "رقم الهاتف",
+      "phonePlaceholder": "+966 50 123 4567",
+      "treatment": "العلاج",
+      "treatmentPlaceholder": "اختر نوع العلاج",
+      "message": "الرسالة",
+      "messagePlaceholder": "يرجى وصف مخاوفك وما ترغب في تحسينه..."
+    },
+    "info": {
+      "title": "معلومات الاتصال",
+      "desc": "طرق متعددة ومريحة للتواصل مع منسقي المرضى الدوليين لدينا.",
+      "phone": "الهاتف",
+      "phoneDesc": "متاح لاستفسارات المرضى الدوليين",
+      "email": "البريد الإلكتروني",
+      "emailDesc": "الرد عادة خلال 24 ساعة",
+      "location": "الموقع",
+      "locationDetail": "Kazlıçeşme, Kennedy Cad. No:62 D:1, 34020 Zeytinburnu/İstanbul",
+      "locationDesc": "موقع مركزي في حي مرموق",
+      "hours": "ساعات العمل",
+      "hoursMonFri": "الاثنين–الجمعة: 9:00 صباحاً – 8:00 مساءً",
+      "hoursSat": "السبت: 10:00 صباحاً – 6:00 مساءً",
+      "hoursDesc": "جدولة مرنة للمرضى الدوليين"
+    },
+    "cta": {
+      "callNow": "اتصل الآن",
+      "title": "Need Immediate Assistance?",
+      "subtitle": "Our team is available 24/7 for emergency consultations and international patient support.",
+      "whatsapp": "WhatsApp Support",
+      "whatsappDesc": "Speak with our team and get your free consultation."
+    },
+    "map": {
+      "ctaTitle": "زيارة عيادتنا في إسطنبول",
+      "ctaDesc": "مرفق أسنان متميز في موقع مركزي.",
+      "openMaps": "فتح في خرائط جوجل"
+    },
+    "intl": {
+      "vipDesc": "تنسيق وصول سلس ونقل إلى العيادة",
+      "hotelDesc": "إرشاد لخيارات الإقامة القريبة أثناء العلاج",
+      "langDesc": "دعم اتصال للمرضى الدوليين",
+      "virtualDesc": "إرشاد أولي وتخطيط علاجي عن بعد",
+      "immediateAssistance": "مساعدة مباشرة"
+    },
+    "whatsapp": "واتساب",
+    "whatsappBase": "مرحباً عيادة فيرا! أود الحصول على استشارة جراحية تخصصية.",
+    "whatsappLink": "https://wa.me/905367460100",
+    "seo": {
+      "title": "اتصل بعيادة فيرا في إسطنبول | عيادة أسنان في تركيا",
+      "description": "تواصل مع عيادة فيرا في إسطنبول للرعاية الأسنان المتخصصة. منسقو المرضى الدوليون جاهزون للمساعدة في زراعة الأسنان، الفينير، وتصميم الابتسامات."
+    },
+    "ctaPrimary": "استشارة مجانية",
+    "ctaSecondary": "عرض المعرض",
+    "mapTitle": "موقع عيادة فيرا"
+  },
+  "aboutTeaser": {
+    "eyebrow": "عن عيادة فيرا",
+    "title1": "إعادة تعريف",
+    "title2": "التميز في طب الأسنان",
+    "desc": "في عيادة فيرا، نجمع بين طب الأسنان الحديث، والحس الجمالي المرهف، والرعاية التي تتمحور حول المريض لخلق رحلة علاجية تجمع بين الطمأنينة والفعالية العالية.",
+    "features": [
+      {
+        "title": "أطباء أسنان مدربون دولياً",
+        "desc": "يجمع فريقنا بين الخبرة السريرية المتقدمة والدقة الجمالية لتقديم تحولات ابتسامة راقية وطبيعية المظهر."
+      },
+      {
+        "title": "طب الأسنان الرقمي المتقدم",
+        "desc": "نستخدم أحدث تقنيات التصوير، وتخطيط الابتسامة الرقمي، ومواد عالية الجودة لتحقيق الراحة والدقة والنتائج الدائمة."
+      },
+      {
+        "title": "تجربة مريض مخصصة",
+        "desc": "من الاستشارة وحتى الرعاية اللاحقة، تم تصميم كل خطوة بعناية لتناسب راحتك وتوقعاتك وأهدافك العلاجية."
+      }
+    ],
+    "cta": "اكتشف قصتنا",
+    "trustedCare": "رعاية موثوقة",
+    "trustedCareDesc": "تجربة مريض راقية مبنية على جودة العلاج، والتواصل الواضح، والاهتمام بكافة التفاصيل."
+  },
+  "common": {
+    "readArticle": "قراءة المقال",
+    "learnMore": "معرفة المزيد",
+    "readMore": "قراءة المزيد",
+    "by": "بقلم",
+    "minRead": "دقائق قراءة",
+    "share": "مشاركة",
+    "allServices": "جميع الخدمات",
+    "allTreatments": "جميع العلاجات",
+    "restorative": "العلاجات الترميمية",
+    "cosmetic": "العلاجات التجميلية",
+    "dentalTourism": "السياحة العلاجية",
+    "readyForEvaluation": "هل أنت مستعد للتقييم؟",
+    "connectWithCoordinators": "تواصل مع منسقي العلاج لدينا للحصول على تقدير مخصص للتكلفة وخطة سفر مناسبة.",
+    "aboutUs": "من نحن",
+    "corporate": "خدمات الشركات",
+    "partnership": "الشراكات",
+    "joinUs": "انضم إلى فريقنا",
+    "gallery": "معرض النتائج",
+    "privacyPolicy": "سياسة الخصوصية",
+    "contact": "اتصل بنا",
+    "tableOfContents": "جدول المحتويات",
+    "beforeAfterAlt": "المقارنة قبل وبعد",
+    "viewDetails": "View Details",
+    "bookNow": "Book Now",
+    "freeConsultation": "Free Consultation",
+    "getConsultation": "Free Consultation",
+    "contactUs": "Contact Us",
+    "internationalPatients": "International Patient Support",
+    "lifetimeWarranty": "Lifetime Warranty",
+    "satisfactionGuaranteed": "Satisfaction Guaranteed",
+    "clinicName": "FeRa Clinic",
+    "defaultDesc": "Experience premium dental care in Istanbul. Specialist surgeons, 3D technology, and VIP hospitality for international patients.",
+    "whatsappNumber": "905367460100",
+    "whatsappMessage": "Hello, I have a question about treatments.",
+    "readyFor1": "Ready for a",
+    "readyFor2": "New Smile?",
+    "viewAll": "View All",
+    "viewGallery": "View Gallery",
+    "realResults": "Real Patient Results",
+    "beforeAndAfter": "Before & After",
+    "before": "Before",
+    "after": "After",
+    "tapToReveal": "Tap Â· Hover to reveal",
+    "tapToSeeBefore": "Tap to see before",
+    "countries": {
+      "italy": "Italy",
+      "uk": "United Kingdom",
+      "germany": "Germany",
+      "us": "United States",
+      "turkey": "Turkey",
+      "france": "France"
+    },
+    "whatsappNumberDisplay": "+90 536 746 01 00",
+    "designYourSmile": "Design Your Smile",
+    "whatsappConsultationLong": "Smile Design Consultation via WhatsApp",
+    "trustBadges": {
+      "iso": "ISO Certified",
+      "specialists": "15+ Specialist Dentists",
+      "patients": "Thousands of Happy Patients"
+    },
+    "phoneNumber": "+90 536 746 01 00",
+    "emailAddress": "consultation@feraclinic.com",
+    "socialMedia": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "youtube": "YouTube",
+      "linkedin": "LinkedIn",
+      "tiktok": "TikTok"
+    },
+    "brandName": "FeRa Clinic",
+    "whatsappBase": "Hello, I'm interested in learning more about your dental services",
+    "for": "for",
+    "other": "Other",
+    "tagline": "Premium Dental Care Istanbul",
+    "backToHome": "Back to Home",
+    "consultationSteps": {
+      "personalInfo": "Personal Info",
+      "treatment": "Treatment",
+      "contactMethod": "Contact Method",
+      "review": "Review"
+    },
+    "legalPages": {
+      "deliveryRefund": "Delivery & Refund Policy",
+      "distanceSales": "Distance Sales Agreement"
+    },
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "expert": "Expert",
+    "faq": "FAQ",
+    "keyboard": {
+      "enter": "Enter",
+      "esc": "Esc"
+    }
+  },
+  "stats": {
+    "patients": "مريض دولي",
+    "countries": "دولة",
+    "satisfaction": "نسبة الرضا",
+    "rating": "تقييم العيادة",
+    "experience": "سنوات الخبرة",
+    "specialists": "طبيب أخصائي",
+    "certified": "عيادة معتمدة بشهادة ISO",
+    "results": "نتيجة موثقة",
+    "boardCertified": "معتمد طبياً"
+  },
+  "testimonials": {
+    "heroTitle": "تجارب المرضى الحقيقية",
+    "heroDesc": "اكتشف كيف ساعدت عيادة فيرا آلاف المرضى في استعادة ثقتهم وابتساماتهم من خلال رعاية طبية استثنائية.",
+    "subtitle": "مراجعات وشهادات",
+    "stats": {
+      "patients": "مرضى من مختلف أنحاء العالم",
+      "countries": "دولة مختلفة",
+      "satisfaction": "مستوى الرضا",
+      "rating": "تقييم ممتاز"
+    },
+    "filters": {
+      "all": "الكل"
+    },
+    "videoTitle": "قصص الفيديو",
+    "videoDesc": "شاهد تجارب مرضانا من لحظة وصولهم وحتى اكتمال العلاج.",
+    "patientStory": "مريض موثق",
+    "ctaTitle": "ابدأ قصة نجاحك الخاصة",
+    "ctaDesc": "تحدث مع فريقنا واتخذ الخطوة التالية نحو خطة علاجية مخصصة لك.",
+    "ctaButton": "احجز استشارتك الآن",
+    "successCase": "حالة نجاح #",
+    "successCaseDesc": "شاهد التحليل التفصيلي للنهج السريري ورحلة تعافي المريض.",
+    "caseImageAlt": ""
+  },
+  "blog": {
+    "subtitle": "رؤى طبية متخصصة وإرشادات سريرية من عيادة الأسنان المميزة في إسطنبول. مقالات علمية قائمة على الأدلة حول العلاجات المتقدمة، رعاية المرضى، وأحدث الابتكارات في طب الأسنان الحديث.",
+    "heroEyebrow": "المجلة السريرية",
+    "journal": "مجلة فيرا الطبية",
+    "heroTitle": "رؤى الأسنان المتخصصة ودليل المرضى",
+    "heroDesc": "مقالات علمية قائمة على الأدلة من فريق الأسنان المتخصص لدينا تغطي العلاجات المتقدمة، خيارات تصميم الابتسامة، وقرارات رعاية الأسنان الشاملة للمرضى الدوليين في إسطنبول.",
+    "searchPlaceholder": "ابحث عن مقالات، مواضيع، علاجات…",
+    "filters": {
+      "all": "جميع المقالات"
+    },
+    "featuredArticles": "رؤى سريرية مختارة",
+    "featuredDesc": "تحليلات متخصصة وعلاجات مبتكرة من فريقنا السريري.",
+    "latestArticles": "أحدث المقالات السريرية",
+    "searchResults": "نتائج البحث",
+    "latestDesc": "ابق على اطلاع بأحدث الرؤى من فريقنا السريري.",
+    "searchDesc": "المقالات المطابقة لمعايير البحث الخاصة بك.",
+    "noArticlesFound": "لم يتم العثور على مقالات",
+    "noArticlesDesc": "حاول تعديل مصطلحات البحث أو تصفح جميع المقالات.",
+    "clearFilters": "مسح التصفيات",
+    "postNotFound": "المقال غير موجود",
+    "postNotFoundDesc": "المقال الذي تبحث عنه غير موجود أو تم نقله.",
+    "backToBlog": "العودة للمجلة الطبية",
+    "articleBy": "بقلم",
+    "share": "مشاركة:",
+    "tags": "الوسوم",
+    "clinicalContributor": "المساهم السريري",
+    "authorDesc": "أخصائي أسنان يركز على الرعاية المبنية على الأدلة وتعليم المرضى وتخطيط العلاج الذي يدعم كل من الوظيفة والجمال.",
+    "relatedArticles": "مقالات ذات صلة",
+    "viewAll": "عرض جميع المقالات",
+    "ctaTitle1": "هل أنت مستعد",
+    "ctaTitle2": "لتحويل ابتسامتك؟",
+    "ctaDesc": "احصل على نصائح مخصصة من فريق الخبراء لدينا وابدأ رحلتك نحو ابتسامة مثالية مع استشارة الأسنان الشاملة لدينا.",
+    "ctaPrimary": "استشارة مجانية",
+    "ctaSecondary": "عرض المعرض",
+    "readArticle": "اقرأ المقال",
+    "readMore": "اقرأ المزيد",
+    "backToClinicalJournal": "العودة إلى المجلة الطبية"
+  },
+  "footer": {
+    "brandSubtitle": "التميز في طب الأسنان · إسطنبول",
+    "description": "اختبر رعاية أسنان متقدمة في إسطنبول مع خطط علاج مخصصة، أحدث التقنيات، ورحلة مريض تتمحور حول الثقة والنتائج الطبيعية.",
+    "quickLinks": "روابط سريعة",
+    "allRightsReserved": "جميع الحقوق محفوظة.",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsOfService": "شروط الخدمة"
+  },
+  "search": {
+    "globalSearch": "بحث عيادة فيرا الشامل"
+  },
+  "a11y": {
+    "closeAssistant": "إغلاق المساعد",
+    "toggleAssistant": "تبديل المساعد",
+    "home": "عيادة فيرا – الرئيسية",
+    "search": "بحث",
+    "changeLanguage": "تغيير اللغة",
+    "contactWhatsApp": "التواصل عبر واتساب",
+    "toggleMenu": "تبديل القائمة",
+    "scrollToTop": "التمرير للأعلى",
+    "closeSearch": "إغلاق البحث",
+    "toggleWhatsApp": "تبديل محادثة واتساب",
+    "viewGoogleMaps": "عرض عيادة فيرا على خرائط جوجل"
+  },
+  "consultation": {
+    "heroEyebrow": "استشارة مجانية عبر الإنترنت",
+    "heroTitle": "استشارة أسنان مجانية في إسطنبول",
+    "heroDesc": "تواصل مع أطبائنا الأسنان المتخصصين للحصول على إرشاد خبير. خطتك العلاجية المخصصة تبدأ بتقييم شامل وسرية تامة.",
+    "seo": {
+      "title": "استشارة أسنان مجانية إسطنبول | تقييم أسنان عبر الإنترنت تركيا",
+      "description": "احصل على استشارة أسنان خبيرة عبر الإنترنت مع عيادة فيرا في إسطنبول. أطباء أسنان متخصصون جاهزون لتقييم احتياجاتك السنية وإنشاء خطط علاج مخصصة."
+    },
+    "form": {
+      "personalInfo": "المعلومات الشخصية",
+      "treatmentSelection": "اختر علاجك",
+      "contactMethod": "طريقة التواصل المفضلة",
+      "reviewSubmit": "مراجعة وإرسال",
+      "fullName": "الاسم الكامل",
+      "fullNamePlaceholder": "أدخل اسمك الكامل",
+      "emailAddress": "عنوان البريد الإلكتروني",
+      "emailAddressPlaceholder": "بريدك@مثال.com",
+      "phoneNumber": "رقم الهاتف (واتساب مفضل)",
+      "phoneNumberPlaceholder": "+90 552 123 45 67",
+      "selectTreatment": "اختر اهتمام العلاج",
+      "additionalMessage": "أخبرنا عن اهتماماتك السنية",
+      "messagePlaceholder": "يرجى وصف اهتماماتك السنية أو أهدافك...",
+      "continueToTreatment": "متابعة إلى العلاج",
+      "continueToContact": "متابعة إلى التواصل",
+      "reviewInformation": "مراجعة المعلومات",
+      "getFreeConsultation": "احصل على استشارة مجانية",
+      "submitting": "جارٍ الإرسال...",
+      "back": "رجوع"
+    },
+    "trustIndicators": {
+      "confidential": "سري",
+      "fastResponse": "رد سريع",
+      "specialistReview": "مراجعة متخصص"
+    },
+    "whatHappensNext": {
+      "title": "ماذا يحدث بعد ذلك؟",
+      "step1": {
+        "title": "أرسل تفاصيلك",
+        "desc": "أكمل نموذج الاستشارة الآمن الخاص بنا"
+      },
+      "step2": {
+        "title": "مراجعة المتخصصين",
+        "desc": "الفريق الطبي يحلل احتياجاتك خلال 24 ساعة"
+      },
+      "step3": {
+        "title": "نتواصل معك",
+        "desc": "استشارة مخصصة عبر طريقتك المفضلة"
+      }
+    },
+    "whatsapp": {
+      "title": "تفضل المراسلة الفورية؟",
+      "button": "واتساب لنا"
+    },
+    "success": {
+      "title": "استشارة",
+      "received": "تم الاستلام!",
+      "description": "تم إرسال طلب استشارتك إلى منسقينا السريريين. سيراجع منسق العلاج المتخصص طلبك ويتواصل معك خلال 24 ساعة.",
+      "nextStepsTitle": "ماذا يحدث بعد ذلك؟",
+      "nextStep1": {
+        "title": "مراجعة المتخصصين لطلبك",
+        "desc": "الفريق الطبي يحلل احتياجاتك"
+      },
+      "nextStep2": {
+        "title": "نتواصل معك قريباً",
+        "desc": "خلال 24 ساعة عبر طريقتك المفضلة"
+      },
+      "nextStep3": {
+        "title": "استشارة مخصصة",
+        "desc": "يبدأ التخطيط العلاجي المفصل"
+      },
+      "returnHome": "العودة إلى الرئيسية"
+    },
+    "ctaPrimary": "احصل على استشارة مجانية",
+    "ctaSecondary": "عرض المعرض"
+  },
+  "tourism": {
+    "subtitle": "السياحة العلاجية الفاخرة في إسطنبول مع تنسيق طبي VIP للمرضى الدوليين الباحثين عن تحويلات ابتسامة عالمية المستوى.",
+    "heroEyebrow": "رحلة الأسنان الفاخرة",
+    "heroTitle": "السياحة العلاجية في إسطنبول",
+    "heroTitle2": "تركيا",
+    "heroDesc": "اختبر رعاية أسنان عالمية المستوى في قلب إسطنبول. نتعامل مع كل تفاصيل رحلتك الطبية بالفخامة والدقة، من تنقلات VIP من المطار إلى الإقامة الفاخرة والتخطيط العلاجي الشخصي.",
+    "processEyebrow": "التجربة",
+    "servicesEyebrow": "رعاية شاملة",
+    "trustEyebrow": "تميز مثبت",
+    "medicalHospitality": "ضيافة طبية",
+    "luxuryStay": "إقامة فاخرة",
+    "executiveTransfers": "تنقلات تنفيذية",
+    "ctaPrimary": "احصل على استشارة مجانية",
+    "ctaSecondary": "عرض معرض المرضى",
+    "journeyTitle1": "رحلتك",
+    "journeyTitle2": "الفاخرة",
+    "journeyDesc": "من الوصول إلى التعافي، كل خطوة مصممة بعناية لراحتك ونجاحك مع فريقنا المخصص للمرضى الدوليين.",
+    "servicesTitle1": "خدمات",
+    "servicesTitle2": "فاخرة مشمولة",
+    "servicesDesc": "كل ما تحتاجه لرحلة أسنان مريحة وناجحة في إسطنبول - إقامة فاخرة، تنقلات VIP، ودعم شخصي.",
+    "visualTitle1": "اختبر",
+    "visualTitle2": "إسطنبول بأناقة",
+    "visualDesc": "ادمج رعاية الأسنان عالمية المستوى مع الثقافة الغنية وجمال إسطنبول أثناء تحويل ابتسامتك مع فريقنا المتخصص.",
+    "experienceTitle1": "رعاية عالمية المستوى،",
+    "experienceTitle2": "كرم تركي أصيل",
+    "experienceDesc": "تجمع عيادتنا بين تقنيات الأسنان المتطورة والدفء والكرم تشتهر به تركيا، مما يخلق تجربة سياحة علاجية استثنائية.",
+    "luxuryTitle1": "إقامة",
+    "luxuryTitle2": "فاخرة",
+    "luxuryDesc": "أقم في فنادق 5 نجوم فاخرة مع وسائل راحة استثنائية وخدمة شخصية خلال رحلة الأسنان في إسطنبول.",
+    "trustTitle1": "لماذا تختار",
+    "trustTitle2": "سياحة فيرا",
+    "trustDesc": "يضع المرضى الدوليون ثقتهم فينا للحصول على رعاية استثنائية، أسعار شفافة، وتجارب سفر طبي سلسة في إسطنبول.",
+    "internationalTitle": "موثوق من قبل المرضى الدوليين",
+    "internationalDesc": "يختار المرضى من جميع أنحاء العالم عيادة فيرا لخبرتنا، تقنيتنا المتقدمة، وخدمات السياحة العلاجية الشاملة.",
+    "ctaTitle1": "ابدأ رحلة",
+    "ctaTitle2": "الأسنان اليوم",
+    "ctaDesc": "انضم إلى آلاف المرضى الدوليين الذين حولوا ابتساماتهم مع عيادة فيرا في إسطنبول. رحلتك الفاخرة للأسنان تبدأ باستشارة مجانية.",
+    "coordTitle1": "تنسيق",
+    "coordTitle2": "منهجي ودقيق.",
+    "coordDesc": "من الفرز الرقمي الأولي إلى فترة الاستشفاء بعد الجراحة، يتولى فريق الكونسيرج لدينا كافة التفاصيل الجراحية واللوجستية بدقة.",
+    "beginTriage": "ابدأ الاستشارة الأولية",
+    "costTitle1": "رعاية ممتازة",
+    "costTitle2": "بأسعار منافسة.",
+    "costDesc": "تقدم إسطنبول رعاية طبية عالية الدقة بكفاءة تشغيلية. نستخدم نفس المواد والتقنيات السويسرية والألمانية ولكن بتكلفة محلية.",
+    "locationBadge": "موقع استراتيجي في المركز الطبي المرموق في إسطنبول.",
+    "packagesTitle1": "تجربة",
+    "packagesTitle2": "الكونسيرج.",
+    "packagesDesc": "اختر مسار العلاج الخاص بك. نحن نتولى التعقيد لتشعر زيارتك الطبية بالتجربة الفاخرة التي هي عليها بالفعل.",
+    "selectPathway": "اختر مسار العلاج",
+    "clinicBadge": "التميز الطبي",
+    "clinicDesc": "تقنيات متقدمة وأطباء متخصصون",
+    "hotelBadge": "إقامة فاخرة",
+    "hotelDesc": "راحة 5 نجوم وخدمة استثنائية",
+    "feature1": "مرافق حديثة",
+    "feature1Desc": "معدات حديثة وبيئة مريحة",
+    "feature2": "فريق خبراء",
+    "feature2Desc": "أطباء متخصصون تدربوا دولياً",
+    "feature3": "موقع مميز",
+    "feature3Desc": "موقع في المركز الطبي المرموق في إسطنبول",
+    "luxury1": "فنادق 5 نجوم",
+    "luxury1Desc": "إقامة فاخرة في مواقع مميزة",
+    "luxury2": "مطاعم راقية",
+    "luxury2Desc": "تجارب طهي راقية ومطبخ محلي أصيل",
+    "luxury3": "وسائل راحة حديثة",
+    "luxury3Desc": "كل وسائل الراحة لإقامة مريحة",
+    "country1": "50+ دولة",
+    "country1Desc": "مرضى يخدمون عالمياً",
+    "country2": "دعم على مدار الساعة",
+    "country2Desc": "متاحون دائماً لك",
+    "country3": "رعاية فاخرة",
+    "country3Desc": "تجربة طبية فاخرة",
+    "trust": {
+      "certified": "معتمد من ISO",
+      "certifiedDesc": "معايير جودة دولية للرعاية الطبية.",
+      "patients": "5000+ مريض",
+      "patientsDesc": "من أكثر من 50 دولة حول العالم.",
+      "experience": "15+ سنة",
+      "experienceDesc": "من تميز السياحة العلاجية.",
+      "satisfaction": "98% رضا",
+      "satisfactionDesc": "معدل نجاح وسعادة المرضى."
+    },
+    "steps": {
+      "arrival": {
+        "title": "الوصول",
+        "desc": "استقبال VIP من المطار وتسجيل فندقي فاخر مع ترحيب شخصي من منسق المريض."
+      },
+      "consultation": {
+        "title": "الاستشارة",
+        "desc": "فحص شامل مع تصوير ثلاثي الأبعاد وتخطيط علاجي شخصي من قبل أطباء الأسنان المتخصصين."
+      },
+      "treatment": {
+        "title": "العلاج",
+        "desc": "إجراءات أسنان عالمية المستوى مع أطباء متخصصين وتقنيات متقدمة في عيادتنا الحديثة في إسطنبول."
+      },
+      "recovery": {
+        "title": "التعافي",
+        "desc": "تعافي مريح مع دعم على مدار الساعة وتجارب ثقافية اختيارية في إسطنبول خلال فترة الشفاء."
+      },
+      "followup": {
+        "title": "المتابعة",
+        "desc": "رعاية ما بعد العلاج ومتابعات افتراضية لضمان نتائج دائمة ورضا المرضى."
+      }
+    },
+    "services": {
+      "hotel": {
+        "title": "إقامة 5 نجوم",
+        "desc": "فنادق فاخرة في مواقع مميزة في إسطنبول مع وسائل راحة استثنائية وخدمة شخصية."
+      },
+      "transfer": {
+        "title": "تنقلات VIP",
+        "desc": "مركبات فاخرة خاصة للتنقلات من المطار والعيادة مع سائقين محترفين."
+      },
+      "concierge": {
+        "title": "كونسيرج شخصي",
+        "desc": "منسق مخصص لإقامتك ورحلة العلاج بأكملها، متاح على مدار الساعة."
+      },
+      "translation": {
+        "title": "خدمات الترجمة",
+        "desc": "مترجمون محترفون متاحون طوال زيارتك لضمان تواصل واضح."
+      },
+      "tourism": {
+        "title": "جولات سياحية",
+        "desc": "جولات موجهة للمعالم التاريخية والثقافية في إسطنبول بين العلاجات."
+      },
+      "dining": {
+        "title": "مطاعم راقية",
+        "desc": "حجوزات في مطاعم مميزة وتجارب طهي محلية أصيلة."
+      }
+    },
+    "packages": {
+      "basic": {
+        "title": "الباقة الأساسية",
+        "f1": "تحليل الابتسامة الرقمي",
+        "f2": "تنقلات VIP من المطار",
+        "f3": "خدمات الترجمة",
+        "f4": "دعم ما بعد العلاج"
+      },
+      "standard": {
+        "title": "الباقة المميزة",
+        "f1": "تصميم كامل للابتسامة",
+        "f2": "إقامة في فندق 5 نجوم",
+        "f3": "خدمة تنقلات VIP",
+        "f4": "دعم المرضى على مدار الساعة",
+        "f5": "جولة سياحية في إسطنبول"
+      },
+      "luxury": {
+        "title": "تجربة VIP",
+        "f1": "إعادة بناء كامل للفم",
+        "f2": "إقامة في جناح فاخر",
+        "f3": "مدير مريض خاص",
+        "f4": "ضمان ممتد",
+        "f5": "دعم شامل"
+      },
+      "tier1": "أساسي",
+      "tier2": "مميز",
+      "tier3": "VIP",
+      "popular": "الخيار الأكثر شعبية"
+    },
+    "compEconomics": "اقتصاديات مقارنة",
+    "table": {
+      "protocol": "البروتوكول الجراحي",
+      "ukCost": "المعدل في بريطانيا",
+      "feraEstimate": "تقدير عيادة فيرا",
+      "implantUK": "£2,500",
+      "implantFera": "£650",
+      "veneerUK": "£800",
+      "veneerFera": "£250",
+      "smileUK": "£15,000",
+      "smileFera": "£5,500"
+    }
+  },
+  "alt": {
+    "homeInterior": "عيادة فيرا - تصميم داخلي حديث",
+    "surgicalSuite": "جناح العمليات الجراحية المتقدم في عيادة فيرا",
+    "reception": "منطقة الاستقبال والترحيب في عيادة فيرا",
+    "waitingArea": "صالة انتظار المرضى الفاخرة",
+    "patientJourney": "رحلة المريض المتكاملة في عيادة فيرا",
+    "clinicInstitutional": "التميز المؤسسي والمعايير الدولية",
+    "surgicalTheater": "أحدث غرف العمليات والتعقيم",
+    "clinicalMastery": "الإتقان السريري والخبرة الطبية",
+    "labTech": "تقنيات المختبر الرقمي المتقدمة",
+    "clinicGallery": "معرض صور مرافق عيادة فيرا",
+    "hospitality": "الضيافة التركية والترحيب بالمرضى",
+    "dentalTourism": "السياحة العلاجية في إسطنبول مع عيادة فيرا",
+    "medicalDistrict": "منطقة زيتون بورنو، المركز الطبي في إسطنبول",
+    "consultation": "جلسة استشارة طبية في عيادة فيرا",
+    "clinicJournal": "المدونة والتقارير الطبية للعيادة",
+    "feraClinic": "عيادة فيرا لطب الأسنان",
+    "stateOfTheArtClinic": "عيادة متطورة بأحدث المعايير العالمية",
+    "luxuryHotel": "إقامة فاخرة لمرضانا الدوليين"
+  },
+  "joinUs": {
+    "hero": {
+      "badge": "انضم إلينا",
+      "title": "انضم إلى فريق FeRa Clinic",
+      "subtitle": "تقدم حياتك المهنية في عيادة أسنان دولية مميزة في إسطنبول، حيث يلتقي التميز بالفرص.",
+      "cta": "قدم الآن"
+    },
+    "whyWork": {
+      "title": "لماذا العمل معنا",
+      "subtitle": "اكتشف الفرص والمزايا للانضمام إلى فريق عيادتنا الأسنان المرموق."
+    },
+    "benefits": {
+      "team": {
+        "title": "فريق دولي",
+        "description": "اعمل مع محترفي الأسنان من جميع أنحاء العالم في بيئة متعددة الثقافات."
+      },
+      "modern": {
+        "title": "عيادة حديثة",
+        "description": "مرافق حديثة بأحدث تقنيات ومعدات الأسنان."
+      },
+      "growth": {
+        "title": "النمو المهني",
+        "description": "فرص التعلم المستمر وبرامج التطوير المهني."
+      },
+      "culture": {
+        "title": "مركز على المرضى",
+        "description": "كن جزءًا من فريق يضع رعاية المرضى ورضاهم فوق كل شيء."
+      }
+    },
+    "application": {
+      "title": "انضم إلينا",
+      "subtitle": "املأ النموذج أدناه وسيقوم فريق الموارد البشرية لدينا بمراجعة طلبك.",
+      "success": "تم استلام الطلب!",
+      "successDesc": "شكراً لاهتمامك بالانضمام إلى FeRa Clinic. سيقوم فريق الموارد البشرية لدينا بمراجعة طلبك والتواصل معك قريباً.",
+      "newApplication": "تقديم طلب آخر"
+    },
+    "positions": {
+      "dentist": "طبيب أسنان",
+      "specialist": "أخصائي",
+      "assistant": "مساعد أسنان",
+      "technician": "فني أسنان",
+      "coordinator": "منسق المرضى",
+      "admin": "موظف إداري",
+      "other": "أخرى"
+    },
+    "form": {
+      "fullName": "الاسم الكامل",
+      "fullNamePlaceholder": "أدخل اسمك الكامل",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "your.email@example.com",
+      "phone": "رقم الهاتف",
+      "phonePlaceholder": "+90 552 123 45 67",
+      "position": "الوظيفة المتقدم لها",
+      "selectPosition": "اختر وظيفة",
+      "experience": "الخبرة / رسالة",
+      "experiencePlaceholder": "أخبرنا عن خبرتك ولماذا تريد الانضمام إلى FeRa Clinic...",
+      "cvNote": "تقديم السيرة الذاتية",
+      "cvNoteDesc": "يرجى إرسال سيرتك الذاتية إلى consultation@feraclinic.com مع ذكر اسمك والوظيفة التي تتقدم لها في سطر الموضوع.",
+      "submit": "تقديم الطلب",
+      "cvUpload": "Upload CV",
+      "cvOptional": "Optional",
+      "dropCV": "Drop your CV here or click to browse",
+      "cvFormats": "PDF, DOC, DOCX (Max 5MB)"
+    },
+    "validation": {
+      "nameRequired": "الاسم مطلوب",
+      "emailRequired": "البريد الإلكتروني مطلوب",
+      "emailInvalid": "يرجى إدخال بريد إلكتروني صحيح",
+      "phoneRequired": "رقم الهاتف مطلوب",
+      "phoneInvalid": "يرجى إدخال رقم هاتف صحيح",
+      "positionRequired": "الوظيفة مطلوبة",
+      "experienceTooLong": "يجب أن تكون الخبرة أقل من 2000 حرف"
+    }
+  },
+  "corporate": {
+    "hero": {
+      "badge": "خدمات الشركات",
+      "title": "خدمات الأسنان للشركات والمجموعات",
+      "subtitle": "خدمات أسنان احترافية للشركات والمؤسسات ووكالات السياحة العلاجية في إسطنبول. تنسيق شامل، دعم مخصص، وإدارة مبتكرة للمرضى.",
+      "cta": "تواصل مع فريق الشركات"
+    },
+    "services": {
+      "title": "خدمات الشركات",
+      "subtitle": "حلول أسنان شاملة للشركات مصممة للشركات والمؤسسات وشركاء السياحة العلاجية.",
+      "corporate": {
+        "title": "رعاية الأسنان للشركات",
+        "description": "حلول أسنان شاملة للشركات وموظفيها مع دعم مخصص وجدولة مرنة."
+      },
+      "group": {
+        "title": "تخطيط علاج المجموعات",
+        "description": "خطط علاج منسقة لمرضى متعددين مع عمليات مبسطة وخيارات تسعير جماعي."
+      },
+      "international": {
+        "title": "تنسيق المرضى الدوليين",
+        "description": "خدمات تنسيق كاملة للمرضى الدوليين بما في ذلك السفر والإقامة وجدولة العلاج."
+      },
+      "dedicated": {
+        "title": "اتصال مخصص",
+        "description": "نقطة اتصال واحدة لجميع استفسارات الشركات مع استجابة أولوية وخدمة مخصصة."
+      }
+    },
+    "network": {
+      "title": "شبكة الرعاية الصحية والتنسيق",
+      "subtitle": "ننسق مع شركاء الرعاية الصحية المختارين وشبكات العيادات عند الحاجة، مع التركيز دائماً على سلامة المرضى والتواصل وتخطيط العلاج.",
+      "klinik1": "شريك رعاية الأسنان في إسطنبول",
+      "klinik2": "شريك تنسيق الرعاية الصحية",
+      "sevenBlue": "شريك تعاون خدمات الأسنان"
+    },
+    "form": {
+      "title": "استفسار الشركات",
+      "subtitle": "تواصل مع فريق الشركات لمناقشة احتياجات الرعاية السنية لمؤسستك وفرص الشراكة.",
+      "companyName": "اسم الشركة / المؤسسة",
+      "companyNamePlaceholder": "أدخل اسم شركتك",
+      "contactPerson": "شخص الاتصال",
+      "contactPersonPlaceholder": "أدخل اسم شخص الاتصال",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "بريدك@شركتك.com",
+      "phone": "رقم الهاتف",
+      "phonePlaceholder": "+966 50 123 4567",
+      "country": "البلد",
+      "countryPlaceholder": "أدخل بلدك",
+      "inquiryType": "نوع الاستفسار",
+      "selectInquiryType": "اختر نوع الاستفسار",
+      "inquiryOptions": {
+        "corporate": "دعم الأسنان للشركات",
+        "tourism": "تعاون السياحة العلاجية",
+        "group": "طلب علاج المجموعات",
+        "other": "أخرى"
+      },
+      "message": "الرسالة",
+      "messagePlaceholder": "أخبرنا عن احتياجات الأسنان لشركتك...",
+      "preferredContactMethod": "طريقة الاتصال المفضلة",
+      "contactOptions": {
+        "whatsapp": "واتساب",
+        "phone": "الهاتف",
+        "email": "البريد الإلكتروني"
+      },
+      "submit": "إرسال الاستفسار",
+      "success": "تم استلام الاستفسار!",
+      "successDesc": "شكراً لاهتمامك بخدماتنا للشركات. سيقوم فريقنا بمراجعة استفسارك والتواصل معك خلال 24 ساعة.",
+      "newInquiry": "إرسال استفسار جديد"
+    },
+    "validation": {
+      "companyNameRequired": "اسم الشركة مطلوب",
+      "contactPersonRequired": "شخص الاتصال مطلوب",
+      "emailRequired": "البريد الإلكتروني مطلوب",
+      "emailInvalid": "يرجى إدخال بريد إلكتروني صحيح",
+      "phoneRequired": "رقم الهاتف مطلوب",
+      "phoneInvalid": "يرجى إدخال رقم هاتف صحيح",
+      "countryRequired": "البلد مطلوب",
+      "inquiryTypeRequired": "نوع الاستفسار مطلوب",
+      "contactMethodRequired": "طريقة الاتصال المفضلة مطلوبة",
+      "messageTooLong": "يجب أن تكون الرسالة أقل من 2000 حرف"
+    }
+  },
+  "partnership": {
+    "hero": {
+      "badge": "فرص الشراكة",
+      "title": "شارك مع عيادة فيرا",
+      "subtitle": "انضم إلى شبكة شركائنا الموثوقين وتعاون مع عيادة أسنان مميزة في اسطنبول. معاً، يمكننا تقديم رعاية أسنان استثنائية للمرضى الدوليين.",
+      "cta": "التقدم بطلب شراكة"
+    },
+    "whoCanApply": {
+      "title": "من يمكنه التقديم",
+      "subtitle": "نرحب بالطلبات من المحترفين والمنظمات الراسخين في صناعة السياحة العلاجية والرعاية الصحية.",
+      "agencies": {
+        "title": "وكالات السياحة العلاجية",
+        "description": "وكالات راسخة تنسق علاجات الأسنان الدولية والسفر الطبي."
+      },
+      "coordinators": {
+        "title": "منسقي المرضى",
+        "description": "محترفو الرعاية الصحية الذين يسهلون رعاية المرضى وتخطيط العلاج."
+      },
+      "consultants": {
+        "title": "مستشاري الرعاية الصحية",
+        "description": "مستشارون مستقلون يقدمون إرشادات حول السياحة العلاجية وخيارات العلاج."
+      },
+      "influencers": {
+        "title": "المؤثرين وصناع المحتوى",
+        "description": "صانعو محتوى ومؤثرون في الرعاية الصحية والصحة والسياحة العلاجية."
+      },
+      "referrals": {
+        "title": "شركاء الإحالة",
+        "description": "شركاء دوليون يحيلون المرضى لخدمات رعاية الأسنان المميزة."
+      }
+    },
+    "whyPartner": {
+      "title": "لماذا تشارك مع عيادة فيرا",
+      "subtitle": "اكتشف فوائد الشراكة مع عيادة أسنان ملتزمة بالتميز ورضا المرضى.",
+      "premium": {
+        "title": "رعاية أسنان مميزة",
+        "description": "الوصول إلى علاجات أسنان من فئة عالمية ومرافق متطورة في اسطنبول."
+      },
+      "support": {
+        "title": "دعم المرضى الدوليين",
+        "description": "دعم شامل للمرضى الدوليين بما في ذلك تنسيق السفر والترجمة."
+      },
+      "location": {
+        "title": "موقع اسطنبول الاستراتيجي",
+        "description": "موقع مميز في اسطنبول يربط أوروبا وآسيا للوصول إلى المرضى الدوليين."
+      },
+      "communication": {
+        "title": "اتصال شفاف",
+        "description": "اتصال واضح وصادق وتحديثات منتظمة طوال رحلة العلاج."
+      },
+      "coordination": {
+        "title": "تنسيق مخصص",
+        "description": "تنسيق علاج مخصص ورعاية شخصية لكل مريض محال."
+      },
+      "reputation": {
+        "title": "سمعة موثوقة",
+        "description": "بناء سمعتك من خلال الشراكة مع علامة عيادة أسنان موثوقة ومميزة."
+      }
+    },
+    "howItWorks": {
+      "title": "كيف يعمل",
+      "subtitle": "عملية الشراكة مصممة لتكون شفافة وفعالة ومركزة على بناء تعاونات ناجحة.",
+      "step1": {
+        "title": "قدم طلب شراكة",
+        "description": "أكمل نموذج طلب الشراكة الخاص بنا مع تفاصيلك واهتمامات التعاون."
+      },
+      "step2": {
+        "title": "فريقنا يراجع ملفك",
+        "description": "فريق الشراكة لدينا يراجع بعناية طلبك وخلفيتك للتعاون المحتمل."
+      },
+      "step3": {
+        "title": "نتواصل معك لمناقشة التعاون",
+        "description": "إذا كان هناك توافق محتمل، سنتواصل معك لمناقشة فرص الشراكة والخطوات التالية."
+      }
+    },
+    "form": {
+      "title": "طلب الشراكة",
+      "subtitle": "هل أنت مستعد للشراكة معنا؟ أكمل النموذج أدناه وسيقوم فريق الشراكة لدينا بمراجعة طلبك.",
+      "fullName": "الاسم الكامل",
+      "fullNamePlaceholder": "أدخل اسمك الكامل",
+      "companyName": "اسم الشركة / العلامة التجارية",
+      "companyNamePlaceholder": "أدخل اسم شركتك أو علامتك التجارية",
+      "email": "عنوان البريد الإلكتروني",
+      "emailPlaceholder": "بريدك@شركتك.com",
+      "phone": "الهاتف / واتساب",
+      "phonePlaceholder": "+966 50 123 4567",
+      "country": "البلد",
+      "countryPlaceholder": "أدخل بلدك",
+      "partnershipType": "نوع الشراكة",
+      "selectPartnershipType": "اختر نوع الشراكة",
+      "types": {
+        "agency": "وكالة سياحة علاجية",
+        "referral": "شريك إحالة المرضى",
+        "influencer": "مؤثر / صانع محتوى",
+        "consultant": "مستشار رعاية صحية",
+        "other": "أخرى"
+      },
+      "websiteOrSocial": "رابط الموقع الإلكتروني / وسائل التواصل الاجتماعي",
+      "websiteOrSocialPlaceholder": "https://موقعك.com أو ملف وسائل التواصل الاجتماعي",
+      "message": "رسالة / تفاصيل التعاون",
+      "messagePlaceholder": "أخبرنا عن اقتراح الشراكة واهتمامات التعاون الخاصة بك...",
+      "preferredContactMethod": "طريقة الاتصال المفضلة",
+      "contactOptions": {
+        "whatsapp": "واتساب",
+        "phone": "الهاتف",
+        "email": "البريد الإلكتروني"
+      },
+      "submit": "تقديم الطلب",
+      "success": "تم استلام الطلب!",
+      "successDesc": "شكراً لاهتمامك بالشراكة مع عيادة فيرا. سيقوم فريقنا بمراجعة طلبك والتواصل معك خلال 3-5 أيام عمل.",
+      "newApplication": "تقديم طلب آخر"
+    },
+    "validation": {
+      "fullNameRequired": "الاسم الكامل مطلوب",
+      "companyNameRequired": "اسم الشركة مطلوب",
+      "emailRequired": "البريد الإلكتروني مطلوب",
+      "emailInvalid": "يرجى إدخال بريد إلكتروني صحيح",
+      "phoneRequired": "رقم الهاتف مطلوب",
+      "phoneInvalid": "يرجى إدخال رقم هاتف صحيح",
+      "countryRequired": "البلد مطلوب",
+      "partnershipTypeRequired": "نوع الشراكة مطلوب",
+      "websiteInvalid": "يرجى إدخال رابط موقع إلكتروني أو وسائل تواصل اجتماعي صحيح",
+      "contactMethodRequired": "طريقة الاتصال المفضلة مطلوبة",
+      "messageTooLong": "يجب أن تكون الرسالة أقل من 2000 حرف"
+    }
+  },
+  "form": {
+    "letUsCallYou": "دعنا نتواصل معك",
+    "enterPhoneForConsultation": "أدخل رقم هاتفك للحصول على استشارة مجانية",
+    "phoneNumber": "رقم الهاتف",
+    "getFreeConsultation": "احصل على استشارة مجانية",
+    "loading": "جاري المعالجة...",
+    "termsAgreement": "بالنقر على هذا الزر، أوافق على شروط خدمة عيادة فيرا.",
+    "thankYou": "شكراً لاختياركم عيادة فيرا",
+    "weWillCallYou": "سنتصل بك قريباً.",
+    "newRequest": "طلب جديد",
+    "name": "الاسم",
+    "phone": "الهاتف",
+    "phonePlaceholder": "+90 552 123 45 67",
+    "emailPlaceholder": "john@example.com"
+  },
+  "treatmentProcess": {
+    "planning3D": "تخطيط ثلاثي الأبعاد",
+    "implantPlacement": "وضع الزرعات",
+    "healingPhase": "مرحلة الشفاء",
+    "finalRestoration": "الترميم النهائي",
+    "smileDesign": "تصميم الابتسامة",
+    "preparation": "التحضير",
+    "placement": "الوضع",
+    "refinement": "التحسين",
+    "assessment": "التقييم",
+    "planning": "التخطيط",
+    "aligners": "الأقواس",
+    "monitoring": "المراقبة",
+    "retention": "الاحتفاظ"
+  },
+  "terms": {
+    "healthcareServices": "خدمات الرعاية الصحية",
+    "healthcareServicesDesc": "توفر عيادة فيرا استشارات طب الأسنان وتخطيط العلاج وخدمات الرعاية الصحية للأسنان. نحن لست منصة تجارة إلكترونية للمنتجات بل مزود خدمات طبية.",
+    "consultationProcess": "عملية الاستشارة",
+    "consultationProcessDesc": "تشمل خدماتنا استشارات عبر الإنترنت وتخطيط العلاج وجدولة المواعيد وتنسيق إجراءات طب الأسنان في منشأتنا في إسطنبول.",
+    "paymentProcessing": "معالجة الدفع",
+    "paymentProcessingDesc": "يتم معالجة المدفوعات بشكل آمن عبر بنية الدفع التحتية لـ iyzico. نقبل طرق دفع مختلفة لإيداعات العلاج ورسوم الخدمات.",
+    "treatmentPricing": "تسعير العلاج",
+    "treatmentPricingDesc": "قد تختلف خطط العلاج والأسعار النهائية بناءً على التقييم السريري. الأسعار الأولية هي تقديرات وقد يتم تعديلها بعد الفحص الشامل.",
+    "depositRequirements": "متطلبات الإيداع",
+    "depositRequirementsDesc": "قد تتطلب بعض العلاجات إيداعات مقدمة لتأمين المواعيد وحجز وقت العلاج. مبالغ الإيداع وشروط الاسترداد محددة في سياسة الإلغاء والاسترداد.",
+    "userResponsibilities": "مسؤوليات المستخدم",
+    "responsibility1": "Provide accurate, complete, and current information for consultation purposes",
+    "responsibility2": "Disclose relevant medical history and conditions that may affect dental treatment",
+    "responsibility3": "Follow provided pre-treatment and post-treatment care instructions",
+    "responsibility4": "Attend scheduled appointments or provide reasonable notice for changes",
+    "responsibility5": "Pay for services rendered according to agreed terms and conditions",
+    "medicalDisclaimer": "Medical Disclaimer",
+    "importantMedicalInfo": "Important Medical Information",
+    "disclaimer1": "We do not guarantee specific medical results or treatment outcomes",
+    "disclaimer2": "Dental treatment results may vary based on individual factors",
+    "disclaimer3": "All treatments carry potential risks and benefits",
+    "disclaimer4": "Patients should discuss all concerns with our dental professionals",
+    "contactInformation": "Contact Information",
+    "contactQuestions": "For questions about these Terms of Service or service-related inquiries:",
+    "cancellationAndRefunds": "Cancellation and Refunds",
+    "cancellationPolicyDesc": "Cancellation and refund policies are detailed in our separate \"Delivery & Refund Policy\" document. Key points include:",
+    "cancellation1": "Appointment cancellations require minimum notice periods",
+    "cancellation2": "Refund eligibility depends on timing and treatment type",
+    "cancellation3": "Deposits may be non-refundable for late cancellations",
+    "cancellation4": "Refunds are processed through original payment method when applicable",
+    "intellectualProperty": "Intellectual Property",
+    "intellectualPropertyDesc": "All content, materials, and intellectual property on this website belong to FeRa Clinic or are used with permission. This includes but is not limited to:",
+    "ip1": "Treatment descriptions and medical information",
+    "ip2": "Images, videos, and patient testimonials",
+    "ip3": "Website design and layout",
+    "ip4": "Marketing materials and branding",
+    "limitationOfLiability": "Limitation of Liability",
+    "limitationOfLiabilityDesc": "To the fullest extent permitted by law, FeRa Clinic shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of our services. Our liability is limited to the amount paid for the specific service in question.",
+    "governingLaw": "القانون الحاكم",
+    "governingLawDesc": "تحكم هذه شروط الخدمة وتُفسر وفقًا لقوانين الجمهورية التركية. يتم حل أي نزاعات تنشأ عن هذه الشروط في المحاكم التركية.",
+    "successCase": "حالة نجاح #",
+    "successCaseDesc": "شاهد التحليل التفصيلي للنهج السريري ورحلة تعافي المريض."
+  },
+  "privacy": {
+    "tableOfContents": "جدول المحتويات",
+    "aboutUsTitle": "About Us / Hakkımızda",
+    "privacyPolicyTitle": "سياسة الخصوصية / Gizlilik Politikası",
+    "deliveryRefundTitle": "التسليم والاسترداد / Teslimat ve İade",
+    "distanceSalesTitle": "البيع عن بعد / Mesafeli Satış",
+    "termsOfServiceTitle": "شروط الخدمة / Kullanım Şartları",
+    "paymentSecurityTitle": "أمان الدفع / Ödeme Güvenliği",
+    "aboutUsSection": "A) About Us / Hakkımızda",
+    "companyInfo": "Company Information and Services",
+    "companyInfoTitle": "Company Information",
+    "companyDescription": "FeRa Clinic is a premium dental healthcare provider located in Istanbul, Turkey. We specialize in advanced dental treatments, cosmetic dentistry, and international patient services.",
+    "clinicName": "Clinic Name",
+    "address": "العنوان",
+    "phone": "الهاتف",
+    "email": "البريد الإلكتروني",
+    "ourServices": "Our Services",
+    "service1": "Dental consultations and treatment planning",
+    "service2": "Cosmetic dentistry and smile makeovers",
+    "service3": "International patient support and coordination",
+    "service4": "Dental implants and restorative procedures",
+    "websitePurpose": "Website Purpose",
+    "websiteDescription": "This website serves as a consultation booking and payment platform for dental services. It is not an e-commerce platform for direct product sales. All payments processed through this site are for consultation fees, treatment deposits, or service-related payments.",
+    "privacySection": "ب) سياسة الخصوصية / Gizlilik Politikası",
+    "dataProtection": "KVKK/GDPR Compliant Data Protection",
+    "personalDataCollected": "البيانات الشخصية التي يتم جمعها",
+    "consultationData": "Consultation Data:",
+    "treatmentInfo": "Treatment Information:",
+    "dataItem1": "Full name and surname",
+    "dataItem2": "Phone number",
+    "dataItem3": "Email address",
+    "dataItem4": "Country of residence",
+    "dataItem5": "Preferred language",
+    "dataItem6": "Treatment interests",
+    "dataItem7": "Consultation details",
+    "dataItem8": "Medical history (relevant)",
+    "dataItem9": "Appointment preferences",
+    "dataItem10": "Payment information (secure)",
+    "dataProcessingPurpose": "Data Processing Purpose",
+    "purpose1": "Appointment scheduling and consultation services",
+    "purpose2": "Patient communication and support",
+    "purpose3": "Payment processing through iyzico",
+    "purpose4": "Legal and regulatory compliance",
+    "dataRetention": "Data Retention & Security",
+    "retention1": "Your personal data is retained only as long as necessary for service provision and legal compliance",
+    "retention2": "Payment card details are processed securely by iyzico and not stored on our systems",
+    "retention3": "We comply with KVKK (Turkish Personal Data Protection Law) and GDPR regulations",
+    "retention4": "Data is stored with AES-256 encryption and strict access controls",
+    "retention5": "You have rights to access, correct, rectify, and delete your personal data",
+    "retention6": "We use cookies only for essential website functionality and analytics",
+    "deliveryRefund": "C) Delivery & Refund / Teslimat ve İade Şartları",
+    "serviceTerms": "Service Terms and Cancellation Policy",
+    "serviceNature": "Service Nature",
+    "serviceNatureDesc": "As a dental healthcare provider, we do not offer physical product shipping. All payments processed through this website are for:",
+    "paymentItem1": "Dental consultation fees",
+    "paymentItem2": "Treatment deposits",
+    "paymentItem3": "Reservation payments",
+    "paymentItem4": "Service-related charges",
+    "refundPolicy": "Refund & Cancellation Policy",
+    "consultationCancellations": "Consultation Cancellations:",
+    "refund1": "Full refund if cancelled 48+ hours before scheduled appointment",
+    "refund2": "50% refund if cancelled 24-48 hours before appointment",
+    "refund3": "No refund for cancellations less than 24 hours before appointment",
+    "treatmentDepositPolicy": "Treatment Deposit Policy:",
+    "refund4": "Refundable according to specific treatment terms and conditions",
+    "refund5": "Non-refundable for special promotional packages and discounted offers",
+    "refund6": "All refunds processed through original payment method within 5-7 business days",
+    "refundProcess": "Refund Process",
+    "refundProcessDesc": "Refunds are processed within 5-7 business days after approval. Refund method matches original payment method.",
+    "distanceSalesAgreement": "د) اتفاقية البيع عن بعد / Mesafeli Satış Sözleşmesi",
+    "legalAgreementDesc": "اتفاقية قانونية للخدمات عن بعد",
+    "agreementParties": "أطراف الاتفاقية",
+    "serviceProvider": "مزود الخدمة (Satıcı):",
+    "company": "الشركة",
+    "customer": "العميل (Alıcı):",
+    "customerName": "الاسم",
+    "customerNamePlaceholder": "اسم العميل",
+    "customerAddress": "العنوان",
+    "customerAddressPlaceholder": "عنوان العميل",
+    "customerPhone": "الهاتف",
+    "customerPhonePlaceholder": "هاتف العميل",
+    "customerEmail": "البريد الإلكتروني",
+    "customerEmailPlaceholder": "بريد العميل الإلكتروني",
+    "serviceDescription": "وصف الخدمة",
+    "serviceDescriptionText": "خدمات استشارة وعلاج الأسنان المقدمة عبر نظام الحجز والدفع عن بعد.",
+    "paymentTerms": "شروط الدفع",
+    "paymentSecure": "يتم معالجة الدفع بشكل آمن عبر iyzico",
+    "supportedCards": "يدعم فيزا وماستر كارد",
+    "consumerRights": "حقوق المستهلك",
+    "consumerRightsText": "للعملاء الحق في إلغاء الخدمات ضمن الإطار الزمني المحدد وتلقي استردادات وفقًا لسياسة الإلغاء.",
+    "termsOfService": "هـ) شروط الخدمة / Kullanım Şartları",
+    "websiteDisclaimer": "استخدام الموقع وإخلاء المسؤولية الطبية",
+    "websiteUsage": "استخدام الموقع",
+    "websiteUsage1": "هذا الموقع لحجز استشارات وخدمات طب الأسنان",
+    "websiteUsage2": "يجب على المستخدمين تقديم معلومات دقيقة وكاملة",
+    "medicalDisclaimer": "إخلاء المسؤولية الطبية",
+    "medicalDisclaimerText": "المعلومات المقدمة على هذا الموقع هي لأغراض تعليمية فقط ولا تشكل نصيحة طبية. يتطلب تخطيط العلاج النهائي فحصًا مباشرًا واستشارة من قبل أطباء الأسنان المؤهلين في عيادتنا في إسطنبول.",
+    "limitationOfLiability": "تحديد المسؤولية",
+    "limitationOfLiabilityText": "عيادة فيرا ليست مسؤولة عن الأضرار غير المباشرة أو التبعية الناشئة عن استخدام هذا الموقع أو خدمات طب الأسنان. مسؤوليتنا محدودة بالمبلغ المدفوع للخدمات المحددة المقدمة.",
+    "paymentSecurity": "و) أمان الدفع / Ödeme Güvenliği",
+    "paymentSecurityDesc": "معالجة دفع آمنة مع iyzico",
+    "paymentSecurityIntegration": "أمان الدفع وتكامل iyzico",
+    "sslEncryption": "تشفير شهادة SSL (256 بت)",
+    "pciCompliant": "معالجة دفع متوافقة مع PCI DSS",
+    "acceptedPaymentMethods": "طرق الدفع المقبولة",
+    "visaCards": "بطاقات فيزا",
+    "mastercard": "ماستر كارد",
+    "troyCards": "بطاقات تروي",
+    "privacSection": "B) Privacy Policy / Gizlilik Politikası",
+    "policyDescription": "Comprehensive legal information including privacy protection, terms of service, payment security, and iyzico compliance",
+    "distanceSales": "D) Distance Sales Agreement / Mesafeli Satış Sözleşmesi"
+  },
+  "treatment": {
+    "mainImageAlt": "",
+    "resultAlt": "النتيجة",
+    "detailAlt": "التفاصيل"
+  },
+  "legal": {
+    "lastUpdated": "Last Updated"
+  },
+  "newsletter": {
+    "error": "حدث خطأ في الاشتراك في النشرة البريدية"
+  }
+}

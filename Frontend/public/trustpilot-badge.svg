@@ -1,0 +1,45 @@
+<svg viewBox="0 0 260 140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+  <!-- Top row: Logo & Text -->
+  <g>
+    <!-- Green Star -->
+    <path d="M15 15 L20 28 L34 28 L23 36 L28 49 L15 41 L2 49 L7 36 L-4 28 L10 28 Z" fill="#00B67A"/>
+    
+    <!-- "Trustpilot" Text -->
+    <text x="45" y="32" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#1a1a1a">Trustpilot</text>
+  </g>
+  
+  <!-- Second row: Rating boxes (5 square boxes) -->
+  <g id="rating-boxes">
+    <!-- Box 1 - Green with white star -->
+    <rect x="20" y="55" width="35" height="35" fill="#00B67A" rx="4"/>
+    <path d="M37.5 60 L41 70 L52 70 L43 76 L46.5 86 L37.5 80 L28.5 86 L32 76 L23 70 L34 70 Z" fill="white"/>
+    
+    <!-- Box 2 - Green with white star -->
+    <rect x="65" y="55" width="35" height="35" fill="#00B67A" rx="4"/>
+    <path d="M82.5 60 L86 70 L97 70 L88 76 L91.5 86 L82.5 80 L73.5 86 L77 76 L68 70 L79 70 Z" fill="white"/>
+    
+    <!-- Box 3 - Green with white star -->
+    <rect x="110" y="55" width="35" height="35" fill="#00B67A" rx="4"/>
+    <path d="M127.5 60 L131 70 L142 70 L133 76 L136.5 86 L127.5 80 L118.5 86 L122 76 L113 70 L124 70 Z" fill="white"/>
+    
+    <!-- Box 4 - Green with white star -->
+    <rect x="155" y="55" width="35" height="35" fill="#00B67A" rx="4"/>
+    <path d="M172.5 60 L176 70 L187 70 L178 76 L181.5 86 L172.5 80 L163.5 86 L167 76 L158 70 L169 70 Z" fill="white"/>
+    
+    <!-- Box 5 - Light gray with white star -->
+    <rect x="200" y="55" width="35" height="35" fill="#E5E5E5" rx="4"/>
+    <path d="M217.5 60 L221 70 L232 70 L223 76 L226.5 86 L217.5 80 L208.5 86 L212 76 L203 70 L214 70 Z" fill="white"/>
+  </g>
+  
+  <!-- Bottom row: Score and review count -->
+  <g>
+    <!-- "TrustScore 4.0" -->
+    <text x="20" y="115" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1a1a1a">TrustScore 4.0</text>
+    
+    <!-- Separator "|" -->
+    <text x="155" y="115" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#999999">|</text>
+    
+    <!-- "875 reviews" -->
+    <text x="170" y="115" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1a1a1a">875 reviews</text>
+  </g>
+</svg>

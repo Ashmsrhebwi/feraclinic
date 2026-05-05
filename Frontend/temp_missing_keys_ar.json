@@ -1,0 +1,80 @@
+{
+  "home": {
+    "callUsNow": "اتصل بنا الآن",
+    "phoneNumber": "+90 536 746 01 00",
+    "verifiedReview": "مراجعة موثقة"
+  },
+  "testimonials": {
+    "videoTitle": "قصص الفيديو",
+    "patientStory": "مريض موثق",
+    "successCase": "حالة نجاح #",
+    "successCaseDesc": "شاهد التحليل التفصيلي للنهج السريري ورحلة تعافي المريض.",
+    "ctaTitle": "ابدأ قصة نجاحك الخاصة",
+    "ctaDesc": "تحدث مع فريقنا واتخذ الخطوة التالية نحو خطة علاجية مخصصة لك.",
+    "caseImageAlt": ""
+  },
+  "terms": {
+    "healthcareServices": "خدمات الرعاية الصحية",
+    "healthcareServicesDesc": "توفر عيادة فيرا استشارات طب الأسنان وتخطيط العلاج وخدمات الرعاية الصحية للأسنان. نحن لست منصة تجارة إلكترونية للمنتجات بل مزود خدمات طبية.",
+    "consultationProcess": "عملية الاستشارة",
+    "consultationProcessDesc": "تشمل خدماتنا استشارات عبر الإنترنت وتخطيط العلاج وجدولة المواعيد وتنسيق إجراءات طب الأسنان في منشأتنا في إسطنبول.",
+    "paymentProcessing": "معالجة الدفع",
+    "paymentProcessingDesc": "يتم معالجة المدفوعات بشكل آمن عبر بنية الدفع التحتية لـ iyzico. نقبل طرق دفع مختلفة لإيداعات العلاج ورسوم الخدمات.",
+    "treatmentPricing": "تسعير العلاج",
+    "treatmentPricingDesc": "قد تختلف خطط العلاج والأسعار النهائية بناءً على التقييم السريري. الأسعار الأولية هي تقديرات وقد يتم تعديلها بعد الفحص الشامل.",
+    "depositRequirements": "متطلبات الإيداع",
+    "depositRequirementsDesc": "قد تتطلب بعض العلاجات إيداعات مقدمة لتأمين المواعيد وحجز وقت العلاج. مبالغ الإيداع وشروط الاسترداد محددة في سياسة الإلغاء والاسترداد.",
+    "userResponsibilities": "مسؤوليات المستخدم"
+  },
+  "privacy": {
+    "distanceSalesAgreement": "د) اتفاقية البيع عن بعد / Mesafeli Satış Sözleşmesi",
+    "legalAgreementDesc": "اتفاقية قانونية للخدمات عن بعد",
+    "agreementParties": "أطراف الاتفاقية",
+    "serviceProvider": "مزود الخدمة (Satıcı):",
+    "company": "الشركة",
+    "address": "العنوان",
+    "phone": "الهاتف",
+    "email": "البريد الإلكتروني",
+    "customer": "العميل (Alıcı):",
+    "customerName": "الاسم",
+    "customerNamePlaceholder": "اسم العميل",
+    "customerAddress": "العنوان",
+    "customerAddressPlaceholder": "عنوان العميل",
+    "customerPhone": "الهاتف",
+    "customerPhonePlaceholder": "هاتف العميل",
+    "customerEmail": "البريد الإلكتروني",
+    "customerEmailPlaceholder": "بريد العميل الإلكتروني",
+    "serviceDescription": "وصف الخدمة",
+    "serviceDescriptionText": "خدمات استشارة وعلاج الأسنان المقدمة عبر نظام الحجز والدفع عن بعد.",
+    "paymentTerms": "شروط الدفع",
+    "paymentSecure": "يتم معالجة الدفع بشكل آمن عبر iyzico",
+    "supportedCards": "يدعم فيزا وماستر كارد",
+    "consumerRights": "حقوق المستهلك",
+    "consumerRightsText": "للعملاء الحق في إلغاء الخدمات ضمن الإطار الزمني المحدد وتلقي استردادات وفقًا لسياسة الإلغاء.",
+    "termsOfService": "هـ) شروط الخدمة / Kullanım Şartları",
+    "websiteDisclaimer": "استخدام الموقع وإخلاء المسؤولية الطبية",
+    "websiteUsage": "استخدام الموقع",
+    "websiteUsage1": "هذا الموقع لحجز استشارات وخدمات طب الأسنان",
+    "websiteUsage2": "يجب على المستخدمين تقديم معلومات دقيقة وكاملة",
+    "medicalDisclaimer": "إخلاء المسؤولية الطبية",
+    "medicalDisclaimerText": "المعلومات المقدمة على هذا الموقع هي لأغراض تعليمية فقط ولا تشكل نصيحة طبية. يتطلب تخطيط العلاج النهائي فحصًا مباشرًا واستشارة من قبل أطباء الأسنان المؤهلين في عيادتنا في إسطنبول.",
+    "limitationOfLiability": "تحديد المسؤولية",
+    "limitationOfLiabilityText": "عيادة فيرا ليست مسؤولة عن الأضرار غير المباشرة أو التبعية الناشئة عن استخدام هذا الموقع أو خدمات طب الأسنان. مسؤوليتنا محدودة بالمبلغ المدفوع للخدمات المحددة المقدمة.",
+    "paymentSecurity": "و) أمان الدفع / Ödeme Güvenliği",
+    "paymentSecurityDesc": "معالجة دفع آمنة مع iyzico",
+    "paymentSecurityIntegration": "أمان الدفع وتكامل iyzico",
+    "sslEncryption": "تشفير شهادة SSL (256 بت)",
+    "pciCompliant": "معالجة دفع متوافقة مع PCI DSS",
+    "acceptedPaymentMethods": "طرق الدفع المقبولة",
+    "visaCards": "بطاقات فيزا",
+    "mastercard": "ماستر كارد",
+    "troyCards": "بطاقات تروي"
+  },
+  "treatments": {
+    "data": {
+      "testDriveHeading": "\"اختبار قيادة\" ابتسامتك",
+      "testDriveDesc": "قبل أي خطوات لا رجعة فيها، نقدم \"شمع مؤقت\" لابتسامتك الجديدة، مما يسمح لك برؤية وتحول التحول في فمك.",
+      "gingivalDesc": "أكمل إطار ابتسامتك. يستخدم أخصائيو الليزر لدينا نحت اللثة الدقيق لتصحيح الابتسامات \"اللثوية\" وخطوط اللثة غير المستوية، مما يخلق نسبًا متوازنة بين أسنانك ولثتك لمظهر أكثر تناسقًا."
+    }
+  }
+}

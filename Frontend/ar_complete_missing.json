@@ -1,0 +1,309 @@
+{
+  "home": {
+    "technology": {
+      "t1Desc": "High-resolution digital scans for extreme surgical accuracy in implant placement. (AR)",
+      "t2Desc": "Simulate your final result before treatment begins with advanced facial mapping. (AR)",
+      "t3Desc": "Minimally invasive soft tissue procedures with faster healing and zero discomfort. (AR)"
+    },
+    "treatments": {
+      "2": {
+        "desc": "Immediate full-arch rehabilitation for total tooth loss using the proven All-on-4 protocol. (AR)"
+      }
+    }
+  },
+  "treatments": {
+    "heroEyebrow": "Dental Excellence (AR)",
+    "heroTitle": "Advanced Dental Treatments in Istanbul (AR)",
+    "heroDesc": "Discover world-class dental care in Istanbul. From cosmetic dentistry to full-mouth rehabilitation, our specialist dentists deliver exceptional results with advanced technology and personalized treatment planning. (AR)",
+    "ctaPrimary": "Free Consultation (AR)",
+    "ctaSecondary": "View Gallery (AR)",
+    "title": "Clinical Disciplines (AR)",
+    "subtitle": "Expert dental treatments designed for your unique smile goals (AR)",
+    "collectionEyebrow": "Treatment Portfolio (AR)",
+    "collectionDesc": "Each dental treatment at FeRa Clinic is carefully planned to deliver exceptional results with minimal discomfort and maximum precision. Treatment plans are personalized based on individual clinical evaluation. (AR)",
+    "heroTitle1": "Transform Your (AR)",
+    "heroTitle2": "Smile. (AR)",
+    "learnMore": "View Treatment (AR)",
+    "price": "Investment (AR)",
+    "viewGallery": "View Before & After Gallery (AR)",
+    "ctaDesc": "Contact our Istanbul clinic today for a complimentary consultation and personalized treatment plan. Our specialist dentists are ready to help you achieve your dental health goals. (AR)",
+    "categories": {
+      "all": "All Disciplines (AR)",
+      "cosmetic": "Cosmetic (AR)",
+      "restorative": "Restorative (AR)",
+      "orthodontics": "Orthodontics (AR)",
+      "comprehensive": "Rehabilitative (AR)"
+    },
+    "invisalign": "Clear Aligners (AR)",
+    "allTreatments": "All Disciplines (AR)",
+    "sinusLifting": "Sinus Augmentation (AR)",
+    "smileDesign": "Digital Smile Design (AR)",
+    "detail": {
+      "implants": {
+        "title": "Dental Implants Istanbul (AR)",
+        "desc": "The gold standard for permanent tooth replacement. Our surgical specialists utilize Swiss-engineered titanium implants and 3D computer-guided protocols to restore full biological function and natural aesthetics with a lifetime clinical warranty. (AR)",
+        "duration": "1-2 hours per implant (AR)",
+        "price": "From EUR 500 (AR)",
+        "seo": {
+          "title": "Dental Implants Istanbul | Implant Treatment Turkey | Permanent Tooth Replacement (AR)",
+          "description": "Premium dental implants in Istanbul, Turkey. Swiss-engineered titanium implants with 3D guided surgery. Permanent tooth replacement with lifetime warranty. Specialist oral surgeons. (AR)"
+        },
+        "heroEyebrow": "Implant Excellence (AR)",
+        "heroTitle": "Permanent Tooth Replacement in Istanbul (AR)",
+        "heroDesc": "Experience the pinnacle of implant dentistry at FeRa Clinic. Our board-certified oral surgeons combine Swiss precision engineering with advanced 3D surgical planning to deliver permanent, natural-looking tooth replacements that restore both function and confidence. (AR)",
+        "benefitsOverview": "Why choose dental implants at FeRa Clinic? Our implant protocols represent the fusion of biological science and surgical precision, offering a permanent solution that looks, feels, and functions like your natural teeth. (AR)",
+        "process": {
+          "0": "Comprehensive 3D CBCT imaging and digital treatment planning (AR)",
+          "1": "Computer-guided implant placement with sub-millimeter precision (AR)",
+          "2": "Osseointegration monitoring and healing support (AR)",
+          "3": "Custom crown fabrication and final aesthetic integration (AR)"
+        },
+        "candidates": {
+          "0": "Missing one or multiple teeth (AR)",
+          "1": "Unstable or failing dental restorations (AR)",
+          "2": "Jawbone preservation needs (AR)",
+          "3": "Desire for permanent tooth replacement (AR)",
+          "4": "Facial structure support requirements (AR)"
+        },
+        "features": {
+          "0": "Grade-5 bio-compatible titanium integration (AR)",
+          "1": "3D CBCT surgical planning and precision (AR)",
+          "2": "Immediate loading protocols when clinically appropriate (AR)",
+          "3": "Computer-guided surgical navigation (AR)",
+          "4": "ISO-certified sterilization and safety protocols (AR)",
+          "5": "Lifetime clinical warranty on implant success (AR)"
+        },
+        "benefits": {
+          "0": "Prevents jawbone resorption and facial collapse (AR)",
+          "1": "Restores 100% natural bite force and function (AR)",
+          "2": "Custom porcelain crowns with natural translucency (AR)",
+          "3": "Preserves adjacent healthy tooth structure (AR)",
+          "4": "Long-term clinical stability and durability (AR)",
+          "5": "Maintains facial proportions and youthful appearance (AR)"
+        }
+      },
+      "hollywood": {
+        "title": "Hollywood Smile Istanbul (AR)",
+        "desc": "A comprehensive smile transformation using ultra-thin E-Max porcelain veneers. Our master ceramists craft each veneer to enhance your facial symmetry and create a radiant, natural-looking smile that reflects your personality. (AR)",
+        "duration": "5-7 days in Istanbul (AR)",
+        "price": "From EUR 300 per unit (AR)",
+        "seo": {
+          "title": "Hollywood Smile Istanbul | Smile Makeover Turkey | Porcelain Veneers (AR)",
+          "description": "Premium Hollywood Smile makeovers in Istanbul, Turkey. Custom E-Max porcelain veneers with Digital Smile Design. Natural-looking smile transformations with master ceramists. (AR)"
+        },
+        "heroEyebrow": "Aesthetic Excellence (AR)",
+        "heroTitle": "Transform Your Smile in Istanbul (AR)",
+        "heroDesc": "Experience the art of smile design at FeRa Clinic. Our master ceramists combine advanced Digital Smile Design with hand-crafted E-Max porcelain veneers to create a smile that enhances your natural beauty and confidence. (AR)",
+        "benefitsOverview": "Why choose a Hollywood Smile at FeRa Clinic? Our approach combines artistic excellence with dental science to create smile transformations that look completely natural while delivering lasting aesthetic results. (AR)",
+        "process": {
+          "0": "Comprehensive Digital Smile Design analysis (AR)",
+          "1": "Custom shade and translucency mapping (AR)",
+          "2": "Minimal preparation ultra-thin veneer placement (AR)",
+          "3": "Final aesthetic refinement and bonding (AR)"
+        },
+        "candidates": {
+          "0": "Discolored or stained teeth (AR)",
+          "1": "Chipped or worn teeth (AR)",
+          "2": "Gaps between teeth (AR)",
+          "3": "Irregular tooth shape or size (AR)",
+          "4": "Desire for enhanced smile aesthetics (AR)"
+        },
+        "features": {
+          "0": "Digital Smile Design (DSD) technology (AR)",
+          "1": "E-Max lithium disilicate porcelain (AR)",
+          "2": "Ultra-thin minimal preparation (AR)",
+          "3": "Custom translucency and shade mapping (AR)",
+          "4": "Gingival symmetry alignment (AR)",
+          "5": "Hand-finished artistic characterization (AR)"
+        },
+        "benefits": {
+          "0": "Stain-resistant ceramic material (AR)",
+          "1": "Perfect facial harmony and balance (AR)",
+          "2": "Instant aesthetic transformation (AR)",
+          "3": "High durability (15+ years lifespan) (AR)",
+          "4": "Minimal biological impact on natural teeth (AR)",
+          "5": "Natural light-reflective properties (AR)"
+        },
+        "beforeAfter": {
+          "title": "Natural Smile Transformation (AR)",
+          "description": "Our smile makeovers focus on enhancing your natural beauty rather than creating artificial results. Each transformation is designed to complement your facial features and personality. (AR)",
+          "note": "Results vary based on individual clinical evaluation and personal aesthetic goals. Treatment planning includes comprehensive assessment of dental health and facial structure. (AR)"
+        }
+      },
+      "ortho": {
+        "title": "Orthodontics Istanbul (AR)",
+        "desc": "Advanced teeth straightening solutions for a perfectly aligned, healthy bite. Our specialist orthodontists use modern clear aligners and precise digital planning to create beautiful, functional smiles with predictable results. (AR)",
+        "duration": "6-18 months (AR)",
+        "price": "From EUR 2,200 (AR)",
+        "seo": {
+          "title": "Orthodontics Istanbul | Braces Turkey | Clear Aligners | Teeth Straightening (AR)",
+          "description": "Expert orthodontic treatment in Istanbul, Turkey. Clear aligners and modern braces for teeth straightening. Specialist orthodontists with digital planning for predictable results. (AR)"
+        },
+        "heroEyebrow": "Precision Alignment (AR)",
+        "heroTitle": "Straighten Your Smile in Istanbul (AR)",
+        "heroDesc": "Experience advanced orthodontic care at FeRa Clinic. Our specialist orthodontists combine digital treatment planning with modern clear aligner technology to create perfectly aligned smiles that enhance both function and aesthetics. (AR)",
+        "whatIsIt": {
+          "title": "What is Orthodontics? (AR)",
+          "description": "Orthodontics is a specialized branch of dentistry focused on correcting teeth and jaw alignment. Using modern clear aligners and precise digital planning, we gradually move teeth into their ideal positions for a healthy, functional bite and beautiful smile. (AR)"
+        },
+        "whoNeedsIt": {
+          "title": "Who Needs Orthodontic Treatment? (AR)",
+          "candidates": {
+            "0": "Crooked or crowded teeth (AR)",
+            "1": "Overbite, underbite, or crossbite (AR)",
+            "2": "Gaps between teeth (AR)",
+            "3": "Jaw misalignment or TMJ issues (AR)",
+            "4": "Difficulty chewing or speaking (AR)",
+            "5": "Desire for a straighter, more confident smile (AR)"
+          }
+        },
+        "benefits": {
+          "title": "Benefits of Orthodontic Treatment (AR)",
+          "list": {
+            "0": "Improved oral health and easier cleaning (AR)",
+            "1": "Enhanced bite function and chewing efficiency (AR)",
+            "2": "Reduced risk of dental problems and wear (AR)",
+            "3": "Increased confidence and self-esteem (AR)",
+            "4": "Long-term stability with proper retention (AR)",
+            "5": "Natural-looking, harmonious smile (AR)"
+          }
+        },
+        "treatmentProcess": {
+          "title": "Your Orthodontic Journey (AR)",
+          "steps": {
+            "0": "Comprehensive digital assessment and 3D scanning (AR)",
+            "1": "Personalized treatment plan with predicted results (AR)",
+            "2": "Custom clear aligner fabrication (AR)",
+            "3": "Regular progress monitoring and adjustments (AR)",
+            "4": "Retention phase for lasting results (AR)"
+          }
+        },
+        "technology": {
+          "title": "Advanced Orthodontic Technology (AR)",
+          "features": {
+            "0": "3D digital scanning and treatment planning (AR)",
+            "1": "Clear aligner therapy with precise control (AR)",
+            "2": "Computer-aided design and manufacturing (AR)",
+            "3": "Progress tracking with digital monitoring (AR)",
+            "4": "Predictable outcome visualization (AR)"
+          }
+        },
+        "trustFactors": {
+          "title": "Why Choose FeRa Clinic for Orthodontics? (AR)",
+          "points": {
+            "0": "Specialist orthodontists with advanced training (AR)",
+            "1": "Digital precision treatment planning (AR)",
+            "2": "Modern clear aligner technology (AR)",
+            "3": "Comprehensive care and follow-up (AR)",
+            "4": "International patient support services (AR)"
+          }
+        },
+        "safetyNote": "Treatment duration and results vary based on individual clinical assessment and treatment complexity. All orthodontic treatments include comprehensive planning and regular monitoring by specialist orthodontists. (AR)"
+      },
+      "cta": {
+        "speak": "Speak with our coordinators (AR)"
+      }
+    },
+    "notFound": "Clinical Page Not Found (AR)",
+    "notFoundDesc": "The requested treatment protocol is currently being reviewed and updated by our chief medical board. (AR)",
+    "backToTreatments": "Back to Disciplines (AR)",
+    "isRightForYou": "Is a Hollywood Smile right for you? (AR)",
+    "treatmentFeatures": "Smile Design Technology (AR)",
+    "readyToTransform": "Ready to Transform Your Smile? (AR)",
+    "getPlanDesc": "Receive a personalized smile design consultation and treatment plan from our master ceramists and cosmetic dentists. (AR)",
+    "askQuestions": "Consult a Smile Designer (AR)",
+    "whatsappConsultation": "Smile Design Consultation via WhatsApp (AR)",
+    "saveNotice": "Premium cosmetic dentistry at Istanbul rates â€” save up to 70% compared to Western clinics. (AR)",
+    "explore": "Explore Smile Transformation (AR)"
+  },
+  "contact": {
+    "cta": {
+      "title": "Need Immediate Assistance? (AR)",
+      "subtitle": "Our team is available 24/7 for emergency consultations and international patient support. (AR)",
+      "whatsapp": "WhatsApp Support (AR)",
+      "whatsappDesc": "Speak with our team and get your free consultation. (AR)"
+    }
+  },
+  "common": {
+    "viewDetails": "View Details (AR)",
+    "bookNow": "Book Now (AR)",
+    "freeConsultation": "Free Consultation (AR)",
+    "getConsultation": "Free Consultation (AR)",
+    "contactUs": "Contact Us (AR)",
+    "internationalPatients": "International Patient Support (AR)",
+    "lifetimeWarranty": "Lifetime Warranty (AR)",
+    "satisfactionGuaranteed": "Satisfaction Guaranteed (AR)",
+    "clinicName": "FeRa Clinic (AR)",
+    "defaultDesc": "Experience premium dental care in Istanbul. Specialist surgeons, 3D technology, and VIP hospitality for international patients. (AR)",
+    "whatsappNumber": "905367460100 (AR)",
+    "whatsappMessage": "Hello, I have a question about treatments. (AR)",
+    "readyFor1": "Ready for a (AR)",
+    "readyFor2": "New Smile? (AR)",
+    "viewAll": "View All (AR)",
+    "viewGallery": "View Gallery (AR)",
+    "realResults": "Real Patient Results (AR)",
+    "beforeAndAfter": "Before & After (AR)",
+    "before": "Before (AR)",
+    "after": "After (AR)",
+    "tapToReveal": "Tap Â· Hover to reveal (AR)",
+    "tapToSeeBefore": "Tap to see before (AR)",
+    "countries": {
+      "italy": "Italy (AR)",
+      "uk": "United Kingdom (AR)",
+      "germany": "Germany (AR)",
+      "us": "United States (AR)",
+      "turkey": "Turkey (AR)",
+      "france": "France (AR)"
+    },
+    "whatsappNumberDisplay": "+90 536 746 01 00 (AR)",
+    "designYourSmile": "Design Your Smile (AR)",
+    "whatsappConsultationLong": "Smile Design Consultation via WhatsApp (AR)",
+    "trustBadges": {
+      "iso": "ISO Certified (AR)",
+      "specialists": "15+ Specialist Dentists (AR)",
+      "patients": "Thousands of Happy Patients (AR)"
+    },
+    "phoneNumber": "+90 536 746 01 00 (AR)",
+    "emailAddress": "consultation@feraclinic.com (AR)",
+    "socialMedia": {
+      "facebook": "Facebook (AR)",
+      "instagram": "Instagram (AR)",
+      "youtube": "YouTube (AR)",
+      "linkedin": "LinkedIn (AR)",
+      "tiktok": "TikTok (AR)"
+    },
+    "brandName": "FeRa Clinic (AR)",
+    "whatsappBase": "Hello, I'm interested in learning more about your dental services (AR)",
+    "for": "for (AR)",
+    "other": "Other (AR)",
+    "tagline": "Premium Dental Care Istanbul (AR)",
+    "backToHome": "Back to Home (AR)",
+    "consultationSteps": {
+      "personalInfo": "Personal Info (AR)",
+      "treatment": "Treatment (AR)",
+      "contactMethod": "Contact Method (AR)",
+      "review": "Review (AR)"
+    },
+    "legalPages": {
+      "deliveryRefund": "Delivery & Refund Policy (AR)",
+      "distanceSales": "Distance Sales Agreement (AR)"
+    },
+    "email": "Email (AR)",
+    "phone": "Phone (AR)",
+    "address": "Address (AR)",
+    "expert": "Expert (AR)",
+    "faq": "FAQ (AR)",
+    "keyboard": {
+      "enter": "Enter (AR)",
+      "esc": "Esc (AR)"
+    }
+  },
+  "joinUs": {
+    "form": {
+      "cvUpload": "Upload CV (AR)",
+      "cvOptional": "Optional (AR)",
+      "dropCV": "Drop your CV here or click to browse (AR)",
+      "cvFormats": "PDF, DOC, DOCX (Max 5MB) (AR)"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+<svg viewBox="0 0 240 140" xmlns="http://www.w3.org/2000/svg">
+  <!-- White background with subtle shadow effect -->
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  
+  <rect width="240" height="140" fill="white" rx="8" filter="url(#shadow)"/>
+  <rect width="240" height="140" fill="none" stroke="#E5E7EB" stroke-width="0.5" rx="8"/>
+  
+  <!-- REVIEWS.io Logo Section -->
+  <text x="120" y="22" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#1b4698" text-anchor="middle">REVIEWS</text>
+  <text x="120" y="38" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#FF6B35" text-anchor="middle">.io</text>
+  
+  <!-- Stars (5 orange stars) -->
+  <g transform="translate(60, 55)">
+    <!-- Star 1 -->
+    <polygon points="0,-4 1.2,-1.2 4,-1 1.6,1 2,4 0,2 -2,4 -1.6,1 -4,-1 -1.2,-1.2" fill="#FF6B35"/>
+    <!-- Star 2 -->
+    <polygon points="12,-4 13.2,-1.2 16,-1 13.6,1 14,4 12,2 10,4 10.4,1 8,-1 9.8,-1.2" fill="#FF6B35"/>
+    <!-- Star 3 -->
+    <polygon points="24,-4 25.2,-1.2 28,-1 25.6,1 26,4 24,2 22,4 22.4,1 20,-1 21.8,-1.2" fill="#FF6B35"/>
+    <!-- Star 4 -->
+    <polygon points="36,-4 37.2,-1.2 40,-1 37.6,1 38,4 36,2 34,4 34.4,1 32,-1 33.8,-1.2" fill="#FF6B35"/>
+    <!-- Star 5 -->
+    <polygon points="48,-4 49.2,-1.2 52,-1 49.6,1 50,4 48,2 46,4 46.4,1 44,-1 45.8,-1.2" fill="#FF6B35"/>
+  </g>
+  
+  <!-- Rating 4.6 -->
+  <text x="120" y="102" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1b4698" text-anchor="middle">4.6</text>
+  
+  <!-- Review text -->
+  <text x="120" y="128" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#6B7280" text-anchor="middle">Read our 303 reviews</text>
+</svg>

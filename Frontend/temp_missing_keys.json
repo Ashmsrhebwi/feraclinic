@@ -1,0 +1,80 @@
+{
+  "home": {
+    "callUsNow": "Call Us Now",
+    "phoneNumber": "+90 536 746 01 00",
+    "verifiedReview": "Verified Review"
+  },
+  "testimonials": {
+    "videoTitle": "Video Stories",
+    "patientStory": "Verified Patient",
+    "successCase": "Success Case #",
+    "successCaseDesc": "Watch the detailed breakdown of the clinical approach and the patient's recovery journey.",
+    "ctaTitle": "Begin Your Own Success Story",
+    "ctaDesc": "Speak with our team and take the next step toward a treatment plan tailored to you.",
+    "caseImageAlt": ""
+  },
+  "terms": {
+    "healthcareServices": "Healthcare Services",
+    "healthcareServicesDesc": "FeRa Clinic provides dental consultation, treatment planning, and dental healthcare services. We are not a product e-commerce platform but a medical service provider.",
+    "consultationProcess": "Consultation Process",
+    "consultationProcessDesc": "Our services include online consultations, treatment planning, appointment scheduling, and coordination of dental procedures at our Istanbul facility.",
+    "paymentProcessing": "Payment Processing",
+    "paymentProcessingDesc": "Payments are processed securely through iyzico payment infrastructure. We accept various payment methods for treatment deposits and service fees.",
+    "treatmentPricing": "Treatment Pricing",
+    "treatmentPricingDesc": "Final treatment plans and prices may vary based on clinical evaluation. Initial quotes are estimates and may be adjusted after comprehensive examination.",
+    "depositRequirements": "Deposit Requirements",
+    "depositRequirementsDesc": "Some treatments may require advance deposits to secure appointments and reserve treatment time. Deposit amounts and refund conditions are specified in our Refund & Cancellation Policy.",
+    "userResponsibilities": "User Responsibilities"
+  },
+  "privacy": {
+    "distanceSalesAgreement": "D) Distance Sales Agreement / Mesafeli Satış Sözleşmesi",
+    "legalAgreementDesc": "Legal Agreement for Remote Services",
+    "agreementParties": "Agreement Parties",
+    "serviceProvider": "Service Provider (Satıcı):",
+    "company": "Company",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "customer": "Customer (Alıcı):",
+    "customerName": "Name",
+    "customerNamePlaceholder": "Customer Name",
+    "customerAddress": "Address",
+    "customerAddressPlaceholder": "Customer Address",
+    "customerPhone": "Phone",
+    "customerPhonePlaceholder": "Customer Phone",
+    "customerEmail": "Email",
+    "customerEmailPlaceholder": "Customer Email",
+    "serviceDescription": "Service Description",
+    "serviceDescriptionText": "Dental consultation and treatment services provided through remote booking and payment system.",
+    "paymentTerms": "Payment Terms",
+    "paymentSecure": "Payment processed securely through iyzico",
+    "supportedCards": "Supports Visa and Mastercard",
+    "consumerRights": "Consumer Rights",
+    "consumerRightsText": "Customers have the right to cancel services within the specified timeframe and receive refunds according to the cancellation policy.",
+    "termsOfService": "E) Terms of Service / Kullanım Şartları",
+    "websiteDisclaimer": "Website Usage and Medical Disclaimer",
+    "websiteUsage": "Website Usage",
+    "websiteUsage1": "This website is for booking dental consultations and services",
+    "websiteUsage2": "Users must provide accurate and complete information",
+    "medicalDisclaimer": "Medical Disclaimer",
+    "medicalDisclaimerText": "The information provided on this website is for educational purposes only and does not constitute medical advice. Final treatment planning requires direct examination and consultation by qualified dental professionals at our Istanbul clinic.",
+    "limitationOfLiability": "Limitation of Liability",
+    "limitationOfLiabilityText": "FeRa Clinic is not liable for indirect or consequential damages arising from the use of this website or our dental services. Our liability is limited to the amount paid for specific services rendered.",
+    "paymentSecurity": "F) Payment Security / Ödeme Güvenliği",
+    "paymentSecurityDesc": "Secure Payment Processing with iyzico",
+    "paymentSecurityIntegration": "Payment Security & iyzico Integration",
+    "sslEncryption": "SSL Certificate encryption (256-bit)",
+    "pciCompliant": "PCI DSS compliant payment processing",
+    "acceptedPaymentMethods": "Accepted Payment Methods",
+    "visaCards": "Visa Cards",
+    "mastercard": "Mastercard",
+    "troyCards": "Troy Cards"
+  },
+  "treatments": {
+    "data": {
+      "testDriveHeading": "The \"Test Drive\" Your Smile",
+      "testDriveDesc": "Before any irreversible steps, we provide a temporary \"wax-up\" of your new smile, allowing you to see and feel the transformation in your own mouth.",
+      "gingivalDesc": "Perfect the frame of your smile. Our laser specialists use precise gingival contouring to correct \"gummy\" smiles and uneven gum lines, creating balanced proportions between your teeth and gums for a more symmetrical appearance."
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "navigation": {
+    "consultation": "Konsültasyon",
+    "testimonials": "Referanslar",
+    "joinUs": "Bize Katılın",
+    "corporate": "Kurumsal",
+    "partnership": "Ortaklık"
+  },
+  "home": {
+    "technology": {
+      "technology": {
+        "t1Desc": "3D tedavi planlaması için en son dijital teknolojileri kullanıyoruz, diş konumlandırmasında ve gülüş tasarımında eşsiz bir hassasiyet sağlıyoruz",
+        "t2Desc": "Yüksek hassasiyetli ağız içi CBCT tarayıcı, diş yapısının detaylı anlaşılması için 3D dijital model sunarak herhangi bir prosedürden önce kişiselleştirilmiş tedavi planlaması sağlıyor",
+        "t3Desc": "İnovatif All-on-4 tekniği, bir günde sabirkirkonyum dişlerle tam fonksiyonel restorasyon sunarak doğal dişleri ve estetiği aynı anda sağlıyor"
+      }
+    },
+    "reasons": {
+      "sterilization": {
+        "title": "Sterilizasyon Standartları",
+        "desc": "Türkiye Sağlık Bakanlığı onaylı sterilizasyon protokolleri kullanıyoruz, en yüksek güvenlik standartlarını sağlamak için ileri otoklavlar ile"
+      },
+      "planning": {
+        "title": "Dijital Planlama",
+        "desc": "Gülüş tasarımı ve tedavi planlaması için özel yazılımlar kullanarak olağanüstü bir hassasiyetle çalışıyoruz"
+      },
+      "doctors": {
+        "title": "Uzman Ekibimiz",
+        "desc": "Diş hekimlerimiz implantoloji, estetik diş hekimliği ve anında implantlar konusunda geniş deneyime sahip, uluslararası sertifikalara sahip"
+      },
+      "coordination": {
+        "title": "Çok Disiplinli Koordinasyon",
+        "desc": "Bütünleşik ve kapsamlı bir tedavi planı sağlamak için farklı tıbbi uzmanlıklar arasında koordinasyon sağlıyoruz"
+      }
+    },
+    "clinic": {
+      "feature5": "İstanbul'un kalbinde stratejik konum"
+    },
+    "aboutOurClinic": "Kliniğimiz Hakkında",
+    "requestFreeConsultation": "Ücretsiz Konsültasyon Talep Et",
+    "viewBeforeAfterGallery": "Önce/Sonra Galeriyi Görüntüle",
+    "readyToGetStarted": "Başlamaya Hazır",
+    "whatsappTooltip": "Bize WhatsApp üzerinden ulaşın",
+    "treatments": {
+      "0": {
+        "desc": "Dijital estetik diş hekimliği, en son dijital teknolojileri kullanarak kişiselleştirilmiş gülüşler sunar"
+      },
+      "1": {
+        "desc": "Anında diş implantları, aynı gün çekilen dişlerin restorasyonunu sağlar"
+      },
+      "11": {
+        "desc": "Dijital ortodonti, kapanış problemlerini ve çarpık dişleri düzelterek gülüş görünümünü iyileştirir"
+      },
+      "22": {
+        "desc": "Profesyonel diş beyazlatma, daha parlak gülüşler ve doğal bir parlaklık sunar"
+      }
+    },
+    "testimonials": {
+      "t1": "İlk Model",
+      "t2": "Tedavi Sonrası",
+      "t3": "6 Ay Sonra"
+    },
+    "newsletter": {
+      "error": "Bülten aboneliğinde bir hata oluştu"
+    },
+    "social": {
+      "googleReviews": "Google Yorumları",
+      "verifiedReviews": "Doğrulanmış Yorumlar"
+    }
+  },
+  "treatments": {
+    "hero": {
+      "eyebrow": "Klinik Mükemmelliği",
+      "title": "Gelişmiş Diş Tedavileri",
+      "desc": "İstanbul'daki kliniğimizde sunduğumuz kapsamlı diş tedavilerini keşfedin, diş implantlarından estetik diş hekimliğine kadar, en son tıbbi teknolojileri kullanarak"
+    },
+    "seo": {
+      "title": "İstanbul'da Diş Tedavileri | FeRa Clinic",
+      "description": "İstanbul'daki FeRa Clinic'te kapsamlı diş tedavilerini keşfedin. Diş implantları, estetik diş hekimliği, ortodonti ve çok daha fazlası."
+    }
+  },
+  "newsletter": {
+    "error": "Bülten aboneliğinde bir hata oluştu"
+  }
+}

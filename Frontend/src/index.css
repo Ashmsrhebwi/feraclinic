@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@400;700&family=Outfit:wght@400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+/* ─────────────────────────────────────── 
+   COLOR TOKENS — FeRa Clinic Identity
+──────────────────────────────────────── */
+@theme {
+  --color-fera-primary:   #13293D;
+  --color-fera-light:     #0B1C2D;
+  --color-fera-deep:      #0B1C2D;
+  --color-fera-white:     #ffffff;
+  --color-fera-surface:   #F5F7FA;
+  --color-fera-gray:      #6B7280;
+  --color-fera-border:    #F1F5F9;
+  --color-fera-gold:      #13293D;
+  --color-fera-champagne: #F8FAFC;
+  --color-fera-footer:    #0B1C2D;
+
+  --shadow-card:          0 2px 12px 0 rgba(11, 28, 45, 0.04);
+  --shadow-luxury-sm:     0 4px 15px 0 rgba(11, 28, 45, 0.04);
+  --shadow-luxury-md:     0 8px 30px 0 rgba(11, 28, 45, 0.06);
+  --shadow-luxury-lg:     0 12px 40px 0 rgba(11, 28, 45, 0.06);
+  --shadow-luxury-xl:     0 25px 60px -15px rgba(11, 28, 45, 0.1);
+  
+  --ease-std: cubic-bezier(0.16, 1, 0.3, 1);
+  --radius-luxury: 2rem;
+  --radius-luxury-lg: 3rem;
+  --radius-luxury-xl: 4rem;
+}
+
+:root {
+  --bg-body: #FFFFFF;
+  --bg-surface: #F5F7FA;
+  --bg-accent: #F5F7FA;
+  --bg-footer: #0B1C2D;
+  --text-main: #0B1C2D;
+  --text-muted: #64748B;
+  --border-main: #F1F5F9;
+  --shadow-main: 0 2px 12px 0 rgba(11, 28, 45, 0.04);
+  --shadow-deep: 0 12px 40px 0 rgba(11, 28, 45, 0.08);
+  --overlay-hero: rgba(11, 28, 45, 0.65);
+}
+
+/* ─────────────────────────────────────── 
+   BASE
+ ──────────────────────────────────────── */
+@layer base {
+  html { 
+    scroll-behavior: smooth;
+    background-color: var(--bg-body);
+    color: var(--text-main);
+  }
+
+  body {
+    font-family: 'Outfit', sans-serif;
+    background: var(--bg-body);
+    color: var(--text-main);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.025em;
+    color: var(--color-fera-deep);
+  }
+
+  p, span, li, a, button, input, select, textarea {
+    font-family: 'Outfit', sans-serif;
+    line-height: 1.7;
+    letter-spacing: -0.01em;
+  }
+
+  *:focus-visible {
+    outline: 2px solid var(--color-fera-primary);
+    outline-offset: 3px;
+  }
+}
+
+/* ─────────────────────────────────────── 
+   COMPONENTS
+ ──────────────────────────────────────── */
+@layer components {
+  /* Section standard rhythm */
+  .section {
+    @apply py-20 lg:py-32 px-6;
+  }
+  .container-std {
+    @apply max-w-7xl mx-auto;
+  }
+
+  /* Clinical label above headings */
+  .section-label {
+    @apply text-[10px] font-bold uppercase tracking-[0.4em] text-fera-primary mb-6 block;
+  }
+
+  /* Section heading */
+  .section-heading {
+    @apply text-4xl lg:text-[64px] font-bold text-fera-deep tracking-tighter leading-[1.05];
+  }
+
+  /* Body description */
+  .section-body {
+    @apply text-fera-gray font-light text-lg lg:text-xl leading-relaxed;
+  }
+
+  /* Premium Surfaces */
+  .surface-glass {
+    @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-luxury-md;
+  }
+  .surface-soft {
+    @apply bg-fera-surface/30 border border-fera-border/30;
+  }
+
+  /* ── Dropdown hover ── */
+  .nav-dropdown:hover .nav-dropdown-menu,
+  .nav-dropdown:focus-within .nav-dropdown-menu {
+    @apply opacity-100 visible translate-y-0;
+  }
+}
+
+/* ─────────────────────────────────────── 
+   UTILITIES
+ ──────────────────────────────────────── */
+@layer utilities {
+  .bg-surface { background-color: #F5F7FA; }
+  .soft-navy-glow { 
+    background: radial-gradient(circle at 50% 50%, rgba(11, 28, 45, 0.03) 0%, transparent 70%);
+  }
+  .gpu { will-change: transform; }
+  .text-balance { text-wrap: balance; }
+
+  .custom-scrollbar::-webkit-scrollbar { width: 5px; }
+  .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #E2E8F0;
+    border-radius: 10px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #CBD5E1; }
+}
+
+/* ─── CSS Keyframes (hero + ambient) ─── */
+@keyframes heroZoom {
+  from { transform: scale(1.03) translateX(0px); }
+  to   { transform: scale(1.08) translateX(-12px); }
+}
+
+@keyframes orbFloat {
+  from { transform: translate(0, 0) scale(1); }
+  to   { transform: translate(-30px, 40px) scale(1.08); }
+}
+
+@keyframes scrollCue {
+  0%, 100% { opacity: 0.2; transform: scaleY(0.6); }
+  50%       { opacity: 0.7; transform: scaleY(1); }
+}
+
+@keyframes ping-slow {
+  0% { transform: scale(1); opacity: 0.8; }
+  70%, 100% { transform: scale(2); opacity: 0; }
+}
+
+/* ─────────────────────────────────────── 
+   SCROLL ANIMATIONS
+ ──────────────────────────────────────── */
+.animate-on-scroll {
+  opacity: 0;
+  transition-property: opacity, transform;
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.animate-on-scroll.is-visible {
+  opacity: 1;
+  transform: none !important;
+}
+
+.anim-heading { transform: translateY(15px); }
+.anim-card { transform: translateY(12px) scale(0.99); }
+.anim-image { transform: scale(1.02); }
+.anim-fade-up { transform: translateY(20px); }
+.anim-fade-left { transform: translateX(12px); }
+.anim-fade-right { transform: translateX(-12px); }
+
+/* ─────────────────────────────────────── 
+   ACCESSIBILITY — REDUCED MOTION
+ ──────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .animate-on-scroll {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  
+  .btn-premium-hover,
+  .card-premium-hover {
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
+/* ─────────────────────────────────────── 
+   UNIFIED INTERACTION SYSTEM
+ ──────────────────────────────────────── */
+.btn-premium-hover {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-premium-hover:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-luxury-md);
+}
+
+.card-premium-hover {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-premium-hover:hover {
+  transform: translateY(-3px) scale(1.005);
+  box-shadow: var(--shadow-luxury-lg);
+}
+
+.nav-link-refined {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-link-refined::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 1.5px;
+  background-color: currentColor;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  opacity: 0;
+  transform: translateX(-50%);
+}
+
+.nav-link-refined:hover::after {
+  width: 50%;
+  opacity: 0.2;
+}
+
+.group:hover .group-hover-slide-x {
+  transform: translateX(3px);
+}
+
+.group:hover .group-hover-slide-x-rtl {
+  transform: translateX(-3px);
+}
+
+.hover-lift {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+}
+
+.active-press:active {
+  transform: scale(0.97);
+}
+
+/* ─────────────────────────────────────── 
+   BLOG CONTENT TYPOGRAPHY
+ ──────────────────────────────────────── */
+.blog-content {
+  color: #334155;
+  font-size: 1.125rem;
+  line-height: 1.8;
+}
+
+.blog-content h2 {
+  font-size: clamp(1.875rem, 4vw, 2.25rem);
+  color: var(--color-fera-deep);
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.blog-content h3 {
+  font-size: 1.5rem;
+  color: var(--color-fera-deep);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.blog-content p {
+  margin-bottom: 1.5rem;
+  color: #475569;
+}
+
+.blog-content ul, 
+.blog-content ol {
+  margin-bottom: 2rem;
+  padding-inline-start: 1.5rem;
+}
+
+.blog-content li {
+  margin-bottom: 0.75rem;
+  padding-inline-start: 0.5rem;
+}
+
+.blog-content ul > li {
+  list-style-type: disc;
+}
+
+.blog-content ol > li {
+  list-style-type: decimal;
+}
+
+.blog-content strong {
+  color: var(--color-fera-deep);
+  font-weight: 700;
+}
+
+.blog-content blockquote {
+  border-inline-start: 4px solid var(--color-fera-light);
+  background: #F8FAFC;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: 2.5rem 0;
+  font-style: italic;
+  color: var(--color-fera-deep);
+}
+
+.blog-content img {
+  border-radius: 1.5rem;
+  box-shadow: var(--shadow-luxury-lg);
+  margin: 3rem 0;
+  width: 100%;
+  height: auto;
+}
+
+[dir="rtl"] .blog-content {
+  text-align: right;
+}
+
+/* ─────────────────────────────────────── 
+   PAGE ANIMATION COORDINATION
+ ──────────────────────────────────────── */
+
+/* Hide animations until page is ready */
+:not(.page-ready) [data-animate] {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* Enable animations when page is ready */
+.page-ready [data-animate] {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Staggered animation delays */
+.page-ready [data-animate="1"] { transition-delay: 0.1s; }
+.page-ready [data-animate="2"] { transition-delay: 0.2s; }
+.page-ready [data-animate="3"] { transition-delay: 0.3s; }
+.page-ready [data-animate="4"] { transition-delay: 0.4s; }
+.page-ready [data-animate="5"] { transition-delay: 0.5s; }
+.page-ready [data-animate="6"] { transition-delay: 0.6s; }
+
+/* Framer Motion coordination */
+.page-ready .motion-section {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ─────────────────────────────────────── 
+   ARABIC LOCALIZATION — TEXT ALIGNMENT ONLY
+   (Layout remains LTR as per branding)
+──────────────────────────────────────── */
+html[lang="ar"] h1, 
+html[lang="ar"] h2, 
+html[lang="ar"] h3, 
+html[lang="ar"] h4, 
+html[lang="ar"] h5, 
+html[lang="ar"] h6, 
+html[lang="ar"] p, 
+html[lang="ar"] span, 
+html[lang="ar"] label,
+html[lang="ar"] input,
+html[lang="ar"] textarea {
+  text-align: right;
+}
+
+/* Ensure icons and flex items within right-aligned containers don't break */
+html[lang="ar"] .flex {
+  text-align: inherit;
+}
+
+/* Maintain explicit centering where intended */
+html[lang="ar"] .text-center,
+html[lang="ar"] .text-center * {
+  text-align: center;
+}
+
+/* Specific overrides for hero and forms */
+html[lang="ar"] .hero-content-card * {
+  text-align: right;
+}
