@@ -10,12 +10,12 @@ import { TopBar } from './TopBar'
 
 
 const LANGUAGES = [
-  { code: 'en', label: 'languages.english', flag: '🇬🇧' },
-  { code: 'ar', label: 'languages.arabic', flag: '🇸🇦' },
-  { code: 'fr', label: 'languages.french', flag: '🇫🇷' },
-  { code: 'ru', label: 'languages.russian', flag: '🇷🇺' },
-  { code: 'es', label: 'languages.spanish', flag: '🇪🇸' },
-  { code: 'tr', label: 'languages.turkish', flag: '🇹🇷' },
+  { code: 'en', label: 'languages.english', flag: '🇬🇧', countryCode: 'GB' },
+  { code: 'ar', label: 'languages.arabic', flag: '🇸🇦', countryCode: 'SA' },
+  { code: 'fr', label: 'languages.french', flag: '🇫🇷', countryCode: 'FR' },
+  { code: 'ru', label: 'languages.russian', flag: '🇷🇺', countryCode: 'RU' },
+  { code: 'es', label: 'languages.spanish', flag: '🇪🇸', countryCode: 'ES' },
+  { code: 'tr', label: 'languages.turkish', flag: '🇹🇷', countryCode: 'TR' },
 ]
 
 /* ─── dropdown item shape ─── */
@@ -51,6 +51,18 @@ export function Navbar() {
     return () => window.removeEventListener('scroll', handler)
   }, [])
 
+  /* Body scroll locking when mobile menu is open */
+  useEffect(() => {
+    if (open) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = 'unset'
+    }
+    return () => {
+      document.body.style.overflow = 'unset'
+    }
+  }, [open])
+
   /* Close dropdowns when clicking outside */
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -84,8 +96,8 @@ export function Navbar() {
 
   return (
     <header
-      className="sticky top-0 inset-x-0 z-[999] bg-white/95 backdrop-blur-xl border border-[rgba(11,28,45,0.10)]
-          transition-all duration-300 ${scrolled ? 'shadow-lg' : ''}"
+      className={`sticky top-0 inset-x-0 z-[999] bg-white/95 backdrop-blur-xl border border-[rgba(11,28,45,0.10)] overflow-hidden
+          transition-all duration-300 ${scrolled ? 'shadow-lg' : ''}`}
     >
       <div className="w-full max-w-full mx-auto px-6 lg:px-8 flex items-center justify-between h-16 lg:h-20">
 
@@ -249,24 +261,34 @@ export function Navbar() {
               <span className="text-[10px] font-bold uppercase hidden lg:block tracking-widest text-slate-700 group-hover:text-[#0B1C2D] transition-colors">{lang}</span>
             </div>
             <div 
-              className="nav-dropdown-menu absolute top-full end-0 mt-1 w-60
-                            bg-white/95 backdrop-blur-xl border border-[rgba(11,28,45,0.10)] rounded-2xl shadow-[0_20px_70px_rgba(11,28,45,0.08)]
-                            transition-all duration-500 z-[9999] p-2 space-y-1
-                            opacity-0 invisible -translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0"
+              className="nav-dropdown-menu absolute top-full end-0 mt-3 w-64
+                            bg-white/98 backdrop-blur-2xl border border-[rgba(11,28,45,0.08)] rounded-[1.25rem] shadow-[0_15px_45px_rgba(11,28,45,0.08)]
+                            transition-all duration-500 z-[9999] p-2 space-y-0.5
+                            opacity-0 invisible -translate-y-3 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0"
             >
-              {LANGUAGES.map(l => (
-                <button
-                  key={l.code}
-                  onClick={() => handleLangSwitch(l.code)}
-                  className={`h-11 w-full px-4 flex items-center justify-between rounded-lg text-sm font-medium transition-all duration-300
-                              ${lang === l.code 
-                                ? 'bg-[#F4F7FA] text-[#0B1C2D] font-semibold' 
-                                : 'text-[#334155] hover:bg-[#F4F7FA] hover:text-[#0B1C2D]'}`}
-                >
-                  <span className="tracking-tight">{t(l.label)}</span>
-                  <span className="opacity-60 grayscale-[0.5] group-hover:grayscale-0 transition-all text-xs">{l.flag}</span>
-                </button>
-              ))}
+              <div className="grid grid-cols-1">
+                {LANGUAGES.map(l => (
+                  <button
+                    key={l.code}
+                    onClick={() => handleLangSwitch(l.code)}
+                    className={`h-12 w-full px-4 flex items-center justify-between rounded-xl text-sm transition-all duration-300 group/lang
+                                ${lang === l.code 
+                                  ? 'bg-[#F4F7FA] text-[#0B1C2D] font-bold' 
+                                  : 'text-[#64748B] hover:bg-[#F4F7FA] hover:text-[#0B1C2D]'}`}
+                  >
+                    <div className="flex items-center gap-4">
+                      {/* Fixed width container for flag to ensure alignment */}
+                      <span className="w-7 h-7 flex items-center justify-center text-xl filter drop-shadow-sm transition-transform group-hover/lang:scale-110">
+                        {l.flag}
+                      </span>
+                      <span className="tracking-tight">{t(l.label)}</span>
+                    </div>
+                    <span className={`text-[10px] font-bold tracking-widest transition-opacity opacity-30 group-hover/lang:opacity-100`}>
+                      {l.countryCode}
+                    </span>
+                  </button>
+                ))}
+              </div>
             </div>
           </div>
 
@@ -300,7 +322,7 @@ export function Navbar() {
             transition={{ duration: 0.2 }}
             className="xl:hidden overflow-hidden bg-white border-t border-[rgba(11,28,45,0.10)]"
           >
-            <div className="px-6 py-4 space-y-1">
+            <div className="px-4 sm:px-6 py-3 sm:py-4 space-y-1">
               {[
                 { label: t('navigation.home'), href: '/' },
                 { label: t('navigation.about'), href: '/about' },
@@ -348,17 +370,18 @@ export function Navbar() {
                 {/* Mobile Language Options */}
                 <div className="space-y-2">
                   <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#0B1C2D] opacity-60">{t('navigation.language', 'Language')}</p>
-                  <div className="grid grid-cols-2 gap-2">
-                    {LANGUAGES.slice(0, 4).map(l => (
+                  <div className="grid grid-cols-2 xs:grid-cols-3 gap-2">
+                    {LANGUAGES.map(l => (
                       <button
                         key={l.code}
                         onClick={() => handleLangSwitch(l.code)}
-                        className={`py-2 px-3 text-xs font-medium rounded-lg transition-colors
+                        className={`py-2.5 px-3 flex items-center gap-2 rounded-xl text-xs transition-all min-w-0
                                     ${lang === l.code 
-                                      ? 'bg-[#F4F7FA] text-[#0B1C2D] font-semibold' 
-                                      : 'text-[#334155] hover:bg-[#F4F7FA]'}`}
+                                      ? 'bg-[#0B1C2D] text-white font-bold' 
+                                      : 'bg-[#F4F7FA] text-[#334155] border border-transparent'}`}
                       >
-                        <span className="mr-1">{l.flag}</span>{l.code.toUpperCase()}
+                        <span className="text-base shrink-0">{l.flag}</span>
+                        <span className="uppercase font-bold tracking-widest truncate">{l.code}</span>
                       </button>
                     ))}
                   </div>

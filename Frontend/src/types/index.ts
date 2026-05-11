@@ -4,6 +4,7 @@ export interface TreatmentRow {
   heading: string
   description: string
   image: string
+  imageKey?: string
 }
 
 export interface Treatment {
@@ -15,10 +16,12 @@ export interface Treatment {
   duration: string
   price: string
   image: string
+  imageKey?: string
   features: string[]
   benefits: string[]
   editorial?: TreatmentRow[]
   additionalImages?: string[]
+  imageKeys?: string[]
 }
 
 // Navigation Types

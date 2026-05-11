@@ -70,7 +70,7 @@ export const AboutTeaser = () => {
                 className="max-w-2xl text-4xl font-semibold leading-tight text-fera-navy md:text-5xl"
                 style={{ fontFamily: 'Cormorant Garamond, serif' }}
               >
-                {t('aboutTeaser.title1', 'Redefining')} <span className="italic text-[#0B1C2D]">{t('aboutTeaser.title2', 'Dental Excellence')}</span> {t('common.inIstanbul', 'in Istanbul')}
+                {t('aboutTeaser.title1', 'Redefining')} <span className="italic text-[#0B1C2D]">{t('aboutTeaser.title2', 'FeRa Clinic')}</span> {t('common.inIstanbul', 'in Istanbul')}
               </motion.h2>
 
               <motion.div
@@ -135,7 +135,7 @@ export const AboutTeaser = () => {
 
             <div className="relative overflow-hidden rounded-[2rem] border border-white/60 bg-white p-3 shadow-[0_25px_80px_rgba(11,28,45,0.12)]">
               <img
-                src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=1200"
+                src="/images/fera-clinic/about/clinic-room.jpg"
                 alt={t('about.clinicRoomAlt', 'FeRa Clinic dental treatment room')}
                 className="h-[520px] w-full rounded-[1.5rem] object-cover"
               />

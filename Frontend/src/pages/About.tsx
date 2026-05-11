@@ -35,21 +35,21 @@ const getTeam = (t: any) => [
     name: 'Dr. Ahmet Yılmaz',
     role: t('about.team.0.role', 'Chief Medical Director'),
     specialty: t('about.team.0.specialty', 'Oral Surgery & Implantology'),
-    image: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=800&h=1000',
+    image: '/images/fera-clinic/specialists/doctor-1.jpg',
     desc: t('about.team.0.desc', 'Specializing in complex dental reconstructions with over 15 years of surgical excellence and implantology expertise.')
   },
   {
     name: 'Dr. Sarah Müller',
     role: t('about.team.1.role', 'Senior Aesthetic Architect'),
     specialty: t('about.team.1.specialty', 'Digital Smile Design'),
-    image: 'https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=800&h=1000',
+    image: '/images/fera-clinic/specialists/doctor-2.jpg',
     desc: t('about.team.1.desc', 'Expert in the harmony of dental aesthetics and facial proportions using advanced CAD/CAM digital smile design technology.')
   },
   {
     name: 'Dr. Can Karaca',
     role: t('about.team.2.role', 'Lead Prosthodontist'),
     specialty: t('about.team.2.specialty', 'High-Precision Prosthetics'),
-    image: 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=800&h=1000',
+    image: '/images/fera-clinic/specialists/doctor-3.jpg',
     desc: t('about.team.2.desc', 'Dedicated to achieving the perfect balance between functional load-bearing prosthetics and natural tooth translucency.')
   }
 ]
@@ -99,7 +99,7 @@ export function About() {
               className="flex items-center gap-4 mb-6"
             >
               <div className="w-12 h-[1px] bg-white/40" />
-              <span className="text-[10px] font-bold text-white uppercase tracking-widest drop-shadow-md">{t('about.heroEyebrow', 'Dental Excellence')}</span>
+              <span className="text-[10px] font-bold text-white uppercase tracking-widest drop-shadow-md">{t('about.heroEyebrow', 'FeRa Clinic')}</span>
             </motion.div>
 
             {/* Premium Heading - White with Shadow */}
@@ -110,7 +110,7 @@ export function About() {
                 transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
                 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif font-bold text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.45)] tracking-tight leading-[1.1]"
               >
-                {t('about.heroTitle', 'Dental Excellence in')}
+                {t('about.heroTitle', 'FeRa Clinic in')}
               </motion.h1>
               <motion.h1
                 initial={{ opacity: 0, y: 30 }}
@@ -400,37 +400,37 @@ export function About() {
                 icon: ShieldCheck,
                 title: t('about.trust.isoTitle', 'ISO 9001 Certified'),
                 desc: t('about.trust.isoDesc', 'Internationally recognized quality management system for medical facilities.'),
-                badge: 'Certified'
+                badge: t('about.trust.badges.certified', 'Certified')
               },
               {
                 icon: Award,
                 title: t('about.trust.experienceTitle', '15+ Years Experience'),
                 desc: t('about.trust.experienceDesc', 'Decades of specialized dental practice with thousands of successful treatments.'),
-                badge: 'Expert'
+                badge: t('about.trust.badges.expert', 'Expert')
               },
               {
                 icon: Users,
                 title: t('about.trust.patientsTitle', '5000+ Happy Patients'),
                 desc: t('about.trust.patientsDesc', 'Trusted by international patients from over 50 countries worldwide.'),
-                badge: 'Proven'
+                badge: t('about.trust.badges.proven', 'Proven')
               },
               {
                 icon: Stethoscope,
                 title: t('about.trust.specialistsTitle', 'Specialist Doctors Only'),
                 desc: t('about.trust.specialistsDesc', 'Every procedure performed by doctors with advanced specialty training.'),
-                badge: 'Qualified'
+                badge: t('about.trust.badges.qualified', 'Qualified')
               },
               {
                 icon: Microscope,
                 title: t('about.trust.technologyTitle', 'Advanced Technology'),
                 desc: t('about.trust.technologyDesc', 'State-of-the-art equipment and digital treatment planning systems.'),
-                badge: 'Modern'
+                badge: t('about.trust.badges.modern', 'Modern')
               },
               {
                 icon: Heart,
                 title: t('about.trust.careTitle', 'Patient-Centered Care'),
                 desc: t('about.trust.careDesc', 'Personalized treatment plans with dedicated coordinators for international patients.'),
-                badge: 'Caring'
+                badge: t('about.trust.badges.caring', 'Caring')
               }
             ].map((trust, i) => (
               <motion.div
@@ -586,7 +586,7 @@ export function About() {
                       <div className="flex items-center gap-6 text-[#64748B]">
                         <div className="flex items-center gap-2">
                           <Clock className="w-4 h-4 text-[#0B1C2D]/40" />
-                          <span className="text-xs font-medium">15+ Years</span>
+                          <span className="text-xs font-medium">{t('about.yearsExperience', '15+ Years')}</span>
                         </div>
                         <div className="flex items-center gap-2">
                           <Award className="w-4 h-4 text-[#0B1C2D]/40" />

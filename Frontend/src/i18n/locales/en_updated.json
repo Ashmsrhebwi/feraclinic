@@ -1,0 +1,806 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "treatments": "Treatments",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "consultation": "Consultation",
+    "dentalTourism": "Dental Tourism",
+    "testimonials": "Testimonials",
+    "blog": "Blog",
+    "joinUs": "Join Us",
+    "corporate": "Corporate",
+    "partnership": "Partnership",
+    "gallery_beforeAfter": "Before & After",
+    "gallery_clinicPhotos": "Clinic Photos",
+    "aboutUs": "About Us",
+    "search": "Search",
+    "language": "Language"
+  },
+  "topbar": {
+    "bookAppointment": "Book an Appointment",
+    "book": "Book",
+    "whatsappIconText": "7/24",
+    "whatsappNumber": "+90 536 746 01 00",
+    "instagramText": "Follow us on Instagram"
+  },
+  "gallery": {
+    "heroEyebrow": "Surgical Excellence",
+    "heroTitle": "Real Patient Smile Transformations",
+    "heroDesc": "Every smile we create is a balance of medical precision and artistic vision. Explore our documented transformations and state-of-the-art facilities.",
+    "ctaPrimary": "Start Your Smile Journey",
+    "ctaSecondary": "See Real Patient Results",
+    "tabCases": "Case Transformations",
+    "tabFacility": "Facility Audit",
+    "clinicalRecord": "Clinical Record",
+    "protocolOutcome": "Protocol Outcome",
+    "clinicalWindow": "Clinical Window",
+    "evidence": {
+      "compliance": "Restorative Compliance",
+      "safety": "Biological Safety",
+      "warranty": "Clinical Warranty"
+    },
+    "footerTitle1": "Design Your",
+    "footerTitle2": "Next Chapter.",
+    "exploreProtocols": "Explore Surgical Protocols"
+  },
+  "whatsapp": {
+    "title": "FeRa Clinic",
+    "status": "Typically replies quickly",
+    "greeting": "Hi there! 🌟 Welcome to FeRa Clinic. How can we help you today?",
+    "cta": "Talk to a Specialist"
+  },
+  "chat": {
+    "welcomeTitle": "FeRa Assistant",
+    "welcomeMsg": "Hi there! 🌟 We're so glad you're here. How can we support your smile journey today?",
+    "quickActions": "Quick Actions",
+    "actionConsultation": "Book Free Consultation",
+    "actionTreatments": "View Treatments",
+    "actionTourism": "Dental Tourism",
+    "actionGallery": "Before & After",
+    "actionWhatsApp": "Chat on WhatsApp",
+    "actionTeam": "Speak with Team",
+    "actionAskTreatment": "Ask About This Treatment",
+    "actionAskQuestion": "Ask a Question",
+    "actionRelatedTreatments": "Related Treatments",
+    "actionTourismPackages": "Travel Packages",
+    "actionTourismServices": "Airport & Hotel",
+    "actionDuration": "How Many Days Needed?",
+    "formTitle": "Free Consultation",
+    "formName": "Full Name",
+    "formPhone": "Phone / WhatsApp",
+    "formTreatment": "Treatment Interest",
+    "formLanguage": "Preferred Language",
+    "formSubmit": "Submit Request",
+    "formBack": "Back to menu",
+    "formSuccess": "Thank you! Our medical team will contact you shortly.",
+    "formSelectTreatment": "Select Treatment",
+    "formSelectLanguage": "Select Language",
+    "faqTitle": "Frequently Asked Questions",
+    "faqQ1": "Do you offer hotel and transfer?",
+    "faqA1": "Yes, we provide VIP airport transfers and 5-star hotel coordination for all our international patients to ensure a stress-free journey.",
+    "faqQ2": "How long does Hollywood Smile take?",
+    "faqA2": "A Hollywood Smile transformation typically takes 5 to 7 days in Istanbul, involving 2-3 clinical visits for artisanal design and placement.",
+    "faqQ3": "Is consultation free?",
+    "faqA3": "Yes, initial clinical consultations and 3D treatment planning are completely free of charge at FeRa Clinic.",
+    "faqQ4": "How much does treatment cost?",
+    "faqA4": "Costs are personalized. However, patients typically save up to 70% compared to Western prices while receiving premium Swiss-engineered materials.",
+    "status": "Online · Typically replies instantly",
+    "phonePlaceholder": "+90..."
+  },
+  "hero": {
+    "heroEyebrow": "Trusted Dental Clinic in Istanbul",
+    "heroTitle": "A Smile You Can Trust. A Confidence You Can Feel.",
+    "heroDesc": "At FeRa Clinic, we combine clinical precision with artistic design to create natural, lasting smiles — tailored to you, guided by specialists, and delivered with care.",
+    "ctaPrimary": "Start Your Smile Journey",
+    "ctaSecondary": "See Patient Stories",
+    "trustLine": "ISO Certified • 15+ Specialist Dentists • Global Patient Hub"
+  },
+  "about": {
+    "title": "About FeRa Clinic",
+    "subtitle": "We are The Smile Makers - a premier dental clinic in Istanbul dedicated to transforming lives through exceptional dental care and personalized treatment experiences.",
+    "storyTitle": "Our Story",
+    "storyDesc": "Founded with a vision to revolutionize dental care in Turkey, FeRa Clinic brings together internationally trained specialists and Swiss-engineered technology to deliver world-class smile transformations.",
+    "missionTitle": "Our Mission",
+    "missionDesc": "To provide exceptional dental care that combines medical precision with artistic vision, creating natural, lasting smiles that enhance both health and confidence.",
+    "visionTitle": "Our Vision",
+    "visionDesc": "To become the global destination for premium dental care, where international patients receive Swiss-engineered quality with Turkish hospitality.",
+    "valuesTitle": "Our Values",
+    "valuesDesc": "Excellence, Innovation, Patient-Centered Care",
+    "ctaText": "Experience the FeRa Difference",
+    "teamTitle": "Our Team",
+    "teamSubtitle": "Internationally trained specialists committed to your smile transformation journey.",
+    "teamDesc": "Our team consists of specialist dentists with advanced training from Switzerland, Germany, and Turkey, bringing global expertise to your dental care.",
+    "specialistsTitle": "Our Specialists",
+    "specialistsDesc": "Each specialist focuses on specific dental disciplines, ensuring expert care for every treatment need.",
+    "technologyTitle": "Advanced Technology",
+    "technologyDesc": "Swiss-engineered dental technology and 3D planning systems for precision and predictable results.",
+    "facilitiesTitle": "Premium Facilities",
+    "facilitiesDesc": "State-of-the-art clinic designed for international patients, featuring advanced surgical suites and comfortable recovery areas.",
+    "accreditationsTitle": "International Accreditations",
+    "accreditationsDesc": "ISO-certified facility with international standards for safety and quality assurance.",
+    "ctaPrimary": "Schedule Your Consultation",
+    "ctaSecondary": "Meet Our Team"
+  },
+  "contact": {
+    "heroEyebrow": "Contact Our Dental Team",
+    "heroTitle": "Reach Our Dental Team",
+    "heroDesc": "Have questions about treatments? Ready to start your dental journey? Our Istanbul clinic team is ready to provide expert guidance and personalized consultation.",
+    "formTitle": "Get in Touch",
+    "formSubtitle": "Send us a message and our team will respond promptly with personalized guidance.",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "message": "Message",
+    "treatment": "Treatment Interest",
+    "submit": "Send Message",
+    "successTitle": "Message Sent Successfully",
+    "successDesc": "Thank you for contacting FeRa Clinic. Our team will review your inquiry and respond within 24 hours.",
+    "infoTitle": "Clinic Information",
+    "address": "Kazlıçeşme, Kennedy Cad. No:62 D:1, 34020 Zeytinburnu/İstanbul",
+    "phone": "+90 536 746 01 00",
+    "email": "consultation@FeRaclinic.com",
+    "whatsapp": "+90 536 746 01 00",
+    "hours": "Monday - Friday: 9:00 AM - 6:00 PM (GMT+3)",
+    "mapTitle": "FeRa Clinic Location"
+  },
+  "consultation": {
+    "heroEyebrow": "Free Online Consultation",
+    "heroTitle": "Free Dental Consultation Istanbul",
+    "heroDesc": "Connect with our specialist dentists for expert guidance. Your personalized treatment plan begins with a confidential, comprehensive assessment.",
+    "seo": {
+      "title": "Free Dental Consultation Istanbul | Online Dental Assessment Turkey",
+      "description": "Get expert dental consultation online with FeRa Clinic Istanbul. Specialist dentists ready to assess your dental needs and create personalized treatment plans."
+    },
+    "ctaPrimary": "Get Free Consultation",
+    "ctaSecondary": "View Gallery",
+    "formTitle": "Request Your Free Consultation",
+    "formSubtitle": "Fill out the form below to receive your personalized treatment plan and pricing.",
+    "personalInfo": "Personal Information",
+    "treatmentSelection": "Select Your Treatment",
+    "contactMethod": "Preferred Contact Method",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Enter your full name",
+    "email": "Email Address",
+    "emailPlaceholder": "your.email@example.com",
+    "phone": "Phone Number",
+    "phonePlaceholder": "+90 552 123 45 67",
+    "treatment": "Treatment Interest",
+    "treatmentPlaceholder": "Select a treatment",
+    "submit": "Get Free Consultation",
+    "contactMethods": {
+      "email": "Email",
+      "phoneCall": "Phone Call",
+      "whatsapp": "WhatsApp"
+    }
+  },
+  "testimonials": {
+    "heroEyebrow": "Real Patient Stories",
+    "heroTitle": "What Our Patients Say",
+    "heroDesc": "Discover authentic experiences from international patients who chose FeRa Clinic for their smile transformations. Real stories, real results.",
+    "seo": {
+      "title": "Patient Testimonials Istanbul | Dental Reviews Turkey | Smile Stories",
+      "description": "Read authentic patient testimonials and reviews for FeRa Clinic Istanbul. Real experiences from international patients about their dental transformations."
+    },
+    "ctaPrimary": "Read All Stories",
+    "ctaSecondary": "Share Your Story",
+    "filtersTitle": "Filter by Treatment",
+    "filters": {
+      "all": "All",
+      "implants": "Dental Implants",
+      "veneers": "Porcelain Veneers",
+      "invisalign": "Clear Aligners",
+      "hollywoodSmile": "Hollywood Smile"
+    },
+    "stats": {
+      "patientsTitle": "Global Patient Community",
+      "patients": "5000+",
+      "countries": "50+",
+      "satisfaction": "98%",
+      "ratingTitle": "Excellence in Dental Care",
+      "rating": "4.9/5.0"
+    },
+    "featuredTitle": "Success Stories",
+    "featuredDesc": "Life-changing smile transformations from around the world, made possible by FeRa Clinic's expert dental team.",
+    "list": {
+      "t1": {
+        "date": "March 2024",
+        "location": "United Kingdom",
+        "name": "Sarah Johnson",
+        "quote": "The Hollywood Smile transformation exceeded all my expectations. The team's attention to detail and the final result are absolutely remarkable."
+      },
+      "t2": {
+        "date": "February 2024",
+        "location": "Germany",
+        "name": "Michael Schmidt",
+        "quote": "Professional, caring, and exceptional results. My new smile has given me confidence I never had before."
+      },
+      "t3": {
+        "date": "January 2024",
+        "location": "Italy",
+        "name": "Giulia Rossi",
+        "quote": "From consultation to final result, everything was perfect. The clinic facilities are world-class."
+      },
+      "t4": {
+        "date": "December 2023",
+        "location": "France",
+        "name": "Pierre Dubois",
+        "quote": "The best dental experience I've ever had. The team truly cares about patient comfort and results."
+      },
+      "t5": {
+        "date": "November 2023",
+        "location": "United States",
+        "name": "Jennifer Smith",
+        "quote": "FeRa Clinic combines medical excellence with artistic vision. My smile transformation is natural and beautiful."
+      },
+      "t6": {
+        "date": "October 2023",
+        "location": "Turkey",
+        "name": "Ahmet Yılmaz",
+        "quote": "Outstanding care from start to finish. The international patient support made everything easy."
+      }
+    },
+    "ctaText": "Start Your Journey",
+    "ctaDesc": "Ready to transform your smile? Read more inspiring stories from our satisfied patients and contact us for your personalized consultation."
+  },
+  "joinUs": {
+    "hero": {
+      "badge": "Join Our Team",
+      "title": "Join FeRa Clinic Team",
+      "subtitle": "Advance your career in a premium international dental clinic in Istanbul, where excellence meets opportunity.",
+      "cta": "Apply Now"
+    },
+    "whyWork": {
+      "title": "Why Work With Us",
+      "subtitle": "Join a team where excellence meets innovation in the heart of Istanbul's medical district.",
+      "benefits": {
+        "internationalTeam": "International Team",
+        "advancedTech": "Advanced Technology",
+        "careerGrowth": "Career Growth",
+        "patientImpact": "Patient Impact",
+        "competitiveSalary": "Competitive Salary",
+        "premiumLocation": "Premium Location"
+      }
+    },
+    "positions": {
+      "title": "Open Positions",
+      "subtitle": "Current opportunities for dental professionals who share our commitment to excellence.",
+      "list": {
+        "specialistDentist": "Specialist Dentist",
+        "oralSurgeon": "Oral Surgeon",
+        "dentalTechnician": "Dental Technician",
+        "patientCoordinator": "Patient Coordinator",
+        "clinicManager": "Clinic Manager",
+        "marketingSpecialist": "Marketing Specialist"
+      }
+    },
+    "requirements": {
+      "title": "Requirements",
+      "subtitle": "We're looking for qualified professionals who share our vision of excellence in dental care.",
+      "list": {
+        "education": "Education & Certification",
+        "experience": "Professional Experience",
+        "skills": "Skills & Expertise",
+        "languages": "Languages",
+        "documents": "Required Documents"
+      }
+    },
+    "form": {
+      "title": "Career Application",
+      "subtitle": "Take the next step in your dental career. Join our international team of specialists.",
+      "personalInfo": "Personal Information",
+      "professionalInfo": "Professional Information",
+      "education": "Education & Background",
+      "experience": "Work Experience",
+      "availability": "Availability",
+      "motivation": "Motivation",
+      "submit": "Submit Application",
+      "successTitle": "Application Received",
+      "successDesc": "Thank you for your interest in joining FeRa Clinic. Our HR team will review your application and contact you within 5 business days."
+    },
+    "benefits": {
+      "title": "Why Join FeRa Clinic?",
+      "subtitle": "Experience the rewards of working with a leading international dental clinic in Istanbul.",
+      "list": {
+        "professionalGrowth": "Professional Growth",
+        "internationalExposure": "International Exposure",
+        "advancedTraining": "Advanced Training",
+        "competitiveCompensation": "Competitive Compensation",
+        "modernFacilities": "Modern Facilities",
+        "teamCollaboration": "Team Collaboration"
+      }
+    }
+  },
+  "corporate": {
+    "hero": {
+      "badge": "Corporate Partnership",
+      "title": "Partner With FeRa Clinic",
+      "subtitle": "Elevate your organization's dental care through strategic partnership with Istanbul's premier dental clinic.",
+      "cta": "Explore Partnership Opportunities"
+    },
+    "services": {
+      "title": "Corporate Dental Services",
+      "subtitle": "Comprehensive dental solutions for organizations seeking premium care for their teams.",
+      "list": {
+        "employeePlans": "Employee Dental Plans",
+        "executiveCheckups": "Executive Check-ups",
+        "groupTreatments": "Group Treatments",
+        "onSiteServices": "On-site Dental Services",
+        "dentalTourism": "Dental Tourism Packages"
+      }
+    },
+    "process": {
+      "title": "Partnership Process",
+      "subtitle": "Simple steps to establish a successful dental care partnership with FeRa Clinic.",
+      "steps": {
+        "initialContact": "Initial Contact",
+        "consultationMeeting": "Consultation Meeting",
+        "agreementSigning": "Agreement Signing",
+        "implementation": "Implementation",
+        "ongoingSupport": "Ongoing Support"
+      }
+    },
+    "form": {
+      "title": "Corporate Inquiry",
+      "subtitle": "Connect with our corporate team to discuss your organization's dental care needs and partnership opportunities.",
+      "companyName": "Company / Organization Name",
+      "companyNamePlaceholder": "Enter company name",
+      "industry": "Industry",
+      "industryPlaceholder": "Select industry",
+      "contactPerson": "Contact Person",
+      "contactPersonPlaceholder": "Enter contact person name",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter email address",
+      "phone": "Phone Number",
+      "phonePlaceholder": "Enter phone number",
+      "country": "Country",
+      "countryPlaceholder": "Select country",
+      "partnershipType": "Partnership Type",
+      "partnershipTypePlaceholder": "Select partnership type",
+      "websiteOrSocial": "Website or Social Media",
+      "websiteOrSocialPlaceholder": "Enter website or social media handle",
+      "message": "Message",
+      "messagePlaceholder": "Describe your partnership interest",
+      "submit": "Submit Inquiry",
+      "successTitle": "Inquiry Received",
+      "successDesc": "Thank you for your interest in partnering with FeRa Clinic. Our partnership team will review your inquiry and respond within 3 business days."
+    },
+    "benefits": {
+      "title": "Why Partner With FeRa Clinic?",
+      "subtitle": "Discover the advantages of partnering with Istanbul's leading dental clinic for your organization's dental care needs.",
+      "list": {
+        "premiumCare": "Premium Care Access",
+        "internationalNetwork": "International Network",
+        "competitivePricing": "Competitive Pricing",
+        "expertTeam": "Expert Team Access",
+        "marketingSupport": "Marketing Support",
+        "reliableService": "Reliable Service"
+      }
+    }
+  },
+  "partnership": {
+    "hero": {
+      "badge": "Strategic Partnership",
+      "title": "Partner With FeRa Clinic",
+      "subtitle": "Join our network of dental care providers and expand your reach through strategic collaboration.",
+      "cta": "Apply for Partnership"
+    },
+    "partnershipTypes": {
+      "title": "Partnership Opportunities",
+      "subtitle": "We offer various partnership models tailored to your organization's needs and goals.",
+      "list": {
+        "dentalClinics": "Dental Clinics",
+        "dentalLabs": "Dental Laboratories",
+        "insuranceProviders": "Insurance Providers",
+        "medicalTourism": "Medical Tourism Agencies",
+        "dentalSuppliers": "Dental Suppliers"
+      }
+    },
+    "process": {
+      "title": "Partnership Process",
+      "subtitle": "From initial contact to successful partnership, we make collaboration seamless and mutually beneficial.",
+      "steps": {
+        "application": "Application Submission",
+        "review": "Review Process",
+        "agreement": "Partnership Agreement",
+        "onboarding": "Partner Onboarding",
+        "ongoingSupport": "Ongoing Support"
+      }
+    },
+    "requirements": {
+      "title": "Partnership Requirements",
+      "subtitle": "We seek partners who share our commitment to excellence and patient-centered care.",
+      "criteria": {
+        "reputation": "Strong Reputation",
+        "qualityStandards": "Quality Standards",
+        "financialStability": "Financial Stability",
+        "geographicPresence": "Geographic Presence",
+        "patientFocus": "Patient Focus"
+      }
+    },
+    "form": {
+      "title": "Partnership Application",
+      "subtitle": "Ready to partner with us? Complete the form below and our partnership team will review your application.",
+      "companyInfo": "Company Information",
+      "legalInfo": "Legal Information",
+      "partnershipDetails": "Partnership Details",
+      "contactInfo": "Contact Information",
+      "submit": "Submit Application",
+      "successTitle": "Application Received",
+      "successDesc": "Thank you for your partnership interest. Our team will review your application and contact you within 5 business days.",
+      "nextSteps": "Next Steps"
+    },
+    "benefits": {
+      "title": "Partnership Benefits",
+      "subtitle": "Grow your business with FeRa Clinic's extensive network and premium dental care reputation.",
+      "list": {
+        "brandAssociation": "Brand Association",
+        "referralProgram": "Referral Program",
+        "exclusiveAccess": "Exclusive Access",
+        "marketingSupport": "Marketing Support",
+        "trainingOpportunities": "Training Opportunities"
+      }
+    }
+  },
+  "comingSoon": {
+    "hero": {
+      "badge": "Coming Soon",
+      "title": "New Services Coming",
+      "subtitle": "We're expanding our services to better serve your dental care needs. Check back soon for updates."
+    },
+    "services": {
+      "title": "Future Services",
+      "subtitle": "Advanced treatments and specialized care coming soon to FeRa Clinic.",
+      "list": {
+        "digitalSmileDesign": "Digital Smile Design",
+        "3DPrinting": "3D Dental Printing",
+        "laserDentistry": "Laser Dentistry",
+        "sedationDentistry": "Sedation Dentistry"
+      }
+    },
+    "notify": {
+      "title": "Stay Updated",
+      "subtitle": "Be the first to know about our new services and special offers.",
+      "email": "Enter your email",
+      "emailPlaceholder": "your.email@example.com",
+      "submit": "Notify Me",
+      "successTitle": "Notification Set",
+      "successDesc": "Thank you! We'll keep you updated about our latest services and exclusive offers."
+    },
+    "seo": {
+      "title": "Coming Soon | Future Dental Services | FeRa Clinic Istanbul",
+      "description": "Discover upcoming dental services and advanced treatments at FeRa Clinic Istanbul. Stay informed about our latest innovations in dental care."
+    }
+  },
+  "error": {
+    "title": "Page Not Found",
+    "subtitle": "The page you're looking for doesn't exist or is temporarily unavailable.",
+    "description": "Please check the URL and try again, or return to our homepage to explore our available services.",
+    "ctaPrimary": "Go Home",
+    "ctaSecondary": "Browse Services"
+  },
+  "common": {
+    "readMore": "Read More",
+    "viewDetails": "View Details",
+    "bookNow": "Book Now",
+    "freeConsultation": "Free Consultation",
+    "getConsultation": "Free Consultation",
+    "contactUs": "Contact Us",
+    "learnMore": "Learn More",
+    "allTreatments": "View All Treatments",
+    "internationalPatients": "International Patient Support",
+    "lifetimeWarranty": "Lifetime Warranty",
+    "satisfactionGuaranteed": "Satisfaction Guaranteed",
+    "clinicName": "FeRa Clinic",
+    "defaultDesc": "Experience premium dental care in Istanbul. Specialist surgeons, 3D technology, and VIP hospitality for international patients.",
+    "whatsappNumber": "905367460100",
+    "whatsappMessage": "Hello, I have a question about treatments.",
+    "readyFor1": "Ready for a",
+    "readyFor2": "New Smile?",
+    "viewAll": "View All",
+    "viewGallery": "View Gallery",
+    "realResults": "Real Patient Results",
+    "beforeAndAfter": "Before & After",
+    "before": "Before",
+    "after": "After",
+    "tapToReveal": "Tap · Hover to reveal",
+    "tapToSeeBefore": "Tap to see before",
+    "whatsapp": "WhatsApp",
+    "clinical": "Clinical",
+    "inIstanbul": "in Istanbul",
+    "step": "Step",
+    "countries": {
+      "italy": "Italy",
+      "uk": "United Kingdom",
+      "germany": "Germany",
+      "us": "United States",
+      "turkey": "Turkey",
+      "france": "France"
+    },
+    "whatsappNumberDisplay": "+90 536 746 01 00",
+    "designYourSmile": "Design Your Smile",
+    "whatsappConsultationLong": "Smile Design Consultation via WhatsApp",
+    "trustBadges": {
+      "iso": "ISO Certified",
+      "specialists": "15+ Specialist Dentists",
+      "patients": "Thousands of Happy Patients"
+    },
+    "phoneNumber": "+90 536 746 01 00",
+    "emailAddress": "consultation@FeRaclinic.com"
+  },
+  "a11y": {
+    "toggleWhatsApp": "Toggle WhatsApp Chat",
+    "closeSearch": "Close Search Modal",
+    "scrollToTop": "Scroll to Top",
+    "home": "Home",
+    "search": "Search",
+    "changeLanguage": "Change Language",
+    "toggleMenu": "Toggle Mobile Menu",
+    "closeAssistant": "Close Chat Assistant",
+    "toggleAssistant": "Toggle Chat Assistant",
+    "openMenu": "Open Mobile Menu",
+    "viewGoogleMaps": "View FeRa Clinic on Google Maps"
+  },
+  "alt": {
+    "homeInterior": "FeRa Clinic Interior",
+    "surgicalSuite": "FeRa Clinic surgical suite",
+    "reception": "FeRa Clinic reception",
+    "waitingArea": "FeRa Clinic waiting area",
+    "patientJourney": "Patient Journey Preview",
+    "clinicInstitutional": "FeRa Clinic Institutional",
+    "surgicalTheater": "State of the art surgical theater",
+    "clinicalMastery": "FeRa Clinic Clinical Mastery",
+    "labTech": "High end dental lab tech",
+    "clinicGallery": "FeRa Clinic Gallery",
+    "hospitality": "Clinic hospitality",
+    "dentalTourism": "Istanbul Dental Tourism",
+    "medicalDistrict": "Istanbul Medical District",
+    "consultation": "FeRa Clinic Consultation",
+    "clinicJournal": "FeRa Clinic Journal",
+    "FeRaClinic": "FeRa Clinic",
+    "clinicalExcellence": "Clinical Excellence",
+    "luxuryHotel": "Luxury Hotel",
+    "stateOfTheArtClinic": "State of the Art Clinic"
+  },
+  "languages": {
+    "english": "English",
+    "french": "Français",
+    "russian": "Русский",
+    "turkish": "Türkçe",
+    "arabic": "العربية"
+  },
+  "treatmentsPage": {
+    "heroEyebrow": "FeRa Clinic",
+    "heroTitle": "Advanced Dental Treatments in Istanbul",
+    "heroDesc": "Discover world-class dental care in Istanbul. From cosmetic dentistry to full-mouth rehabilitation, our specialist dentists deliver exceptional results with advanced technology and personalized treatment planning.",
+    "seo": {
+      "title": "Dental Treatments Istanbul | Dental Clinic Turkey | Cosmetic Dentistry",
+      "description": "Comprehensive dental treatments in Istanbul, Turkey. Expert cosmetic dentistry, dental implants, smile makeovers. Specialist dentists with advanced technology for international patients."
+    },
+    "ctaPrimary": "Free Consultation",
+    "ctaSecondary": "View Gallery",
+    "title": "Clinical Disciplines",
+    "subtitle": "Expert dental treatments designed for your unique smile goals",
+    "collectionEyebrow": "Treatment Portfolio",
+    "collectionDesc": "Each dental treatment at FeRa Clinic is carefully planned to deliver exceptional results with minimal discomfort and maximum precision. Treatment plans are personalized based on individual clinical evaluation.",
+    "heroTitle1": "Transform Your",
+    "heroTitle2": "Smile.",
+    "learnMore": "View Treatment",
+    "duration": "Clinical Time",
+    "price": "Investment",
+    "viewGallery": "View Before & After Gallery",
+    "ctaDesc": "Contact our Istanbul clinic today for a complimentary consultation and personalized treatment plan. Our specialist dentists are ready to help you achieve your dental health goals.",
+    "notFound": "Treatment Not Found",
+    "notFoundDesc": "The treatment you're looking for is not available. Please browse our available treatments or contact us for assistance.",
+    "backToTreatments": "Back to Treatments",
+    "categories": {
+      "all": "All Disciplines",
+      "cosmetic": "Cosmetic",
+      "restorative": "Restorative",
+      "orthodontics": "Orthodontics",
+      "comprehensive": "Rehabilitative"
+    },
+    "allOn4": "All-on-4 Restoration",
+    "crowns": "Zirconium Crowns",
+    "fullMouth": "Full Mouth Rehabilitation",
+    "implants": "Dental Implants",
+    "invisalign": "Clear Aligners",
+    "veneers": "Porcelain Veneers",
+    "whitening": "Clinical Whitening",
+    "sinusLifting": "Sinus Augmentation",
+    "smileDesign": "Digital Smile Design",
+    "hollywoodSmile": "Hollywood Smile",
+    "ortho": "Orthodontics",
+    "orthodontics": "Orthodontics",
+    "techEyebrow": "Technology",
+    "techTitle1": "Advanced",
+    "techTitle2": "Technology",
+    "techDesc": "State-of-the-art dental technology for precision and comfort",
+    "tech": {
+      "precision": "Precision Technology",
+      "precisionDesc": "Computer-guided precision for optimal results",
+      "scanning": "3D Scanning",
+      "scanningDesc": "Advanced digital scanning for accurate treatment planning",
+      "materials": "Premium Materials",
+      "materialsDesc": "Swiss-engineered materials for durability and aesthetics",
+      "digitalProcess": "Digital Process"
+    }
+  },
+  "form": {
+    "back": "Back",
+    "completed": "Completed",
+    "contactPreference": "Contact Preference",
+    "email": "Email",
+    "enterPhoneForConsultation": "Enter your phone number for consultation",
+    "fullName": "Full Name",
+    "getFreeConsultation": "Get Free Consultation",
+    "interestedTreatment": "Interested Treatment",
+    "letUsCallYou": "Let Us Call You",
+    "letUsCallYouFormType": "Let Us Call You Form Type",
+    "loading": "Loading",
+    "name": "Name",
+    "namePlaceholder": "Enter your name",
+    "newRequest": "New Request",
+    "next": "Next",
+    "phone": "Phone",
+    "phoneNumber": "Phone Number",
+    "selectContactMethods": "Select Contact Methods",
+    "selectTreatment": "Select Treatment",
+    "sms": "SMS",
+    "telephone": "Telephone",
+    "tellUsMore": "Tell Us More",
+    "termsAgreement": "Terms Agreement",
+    "thankYou": "Thank You",
+    "weWillCallYou": "We Will Call You",
+    "orthodontics": "Orthodontics",
+    "smileMakeover": "Hollywood Smile",
+    "veneers": "Porcelain Veneers"
+  },
+  "validation": {
+    "contactRequired": "Please select at least one contact method",
+    "emailInvalid": "Please enter a valid email",
+    "emailRequired": "Email is required",
+    "nameRequired": "Name is required",
+    "phoneInvalid": "Please enter a valid phone number",
+    "phoneRequired": "Phone number is required",
+    "treatmentRequired": "Please select a treatment"
+  },
+  "consultation": {
+    "contactMethods": {
+      "email": "Email",
+      "phoneCall": "Phone Call",
+      "whatsapp": "WhatsApp"
+    }
+  },
+  "tourism": {
+    "luxuryStay": "Luxury Stay",
+    "medicalHospitality": "Medical Hospitality",
+    "processEyebrow": "Process",
+    "servicesEyebrow": "Services",
+    "trustEyebrow": "Trust"
+  },
+  "testimonials": {
+    "list": {
+      "t1": {
+        "date": "March 2024",
+        "location": "United Kingdom",
+        "name": "Sarah Johnson",
+        "quote": "The Hollywood Smile transformation exceeded all my expectations. The team's Attention to detail and the final result are absolutely remarkable."
+      },
+      "t2": {
+        "date": "February 2024",
+        "location": "Germany",
+        "name": "Michael Schmidt",
+        "quote": "Professional, caring, and exceptional results. My new smile has given me confidence I never had before."
+      },
+      "t3": {
+        "date": "January 2024",
+        "location": "Italy",
+        "name": "Giulia Rossi",
+        "quote": "From consultation to final result, everything was perfect. The clinic facilities are world-class."
+      },
+      "t4": {
+        "date": "December 2023",
+        "location": "France",
+        "name": "Pierre Dubois",
+        "quote": "The best dental experience I've ever had. The team truly cares about patient comfort and results."
+      },
+      "t5": {
+        "date": "November 2023",
+        "location": "United States",
+        "name": "Jennifer Smith",
+        "quote": "FeRa Clinic combines medical excellence with artistic vision. My smile transformation is natural and beautiful."
+      },
+      "t6": {
+        "date": "October 2023",
+        "location": "Turkey",
+        "name": "Ahmet Yılmaz",
+        "quote": "Outstanding care from start to finish. The international patient support made everything easy."
+      }
+    },
+    "caseImageAlt": "Patient case image",
+    "ctaDesc": "Ready to transform your smile? Read more inspiring stories from our satisfied patients and contact us for your personalized consultation.",
+    "ctaTitle": "Start Your Journey",
+    "filters": {
+      "all": "All"
+    },
+    "heroDesc": "Discover authentic experiences from international patients who chose FeRa Clinic for their smile transformations. Real stories, real results.",
+    "heroTitle": "What Our Patients Say",
+    "heroEyebrow": "Real Patient Stories",
+    "patientStory": "Patient Stories",
+    "stats": {
+      "countries": "50+",
+      "patients": "5000+",
+      "rating": "4.9/5.0",
+      "satisfaction": "98%"
+    },
+    "subtitle": "Life-changing smile transformations from around the world, made possible by FeRa Clinic's expert dental team.",
+    "videoTitle": "Patient Experience Videos",
+    "successCase": "Success Story",
+    "successCaseDesc": "Share your success story with the FeRa Clinic community.",
+    "ctaText": "Read All Stories",
+    "ctaTitle": "Start Your Journey"
+  },
+  "treatmentProcess": {
+    "aligners": "Clear Aligners",
+    "assessment": "Initial Assessment",
+    "finalRestoration": "Final Restoration",
+    "healingPhase": "Healing Phase",
+    "implantPlacement": "Implant Placement",
+    "monitoring": "Monitoring",
+    "placement": "Placement",
+    "planning": "Treatment Planning",
+    "planning3D": "3D Planning",
+    "preparation": "Preparation",
+    "refinement": "Refinement",
+    "retention": "Retention",
+    "smileDesign": "Smile Design"
+  },
+  "faq": {
+    "treatment": {
+      "a1": "Initial consultation and 3D smile design",
+      "a2": "Temporary wax-up to preview your new smile",
+      "a3": "Final placement and bonding",
+      "a4": "Follow-up and adjustments",
+      "q1": "How long does the Hollywood Smile treatment take?",
+      "q2": "Is the temporary wax-up comfortable?",
+      "q3": "Can I eat and drink normally with the temporary restoration?",
+      "q4": "What happens if I'm not satisfied with the result?"
+    }
+  },
+  "treatments": {
+    "candidates": {
+      "aesthetic": "Aesthetic enhancement",
+      "function": "Functional restoration",
+      "longterm": "Long-term durability",
+      "missing": "Missing teeth replacement"
+    },
+    "detail": {
+      "hollywood": {
+        "candidates": "Ideal candidates for smile transformation",
+        "process": "Multi-step smile design process"
+      },
+      "implants": {
+        "candidates": "Missing one or more Teeth",
+        "process": "Surgical implant placement"
+      },
+      "ortho": {
+        "treatmentProcess": "Progressive teeth alignment",
+        "whoNeedsIt": {
+          "candidates": "Crowded or misaligned teeth"
+        }
+      }
+    },
+    "process": {
+      "consultation": "Initial consultation and assessment",
+      "procedure": "Treatment procedure",
+      "recovery": "Recovery period",
+      "result": "Final treatment result"
+    }
+  },
+  "navDropdown": "Navigation dropdown",
+  "legal": {
+    "lastUpdated": "Last Updated"
+  }
+}

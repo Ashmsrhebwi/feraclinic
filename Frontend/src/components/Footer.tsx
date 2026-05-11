@@ -13,16 +13,17 @@ export function Footer() {
     { label: t('navigation.partnership', 'Partnership'), to: '/partnership' },
     { label: t('navigation.joinUs', 'Join Us'), to: '/join-us' },
     { label: t('navigation.gallery', 'Gallery'), to: '/gallery' },
-    { label: t('footer.privacyPolicy', 'Privacy Policy'), to: '/privacy' },
+    { label: t('testimonials.medicalGoogleReviews', 'Google Reviews'), to: '/medical-google-reviews' },
+    { label: t('footer.privacyPolicy', 'Privacy Policy'), to: '/privacy-protocols' },
   ]
 
   const treatmentLinks = [
     { label: t('treatments.implants', 'Dental Implants'),           to: '/treatments/dental-implants' },
-    { label: t('treatments.veneers', 'Porcelain Veneers'),           to: '/treatments/porcelain-veneers' },
+    { label: t('treatments.veneers', 'Porcelain Veneers'),           to: '/treatments/hollywood-smile' },
     { label: t('treatments.ortho', 'Orthodontics'),                to: '/treatments/orthodontics' },
     { label: t('treatments.allOn4', 'All-on-4 Restoration'),       to: '/treatments/all-on-4-istanbul' },
-    { label: t('treatments.whitening', 'Clinical Whitening'),           to: '/treatments/clinical-whitening' },
-    { label: t('treatments.hollywoodSmile', 'Hollywood Smile'),            to: '/treatments/hollywood-smile' },
+    { label: t('treatments.whitening', 'Clinical Whitening'),           to: '/treatments/teeth-whitening-istanbul' },
+    { label: t('treatments.crowns', 'Zirconium Crowns'),            to: '/treatments/zirconium-crowns' },
   ]
 
   const TikTokIcon = ({ className }: { className?: string }) => (
@@ -34,6 +35,7 @@ export function Footer() {
   const quickLinks = [
     { label: t('navigation.about', 'About'),         to: '/about' },
     { label: t('navigation.gallery', 'Gallery'),                   to: '/gallery' },
+    { label: t('testimonials.medicalGoogleReviews', 'Google Reviews'), to: '/medical-google-reviews' },
     { label: t('navigation.dentalTourism', 'Dental Tourism'),            to: '/dental-tourism' },
     { label: t('common.freeConsultation', 'Free Consultation'),         to: '/consultation' },
     { label: t('navigation.blog', 'Blog'),                      to: '/blog' },
@@ -45,7 +47,7 @@ export function Footer() {
       {/* Footer Top Navigation Bar - Premium Blue Gradient */}
       <div className="w-full bg-gradient-to-br from-[#071520] via-[#0B1C2D] to-[#12304A]">
         <div className="max-w-7xl mx-auto px-6 lg:px-10">
-          <nav className="flex items-center justify-center gap-8 lg:gap-10 py-6 flex-wrap">
+          <nav className="flex items-center justify-center gap-4 sm:gap-6 lg:gap-10 py-4 sm:py-6 flex-wrap">
             {footerTopNavLinks.map((item) => (
               <Link
                 key={item.label}
@@ -91,11 +93,11 @@ export function Footer() {
             {/* Premium Social Icons */}
             <div className="flex items-center gap-3 pt-2">
               {[
-                { href: 'https://facebook.com/feraclinic',  icon: Facebook,  label: 'Facebook', hoverColor: '#1877F2' },
-                { href: 'https://instagram.com/feraclinic', icon: Instagram, label: 'Instagram', hoverColor: '#E4405F' },
-                { href: 'https://youtube.com/feraclinic',   icon: Youtube,   label: 'YouTube', hoverColor: '#FF0000' },
-                { href: 'https://linkedin.com/company/feraclinic', icon: Linkedin, label: 'LinkedIn', hoverColor: '#0077B5' },
-                { href: 'https://tiktok.com/@feraclinic',    icon: TikTokIcon, label: 'TikTok', hoverColor: '#FFFFFF' },
+                { href: 'https://www.facebook.com/feradentalclinic/',  icon: Facebook,  label: 'Facebook', hoverColor: '#1877F2' },
+                { href: 'https://www.instagram.com/feraclinic', icon: Instagram, label: 'Instagram', hoverColor: '#E4405F' },
+                { href: 'https://www.youtube.com/@feraclinic',   icon: Youtube,   label: 'YouTube', hoverColor: '#FF0000' },
+                { href: 'https://www.linkedin.com/company/fera-clinic/posts/?feedView=all', icon: Linkedin, label: 'LinkedIn', hoverColor: '#0077B5' },
+                { href: 'https://www.tiktok.com/@feraclinic',    icon: TikTokIcon, label: 'TikTok', hoverColor: '#FFFFFF' },
               ].map(({ href, icon: Icon, label, hoverColor }) => (
                 <a
                   key={label}
@@ -190,7 +192,7 @@ export function Footer() {
             <Link
               to="/consultation"
               className="inline-flex items-center gap-3 rounded-full bg-white
-                         px-8 py-4 text-[11px] font-bold uppercase tracking-wider text-[#0B1C2D] shadow-[0_20px_60px_rgba(11,28,45,0.35)]
+                         px-6 sm:px-8 py-3 sm:py-4 text-[11px] font-bold uppercase tracking-wider text-[#0B1C2D] shadow-[0_20px_60px_rgba(11,28,45,0.35)]
                          hover:bg-gray-50 hover:shadow-[0_10px_30px_rgba(11,28,45,0.25)] hover:-translate-y-1
                          active:scale-95 transition-all duration-300 group"
             >
@@ -201,12 +203,12 @@ export function Footer() {
         </div>
 
         {/* ─── Bottom bar ─── */}
-        <div className="flex flex-col md:flex-row items-center justify-between gap-6 pt-8 border-t border-white/20">
-          <p className="text-[11px] text-white/60 tracking-wider font-medium uppercase">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-4 sm:gap-6 pt-8 border-t border-white/20">
+          <p className="text-[11px] text-white/60 tracking-wider font-medium uppercase text-center md:text-start">
             {currentYear} {t('common.brandName')}. {t('footer.allRightsReserved')}
           </p>
           <div className="flex flex-wrap items-center gap-6 text-[11px] text-white/60 font-medium uppercase tracking-wider">
-            <Link to="/privacy" className="hover:text-white transition-all duration-300 relative group">
+            <Link to="/privacy-protocols" className="hover:text-white transition-all duration-300 relative group">
               {t('footer.privacyPolicy', 'Privacy Policy')}
               <span className="absolute bottom-[-2px] left-0 w-0 h-0.5 bg-white transition-all duration-200 group-hover:w-full"></span>
             </Link>

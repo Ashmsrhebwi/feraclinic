@@ -20,7 +20,7 @@ export function TopBar() {
         </div>
 
         {/* Center: Premium WhatsApp Block */}
-        <div className="flex-[2] flex justify-center items-center hidden sm:flex">
+        <div className="hidden sm:flex flex-[2] justify-center items-center">
           <a
             href="https://wa.me/905367460100?text=Hello%20Fera%20Clinic%2C%20I%20would%20like%20to%20book%20an%20appointment"
             target="_blank"
@@ -35,11 +35,11 @@ export function TopBar() {
             </div>
 
             {/* Enhanced WhatsApp Text */}
-            <div className="w-full pl-8 sm:pl-12 flex items-center justify-center gap-1 sm:gap-3 px-2 sm:px-3 overflow-hidden">
-              <span className="text-xs sm:text-sm font-bold text-white/90 whitespace-nowrap">
+            <div className="w-full pl-8 sm:pl-12 flex items-center justify-center gap-1 sm:gap-3 px-2 sm:px-3 overflow-hidden min-w-0">
+              <span className="text-xs sm:text-sm font-bold text-white/90 whitespace-nowrap shrink-0">
                 {t('topbar.whatsappIconText', '7/24')}
               </span>
-              <span className="text-xs sm:text-sm lg:text-base font-bold text-white tracking-tight whitespace-nowrap">
+              <span className="text-xs sm:text-sm lg:text-base font-bold text-white tracking-tight whitespace-nowrap truncate">
                 {t('topbar.whatsappNumber', '+90 536 746 01 00')}
               </span>
             </div>

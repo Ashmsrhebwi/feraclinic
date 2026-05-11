@@ -142,7 +142,7 @@ export function Partnership() {
       if (!response.ok) {
         const errorMsg = data.errors 
           ? Object.values(data.errors).flat().join(', ')
-          : data.message || 'Submission failed. Please try again.'
+          : data.message || t('form.submitError', 'Submission failed. Please try again.')
         console.error('Submission error:', errorMsg, data)
         throw new Error(errorMsg)
       }
@@ -163,7 +163,7 @@ export function Partnership() {
         preferredContactMethod: ''
       })
     } catch (err: any) {
-      setSubmitError(err.message || 'Submission failed. Please try again.')
+      setSubmitError(err.message || t('form.submitError', 'Submission failed. Please try again.'))
     } finally {
       setIsSubmitting(false)
     }
@@ -267,13 +267,22 @@ export function Partnership() {
     <>
       {/* Hero Section */}
       <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
-        {/* Background with overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/60 backdrop-blur-[1px]">
-          <div className="absolute inset-0 bg-black/20" />
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <img
+            src="/images/fera-clinic/Partnership/partnership.png"
+            alt="FeRa Clinic Partnership"
+            className="w-full h-full object-cover"
+            style={{ objectPosition: 'center 45%' }}
+            loading="eager"
+            fetchPriority="high"
+          />
+          {/* Overlay — text readability without muddying the image */}
+          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/55" />
         </div>
         
         {/* Animated background elements */}
-        <div className="absolute inset-0">
+        <div className="absolute inset-0 z-[1]">
           <div className="absolute top-20 left-10 w-32 h-32 bg-white/5 rounded-full blur-3xl animate-pulse" />
           <div className="absolute bottom-20 right-10 w-48 h-48 bg-white/5 rounded-full blur-3xl animate-pulse delay-1000" />
           <div className="absolute top-1/2 left-1/3 w-64 h-64 bg-white/5 rounded-full blur-3xl animate-pulse delay-500" />

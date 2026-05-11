@@ -8,6 +8,7 @@ const FILES_TO_CHECK = [
   'src/pages/TreatmentDetail.tsx',
   'src/pages/DentalTourism.tsx',
   'src/pages/Testimonials.tsx',
+  'src/pages/Home.tsx',
   'src/components/Navbar.tsx',
   'src/components/Footer.tsx',
   'src/components/HeroCallForm.tsx'

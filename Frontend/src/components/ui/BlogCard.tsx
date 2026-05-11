@@ -4,6 +4,7 @@ import { Calendar, Clock, ArrowRight } from 'lucide-react'
 import { LocalizedLink as Link } from './LocalizedLink'
 import { BlogPost } from '../../data/blog'
 import { useTranslation } from 'react-i18next'
+import { getMedia } from '../../lib/mediaResolver'
 
 interface BlogCardProps {
   post: BlogPost
@@ -30,7 +31,7 @@ export function BlogCard({ post, featured = false, className = '', getTranslated
             {/* Image Side */}
             <div className="aspect-[16/10] lg:aspect-auto relative overflow-hidden">
               <img
-                src={post.image}
+                src={getMedia(post.imageKey || post.image)}
                 alt={getTranslated(post, 'title', post.title)}
                 loading="lazy"
                 decoding="async"
@@ -79,8 +80,9 @@ export function BlogCard({ post, featured = false, className = '', getTranslated
                 whileTap={{ scale: 0.98 }}
               >
                 <span>{t('common.readArticle')}</span>
-                <ArrowRight className="w-4 h-4 group-hover:translate-x-1.5 transition-transform duration-300 ease" />
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1.5 rtl:group-hover:-translate-x-1.5 rtl:rotate-180 transition-transform duration-300 ease" />
               </motion.div>
+
             </div>
           </div>
         </Link>
@@ -102,7 +104,7 @@ export function BlogCard({ post, featured = false, className = '', getTranslated
         {/* Image */}
         <div className="aspect-video overflow-hidden rounded-t-3xl">
           <img
-            src={post.image}
+            src={getMedia(post.imageKey || post.image)}
             alt={getTranslated(post, 'title', post.title)}
             loading="lazy"
             decoding="async"
@@ -145,7 +147,8 @@ export function BlogCard({ post, featured = false, className = '', getTranslated
               className="w-10 h-10 rounded-full border border-[#0B1C2D]/20 flex items-center justify-center text-[#0B1C2D] transition-all duration-300 ease group-hover:bg-[#0B1C2D] group-hover:text-white group-hover:border-transparent group-hover:shadow-[0_8px_25px_rgba(11,28,45,0.25)]"
               whileHover={{ scale: 1.03 }}
             >
-              <ArrowRight className="w-5 h-5 transition-transform duration-300 ease group-hover:translate-x-0.5" />
+              <ArrowRight className="w-5 h-5 transition-transform duration-300 ease group-hover:translate-x-0.5 rtl:group-hover:-translate-x-0.5 rtl:rotate-180" />
+
             </motion.div>
           </div>
         </div>

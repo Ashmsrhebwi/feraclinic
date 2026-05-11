@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { ArrowRight } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { Treatment } from '../../types'
+import { getMedia } from '../../lib/mediaResolver'
 
 interface TreatmentGridProps {
   treatments: Treatment[]
@@ -41,7 +42,7 @@ export const TreatmentGrid: React.FC<TreatmentGridProps> = ({ treatments, showAl
               <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
                 <div className="aspect-[4/3] overflow-hidden">
                   <img
-                    src={treatment.image}
+                    src={getMedia(treatment.imageKey || treatment.image)}
                     alt={treatment.title}
                     className="w-full h-full object-cover"
                   />

@@ -76,7 +76,7 @@ export function WhatsAppButton() {
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: 20, scale: 0.95 }}
               transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
-              className="mb-6 w-[280px] overflow-hidden rounded-[2rem] bg-white shadow-luxury-2xl sm:w-[360px] border border-gray-100"
+              className="mb-6 w-[calc(100vw-3rem)] max-w-[280px] sm:max-w-[360px] overflow-hidden rounded-[2rem] bg-white shadow-luxury-2xl sm:w-[360px] border border-gray-100"
             >
               {/* Header */}
               <div className="bg-white p-6 relative border-b border-gray-100">
@@ -89,7 +89,7 @@ export function WhatsAppButton() {
 
                 <div className="flex items-center gap-4">
                   <div className="relative h-12 w-12 flex items-center justify-center">
-                    <img src="/images/BLUE BACK WHİTE LOGO (1).png" alt={t('alt.feraClinic')} className="w-12 h-auto object-contain rounded-full" />
+                    <img src="/fera-logo.png" alt={t('alt.feraClinic')} className="w-12 h-auto object-contain rounded-full" />
                     <div className="absolute bottom-1 end-1 h-3 w-3 rounded-full border-2 border-white bg-green-500">
                       <div className="absolute inset-0 rounded-full bg-green-500 animate-[ping-slow_3s_infinite]" />
                     </div>

@@ -486,25 +486,25 @@ export function DentalTourism() {
               icon: ShieldCheck,
               title: t('tourism.trust.certified', 'ISO Certified'),
               desc: t('tourism.trust.certifiedDesc', 'International quality standards for medical care.'),
-              badge: 'Certified'
+              badge: t('tourism.trust.badges.certified', 'Certified')
             },
             {
               icon: Users,
               title: t('tourism.trust.patients', '5000+ Patients'),
               desc: t('tourism.trust.patientsDesc', 'From over 50 countries worldwide.'),
-              badge: 'Global'
+              badge: t('tourism.trust.badges.global', 'Global')
             },
             {
               icon: Award,
               title: t('tourism.trust.experience', '15+ Years'),
               desc: t('tourism.trust.experienceDesc', 'Of dental tourism excellence.'),
-              badge: 'Expert'
+              badge: t('tourism.trust.badges.expert', 'Expert')
             },
             {
               icon: Star,
               title: t('tourism.trust.satisfaction', '98% Satisfaction'),
               desc: t('tourism.trust.satisfactionDesc', 'Patient success and happiness rate.'),
-              badge: 'Proven'
+              badge: t('tourism.trust.badges.proven', 'Proven')
             }
           ].map((trust, i) => (
             <motion.div

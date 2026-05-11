@@ -20,8 +20,8 @@ export const LanguageLayout = () => {
     // Handle attributes dynamically based on URL language parameter
     if (isValidLang) {
       document.documentElement.lang = lang
-      // Arabic layout is kept LTR as per branding requirements
-      document.documentElement.dir = 'ltr'
+      document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr'
+
     }
   }, [lang, i18n, isValidLang])
 

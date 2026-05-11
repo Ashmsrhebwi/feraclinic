@@ -11,6 +11,7 @@ export const treatments: Treatment[] = [
     recovery: '3-6 months integration',
     price: 'From EUR 500',
     image: '/images/fera-clinic/treatments/implant-procedure.webp',
+    imageKey: 'treatment_implants_main',
     features: [
       'Grade-5 bio-compatible titanium',
       '3D CBCT surgical planning',
@@ -30,19 +31,22 @@ export const treatments: Treatment[] = [
         eyebrow: 'Precision Planning',
         heading: '3D Guided Surgical Protocols',
         description: 'Every implant procedure begins with advanced CBCT imaging, allowing our surgeons to map your jaw structure with sub-millimeter precision before the first incision is made.',
-        image: '/images/fera-clinic/treatments/implant-procedure.webp'
+        image: '/images/fera-clinic/treatments/implant-procedure.webp',
+        imageKey: 'treatment_implants_main'
       },
       {
         eyebrow: 'Swiss Engineering',
         heading: 'Bio-Compatible Titanium Integration',
         description: 'We utilize world-leading Swiss and German implant systems that offer superior osseointegration, ensuring your new tooth root becomes a permanent part of your biological structure.',
-        image: '/images/fera-clinic/clinic/surgery-room.webp'
+        image: '/images/fera-clinic/clinic/surgery-room.webp',
+        imageKey: 'clinic_surgery'
       },
       {
         eyebrow: 'Natural Aesthetics',
         heading: 'Custom Porcelain Restoration',
         description: 'The final crown is digitally designed to match the translucency and shade of your natural teeth, restoring not just your bite, but the authentic character of your smile.',
-        image: '/images/fera-clinic/treatments/general-dentistry.webp'
+        image: '/images/fera-clinic/treatments/general-dentistry.webp',
+        imageKey: 'treatment_general_main'
       }
     ],
     additionalImages: [
@@ -51,6 +55,13 @@ export const treatments: Treatment[] = [
       '/images/fera-clinic/treatments/dental-implants/consultation.webp',
       '/images/fera-clinic/treatments/dental-implants/scan.webp',
       '/images/fera-clinic/treatments/dental-implants/final-smile.webp'
+    ],
+    imageKeys: [
+      'treatment_implants_proc',
+      'treatment_implants_model',
+      'treatment_implants_consult',
+      'treatment_implants_scan',
+      'treatment_implants_smile'
     ]
   },
   {
@@ -63,6 +74,7 @@ export const treatments: Treatment[] = [
     recovery: 'Immediate results',
     price: 'From EUR 300 per unit',
     image: '/images/fera-clinic/treatments/veneer-procedure.webp',
+    imageKey: 'treatment_veneers_main',
     features: [
       'Digital Smile Design (DSD)',
       'E-Max lithium disilicate',
@@ -82,19 +94,22 @@ export const treatments: Treatment[] = [
         eyebrow: 'Facial Harmony',
         heading: 'Digital Smile Design Analysis',
         description: 'We don’t just look at teeth; we analyze your entire facial structure, lip line, and skin tone to design a smile that enhances your natural beauty and personality.',
-        image: '/images/fera-clinic/treatments/veneer-procedure.webp'
+        image: '/images/fera-clinic/treatments/veneer-procedure.webp',
+        imageKey: 'treatment_veneers_main'
       },
       {
         eyebrow: 'Minimal Impact',
         heading: 'Ultra-Thin Porcelain Mastery',
         description: 'Our E-Max veneers require minimal to no tooth preparation, preserving your natural enamel while delivering a transformative aesthetic result that lasts for decades.',
-        image: '/images/fera-clinic/clinic/waiting-area.webp'
+        image: '/images/fera-clinic/clinic/waiting-area.webp',
+        imageKey: 'clinic_waiting'
       },
       {
         eyebrow: 'Artistic Finish',
         heading: 'Hand-Finished Ceramic Artistry',
         description: 'Each veneer is individually characterized by our master ceramists to include natural micro-textures and light-reflective properties that mimic real enamel.',
-        image: '/images/fera-clinic/before-after/case1-after.jpg'
+        image: '/images/fera-clinic/before-after/case1-after.jpg',
+        imageKey: 'case_1_after'
       }
     ],
     additionalImages: [
@@ -103,6 +118,13 @@ export const treatments: Treatment[] = [
       '/images/fera-clinic/treatments/hollywood-smile/shade.webp',
       '/images/fera-clinic/treatments/hollywood-smile/preview.webp',
       '/images/fera-clinic/treatments/hollywood-smile/final-smile.webp'
+    ],
+    imageKeys: [
+      'treatment_veneers_design',
+      'treatment_veneers_units',
+      'treatment_veneers_shade',
+      'treatment_veneers_preview',
+      'treatment_veneers_smile'
     ]
   },
   {
@@ -115,6 +137,7 @@ export const treatments: Treatment[] = [
     recovery: 'Non-invasive',
     price: 'From EUR 2,200',
     image: '/images/fera-clinic/treatments/orthodontic-checkup.webp',
+    imageKey: 'treatment_ortho_main',
     features: [
       'Invisalign Platinum Elite',
       'iTero 3D digital scanning',
@@ -134,19 +157,22 @@ export const treatments: Treatment[] = [
         eyebrow: 'Bite Alignment',
         heading: 'Functional Stability First',
         description: 'Our orthodontic approach prioritizes the long-term health of your jaw joint and bite function, ensuring your new smile is as healthy as it is beautiful.',
-        image: '/images/fera-clinic/treatments/orthodontic-checkup.webp'
+        image: '/images/fera-clinic/treatments/orthodontic-checkup.webp',
+        imageKey: 'treatment_ortho_main'
       },
       {
         eyebrow: 'Discreet Progress',
         heading: 'Invisible Correction Protocols',
         description: 'With Invisalign Platinum Elite status, we offer virtually invisible clear aligner treatments that fit seamlessly into your professional and social life.',
-        image: '/images/fera-clinic/treatments/general-dentistry.webp'
+        image: '/images/fera-clinic/treatments/general-dentistry.webp',
+        imageKey: 'treatment_general_main'
       },
       {
         eyebrow: 'Structured Planning',
         heading: 'Predictable Digital Outcomes',
         description: 'Using iTero 3D scanning, we show you your final result before you even begin, with a structured plan that tracks your progress every step of the way.',
-        image: '/images/fera-clinic/clinic/surgery-room.webp'
+        image: '/images/fera-clinic/clinic/surgery-room.webp',
+        imageKey: 'clinic_surgery'
       }
     ],
     additionalImages: [
@@ -155,6 +181,13 @@ export const treatments: Treatment[] = [
       '/images/fera-clinic/treatments/orthodontics/consultation.webp',
       '/images/fera-clinic/treatments/orthodontics/alignment.webp',
       '/images/fera-clinic/treatments/orthodontics/final-smile.webp'
+    ],
+    imageKeys: [
+      'treatment_ortho_braces',
+      'treatment_ortho_aligners',
+      'treatment_ortho_consult',
+      'treatment_ortho_alignment',
+      'treatment_ortho_smile'
     ]
   },
   {
@@ -167,6 +200,7 @@ export const treatments: Treatment[] = [
     recovery: 'Minimal sensitivity',
     price: 'From EUR 250',
     image: '/images/fera-clinic/treatments/whitening-room.webp',
+    imageKey: 'treatment_whitening_main',
     features: [
       'Philips Zoom LED Tech',
       'Gingival barrier protection',
@@ -186,19 +220,22 @@ export const treatments: Treatment[] = [
         eyebrow: 'Clinical Grade',
         heading: 'Philips Zoom LED Precision',
         description: 'Unlike over-the-counter options, our clinical whitening utilizes advanced LED technology to activate professional-grade gels for maximum results in minimum time.',
-        image: '/images/fera-clinic/treatments/whitening-room.webp'
+        image: '/images/fera-clinic/treatments/whitening-room.webp',
+        imageKey: 'treatment_whitening_main'
       },
       {
         eyebrow: 'Safe & Comfortable',
         heading: 'Enamel Protection Protocol',
         description: 'We utilize specialized gingival barriers and desensitizing agents to ensure your whitening experience is completely safe for your enamel and comfortable for your nerves.',
-        image: '/images/fera-clinic/clinic/waiting-area.webp'
+        image: '/images/fera-clinic/clinic/waiting-area.webp',
+        imageKey: 'clinic_waiting'
       },
       {
         eyebrow: 'Lasting Results',
         heading: 'Professional Maintenance Logic',
         description: 'Your treatment includes a customized maintenance plan and shade tracking to ensure your new, bright smile remains brilliant for as long as possible.',
-        image: '/images/fera-clinic/treatments/general-dentistry.webp'
+        image: '/images/fera-clinic/treatments/general-dentistry.webp',
+        imageKey: 'treatment_general_main'
       }
     ],
     additionalImages: [
@@ -207,6 +244,13 @@ export const treatments: Treatment[] = [
       '/images/fera-clinic/treatments/teeth-whitening/comparison.webp',
       '/images/fera-clinic/treatments/teeth-whitening/smile.webp',
       '/images/fera-clinic/treatments/teeth-whitening/room.webp'
+    ],
+    imageKeys: [
+      'treatment_whitening_proc',
+      'treatment_whitening_gel',
+      'treatment_whitening_comp',
+      'treatment_whitening_smile',
+      'treatment_whitening_room'
     ]
   },
   {
@@ -218,7 +262,8 @@ export const treatments: Treatment[] = [
     duration: '10-14 days',
     recovery: 'Varies by protocol',
     price: 'Custom Estimate',
-    image: '/images/fera-clinic/treatments/general-dentistry.webp',
+    image: '/images/photos/full-smile-design.jpeg',
+    imageKey: 'treatment_smile_design_main',
     features: [
       'Full mouth digital analysis',
       'Functional bite correction',
@@ -251,19 +296,22 @@ export const treatments: Treatment[] = [
         eyebrow: 'Holistic Design',
         heading: 'Multidisciplinary Reconstruction',
         description: 'For complex cases, our team of prosthodontists, surgeons, and orthodontists collaborate to create a comprehensive plan that restores both health and harmony.',
-        image: '/images/fera-clinic/treatments/general-dentistry.webp'
+        image: '/images/photos/full-smile-design.jpeg',
+        imageKey: 'treatment_smile_design_main'
       },
       {
         eyebrow: 'Digital Mock-up',
         heading: 'testDriveHeading',
         description: 'testDriveDesc',
-        image: '/images/fera-clinic/before-after/case1-after.jpg'
+        image: '/images/fera-clinic/before-after/case1-after.jpg',
+        imageKey: 'case_1_after'
       },
       {
         eyebrow: 'Total Transformation',
         heading: 'Full Arch Aesthetic Synergy',
         description: 'By addressing color, shape, and function simultaneously, we achieve a level of aesthetic synergy that is impossible with piecemeal treatments.',
-        image: '/images/fera-clinic/clinic/surgery-room.webp'
+        image: '/images/fera-clinic/clinic/surgery-room.webp',
+        imageKey: 'clinic_surgery'
       }
     ],
     additionalImages: [
@@ -272,6 +320,13 @@ export const treatments: Treatment[] = [
       '/images/fera-clinic/treatments/smile-design/planning.webp',
       '/images/fera-clinic/treatments/smile-design/consultation.webp',
       '/images/fera-clinic/treatments/smile-design/final-smile.webp'
+    ],
+    imageKeys: [
+      'treatment_design_full',
+      'treatment_design_analysis',
+      'treatment_design_planning',
+      'treatment_design_consult',
+      'treatment_design_smile'
     ]
   },
   {
@@ -283,7 +338,8 @@ export const treatments: Treatment[] = [
     duration: 'Same-day surgery',
     recovery: 'Soft diet for 3 months',
     price: 'From EUR 5,500 per arch',
-    image: '/images/fera-clinic/treatments/allon4-surgery.webp',
+    image: '/images/photos/dental-implant.jpeg',
+    imageKey: 'treatment_implants_main',
     features: [
       'Tilted posterior implants',
       'Immediate fixed loading',
@@ -303,19 +359,22 @@ export const treatments: Treatment[] = [
         eyebrow: 'Surgical Innovation',
         heading: 'Strategically Angled Implants',
         description: 'By angling the posterior implants, we maximize contact with existing bone, often eliminating the need for complex and time-consuming bone grafting procedures.',
-        image: '/images/fera-clinic/treatments/allon4-surgery.webp'
+        image: '/images/photos/dental-implant.jpeg',
+        imageKey: 'treatment_implants_main'
       },
       {
         eyebrow: 'Immediate Function',
         heading: 'Fixed Teeth in a Single Day',
         description: 'Our All-on-4 protocol allows for the placement of a temporary fixed bridge on the same day as surgery, so you never have to be without your smile.',
-        image: '/images/fera-clinic/clinic/surgery-room.webp'
+        image: '/images/fera-clinic/clinic/surgery-room.webp',
+        imageKey: 'clinic_surgery'
       },
       {
         eyebrow: 'Structural Support',
         heading: 'Restoring Facial Proportions',
         description: 'Total tooth loss leads to jawbone recession; All-on-4 provides the necessary structural support to maintain your natural facial contours and youthful profile.',
-        image: '/images/fera-clinic/before-after/case5-after.jpg'
+        image: '/images/fera-clinic/before-after/case5-after.jpg',
+        imageKey: 'case_5_after'
       }
     ],
     additionalImages: [
@@ -324,6 +383,13 @@ export const treatments: Treatment[] = [
       '/images/fera-clinic/treatments/all-on-4/planning.webp',
       '/images/fera-clinic/treatments/all-on-4/prosthesis.webp',
       '/images/fera-clinic/treatments/all-on-4/final-smile.webp'
+    ],
+    imageKeys: [
+      'treatment_allon4_arch',
+      'treatment_allon4_scan',
+      'treatment_allon4_planning',
+      'treatment_allon4_prosthesis',
+      'treatment_allon4_smile'
     ]
   },
   {
@@ -336,6 +402,7 @@ export const treatments: Treatment[] = [
     recovery: 'Immediate function',
     price: 'From EUR 280 per unit',
     image: '/images/fera-clinic/treatments/crown-fitting.webp',
+    imageKey: 'treatment_crowns_main',
     features: [
       'Solid Monolithic Zirconia',
       'CAD/CAM milling precision',
@@ -355,19 +422,22 @@ export const treatments: Treatment[] = [
         eyebrow: 'Pure Strength',
         heading: 'Monolithic Zirconia Durability',
         description: 'Our monolithic zirconium crowns are virtually indestructible, making them perfect for posterior teeth that endure high chewing forces.',
-        image: '/images/fera-clinic/treatments/crown-fitting.webp'
+        image: '/images/fera-clinic/treatments/crown-fitting.webp',
+        imageKey: 'treatment_crowns_main'
       },
       {
         eyebrow: 'Light Reflection',
         heading: 'Natural Enamel Translucency',
         description: 'We use high-translucency zirconia blocks that reflect light just like natural enamel, ensuring a perfect aesthetic match for your front teeth.',
-        image: '/images/fera-clinic/clinic/waiting-area.webp'
+        image: '/images/fera-clinic/clinic/waiting-area.webp',
+        imageKey: 'clinic_waiting'
       },
       {
         eyebrow: 'Perfect Fit',
         heading: 'CAD/CAM Digital Precision',
         description: 'Each crown is digitally milled to an accuracy of 20 microns, ensuring a perfect seal at the gum line and maximum comfort for your bite.',
-        image: '/images/fera-clinic/treatments/general-dentistry.webp'
+        image: '/images/fera-clinic/treatments/general-dentistry.webp',
+        imageKey: 'treatment_general_main'
       }
     ],
     additionalImages: [
@@ -376,6 +446,13 @@ export const treatments: Treatment[] = [
       '/images/fera-clinic/treatments/zirconium-crowns/shade.webp',
       '/images/fera-clinic/treatments/zirconium-crowns/lab.webp',
       '/images/fera-clinic/treatments/zirconium-crowns/final-smile.webp'
+    ],
+    imageKeys: [
+      'treatment_crowns_closeup',
+      'treatment_crowns_prep',
+      'treatment_crowns_shade',
+      'treatment_crowns_lab',
+      'treatment_crowns_smile'
     ]
   },
   {
@@ -388,6 +465,7 @@ export const treatments: Treatment[] = [
     recovery: '1-3 days',
     price: 'From EUR 400',
     image: '/images/fera-clinic/treatments/laser-procedure.webp',
+    imageKey: 'treatment_laser_main',
     features: [
       'Soft tissue laser tech',
       'No-stitch procedure',
@@ -407,19 +485,22 @@ export const treatments: Treatment[] = [
         eyebrow: 'Laser Precision',
         heading: 'Micro-Surgical Gum Refinement',
         description: 'Using advanced Biolase soft-tissue lasers, we can sculpt the gum line with extreme precision, often with no need for traditional sutures.',
-        image: '/images/fera-clinic/treatments/laser-procedure.webp'
+        image: '/images/fera-clinic/treatments/laser-procedure.webp',
+        imageKey: 'treatment_laser_main'
       },
       {
         eyebrow: 'Symmetry Design',
         heading: 'Architectural Smile Balancing',
         description: 'We treat the gum line as the architectural frame of your smile, ensuring each tooth is framed by perfectly symmetrical, healthy-looking tissue.',
-        image: '/images/fera-clinic/clinic/waiting-area.webp'
+        image: '/images/fera-clinic/clinic/waiting-area.webp',
+        imageKey: 'clinic_waiting'
       },
       {
         eyebrow: 'Rapid Healing',
         heading: 'Bloodless Clinical Protocols',
         description: 'The laser instantly cauterizes as it cuts, meaning minimal swelling, no bleeding, and a healing process that is measured in days, not weeks.',
-        image: '/images/fera-clinic/treatments/general-dentistry.webp'
+        image: '/images/fera-clinic/treatments/general-dentistry.webp',
+        imageKey: 'treatment_general_main'
       }
     ],
     additionalImages: [
@@ -428,6 +509,13 @@ export const treatments: Treatment[] = [
       '/images/fera-clinic/treatments/gum-sculpting/analysis.webp',
       '/images/fera-clinic/treatments/gum-sculpting/procedure.webp',
       '/images/fera-clinic/treatments/gum-sculpting/final-smile.webp'
+    ],
+    imageKeys: [
+      'treatment_laser_detail',
+      'treatment_laser_contour',
+      'treatment_laser_analysis',
+      'treatment_laser_proc',
+      'treatment_laser_smile'
     ]
   }
 ]

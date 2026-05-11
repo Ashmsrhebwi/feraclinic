@@ -2,8 +2,11 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { Shield, Lock, CheckCircle } from 'lucide-react'
 import { LocalizedLink as Link } from '../components/ui/LocalizedLink'
+import { useTranslation } from 'react-i18next'
 
 export function PaymentCompliance() {
+  const { t } = useTranslation()
+
   return (
     <div className="bg-gray-50 border-t border-[#13293D]">
       <div className="max-w-7xl mx-auto px-6 py-8">
@@ -11,37 +14,37 @@ export function PaymentCompliance() {
         <div className="text-center mb-8">
           <div className="flex items-center justify-center gap-2 mb-2">
             <Shield className="w-5 h-5 text-[#13293D]" />
-            <span className="text-sm font-semibold text-[#13293D]">Secure Payment Infrastructure</span>
+            <span className="text-sm font-semibold text-[#13293D]">{t('compliance.securePayment', 'Secure Payment Infrastructure')}</span>
           </div>
           <p className="text-xs text-[#13293D]">
-            Card details are processed securely by iyzico - PCI DSS Compliant
+            {t('compliance.cardDetails', 'Card details are processed securely by iyzico - PCI DSS Compliant')}
           </p>
         </div>
 
         {/* Legal Links */}
         <div className="flex flex-wrap justify-center items-center gap-4 mb-8 text-xs">
           <Link to="/privacy" className="text-[#13293D] hover:text-[#0B1C2D] transition-colors">
-            Privacy Policy
+            {t('footer.privacyPolicy', 'Privacy Policy')}
           </Link>
           <span className="text-gray-400">•</span>
           <Link to="/terms" className="text-[#13293D] hover:text-[#0B1C2D] transition-colors">
-            Terms of Service
+            {t('footer.termsOfService', 'Terms of Service')}
           </Link>
           <span className="text-gray-400">•</span>
           <Link to="/delivery-refund-policy" className="text-[#13293D] hover:text-[#0B1C2D] transition-colors">
-            Delivery & Refund
+            {t('common.legalPages.deliveryRefund', 'Delivery & Refund')}
           </Link>
           <span className="text-gray-400">•</span>
           <Link to="/distance-sales-agreement" className="text-[#13293D] hover:text-[#0B1C2D] transition-colors">
-            Distance Sales
+            {t('common.legalPages.distanceSales', 'Distance Sales')}
           </Link>
           <span className="text-gray-400">•</span>
           <Link to="/about" className="text-[#13293D] hover:text-[#0B1C2D] transition-colors">
-            About Us
+            {t('navigation.about', 'About Us')}
           </Link>
           <span className="text-gray-400">•</span>
           <Link to="/contact" className="text-[#13293D] hover:text-[#0B1C2D] transition-colors">
-            Contact
+            {t('navigation.contact', 'Contact')}
           </Link>
         </div>
 
@@ -71,7 +74,7 @@ export function PaymentCompliance() {
               <div className="w-8 h-8 bg-purple-600 rounded flex items-center justify-center">
                 <span className="text-white text-xs font-bold">iy</span>
               </div>
-              <span className="text-xs font-semibold text-[#13293D]">ile Öde</span>
+              <span className="text-xs font-semibold text-[#13293D]">{t('compliance.ileOde', 'ile Öde')}</span>
             </div>
           </div>
 
@@ -79,7 +82,7 @@ export function PaymentCompliance() {
           <div className="bg-white rounded-lg p-3 shadow-[0_25px_80px_rgba(11,28,45,0.12)]">
             <div className="flex items-center gap-2">
               <Lock className="w-4 h-4 text-[#13293D]" />
-              <span className="text-xs font-semibold text-[#13293D]">SSL Secure</span>
+              <span className="text-xs font-semibold text-[#13293D]">{t('compliance.sslSecure', 'SSL Secure')}</span>
             </div>
           </div>
         </div>
@@ -87,15 +90,16 @@ export function PaymentCompliance() {
         {/* Contact Info */}
         <div className="text-center mt-8 pt-6 border-t border-[#13293D]">
           <p className="text-xs text-[#13293D] mb-2">
-            FeRa Clinic - Kazlıçeşme, Kennedy Cad. No:62 D:1, 34020 Zeytinburnu/İstanbul
+            {t('common.brandName', 'FeRa Clinic')} - {t('contact.info.locationDetail', 'Kazlıçeşme, Kennedy Cad. No:62 D:1, 34020 Zeytinburnu/İstanbul')}
           </p>
           <div className="flex justify-center items-center gap-4 text-xs text-[#13293D]">
-            <span>consultation@feraclinic.com</span>
+            <span>{t('common.emailAddress', 'consultation@feraclinic.com')}</span>
             <span>•</span>
-            <span>+90 536 746 01 00</span>
+            <span>{t('common.phoneNumber', '+90 536 746 01 00')}</span>
           </div>
         </div>
       </div>
     </div>
   )
 }
+

@@ -61,23 +61,36 @@ export const submitLead = async (payload: LeadPayload) => {
     utm_campaign
   };
 
-  const response = await fetch(`${API_BASE_URL}/api/leads`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'Accept': 'application/json'
-    },
-    body: JSON.stringify(fullPayload)
-  });
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), 10000); // 10 second timeout
 
-  const data = await response.json();
+  try {
+    const response = await fetch(`${API_BASE_URL}/api/leads`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      },
+      body: JSON.stringify(fullPayload),
+      signal: controller.signal
+    });
 
-  if (!response.ok) {
-    const errorMsg = data.errors 
-      ? Object.values(data.errors).flat().join(', ')
-      : data.message || 'Submission failed. Please try again.';
-    throw new Error(errorMsg);
+    clearTimeout(timeoutId);
+    const data = await response.json();
+
+    if (!response.ok) {
+      const errorMsg = data.errors 
+        ? Object.values(data.errors).flat().join(', ')
+        : data.message || 'Submission failed. Please try again.';
+      throw new Error(errorMsg);
+    }
+
+    return data;
+  } catch (error: any) {
+    clearTimeout(timeoutId);
+    if (error.name === 'AbortError') {
+      throw new Error("The request timed out. Please try again or contact us via WhatsApp.");
+    }
+    throw error;
   }
-
-  return data;
 };

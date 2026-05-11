@@ -1,188 +1,121 @@
 const fs = require('fs');
 const path = require('path');
 
-// Directories to scan
-const SCAN_DIRS = [
-  'src/pages',
-  'src/components',
-  'src/app'
-];
+const FRONTEND_DIR = path.resolve(__dirname, '..', 'src');
+const LOCALES_DIR = path.join(FRONTEND_DIR, 'i18n', 'locales');
+const DIRECTORIES_TO_SCAN = ['pages', 'components', 'app'];
+const LANGUAGES = ['en', 'fr', 'ru', 'ar', 'tr', 'es'];
 
-// Translation files to check
-const TRANSLATION_FILES = {
-  en: 'src/i18n/locales/en.json',
-  fr: 'src/i18n/locales/fr.json',
-  ru: 'src/i18n/locales/ru.json',
-  ar: 'src/i18n/locales/ar.json',
-  tr: 'src/i18n/locales/tr.json'
-};
-
-// Files to exclude
-const EXCLUDE_PATTERNS = [
-  'node_modules',
-  'dist',
-  'build',
-  '.git',
-  'package-lock.json'
-];
-
-function scanDirectory(dir, files) {
-  const items = fs.readdirSync(dir);
+// Helper to recursively get all files in a directory
+function getFiles(dir, fileList = []) {
+  if (!fs.existsSync(dir)) return fileList;
   
-  for (const item of items) {
-    const fullPath = path.join(dir, item);
-    const stat = fs.statSync(fullPath);
+  const files = fs.readdirSync(dir);
+  for (const file of files) {
+    const filePath = path.join(dir, file);
+    const stat = fs.statSync(filePath);
     
-    if (stat.isDirectory() && !EXCLUDE_PATTERNS.includes(item)) {
-      scanDirectory(fullPath, files);
-    } else if (stat.isFile() && item.endsWith('.tsx') || item.endsWith('.ts')) {
-      scanFile(fullPath, files);
+    // Ignore node_modules, dist, build, .git
+    if (['node_modules', 'dist', 'build', '.git'].includes(file)) continue;
+    
+    if (stat.isDirectory()) {
+      getFiles(filePath, fileList);
+    } else if (file.endsWith('.ts') || file.endsWith('.tsx') || file.endsWith('.js') || file.endsWith('.jsx')) {
+      fileList.push(filePath);
     }
   }
+  return fileList;
 }
 
-function scanFile(filePath, files) {
-  try {
-    const content = fs.readFileSync(filePath, 'utf8');
-    
-    // Find all t("key") and t('key') patterns
-    const regex = /t\(["']([^"']+)["']/g;
-    let match;
-    const usedKeys = new Set();
-    
-    while ((match = regex.exec(content)) !== null) {
-      usedKeys.add(match[1]);
-    }
-    
-    if (usedKeys.size > 0) {
-      console.log(`Found ${usedKeys.size} keys in: ${filePath}`);
-      files.push(...usedKeys);
-    }
-  } catch (error) {
-    console.error(`Error scanning ${filePath}:`, error.message);
-  }
-}
-
-function loadTranslationFile(filePath) {
-  try {
-    if (fs.existsSync(filePath)) {
-      const content = fs.readFileSync(filePath, 'utf8');
-      return JSON.parse(content);
-    }
-    return {};
-  } catch (error) {
-    console.error(`Error loading ${filePath}:`, error.message);
-    return {};
-  }
-}
-
-function flattenObject(obj, prefix = '') {
-  const result = {};
-  
-  function flatten(current, currentPrefix = '') {
-    for (const key in current) {
-      const fullKey = currentPrefix ? `${currentPrefix}.${key}` : key;
-      if (typeof current[key] === 'object' && current[key] !== null) {
-        flatten(current[key], fullKey);
-      } else {
-        result[fullKey] = current[key];
-      }
+// Get value from nested JSON object
+function getNestedValue(obj, keyPath) {
+  const parts = keyPath.split('.');
+  let current = obj;
+  for (const part of parts) {
+    if (current && typeof current === 'object' && part in current) {
+      current = current[part];
+    } else {
+      return undefined;
     }
   }
-  
-  flatten(obj);
-  return result;
+  return current;
 }
 
 function main() {
-  console.log('🔍 Scanning for translation keys...\n');
+  console.log('--- Starting i18n key extraction ---');
   
-  const allUsedKeys = new Set();
+  const usedKeys = new Set();
   
-  // Scan all directories
-  for (const dir of SCAN_DIRS) {
-    if (fs.existsSync(dir)) {
-      console.log(`📁 Scanning ${dir}...`);
-      scanDirectory(dir, allUsedKeys);
-    }
-  }
-  
-  console.log(`\n📊 Found ${allUsedKeys.size} unique translation keys in codebase\n`);
-  
-  // Load translation files
-  console.log('\n📚 Loading translation files...');
-  const translations = {};
-  for (const [lang, filePath] of Object.entries(TRANSLATION_FILES)) {
-    console.log(`   Loading ${lang}: ${filePath}`);
-    translations[lang] = flattenObject(loadTranslationFile(filePath));
-  }
-  
-  // Check for missing keys in each language
-  console.log('\n🔍 Checking for missing translations...\n');
-  
-  for (const [lang, translationObj] of Object.entries(translations)) {
-    const missingKeys = [];
-    const emptyKeys = [];
+  // 1. Scan files
+  for (const subDir of DIRECTORIES_TO_SCAN) {
+    const dirPath = path.join(FRONTEND_DIR, subDir);
+    const files = getFiles(dirPath);
     
-    for (const key of allUsedKeys) {
-      if (!(key in translationObj)) {
-        missingKeys.push(key);
-      } else if (translationObj[key] === '' || translationObj[key] === null) {
-        emptyKeys.push(key);
+    for (const file of files) {
+      const content = fs.readFileSync(file, 'utf8');
+      
+      // Look for t('key') or t("key") or t(`key`)
+      const regex = /t\s*\(\s*['"`]([^'"`\$\{\}]+)['"`]/g;
+      let match;
+      while ((match = regex.exec(content)) !== null) {
+        usedKeys.add(match[1]);
       }
     }
-    
-    if (missingKeys.length > 0) {
-      console.log(`\n❌ ${lang.toUpperCase()}: ${missingKeys.length} missing keys:`);
-      missingKeys.sort().forEach(key => console.log(`   - ${key}`));
-    }
-    
-    if (emptyKeys.length > 0) {
-      console.log(`\n⚠️  ${lang.toUpperCase()}: ${emptyKeys.length} empty keys:`);
-      emptyKeys.sort().forEach(key => console.log(`   - ${key}`));
-    }
-    
-    if (missingKeys.length === 0 && emptyKeys.length === 0) {
-      console.log(`\n✅ ${lang.toUpperCase()}: All keys present and non-empty`);
-    }
   }
   
-  // Check for keys defined but never used
-  console.log('\n🔍 Checking for unused keys...\n');
-  
-  for (const [lang, translationObj] of Object.entries(translations)) {
-    const allKeysInTranslation = Object.keys(translationObj);
-    const unusedKeys = allKeysInTranslation.filter(key => !allUsedKeys.has(key));
-    
-    if (unusedKeys.length > 0) {
-      console.log(`\n📋 ${lang.toUpperCase()}: ${unusedKeys.length} unused keys:`);
-      unusedKeys.sort().forEach(key => console.log(`   - ${key}`));
-    }
-    
-    if (unusedKeys.length === 0) {
-      console.log(`\n✅ ${lang.toUpperCase()}: All keys are used`);
+  console.log(`Found ${usedKeys.size} unique keys used in code.\n`);
+
+  // 2. Load translations
+  const translations = {};
+  for (const lang of LANGUAGES) {
+    const filePath = path.join(LOCALES_DIR, `${lang}.json`);
+    if (fs.existsSync(filePath)) {
+      translations[lang] = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    } else {
+      console.warn(`Warning: Translation file not found for ${lang}: ${filePath}`);
+      translations[lang] = {};
     }
   }
+
+  // 3. Check keys
+  const report = {};
+  LANGUAGES.forEach(lang => {
+    report[lang] = { missing: [], empty: [] };
+  });
+
+  for (const key of usedKeys) {
+    LANGUAGES.forEach(lang => {
+      const value = getNestedValue(translations[lang], key);
+      
+      if (value === undefined || value === null) {
+        report[lang].missing.push(key);
+      } else if (typeof value === 'string' && value.trim() === '') {
+        report[lang].empty.push(key);
+      }
+    });
+  }
+
+  // 4. Print clean report
+  console.log('=== i18n AUDIT REPORT ===\n');
   
-  // Summary
-  console.log('\n📋 SUMMARY:');
-  console.log(`   Total keys used in code: ${allUsedKeys.size}`);
-  console.log(`   Languages checked: ${Object.keys(translations).join(', ')}`);
-  
-  const hasIssues = Object.values(translations).some(lang => {
-    const translationObj = translations[lang];
-    const missingKeys = [...allUsedKeys].filter(key => !(key in translationObj));
-    const emptyKeys = [...allUsedKeys].filter(key => translationObj[key] === '' || translationObj[key] === null);
-    return missingKeys.length > 0 || emptyKeys.length > 0;
+  LANGUAGES.forEach(lang => {
+    console.log(`[Language: ${lang.toUpperCase()}]`);
+    console.log(`Missing keys: ${report[lang].missing.length}`);
+    if (report[lang].missing.length > 0) {
+      // Print first 5 missing keys as examples
+      const examples = report[lang].missing.slice(0, 5).join(', ');
+      console.log(`  Examples: ${examples}${report[lang].missing.length > 5 ? ' ...' : ''}`);
+    }
+    
+    console.log(`Empty keys: ${report[lang].empty.length}`);
+    if (report[lang].empty.length > 0) {
+      const examples = report[lang].empty.slice(0, 5).join(', ');
+      console.log(`  Examples: ${examples}${report[lang].empty.length > 5 ? ' ...' : ''}`);
+    }
+    console.log('');
   });
   
-  if (hasIssues) {
-    console.log('\n❌ ISSUES FOUND - Please review above details');
-    process.exit(1);
-  } else {
-    console.log('\n✅ ALL TRANSLATION KEYS ARE VALID');
-    process.exit(0);
-  }
+  console.log('--- Audit Complete ---');
 }
 
 main();

@@ -1,6 +1,6 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { LocalizedLink as Link } from '../components/ui/LocalizedLink'
-import { ArrowRight, ShieldCheck, Award, Users, Clock, Star, Globe, CheckCircle, Check, Phone, Facebook, Instagram, Youtube, Linkedin, Building, Play, X, Mail, MapPin, Stethoscope, Microscope, Scan, ScanLine, Sparkles, Zap } from 'lucide-react'
+import { ArrowRight, ShieldCheck, Award, Users, Clock, Star, Globe, CheckCircle, Check, Phone, Facebook, Instagram, Youtube, Linkedin, Building, Play, X, Mail, MapPin, Stethoscope, Microscope, Scan, ScanLine, Sparkles, Zap, ExternalLink } from 'lucide-react'
 import { TreatmentCard } from '../components/ui/TreatmentCard'
 import { ScrollReveal } from '../components/ui/ScrollReveal'
 import { BeforeAfterAnimation } from '../components/BeforeAfterAnimation'
@@ -8,9 +8,12 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import { useSEO } from '../components/useSEO'
 import { Button } from '../components/ui/button'
+import { getMedia } from '../lib/mediaResolver'
 import { submitLead } from '../lib/leadService'
 import { SectionWrapper } from '../components/ui/SectionWrapper'
 import { HeroCallForm } from '../components/HeroCallForm'
+import { GOOGLE_REVIEWS, GOOGLE_REVIEW_LINK } from '../data/googleReviews'
+
 const TikTokIcon = ({ className }: { className?: string }) => (
   <svg viewBox="0 0 24 24" fill="currentColor" className={className}>
     <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.17-2.89-.6-4.09-1.47-.88-.64-1.61-1.47-2.11-2.44v10.13c-.15 1.98-1.2 3.89-2.91 4.9-1.72 1.01-3.95 1.11-5.75.26-1.8-.85-3.08-2.67-3.35-4.66-.44-3.23 2.15-6.3 5.37-6.57.54-.05 1.08.01 1.61.16v4.03c-.42-.15-.88-.23-1.33-.21-1.34.07-2.5 1.1-2.73 2.43-.3 1.73.91 3.4 2.65 3.7.88.15 1.83-.05 2.53-.61.71-.57 1.12-1.46 1.14-2.37.02-3.41 0-6.82.01-10.23.01-2.28 0-4.56.02-6.84z" />
@@ -80,95 +83,50 @@ const getStats = (t: any) => [
   { value: '12', label: t('stats.specialists', 'Specialist Doctors') },
 ]
 
-/* ─── TESTIMONIALS ─── */
-const getTestimonials = (t: any) => [
-  {
-    name: 'Elena M.',
-    country: t('common.countries.italy', 'Italy'),
-    flag: '🇮🇹',
-    treatment: t('treatments.veneers', 'Porcelain Veneers'),
-    text: t('home.testimonials.t1', 'From digital design to final placement, the precision was outstanding. My Hollywood smile was completed in 5 days as promised at FeRa Clinic in Istanbul. I am beyond happy with my natural-looking results.'),
-    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200&h=200',
-    rating: 5
-  },
-  {
-    name: 'David T.',
-    country: t('common.countries.uk', 'United Kingdom'),
-    flag: '🇬🇧',
-    treatment: t('treatments.allOn4', 'All-on-4 Restoration'),
-    text: t('home.testimonials.t2', 'A highly professional surgical environment at FeRa Clinic in Istanbul. The All-on-4 protocol was explained at every stage. Airport transfers and hotel coordination were seamless. I felt completely cared for throughout my journey.'),
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200&h=200',
-    rating: 5
-  },
-  {
-    name: 'Sarah S.',
-    country: t('common.countries.germany', 'Germany'),
-    flag: '🇩🇪',
-    treatment: t('treatments.crowns', 'Zirconium Crowns'),
-    text: t('home.testimonials.t3', 'I chose FeRa Clinic in Istanbul for their focus on medical precision and advanced technology. The result is completely natural and functional. The follow-up care exceeded all my expectations. Truly world-class dentistry.'),
-    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200&h=200',
-    rating: 5
-  },
-  // {
-  //   name: 'Michael R.',
-  //   country: t('common.countries.usa', 'United States'),
-  //   flag: '🇺🇸',
-  //   treatment: t('treatments.implants', 'Full Mouth Restoration'),
-  //   text: t('home.testimonials.t4', 'The surgical precision and modern facilities at FeRa were impressive. My full mouth restoration was handled with immense care and professional coordination.'),
-  //   image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200&h=200',
-  //   rating: 5
-  // },
-  // {
-  //   name: 'Sophie L.',
-  //   country: t('common.countries.france', 'France'),
-  //   flag: '🇫🇷',
-  //   treatment: t('treatments.veneers', 'E-Max Veneers'),
-  //   text: t('home.testimonials.t5', 'An incredible aesthetic result. The doctors took the time to design a smile that looks completely natural and fits my face perfectly. Merci to the whole team.'),
-  //   image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=200&h=200',
-  //   rating: 5
-  // },
-  // {
-  //   name: 'James W.',
-  //   country: t('common.countries.canada', 'Canada'),
-  //   flag: '🇨🇦',
-  //   treatment: t('treatments.smileMakeover', 'Smile Makeover'),
-  //   text: t('home.testimonials.t6', 'Traveling from Canada was the best decision for my dental health. The level of specialization here is world-class, and the patient journey was effortless.'),
-  //   image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200&h=200',
-  //   rating: 5
-  // },
-]
 
 /* ─── BEFORE / AFTER CASES ─── */
 const getBeforeAfterCases = (t: any) => [
   {
     label: t('treatments.smileMakeover', 'Hollywood Smile'),
     before: '/images/fera-clinic/before-after/case1-before.jpg',
+    beforeKey: 'case_1_before',
     after: '/images/fera-clinic/before-after/case1-after.jpg',
+    afterKey: 'case_1_after',
   },
   {
     label: t('treatments.implants', 'Dental Implants'),
     before: '/images/fera-clinic/before-after/case2-before.jpg',
+    beforeKey: 'case_2_before',
     after: '/images/fera-clinic/before-after/case2-after.jpg',
+    afterKey: 'case_2_after',
   },
   {
     label: t('treatments.crowns', 'Zirconium Crowns'),
     before: '/images/fera-clinic/before-after/case3-before.jpg',
+    beforeKey: 'case_3_before',
     after: '/images/fera-clinic/before-after/case3-after.jpg',
+    afterKey: 'case_3_after',
   },
   {
     label: t('treatments.orthodontics', 'Orthodontic Alignment'),
     before: '/images/fera-clinic/before-after/case4-before.jpg',
+    beforeKey: 'case_4_before',
     after: '/images/fera-clinic/before-after/case4-after.jpg',
+    afterKey: 'case_4_after',
   },
   {
     label: t('treatments.allOn4', 'Surgical Full Arch'),
     before: '/images/fera-clinic/before-after/case5-before.jpg',
+    beforeKey: 'case_5_before',
     after: '/images/fera-clinic/before-after/case5-after.jpg',
+    afterKey: 'case_5_after',
   },
   {
     label: t('gallery.cases.c1.title', 'Full Aesthetic Reconstruction'),
     before: '/images/fera-clinic/before-after/case1-before.jpg',
+    beforeKey: 'case_1_before',
     after: '/images/fera-clinic/before-after/case1-after.jpg',
+    afterKey: 'case_1_after',
   },
 ]
 
@@ -184,8 +142,8 @@ const BeforeAfterCard = ({ caseData, index, t }: { caseData: any, index: number,
     >
       <div className="relative rounded-3xl shadow-2xl overflow-hidden border border-white/10 hover:border-white/30 transition-all duration-500 ease-out hover:scale-[1.02] hover:shadow-2xl hover:shadow-black/40">
         <BeforeAfterAnimation
-          beforeImage={caseData.before}
-          afterImage={caseData.after}
+          beforeImage={getMedia(caseData.beforeKey || caseData.before)}
+          afterImage={getMedia(caseData.afterKey || caseData.after)}
           title={caseData.label}
           alt={t('alt.beforeAfter', `${caseData.label} before and after`)}
           className="rounded-3xl"
@@ -262,11 +220,73 @@ const FAQItem = ({ faq, index, openIndex, setOpenIndex }: { faq: any, index: num
   )
 }
 
+interface ReviewData {
+  id: string
+  author: {
+    en: string;
+    ar: string;
+    tr: string;
+    fr: string;
+    es: string;
+    ru: string;
+  }
+  text: {
+    en: string;
+    ar: string;
+    tr: string;
+    fr: string;
+    es: string;
+    ru: string;
+  }
+  rating: number
+  date: string
+  authorImage?: string
+}
+
 export const Home = () => {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const [isVideoOpen, setIsVideoOpen] = useState(false)
   const [openFaq, setOpenFaq] = useState<number | null>(0)
   const [newsletterLoading, setNewsletterLoading] = useState(false)
+  const currentLang = i18n.language.split('-')[0] // handle cases like 'en-US'
+
+  const [displayReviews, setDisplayReviews] = useState<ReviewData[]>([]);
+
+  useEffect(() => {
+    const fetchHomeReviews = async () => {
+      // 1. Logic for static fallbacks based on EXACT language requirements
+      let selectedReviews: GoogleReview[] = [];
+      
+      const homeMapping: Record<string, string[]> = {
+        'en': ['en-1', 'en-2', 'en-3'],
+        'es': ['en-1', 'en-2', 'en-3'], // ES uses EN fallback
+        'tr': ['tr-1', 'tr-2', 'tr-3'],
+        'ru': ['ru-1', 'ru-2', 'ru-3'],
+        'fr': ['fr-1', 'fr-2', 'fr-3'],
+        'ar': ['ar-1', 'ar-2', 'ar-3']
+      };
+
+      const ids = homeMapping[currentLang] || homeMapping['en'];
+      selectedReviews = GOOGLE_REVIEWS.filter(r => ids.includes(r.id));
+      
+      // Sort to match the order in ids array
+      selectedReviews.sort((a, b) => ids.indexOf(a.id) - ids.indexOf(b.id));
+
+      const initialDisplay = selectedReviews.map(r => ({
+        id: r.id,
+        author: r.author,
+        text: r.text,
+        rating: r.rating,
+        date: r.date,
+        authorImage: r.authorImage
+      }));
+
+      setDisplayReviews(initialDisplay);
+
+      // 2. API reviews are disabled for Home page to ensure strict mapping as requested
+    }
+    fetchHomeReviews()
+  }, [currentLang])
 
   useSEO({ title: 'Premium Dental Clinic Istanbul | Dental Implants Turkey | Smile Makeover', description: 'FeRa Clinic - Istanbul\'s premier dental clinic. Specializing in dental implants, smile makeovers, and cosmetic dentistry. 15+ specialist dentists, 5,000+ international patients. Book your consultation today.' })
 
@@ -274,14 +294,14 @@ export const Home = () => {
     <div className="bg-white">
 
       {/* 
-══════════════════════════════════════
-  HERO - PREMIUM ANIMATIONS & MOTION
-══════════════════════════════════════ */}
-      <section className="relative min-h-[600px] md:min-h-[650px] lg:min-h-[70vh] flex items-start overflow-hidden" style={{ animationDelay: '1000ms' }}>
+      ══════════════════════════════════════
+        HERO - PREMIUM ANIMATIONS & MOTION
+      ══════════════════════════════════════ */}
+      <section className="relative min-h-[580px] sm:min-h-[620px] md:min-h-[650px] lg:min-h-[70vh] flex items-start overflow-hidden" style={{ animationDelay: '1000ms' }}>
         {/* Enhanced Background with Animation */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/fera-clinic/hero/Anasafya-scaled-3.webp"
+            src={getMedia("hero_home_main")}
             alt={t('alt.feraClinic', 'FeRa Clinic')}
             className="w-full h-full object-cover object-center"
             style={{ animation: 'heroZoomPan 15s ease-in-out infinite alternate' }}
@@ -292,14 +312,14 @@ export const Home = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/60 backdrop-blur-[1px]" />
         </div>
 
-        {/* Premium Floating Glow Effect */}
-        <div className="absolute top-20 left-10 w-96 h-96 bg-[#0B1C2D]/10 rounded-full blur-3xl animate-pulse" style={{ animationDuration: '8s' }} />
-        <div className="absolute bottom-20 right-10 w-64 h-64 bg-[#0B1C2D]/8 rounded-full blur-2xl animate-pulse" style={{ animationDuration: '12s', animationDelay: '2s' }} />
+        {/* Premium Floating Glow Effect — overflow-safe: clipped by parent section's overflow-hidden */}
+        <div className="absolute top-20 left-10 w-64 h-64 sm:w-96 sm:h-96 bg-[#0B1C2D]/10 rounded-full blur-3xl animate-pulse pointer-events-none" style={{ animationDuration: '8s' }} />
+        <div className="absolute bottom-20 right-10 w-48 h-48 sm:w-64 sm:h-64 bg-[#0B1C2D]/8 rounded-full blur-2xl animate-pulse pointer-events-none" style={{ animationDuration: '12s', animationDelay: '2s' }} />
 
-        <div className="relative z-10 max-w-[1600px] mx-auto w-full px-6 lg:px-10 2xl:px-16 pt-20 sm:pt-24 md:pt-28 lg:pt-24 flex justify-between items-start gap-8">
+        <div className="relative z-10 w-full px-4 sm:px-6 lg:px-10 2xl:px-16 pt-20 sm:pt-24 md:pt-28 lg:pt-24 flex justify-between items-start lg:gap-8">
           {/* Standardized Darker Glass Content Card */}
           <motion.div
-            className="hero-content-card w-full mb-10 max-w-[94vw] sm:max-w-[680px] lg:max-w-[860px] 2xl:max-w-[980px] bg-white/10 backdrop-blur-2xl rounded-[32px] p-6 sm:p-8 lg:p-9 shadow-2xl border border-white/20"
+            className="hero-content-card w-full min-w-0 mb-10 max-w-full sm:max-w-[680px] lg:max-w-[860px] 2xl:max-w-[980px] bg-white/10 backdrop-blur-2xl rounded-[32px] p-5 sm:p-7 lg:p-9 shadow-2xl border border-white/20"
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
@@ -312,7 +332,7 @@ export const Home = () => {
               className="flex items-center gap-4 mb-4"
             >
               <div className="w-12 h-[1px] bg-white/40" />
-              <span className="text-[10px] font-bold text-white uppercase tracking-widest drop-shadow-md">{t('home.heroEyebrow', 'التخصصات الطبية')}</span>
+              <span className="text-[10px] font-bold text-white uppercase tracking-widest drop-shadow-md">{t('home.heroEyebrow')}</span>
             </motion.div>
 
             {/* Premium Heading - White with Shadow */}
@@ -321,15 +341,15 @@ export const Home = () => {
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
-                className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif font-bold text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.45)] tracking-tight leading-[0.95]"
+                className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif font-bold text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.45)] tracking-tight leading-[0.95]"
               >
-                {t('home.heroTitleMain', 'Istanbul Dental Excellence,')}
+                {t('home.heroTitleMain', 'Istanbul FeRa Clinic,')}
               </motion.h1>
               <motion.h1
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
-                className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif font-bold text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.45)] tracking-tight leading-[0.95]"
+                className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif font-bold text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.45)] tracking-tight leading-[0.95]"
               >
                 {t('home.heroTitleSub', 'World-Class Smiles')}
               </motion.h1>
@@ -342,7 +362,7 @@ export const Home = () => {
               transition={{ duration: 0.8, delay: 0.7, ease: "easeOut" }}
               className="text-lg text-white/85 font-light leading-relaxed max-w-2xl mb-6 drop-shadow-sm"
             >
-              {t('home.heroDesc', 'اكتشف عيادة الأسنان الرائدة في إسطنبول حيث تلتقي الخبرة العالمية بالدقة الفنية لتوفير تحولات حياتية للابتسامة في قلب تركيا.')}
+              {t('home.heroDesc')}
             </motion.p>
 
             {/* Premium CTA Buttons with Enhanced Hover */}
@@ -350,18 +370,18 @@ export const Home = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.9, ease: "easeOut" }}
-              className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 sm:gap-6 mb-7"
+              className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 mb-7"
             >
               {/* Primary CTA - Free Consultation with Pulse */}
               <Link to="/consultation" className="w-full sm:w-auto">
                 <motion.button
-                  className="w-full sm:min-w-[280px] h-14 sm:h-16 px-8 bg-[#0B1C2D] text-white text-sm font-bold rounded-full shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-300 ease-out flex items-center justify-center gap-3 group relative overflow-hidden"
+                  className="w-full sm:min-w-[200px] lg:min-w-[220px] h-14 sm:h-16 px-6 sm:px-8 bg-[#0B1C2D] text-white text-sm font-bold rounded-full shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-300 ease-out flex items-center justify-center gap-3 group relative overflow-hidden"
                   whileHover={{ scale: 1.02, y: -3, boxShadow: "0 20px 40px rgba(11,28,45,0.3)" }}
                   whileTap={{ scale: 0.98 }}
                 >
                   {/* Subtle Pulse Effect */}
                   <div className="absolute inset-0 bg-gradient-to-r from-gray-200/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                  <span className="uppercase tracking-widest relative z-10">{t('home.ctaPrimary', 'ابدأ رحلة ابتسامتك')}</span>
+                  <span className="uppercase tracking-widest relative z-10">{t('home.ctaPrimary')}</span>
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1.5 transition-transform duration-300 relative z-10" />
                 </motion.button>
               </Link>
@@ -369,11 +389,11 @@ export const Home = () => {
               {/* Secondary CTA - View Gallery */}
               <Link to="/gallery" className="w-full sm:w-auto">
                 <motion.button
-                  className="w-full sm:min-w-[280px] h-14 sm:h-16 px-8 bg-white/60 backdrop-blur-sm text-[#0B1C2D] text-sm font-bold rounded-full border border-[#0B1C2D]/30 shadow-md hover:bg-white hover:shadow-lg hover:scale-[1.02] transition-all duration-300 ease-out flex items-center justify-center gap-3 group"
+                  className="w-full sm:min-w-[200px] lg:min-w-[220px] h-14 sm:h-16 px-6 sm:px-8 bg-white/60 backdrop-blur-sm text-[#0B1C2D] text-sm font-bold rounded-full border border-[#0B1C2D]/30 shadow-md hover:bg-white hover:shadow-lg hover:scale-[1.02] transition-all duration-300 ease-out flex items-center justify-center gap-3 group"
                   whileHover={{ scale: 1.02, y: -3, boxShadow: "0 20px 40px rgba(255,255,255,0.3)" }}
                   whileTap={{ scale: 0.98 }}
                 >
-                  <span className="uppercase tracking-widest">{t('home.ctaSecondary', 'شاهد نتائج المرضى')}</span>
+                  <span className="uppercase tracking-widest">{t('home.ctaSecondary')}</span>
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1.5 transition-transform duration-300" />
                 </motion.button>
               </Link>
@@ -384,7 +404,7 @@ export const Home = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 1.1, ease: "easeOut" }}
-              className="flex flex-wrap items-center gap-6 text-white"
+              className="flex flex-wrap items-center gap-4 sm:gap-8 text-white"
             >
               {[
                 { icon: ShieldCheck, text: t('common.trustBadges.iso', 'ISO Certified') },
@@ -439,9 +459,9 @@ export const Home = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 1.2, ease: "easeOut" }}
-        className="lg:hidden px-6 py-12 bg-gradient-to-b from-white to-[#f7faff]"
+        className="lg:hidden px-4 sm:px-6 py-10 sm:py-12 bg-gradient-to-b from-white to-[#f7faff] overflow-hidden"
       >
-        <div className="max-w-md mx-auto">
+        <div className="max-w-md mx-auto w-full">
           <HeroCallForm />
         </div>
       </motion.div>
@@ -508,27 +528,8 @@ export const Home = () => {
         </div>
       </motion.div>
 
-      {/* CSS Keyframes for Animations */}
-      <style jsx>{`
-        @keyframes heroZoomPan {
-          0% {
-            transform: scale(1.02) translateX(0) translateY(0);
-          }
-          50% {
-            transform: scale(1.05) translateX(-1%) translateY(-0.5%);
-          }
-          100% {
-            transform: scale(1.08) translateX(1%) translateY(-1%);
-          }
-        }
-      `}</style>
-      {/*
-      ══════════════════════════════════════
-        WHY FERA — INSTITUTIONAL QUALITY - PREMIUM REDESIGN
-      ══════════════════════════════════════ */}
       <SectionWrapper padding="py-24 lg:py-32" background="white">
-        <div className="grid lg:grid-cols-2 gap-20 items-center">
-          {/* Left Column: Text + Features */}
+        <div className="grid lg:grid-cols-2 gap-10 lg:gap-20 items-center">
           <motion.div
             className="space-y-10"
             initial={{ opacity: 0, x: -30 }}
@@ -536,26 +537,23 @@ export const Home = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           >
-            {/* Premium Heading */}
             <div className="space-y-6">
               <div className="flex items-center gap-4">
                 <div className="w-12 h-[1px] bg-[#0B1C2D]" />
                 <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-[#0B1C2D]/60 block">
-                  {t('home.whyChooseUs', 'التميز الطبي')}
+                  {t('home.whyChooseUs')}
                 </span>
               </div>
               <h2 className="text-4xl lg:text-[56px] font-serif font-bold text-[#0B1C2D] tracking-tight leading-[1.05]">
-                {t('home.precisionCare', 'رعاية الأسنان المتخصصة.')} <br />
-                <span className="text-[#5f8bc4]/70 italic font-light">{t('home.premiumCare', 'معايير دولية.')}</span>
+                {t('home.precisionCare')} <br />
+                <span className="text-[#5f8bc4]/70 italic font-light">{t('home.premiumCare')}</span>
               </h2>
             </div>
 
-            {/* Improved Paragraph */}
             <p className="text-xl text-[#64748B] font-light leading-relaxed max-w-xl">
-              {t('home.precisionDesc', 'في عيادة FeRa، يتبع كل علاج للأسنان بروتوكول دولية مع رعاية يقودها متخصصون وتقنيات تشخيص متقدمة وشفافية كاملة طوال رحلة المريض.')}
+              {t('home.precisionDesc')}
             </p>
 
-            {/* Premium Feature Mini-Cards */}
             <div className="grid sm:grid-cols-2 gap-6 pt-4">
               {getReasons(t).map((r, i) => (
                 <motion.div
@@ -566,7 +564,6 @@ export const Home = () => {
                   transition={{ duration: 0.5, delay: 0.4 + i * 0.1, ease: "easeOut" }}
                 >
                   <div className="p-8 bg-white border border-[rgba(11,28,45,0.08)] rounded-[2rem] shadow-[0_15px_45px_rgba(11,28,45,0.06)] hover:shadow-[0_25px_60px_rgba(11,28,45,0.12)] hover:-translate-y-2 transition-all duration-500 group">
-                    {/* Icon in rounded square */}
                     <div className="w-14 h-14 rounded-2xl bg-[#0B1C2D]/5 text-[#0B1C2D] flex items-center justify-center mb-6 group-hover:bg-[#0B1C2D] group-hover:text-white transition-all duration-500 shadow-sm">
                       <r.icon className="w-7 h-7" />
                     </div>
@@ -582,7 +579,6 @@ export const Home = () => {
             </div>
           </motion.div>
 
-          {/* Right Column: Image + Certification */}
           <motion.div
             className="relative"
             initial={{ opacity: 0, x: 30 }}
@@ -590,7 +586,6 @@ export const Home = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
           >
-            {/* Premium Image Container */}
             <div className="relative rounded-[2.5rem] shadow-[0_40px_100px_rgba(11,28,45,0.15)] overflow-hidden group">
               <img
                 src="/images/fera-clinic/clinic/waiting-area.webp"
@@ -598,7 +593,6 @@ export const Home = () => {
                 className="w-full h-[600px] lg:h-[750px] object-cover transition-transform duration-1000 ease-out group-hover:scale-[1.05]"
               />
 
-              {/* Premium Floating Certification Card */}
               <motion.div
                 className="absolute bottom-10 left-10 bg-white/95 backdrop-blur-xl border border-white/50 rounded-2xl shadow-2xl p-8 max-w-[260px]"
                 whileHover={{ y: -8 }}
@@ -616,12 +610,7 @@ export const Home = () => {
         </div>
       </SectionWrapper>
 
-      {/*
-      ══════════════════════════════════════
-        TECHNOLOGY — CLINICAL PRECISION - PREMIUM REDESIGN
-      ══════════════════════════════════════ */}
       <SectionWrapper padding="py-24 lg:py-32" background="gray">
-        {/* Premium Header with improved spacing */}
         <motion.div
           className="flex flex-col lg:flex-row justify-between items-end gap-12 mb-20 lg:mb-24"
           initial={{ opacity: 0, y: 20 }}
@@ -633,24 +622,23 @@ export const Home = () => {
             <div className="flex items-center gap-4 mb-4">
               <div className="w-12 h-[1px] bg-[#0B1C2D]" />
               <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-[#0B1C2D]/60 block">
-                {t('home.technology.title', 'التكنولوجيا')}
+                {t('home.technology.title')}
               </span>
             </div>
             <h2 className="text-4xl lg:text-[56px] font-serif font-bold text-[#0B1C2D] tracking-tight leading-[1.05]">
-              {t('home.technology.subtitle', 'الدقة السريرية المتقدمة')}
+              {t('home.technology.subtitle')}
             </h2>
           </div>
           <p className="text-xl text-[#64748B] font-light max-w-md leading-relaxed">
-            {t('home.technology.desc', 'نستخدم أحدث التقنيات الرقمية والتصميم ثلاثي الأبعاد لضمان نتائج علاج دقيقة ومريحة للمرضى.')}
+            {t('home.technology.desc')}
           </p>
         </motion.div>
 
-        {/* Premium Technology Cards */}
         <div className="grid md:grid-cols-3 gap-8 lg:gap-12">
           {[
-            { id: 't1', number: '01', icon: ScanLine, title: t('home.technology.t1', 'تصوير ثلاثي الأبعاد CBCT') },
-            { id: 't2', number: '02', icon: Sparkles, title: t('home.technology.t2', 'التصميم الرقمي للابتسامة') },
-            { id: 't3', number: '03', icon: Zap, title: t('home.technology.t3', 'تقنية ليزر Biolase') }
+            { id: 't1', number: '01', icon: ScanLine, title: t('home.technology.t1') },
+            { id: 't2', number: '02', icon: Sparkles, title: t('home.technology.t2') },
+            { id: 't3', number: '03', icon: Zap, title: t('home.technology.t3') }
           ].map((item, idx) => (
             <motion.div
               key={item.id}
@@ -660,23 +648,17 @@ export const Home = () => {
               transition={{ duration: 0.6, delay: 0.3 + idx * 0.1, ease: "easeOut" }}
             >
               <div className="bg-white p-10 rounded-[2.5rem] border border-[rgba(11,28,45,0.08)] shadow-[0_15px_45px_rgba(11,28,45,0.06)] hover:shadow-[0_25px_60px_rgba(11,28,45,0.12)] hover:-translate-y-2 transition-all duration-700 ease-out group h-full">
-                {/* Enhanced Number */}
                 <div className="flex items-center justify-between mb-10">
                   <span className="text-5xl font-serif font-light text-[#0B1C2D]/10 group-hover:text-[#0B1C2D]/20 transition-colors duration-500">
                     {item.number}
                   </span>
-                  {/* Icon in soft blue circular box */}
                   <div className="w-16 h-16 rounded-2xl bg-[#0B1C2D]/5 group-hover:bg-[#0B1C2D] group-hover:text-white group-hover:rotate-[360deg] transition-all duration-1000 flex items-center justify-center shadow-sm">
                     <item.icon className="w-8 h-8" />
                   </div>
                 </div>
-
-                {/* Title */}
                 <h3 className="text-2xl font-bold text-[#0B1C2D] mb-4 tracking-tight group-hover:text-[#162e45] transition-colors duration-300">
                   {t(`home.technology.${item.id}`)}
                 </h3>
-
-                {/* Description */}
                 <p className="text-[#64748B] font-light leading-relaxed">
                   {t(`home.technology.${item.id}Desc`)}
                 </p>
@@ -686,12 +668,7 @@ export const Home = () => {
         </div>
       </SectionWrapper>
 
-      {/*
-      ══════════════════════════════════════
-        FEATURED TREATMENTS - PREMIUM REDESIGN
-      ══════════════════════════════════════ */}
       <SectionWrapper padding="py-24 lg:py-32" background="white">
-        {/* Premium Section Header */}
         <motion.div
           className="text-center max-w-4xl mx-auto mb-20 lg:mb-24"
           initial={{ opacity: 0, y: 20 }}
@@ -702,19 +679,18 @@ export const Home = () => {
           <div className="flex items-center justify-center gap-4 mb-6">
             <div className="w-12 h-[1px] bg-[#0B1C2D]" />
             <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-[#0B1C2D]/60 block">
-              {t('home.treatments.title', 'علاجات أسنان متقدمة مصممة خصيصًا لتحقيق أهداف ابتسامتك')}
+              {t('home.treatments.title')}
             </span>
             <div className="w-12 h-[1px] bg-[#0B1C2D]" />
           </div>
           <h2 className="text-4xl lg:text-[64px] font-serif font-bold text-[#0B1C2D] tracking-tight leading-[1.05] mb-8">
-            {t('home.treatments.title', 'علاجات أسنان متقدمة مصممة خصيصًا لتحقيق أهداف ابتسامتك')}
+            {t('home.treatments.title')}
           </h2>
           <p className="text-xl text-[#64748B] font-light leading-relaxed max-w-2xl mx-auto">
-            {t('home.treatments.subtitle', 'علاجات أسنان متقدمة مصممة خصيصًا لتحقيق أهداف ابتسامتك')}
+            {t('home.treatments.subtitle')}
           </p>
         </motion.div>
 
-        {/* Premium Cards with Stagger */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-12">
           {getFeaturedTreatments(t).map((treatment, index) => (
             <motion.div
@@ -736,7 +712,6 @@ export const Home = () => {
           ))}
         </div>
 
-        {/* Premium View All Button */}
         <motion.div
           className="text-center mt-20 lg:mt-24"
           initial={{ opacity: 0, y: 20 }}
@@ -757,27 +732,22 @@ export const Home = () => {
         </motion.div>
       </SectionWrapper>
 
-      {/*
-      ══════════════════════════════════════
-        BEFORE / AFTER GALLERY
-      ══════════════════════════════════════ */}
       <SectionWrapper padding="py-24 lg:py-32" background="navy">
         <div className="max-w-4xl mb-16 lg:mb-20">
           <div className="flex items-center gap-4 mb-6">
             <div className="w-12 h-[1px] bg-white/20" />
             <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-white/60 block">
-              {t('home.realResults', 'نتائج حقيقية للمرضى')}
+              {t('home.realResults')}
             </span>
           </div>
           <h2 className="text-4xl lg:text-[64px] font-serif font-bold text-white tracking-tight leading-[1.05] mb-8">
             {t('common.beforeAndAfter')}
           </h2>
           <p className="text-xl text-white/80 max-w-2xl font-light leading-relaxed">
-            {t('home.beforeAfterDesc', 'مرضى حقيقيون، نتائج حقيقية في عيادة FeRa. قد تختلف النتائج بناءً على الحالات السريرية الفردية.')}
+            {t('home.beforeAfterDesc')}
           </p>
         </div>
 
-        {/* Case grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
           {getBeforeAfterCases(t).map((c, i) => (
             <BeforeAfterCard key={i} caseData={c} index={i} t={t} />
@@ -791,20 +761,15 @@ export const Home = () => {
               whileHover={{ y: -4, boxShadow: "0 20px 40px rgba(255,255,255,0.2)" }}
               whileTap={{ scale: 0.98 }}
             >
-              <span>{t('home.viewFullGallery', 'شاهد الأرشيف السريري')}</span>
+              <span>{t('home.viewFullGallery')}</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" />
             </motion.button>
           </Link>
         </div>
       </SectionWrapper>
 
-      {/*
-      ══════════════════════════════════════
-        CLINIC PHOTOS — PREMIUM SURGICAL HUB
-      ══════════════════════════════════════ */}
       <SectionWrapper padding="py-24 lg:py-32" background="white">
         <div className="grid lg:grid-cols-2 gap-24 items-center">
-          {/* Premium Image Grid with Hierarchy */}
           <motion.div
             className="space-y-8"
             initial={{ opacity: 0, x: -30 }}
@@ -812,7 +777,6 @@ export const Home = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           >
-            {/* Top smaller images */}
             <div className="grid grid-cols-2 gap-8">
               <motion.div
                 className="group cursor-pointer"
@@ -835,23 +799,20 @@ export const Home = () => {
                 />
               </motion.div>
             </div>
-
-            {/* Bottom featured image (larger) */}
             <motion.div
               className="group cursor-pointer"
               whileHover={{ y: -8 }}
             >
               <img
-                src="/images/fera-clinic/clinic/waiting-area.webp"
+                src="/images/fera-clinic/clinic/waiting-area-2.webp"
                 alt={t('alt.waitingArea', 'FeRa Clinic waiting area')}
-                className="rounded-[2.5rem] object-cover w-full aspect-[16/9] shadow-2xl group-hover:shadow-3xl transition-all duration-500"
+                className="rounded-[3rem] object-cover w-full h-[450px] shadow-2xl group-hover:shadow-2xl transition-all duration-500"
               />
             </motion.div>
           </motion.div>
 
-          {/* Premium Content */}
           <motion.div
-            className="space-y-12 lg:pl-12"
+            className="space-y-10"
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -861,184 +822,38 @@ export const Home = () => {
               <div className="flex items-center gap-4">
                 <div className="w-12 h-[1px] bg-[#0B1C2D]" />
                 <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-[#0B1C2D]/60 block">
-                  {t('home.theClinic', 'العيادة')}
+                  {t('home.institutionalExcellence')}
                 </span>
               </div>
-
-              <h2 className="text-4xl lg:text-[64px] font-serif font-bold text-[#0B1C2D] tracking-tight leading-[1.05]">
-                {t('home.stateOfArt1', 'أسنان متقدمة')} <br />
-                {t('home.stateOfArt2', 'عيادة في إسطنبول')}
+              <h2 className="text-4xl lg:text-[56px] font-serif font-bold text-[#0B1C2D] tracking-tight leading-[1.05]">
+                {t('home.istanbulSurgicalHub')} <br />
+                <span className="text-[#5f8bc4]/70 italic font-light">{t('home.globalDentistry')}</span>
               </h2>
-
-              <p className="text-xl text-[#64748B] font-light leading-relaxed max-w-lg">
-                {t('home.stateOfArtDesc', 'تتميز عيادتنا في إسطنبول بتقنية تصوير ثلاثي الأبعاد CBCT، وتقنية التصميم الرقمي للابتسامة، وأنظمة تعقيم من الفئة ب - لتلبية معايير السلامة والتميز الطبي للمرضى.')}
-              </p>
             </div>
-
-            {/* Premium Features List */}
-            <div className="grid gap-4">
-              {[
-                { icon: ShieldCheck, text: t('home.clinic.feature1', 'تعقيم من الفئة ب في كل غرفة') },
-                { icon: Stethoscope, text: t('home.clinic.feature2', 'تصوير تشخيصي ثلاثي الأبعاد CBCT') },
-                { icon: Microscope, text: t('home.clinic.feature3', 'التصميم الرقمي للابتسامة (DSD)') },
-                { icon: Award, text: t('home.clinic.feature4', 'بروتوكول معتمدة من ISO') },
-              ].map((item, index) => (
-                <motion.div
-                  key={index}
-                  className="flex items-center gap-6 p-6 rounded-[2rem] bg-[#F4F7FA]/50 border border-transparent hover:border-[#0B1C2D]/10 hover:bg-white transition-all duration-300 group"
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: 0.4 + index * 0.1, ease: "easeOut" }}
-                >
-                  <div className="w-14 h-14 rounded-2xl bg-white text-[#0B1C2D] shadow-sm flex items-center justify-center group-hover:bg-[#0B1C2D] group-hover:text-white transition-all duration-500">
-                    <item.icon className="w-7 h-7" />
-                  </div>
-                  <span className="text-[#334155] group-hover:text-[#0B1C2D] font-bold transition-colors duration-300">
-                    {item.text}
-                  </span>
-                </motion.div>
-              ))}
-            </div>
-
-            {/* Premium CTA Button */}
-            <div className="pt-6">
-              <Link to="/about">
-                <motion.button
-                  className="inline-flex items-center gap-4 px-12 py-5 bg-[#0B1C2D] text-white text-sm font-bold rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 ease-out group uppercase tracking-widest"
-                  whileHover={{ y: -4, boxShadow: "0 20px 40px rgba(11,28,45,0.3)" }}
-                  whileTap={{ scale: 0.98 }}
-                >
-                  <span>{t('home.aboutOurClinic', 'About Our Clinic')}</span>
-                  <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" />
-                </motion.button>
-              </Link>
-            </div>
-          </motion.div>
-        </div>
-      </SectionWrapper>
-
-      {/*
-      ══════════════════════════════════════
-        DENTAL TOURISM - PREMIUM REDESIGN
-      ══════════════════════════════════════ */}
-      <SectionWrapper padding="py-24 lg:py-32" background="navy">
-        <div className="grid lg:grid-cols-2 gap-24 items-center">
-          {/* Left: Premium Content */}
-          <motion.div
-            className="max-w-xl"
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-          >
-            <div className="flex items-center gap-4 mb-6">
-              <div className="w-12 h-[1px] bg-white/20" />
-              <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-white/60 block">
-                {t('home.medicalTourism', 'رعاية المرضى العالمية')}
-              </span>
-            </div>
-
-            <h2 className="text-4xl lg:text-[56px] font-serif font-bold text-white tracking-tight leading-[1.05] mb-8">
-              {t('home.completeCare1', 'رعاية سياحية طبية')} <br />
-              {t('home.completeCare2', 'شاملة في إسطنبول')}
-            </h2>
-
-            <p className="text-xl text-white/80 font-light leading-relaxed mb-12">
-              {t('home.completeCareDesc', 'توفر عيادة FeRa خدمات سياحية طبية شاملة - من النقل من المطار والإقامة في الفنادق إلى التنسيق السريري - مما يسمح لك بالتركيز بالكامل على علاجك وتعافيك في إسطنبول.')}
+            <p className="text-xl text-[#64748B] font-light leading-relaxed max-w-xl">
+              {t('home.institutionalDesc')}
             </p>
-
-            {/* Premium Interactive Features */}
-            <div className="grid grid-cols-2 gap-6 mb-12">
+            <div className="grid gap-6">
               {[
-                { icon: '✈', label: t('home.tourism.vip', 'النقل المميز') },
-                { icon: '🏨', label: t('home.tourism.hotel', 'إقامة فاخرة') },
-                { icon: '🗣', label: t('home.tourism.language', 'متعدد اللغات') },
-                { icon: '📋', label: t('home.tourism.coordinator', 'التنسيق') },
-              ].map((item, index) => (
-                <motion.div
-                  key={item.label}
-                  className="group cursor-pointer"
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.6, delay: 0.4 + index * 0.1, ease: "easeOut" }}
-                >
-                  <div className="flex items-center gap-6 p-6 rounded-[2rem] bg-white/10 backdrop-blur-sm border border-white/10 hover:bg-white/15 hover:border-white/20 transition-all duration-500 group">
-                    <div className="w-14 h-14 rounded-2xl bg-white/10 backdrop-blur-md flex items-center justify-center group-hover:bg-white group-hover:text-[#0B1C2D] transition-all duration-500 shadow-sm">
-                      <span className="text-2xl">{item.icon}</span>
-                    </div>
-                    <span className="text-xs font-bold uppercase tracking-widest text-white/70 group-hover:text-white transition-colors duration-300">
-                      {item.label}
-                    </span>
-                  </div>
-                </motion.div>
-              ))}
-            </div>
-
-            {/* Premium CTA Button */}
-            <Link to="/dental-tourism">
-              <motion.button
-                className="inline-flex items-center gap-4 px-12 py-5 bg-white text-[#0B1C2D] text-sm font-bold rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 ease-out group uppercase tracking-widest"
-                whileHover={{ y: -4, boxShadow: "0 20px 40px rgba(255,255,255,0.2)" }}
-                whileTap={{ scale: 0.98 }}
-              >
-                <span>{t('navigation.dentalTourism')}</span>
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" />
-              </motion.button>
-            </Link>
-          </motion.div>
-
-          {/* Right: Premium Glass Card */}
-          <motion.div
-            className="lg:ml-auto"
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
-          >
-            <div className="bg-white/10 backdrop-blur-2xl border border-white/20 rounded-[2.5rem] p-12 lg:p-16 space-y-10 shadow-2xl hover:shadow-3xl hover:scale-[1.02] transition-all duration-500 ease-out max-w-md mx-auto lg:mx-0">
-              <div className="space-y-6">
-                <h3 className="text-3xl font-serif font-bold text-white tracking-tight">{t('home.planYourVisit', 'Request Your Consultation')}</h3>
-                <p className="text-white/80 text-lg font-light leading-relaxed">
-                  {t('home.planYourVisitDesc', "Our dental team is available 7 days a week to answer your questions and help you plan your dental treatment in Istanbul, Turkey.")}
-                </p>
-              </div>
-
-              {/* Premium Phone Section */}
-              <div className="pt-4">
-                <motion.a
-                  href="tel:+905367460100"
-                  className="flex items-center gap-6 p-6 rounded-[2rem] bg-white/10 backdrop-blur-sm border border-white/10 hover:bg-white/20 hover:border-white/30 transition-all duration-500 group"
-                  whileHover={{ y: -4 }}
-                  whileTap={{ scale: 0.98 }}
-                >
-                  <div className="w-16 h-16 rounded-2xl bg-white text-[#0B1C2D] shadow-sm flex items-center justify-center transition-all duration-500 group-hover:scale-110">
-                    <Phone className="w-7 h-7" />
+                { title: t('home.accreditation1.title'), desc: t('home.accreditation1.desc') },
+                { title: t('home.accreditation2.title'), desc: t('home.accreditation2.desc') }
+              ].map((item, idx) => (
+                <div key={idx} className="flex gap-6 p-8 bg-[#F4F7FA]/50 rounded-[2rem] border border-[rgba(11,28,45,0.05)]">
+                  <div className="shrink-0 w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center text-[#0B1C2D]">
+                    <CheckCircle className="w-6 h-6" />
                   </div>
                   <div>
-                    <p className="text-[10px] font-bold uppercase tracking-wider text-white/60 mb-1">{t('home.callUsNow')}</p>
-                    <p className="text-xl font-bold text-white tracking-tight">{t('home.phoneNumber')}</p>
+                    <h4 className="font-bold text-[#0B1C2D] mb-1">{item.title}</h4>
+                    <p className="text-sm text-[#64748B] leading-relaxed font-light">{item.desc}</p>
                   </div>
-                </motion.a>
-              </div>
-
-              {/* Premium Consultation Button */}
-              <Link to="/consultation" className="block pt-2">
-                <motion.button
-                  className="w-full px-8 h-16 bg-white text-[#0B1C2D] text-sm font-bold rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 ease-out uppercase tracking-widest"
-                  whileHover={{ y: -4 }}
-                  whileTap={{ scale: 0.98 }}
-                >
-                  {t('home.requestFreeConsultation', 'Request Free Consultation')}
-                </motion.button>
-              </Link>
+                </div>
+              ))}
             </div>
           </motion.div>
         </div>
       </SectionWrapper>
 
-      {/*
+      {/* 
       ══════════════════════════════════════
         VERIFIED PATIENT EXPERIENCES
       ══════════════════════════════════════ */}
@@ -1047,76 +862,70 @@ export const Home = () => {
           <div className="flex items-center justify-center gap-4 mb-6">
             <div className="w-12 h-[1px] bg-[#0B1C2D]" />
             <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-[#0B1C2D]/60 block">
-              {t('home.patientTestimonials', 'تجارب المرضى الموثقة')}
+              {t('home.patientTestimonials')}
             </span>
             <div className="w-12 h-[1px] bg-[#0B1C2D]" />
           </div>
           <h2 className="text-4xl lg:text-[64px] font-serif font-bold text-[#0B1C2D] mb-8 leading-[1.05]">
-            {t('home.whatOurPatientsSay', 'تجارب المرضى')}
+            {t('home.whatOurPatientsSay')}
           </h2>
           <p className="text-xl text-[#64748B] leading-relaxed font-light max-w-2xl mx-auto">
-            {t('home.realOutcomes', 'تجارب حقيقية من مرضى دوليين أكملوا علاجاتهم للأسنان في عيادة FeRa في إسطنبول.')}
+            {t('home.realOutcomes')}
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
-          {getTestimonials(t).map((testimonial, i) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+          {displayReviews.map((review, i) => (
             <motion.div
-              key={i}
-              className="relative rounded-[2rem] p-10 lg:p-12 flex flex-col gap-8
-                         bg-white border border-[rgba(11,28,45,0.08)]
-                         shadow-[0_15px_45px_rgba(11,28,45,0.06)] hover:shadow-[0_25px_60px_rgba(11,28,45,0.12)] 
-                         transition-all duration-500 group"
-              initial={{ opacity: 0, y: 22 }}
+              key={review.id}
+              className={`relative rounded-3xl p-8 lg:p-10 flex flex-col gap-6
+                         bg-white border border-slate-200/60
+                         shadow-sm hover:shadow-xl transition-all duration-500 
+                         group ${currentLang === 'ar' ? 'text-right' : ''}`}
+              initial={{ opacity: 0, y: 15 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-40px' }}
-              transition={{ duration: 0.6, delay: i * 0.1, ease: 'easeOut' }}
-              whileHover={{ y: -8 }}
+              transition={{ duration: 0.5, delay: i * 0.1 }}
+              whileHover={{ y: -5 }}
             >
-              {/* Large quotation mark background */}
-              <div className="absolute top-6 left-8 text-7xl text-[#0B1C2D]/5 font-serif select-none">&ldquo;</div>
-
-              {/* Stars + Verified badge */}
-              <div className="flex items-center justify-between relative z-10">
-                <div className="flex flex-col gap-1.5">
-                  <div className="flex gap-1">
-                    {Array.from({ length: testimonial.rating }).map((_, si) => (
-                      <Star key={si} className="w-4 h-4 fill-[#FABB05] text-[#FABB05]" />
-                    ))}
-                  </div>
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-[#0B1C2D]/40">{t('home.verifiedReview')}</span>
-                </div>
-                <div className="flex items-center gap-3 px-4 py-2 bg-[#F4F7FA] rounded-full">
-                  <span className="text-lg leading-none">{testimonial.flag}</span>
-                  <span className="text-[10px] font-bold uppercase tracking-widest text-[#0B1C2D]">
-                    {testimonial.country}
-                  </span>
-                </div>
+              {/* Google Badge/Logo at top */}
+              <div className={`flex items-center ${currentLang === 'ar' ? 'flex-row-reverse' : ''}`}>
+                <img 
+                  src="/images/fera-clinic/testimonials/google-review.png" 
+                  alt="Google" 
+                  className="w-24 h-auto opacity-90" 
+                />
               </div>
 
-              {/* Quote */}
-              <blockquote className="flex-grow relative z-10">
-                <p className="text-lg lg:text-xl text-[#334155] leading-relaxed italic font-light">
-                  {testimonial.text}
+              {/* Review Text */}
+              <div className="flex-grow">
+                <p className="text-base lg:text-lg text-slate-700 leading-relaxed font-normal">
+                  "{review.text[currentLang as keyof typeof review.text] || review.text.en}"
                 </p>
-              </blockquote>
+              </div>
 
-              {/* Patient footer */}
-              <div className="flex items-center gap-5 pt-8 border-t border-[#0B1C2D]/5">
-                <div className="relative">
-                  <img
-                    src={testimonial.image}
-                    alt={testimonial.name}
-                    className="w-16 h-16 rounded-2xl object-cover shadow-lg"
-                  />
-                  <div className="absolute -bottom-2 -right-2 w-7 h-7 bg-[#0B1C2D] rounded-xl flex items-center justify-center border-4 border-white">
-                    <Check className="w-3 h-3 text-white" />
+              {/* Patient footer - Author Row */}
+              <div className={`flex items-center gap-4 pt-6 border-t border-slate-100 ${currentLang === 'ar' ? 'flex-row-reverse' : ''}`}>
+                <div className="relative shrink-0">
+                  <div className="w-12 h-12 rounded-full overflow-hidden shadow-sm bg-slate-100 flex items-center justify-center">
+                    {review.authorImage ? (
+                      <img src={review.authorImage} alt={review.author[currentLang as keyof typeof review.author] || review.author.en} className="w-full h-full object-cover" />
+                    ) : (
+                      <span className="text-lg font-bold text-slate-400">
+                        {(review.author[currentLang as keyof typeof review.author] || review.author.en || '?').charAt(0).toUpperCase()}
+                      </span>
+                    )}
+                  </div>
+                  <div className={`absolute -bottom-1 -right-1 w-5 h-5 bg-[#0B1C2D] rounded-full flex items-center justify-center border-2 border-white`}>
+                    <Check className="w-2.5 h-2.5 text-white" />
                   </div>
                 </div>
-                <div className="flex-1 min-w-0">
-                  <p className="text-lg font-bold text-[#0B1C2D] truncate">{testimonial.name}</p>
-                  <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#0B1C2D]/50">
-                    {testimonial.treatment}
+                <div className="min-w-0">
+                  <p className="text-base font-bold text-[#0B1C2D] truncate leading-tight mb-0.5">
+                    {review.author[currentLang as keyof typeof review.author] || review.author.en}
+                  </p>
+                  <p className="text-[10px] font-bold uppercase tracking-widest text-[#0B1C2D]/40">
+                    Google Review
                   </p>
                 </div>
               </div>
@@ -1124,9 +933,29 @@ export const Home = () => {
           ))}
         </div>
 
-        {/* Trust & Social Section */}
+        {/* Google Reviews CTAs */}
+        <div className="mt-16 flex flex-col sm:flex-row items-center justify-center gap-6">
+          <Link to="/medical-google-reviews">
+            <Button
+              className="px-10 h-16 bg-[#0B1C2D] text-white hover:bg-[#1a3a5a] rounded-full font-bold text-sm uppercase tracking-widest shadow-xl transition-all duration-300"
+            >
+              {t('testimonials.readAllGoogleReviews')}
+              <ArrowRight className="w-4 h-4 ml-2" />
+            </Button>
+          </Link>
+          <a href={GOOGLE_REVIEW_LINK} target="_blank" rel="noopener noreferrer">
+            <Button
+              variant="outline"
+              className="px-10 h-16 border-[#0B1C2D]/20 hover:border-[#0B1C2D] hover:bg-[#0B1C2D] hover:text-white text-[#0B1C2D] rounded-full font-bold text-sm uppercase tracking-widest transition-all duration-300 group"
+            >
+              <span className="group-hover:text-white transition-colors">{t('testimonials.writeGoogleReview')}</span>
+              <ExternalLink className="w-4 h-4 ml-2 opacity-60 group-hover:opacity-100 transition-opacity" />
+            </Button>
+          </a>
+        </div>
+
+
         <div className="mt-24 lg:mt-32 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12">
-          {/* LEFT BLOCK: Trust & Reviews */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -1136,18 +965,17 @@ export const Home = () => {
             <div className="mb-10 lg:mb-12 flex flex-col items-center text-center">
               <div className="flex items-center justify-center gap-4 mb-6">
                 <div className="w-12 h-[1px] bg-[#0B1C2D]" />
-                <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-[#0B1C2D]/60 block">الثقة العالمية</span>
+                <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-[#0B1C2D]/60 block">{t('home.trustBadgeLabel')}</span>
               </div>
               <h3 className="text-3xl lg:text-4xl font-serif font-bold text-[#0B1C2D] mb-6">
-                موثوق من قبل مرضى من مختلف أنحاء العالم
+                {t('home.trustedByGlobal')}
               </h3>
               <p className="text-lg text-[#64748B] leading-relaxed font-light max-w-2xl">
-                تجارب حقيقية للمرضى. نتائج علاجية موثقة. اكتشف لماذا يختار المرضى من مختلف أنحاء العالم عيادة FeRa للعناية بالأسنان في إسطنبول.
+                {t('home.trustedDesc')}
               </p>
             </div>
 
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 mt-10">
-              {/* Google */}
               <a
                 href="https://g.page/r/CecRcyst1LmcEAE/review"
                 target="_blank"
@@ -1157,7 +985,6 @@ export const Home = () => {
                 <img src="/google.png" alt={t('home.googleAlt', 'Google')} className="w-[220px] lg:w-[260px] object-contain" />
               </a>
 
-              {/* Trustpilot */}
               <a
                 href="https://www.trustpilot.com/evaluate/feraclinic.com"
                 target="_blank"
@@ -1167,19 +994,12 @@ export const Home = () => {
                 <img src="/trustpilot-badge.svg" alt={t('home.trustpilotAlt', 'Trustpilot')} className="w-[220px] lg:w-[260px] object-contain" />
               </a>
 
-              {/* REVIEWS.io */}
-              <a
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:scale-[1.03] transition-transform duration-300"
-              >
+              <div className="hover:scale-[1.03] transition-transform duration-300">
                 <img src="/reviewsio-badge.png" alt={t('home.reviewsAlt', 'Reviews.io')} className="w-[240px] lg:w-[280px] object-contain" />
-              </a>
+              </div>
             </div>
           </motion.div>
 
-          {/* RIGHT BLOCK: Follow Us */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -1190,22 +1010,21 @@ export const Home = () => {
             <div className="mb-10 lg:mb-12">
               <div className="flex items-center gap-4 mb-6">
                 <div className="w-12 h-[1px] bg-white/20" />
-                <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-white/60 block">الرحلة الاجتماعية</span>
+                <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-white/60 block">{t('home.socialJourneyLabel')}</span>
               </div>
               <h3 className="text-3xl lg:text-4xl font-serif font-bold mb-6 text-white">
-                تابع تميزنا الطبي
+                {t('home.followExcellence')}
               </h3>
               <p className="text-lg text-white/80 leading-relaxed font-light">
-                استكشف التحولات الحقيقية، ولمحات من خلف الكواليس، وتحديثات يومية من عيادتنا.
+                {t('home.exploreUpdates')}
               </p>
             </div>
 
-            {/* Contact Information Block */}
             <div className="space-y-6 mb-12">
               {[
-                { icon: MapPin, label: 'الموقع', value: 'زيتينبورنو، إسطنبول', href: 'https://goo.gl/maps/...' },
-                { icon: Phone, label: 'واتساب', value: '+90 536 746 01 00', href: 'tel:+905367460100' },
-                { icon: Mail, label: 'البريد الإلكتروني', value: 'consultation@feraclinic.com', href: 'mailto:consultation@feraclinic.com' },
+                { icon: MapPin, label: t('common.location'), value: t('common.locationValue'), href: 'https://goo.gl/maps/...' },
+                { icon: Phone, label: t('common.whatsapp'), value: '+90 536 746 01 00', href: 'tel:+905367460100' },
+                { icon: Mail, label: t('common.email'), value: 'consultation@feraclinic.com', href: 'mailto:consultation@feraclinic.com' },
               ].map((item, idx) => (
                 <a
                   key={idx}
@@ -1225,15 +1044,22 @@ export const Home = () => {
               ))}
             </div>
 
-            {/* Social Media Icons */}
             <div className="flex flex-wrap items-center gap-4">
-              {[Facebook, Instagram, Youtube, Linkedin, TikTokIcon].map((Icon, idx) => (
+              {[
+                { icon: Facebook, href: 'https://www.facebook.com/feradentalclinic/' },
+                { icon: Instagram, href: 'https://www.instagram.com/feraclinic' },
+                { icon: Youtube, href: 'https://www.youtube.com/@feraclinic' },
+                { icon: Linkedin, href: 'https://www.linkedin.com/company/fera-clinic/posts/?feedView=all' },
+                { icon: TikTokIcon, href: 'https://www.tiktok.com/@feraclinic' }
+              ].map((social, idx) => (
                 <a
                   key={idx}
-                  href="#"
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-14 h-14 rounded-2xl bg-white/10 border border-white/10 flex items-center justify-center text-white/80 hover:bg-white hover:text-[#0B1C2D] hover:-translate-y-1 transition-all duration-500 shadow-sm"
                 >
-                  <Icon className="w-6 h-6" />
+                  <social.icon className="w-6 h-6" />
                 </a>
               ))}
             </div>
@@ -1246,18 +1072,18 @@ export const Home = () => {
           {[
             {
               logo: "https://upload.wikimedia.org/wikipedia/commons/2/2c/Logo_of_Ministry_of_Health_%28Turkey%29.png",
-              title: t('home.trustBadge1', 'معتمد من وزارة الصحة'),
-              label: t('home.trustBadge1Label', 'الجهة التنظيمية')
+              title: t('home.trustBadge1'),
+              label: t('home.trustBadge1Label')
             },
             {
               logo: "https://upload.wikimedia.org/wikipedia/tr/d/d6/USHAS_company_logo.png",
-              title: t('home.trustBadge2', 'السياحة الصحية الدولية'),
-              label: t('home.trustBadge2Label', 'الاعتماد الرسمي')
+              title: t('home.trustBadge2'),
+              label: t('home.trustBadge2Label')
             },
             {
               logo: "https://upload.wikimedia.org/wikipedia/commons/9/90/Ministry_of_Culture_and_Tourism_%28Turkey%29_logo.svg",
-              title: t('home.trustBadge3', 'معتمد من وزارة السياحة'),
-              label: t('home.trustBadge3Label', 'الثقة المؤسسية')
+              title: t('home.trustBadge3'),
+              label: t('home.trustBadge3Label')
             }
           ].map((item, idx) => (
             <div key={idx} className="flex items-center gap-6 group">
@@ -1292,41 +1118,36 @@ export const Home = () => {
             <div className="flex items-center justify-center gap-4 mb-6">
               <div className="w-12 h-[1px] bg-[#0B1C2D]" />
               <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-[#0B1C2D]/60 block">
-                داخل عيادة FeRa
+                {t('home.insideClinicLabel')}
               </span>
               <div className="w-12 h-[1px] bg-[#0B1C2D]" />
             </div>
             <h2 className="text-4xl lg:text-[64px] font-serif font-bold text-[#0B1C2D] tracking-tight mb-8 leading-[1.05]">
-              تعرّف على عيادتنا في إسطنبول
+              {t('home.insideClinicTitle')}
             </h2>
             <p className="text-xl text-[#64748B] font-light leading-relaxed mb-16 max-w-3xl mx-auto">
-              نظرة أقرب على مرافقنا وتقنياتنا ورحلة المريض. شاهد الدقة والعناية والنتائج التي تغيّر الحياة والتي تحدد معايير FeRa.
+              {t('home.insideClinicDesc')}
             </p>
 
-            {/* Premium Video Preview Card */}
             <motion.div
               whileHover={{ y: -8 }}
               onClick={() => setIsVideoOpen(true)}
               className="relative aspect-video rounded-[3rem] overflow-hidden shadow-[0_40px_120px_rgba(11,28,45,0.25)] transition-all duration-700 cursor-pointer group border border-[rgba(11,28,45,0.1)]"
             >
-              {/* Thumbnail Image */}
               <img
-                src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&q=80&w=2000"
+                src={getMedia('clinic_waiting')}
                 alt={t('alt.patientJourney', 'Patient Journey Preview')}
                 className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
               />
 
-              {/* Dark Gradient Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-[#0B1C2D]/80 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-700" />
 
-              {/* Premium Play Button */}
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center shadow-2xl transition-all duration-500 group-hover:scale-110 group-hover:rotate-12">
                   <Play className="w-10 h-10 text-[#0B1C2D] fill-[#0B1C2D] ml-1.5" />
                 </div>
               </div>
 
-              {/* Premium Badge */}
               <div className="absolute bottom-10 left-10 flex items-center gap-4 bg-[#0B1C2D]/90 backdrop-blur-md px-6 py-3 rounded-full border border-white/20">
                 <div className="w-2.5 h-2.5 rounded-full bg-[#7CC4FF] animate-pulse" />
                 <span className="text-[10px] font-bold text-white uppercase tracking-[0.2em]">
@@ -1338,7 +1159,6 @@ export const Home = () => {
         </div>
       </SectionWrapper>
 
-      {/* Video Modal */}
       <AnimatePresence>
         {isVideoOpen && (
           <motion.div
@@ -1355,7 +1175,6 @@ export const Home = () => {
               className="relative w-full max-w-5xl aspect-video rounded-3xl overflow-hidden shadow-2xl bg-black"
               onClick={(e) => e.stopPropagation()}
             >
-              {/* Close Button */}
               <button
                 onClick={() => setIsVideoOpen(false)}
                 className="absolute top-4 right-4 md:top-6 md:right-6 z-50 w-10 h-10 md:w-12 md:h-12 bg-white rounded-full flex items-center justify-center text-[#0B1C2D] shadow-xl hover:scale-110 transition-transform duration-300"
@@ -1363,10 +1182,9 @@ export const Home = () => {
                 <X className="w-5 h-5 md:w-6 md:h-6" />
               </button>
 
-              {/* YouTube Video */}
               <iframe
                 className="w-full h-full"
-                src="https://www.youtube.com/embed/T7uKugXiG4w?autoplay=1"
+                src="https://www.youtube.com/embed/3lq84rIyLDE"
                 title={t('home.videoTitle', 'FeRa Clinic Patient Experience')}
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -1377,41 +1195,33 @@ export const Home = () => {
         )}
       </AnimatePresence>
 
-      {/*
-      ══════════════════════════════════════
-        NEWSLETTER SECTION
-      ══════════════════════════════════════ */}
       <SectionWrapper padding="py-24 lg:py-32" background="gray">
         <div className="bg-white rounded-[3rem] p-12 lg:p-20 shadow-[0_40px_120px_rgba(11,28,45,0.08)] border border-[rgba(11,28,45,0.08)] relative overflow-hidden">
-          {/* Decorative background blur */}
           <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[#F4F7FA] rounded-full blur-[120px] -translate-y-1/2 translate-x-1/2 select-none pointer-events-none" />
 
           <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center relative z-10">
-            {/* Left: Text Content */}
             <div className="space-y-8">
               <div className="flex items-center gap-4">
                 <div className="w-12 h-[1px] bg-[#0B1C2D]" />
                 <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-[#0B1C2D]/60 block">
-                  {t('home.newsletter.title', 'ابقَ على اطلاع')}
+                  {t('home.newsletter.title')}
                 </span>
               </div>
               <h2 className="text-4xl lg:text-[56px] font-serif font-bold text-[#0B1C2D] tracking-tight leading-[1.05]">
-                {t('home.newsletter.subtitle', 'رؤى خبراء الأسنان وأخبار عيادة إسطنبول')}
+                {t('home.newsletter.subtitle')}
               </h2>
               <p className="text-xl text-[#64748B] font-light leading-relaxed">
-                {t('home.newsletter.desc', 'تلق رؤى خبراء الأسنان وتحديثات العلاجات وعروض حصرية مباشرة من فريقنا السريري في إسطنبول.')}
+                {t('home.newsletter.desc')}
               </p>
 
-              {/* Enhanced Trust Element */}
               <div className="flex items-center gap-4 p-4 rounded-2xl bg-[#F4F7FA]/50 border border-[rgba(11,28,45,0.05)] w-fit">
                 <div className="w-10 h-10 rounded-xl bg-white shadow-sm flex items-center justify-center">
                   <CheckCircle className="w-5 h-5 text-[#0B1C2D]" />
                 </div>
-                <span className="text-sm font-bold text-[#0B1C2D] uppercase tracking-widest">{t('home.newsletter.trust', 'موثوق من قبل أكثر من 10,000 مريض')}</span>
+                <span className="text-sm font-bold text-[#0B1C2D] uppercase tracking-widest">{t('home.newsletter.trust')}</span>
               </div>
             </div>
 
-            {/* Right: Form Area */}
             <div className="w-full">
               <form
                 onSubmit={async (e) => {
@@ -1443,7 +1253,7 @@ export const Home = () => {
                     name="email"
                     type="email"
                     required
-                    placeholder={t('home.newsletter.emailPlaceholder', 'عنوان بريدك الإلكتروني')}
+                    placeholder={t('home.newsletter.emailPlaceholder')}
                     className="w-full h-20 rounded-[1.5rem] border border-[rgba(11,28,45,0.1)] bg-[#F4F7FA]/50 px-20 text-lg text-[#0B1C2D] outline-none transition-all duration-500 focus:border-[#0B1C2D] focus:bg-white focus:ring-4 focus:ring-[#0B1C2D]/5 placeholder:text-gray-400 shadow-inner"
                   />
                 </div>
@@ -1454,7 +1264,7 @@ export const Home = () => {
                 >
                   {newsletterLoading ? t('common.loading', 'Please wait...') : (
                     <>
-                      <span>{t('home.newsletter.subscribe', 'اشترك الآن')}</span>
+                      <span>{t('home.newsletter.subscribe')}</span>
                       <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
                     </>
                   )}
@@ -1465,24 +1275,20 @@ export const Home = () => {
         </div>
       </SectionWrapper>
 
-      {/*
-      ══════════════════════════════════════
-        PATIENT FAQ
-      ══════════════════════════════════════ */}
       <SectionWrapper padding="py-24 lg:py-32" background="white">
         <div className="text-center max-w-3xl mx-auto mb-20">
           <div className="flex items-center justify-center gap-4 mb-6">
             <div className="w-12 h-[1px] bg-[#0B1C2D]" />
             <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-[#0B1C2D]/60 block">
-              {t('home.faq.label', 'الأسئلة الشائعة')}
+              {t('home.faq.label')}
             </span>
             <div className="w-12 h-[1px] bg-[#0B1C2D]" />
           </div>
           <h2 className="text-4xl lg:text-[56px] font-serif font-bold text-[#0B1C2D] tracking-tight leading-[1.05] mb-8">
-            {t('home.faq.title', 'الأسئلة الشائعة')}
+            {t('home.faq.title')}
           </h2>
           <p className="text-xl text-[#64748B] font-light leading-relaxed">
-            {t('home.faq.desc', 'إجابات واضحة حول زراعة الأسنان وتصميم الابتسامة وتخطيط العلاج ورعاية المرضى في عيادتنا في إسطنبول.')}
+            {t('home.faq.desc')}
           </p>
         </div>
 
@@ -1499,13 +1305,8 @@ export const Home = () => {
         </div>
       </SectionWrapper>
 
-      {/*
-      ══════════════════════════════════════
-        FINAL CTA
-      ══════════════════════════════════════ */}
       <SectionWrapper padding="py-24 lg:py-32" background="navy">
         <div className="bg-transparent rounded-[3rem] px-12 lg:px-24 py-24 lg:py-32 text-center max-w-[1400px] mx-auto relative overflow-hidden group">
-          {/* Abstract background detail */}
           <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-white opacity-[0.03] blur-[120px] -translate-y-1/2 translate-x-1/2" />
           <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-white opacity-[0.02] blur-[100px] translate-y-1/2 -translate-x-1/2" />
 
@@ -1515,13 +1316,13 @@ export const Home = () => {
                 <Sparkles className="w-8 h-8 text-white" />
               </div>
               <h2 className="text-4xl lg:text-[72px] font-serif font-bold text-white tracking-tight leading-[1.05] max-w-4xl mx-auto">
-                {t('home.ctaTitle1', 'ابدأ رحلة التحوّل')} <br />
-                <span className="italic font-light opacity-80">{t('home.ctaTitle2', 'الخاصة بك')}</span>
+                {t('home.ctaTitle1')} <br />
+                <span className="italic font-light opacity-80">{t('home.ctaTitle2')}</span>
               </h2>
             </div>
 
             <p className="text-xl text-white/80 font-light max-w-2xl mx-auto leading-relaxed">
-              {t('home.readyToGetStartedDesc', "تواصل مع منسقي العلاج لدينا اليوم. استشارة مجانية، لا التزام، استجابة احترافية من فريقنا في إسطنبول.")}
+              {t('home.readyToGetStartedDesc')}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center pt-8">
@@ -1531,7 +1332,7 @@ export const Home = () => {
                   whileHover={{ y: -4, boxShadow: "0 20px 40px rgba(255,255,255,0.2)" }}
                   whileTap={{ scale: 0.98 }}
                 >
-                  {t('common.designYourSmile', 'صمّم ابتسامتك')}
+                  {t('common.designYourSmile')}
                 </motion.button>
               </Link>
               <a href={`https://wa.me/${t('common.whatsappNumber', '905367460100')}`} target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
@@ -1543,7 +1344,7 @@ export const Home = () => {
                   <div className="w-8 h-8 rounded-lg bg-green-500/20 flex items-center justify-center group-hover/wa:bg-green-500 transition-colors">
                     <Zap className="w-4 h-4 text-green-400 group-hover/wa:text-white" />
                   </div>
-                  {t('common.whatsappConsultationLong', 'استشارة تصميم الابتسامة عبر واتساب')}
+                  {t('common.whatsappConsultationLong')}
                 </motion.button>
               </a>
             </div>

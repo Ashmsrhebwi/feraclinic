@@ -9,6 +9,7 @@ export interface BlogPost {
   readTime: string
   category: string
   image: string
+  imageKey?: string
   featured: boolean
   tags: string[]
 }
@@ -63,6 +64,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '8 min read',
     category: 'Dental Implants',
     image: '/images/fera-clinic/treatments/implant-procedure.webp',
+    imageKey: 'blog_implants_guide',
     featured: true,
     tags: ['dental implants', 'tooth replacement', 'oral surgery', 'restorative dentistry', 'istanbul dental clinic']
   },
@@ -125,6 +127,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '6 min read',
     category: 'Cosmetic Dentistry',
     image: '/images/fera-clinic/treatments/veneer-procedure.webp',
+    imageKey: 'blog_hollywood_secrets',
     featured: true,
     tags: ['hollywood smile', 'veneers', 'cosmetic dentistry', 'smile makeover', 'digital smile design']
   },
@@ -213,6 +216,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '7 min read',
     category: 'Orthodontics',
     image: '/images/fera-clinic/treatments/orthodontic-checkup.webp',
+    imageKey: 'blog_ortho_vs_aligners',
     featured: false,
     tags: ['orthodontics', 'invisalign', 'braces', 'smile alignment', 'dental clinic istanbul']
   },
@@ -303,6 +307,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '10 min read',
     category: 'Dental Tourism',
     image: '/images/fera-clinic/clinic/reception.webp',
+    imageKey: 'blog_dental_tourism_guide',
     featured: false,
     tags: ['dental tourism', 'istanbul', 'medical travel', 'fera clinic', 'international dental care']
   },
@@ -399,6 +404,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '5 min read',
     category: 'Cosmetic Dentistry',
     image: '/images/fera-clinic/treatments/general-dentistry.webp',
+    imageKey: 'blog_whitening_tips',
     featured: false,
     tags: ['teeth whitening', 'cosmetic dentistry', 'smile bright', 'dental health', 'professional whitening']
   },
@@ -510,6 +516,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '9 min read',
     category: 'Dental Implants',
     image: '/images/fera-clinic/clinic/surgery-room.webp',
+    imageKey: 'blog_allon4_solution',
     featured: false,
     tags: ['all-on-4', 'dental implants', 'full arch restoration', 'smile surgery', 'immediate loading']
   }

@@ -6,21 +6,26 @@
     "gallery": "Galería",
     "contact": "Contacto",
     "consultation": "Consulta",
-    "dentalTourism": "Turismo Dental",
+    "dentalTourism": "Turismo Médico",
     "testimonials": "Testimonios",
     "blog": "Blog",
     "joinUs": "Únete a Nosotros",
     "corporate": "Corporativo",
     "partnership": "Asociación",
     "gallery_beforeAfter": "Antes y Después",
-    "gallery_clinicPhotos": "Fotos de la Clínica"
+    "gallery_clinicPhotos": "Fotos de la Clínica",
+    "discoverExcellence": "Descubra la Excelencia",
+    "aboutUs": "Sobre Nosotros",
+    "search": "Buscar",
+    "language": "Idioma"
   },
   "topbar": {
     "bookAppointment": "Reservar Cita",
     "book": "Reservar",
     "whatsappIconText": "7/24",
     "whatsappNumber": "+90 536 746 01 00",
-    "instagramText": "Síguenos en Instagram"
+    "instagramText": "Síguenos en Instagram",
+    "supportText": "Soporte 24/7 Disponible"
   },
   "gallery": {
     "heroEyebrow": "Excelencia Quirúrgica",
@@ -40,7 +45,55 @@
     },
     "footerTitle1": "Diseñe su",
     "footerTitle2": "Próximo Capítulo.",
-    "exploreProtocols": "Explorar protocolos quirúrgicos"
+    "exploreProtocols": "Explorar protocolos quirúrgicos",
+    "subtitle": "Vea resultados reales de tratamientos dentales y fotos de la Clínica FeRa en Estambul, Turquía. Explore casos de antes y después de pacientes reales.",
+    "cases": {
+      "c1": {
+        "title": "Restauración de Sonrisa Anterior",
+        "category": "Rehabilitación Oral Completa",
+        "res": "Armonía Natural",
+        "time": "3 Semanas de Tratamiento"
+      },
+      "c2": {
+        "title": "Integración de Implante Dental",
+        "category": "Cirugía de Implantes",
+        "res": "Integración Ósea",
+        "time": "4 Meses de Curación"
+      },
+      "c3": {
+        "title": "Reconstrucción de Diseño de Sonrisa",
+        "category": "Carillas de Porcelana",
+        "res": "Equilibrio Estético",
+        "time": "2 Visitas"
+      },
+      "c4": {
+        "title": "Corrección Ortodóntica",
+        "category": "Alineadores Transparentes",
+        "res": "Alineación de Mordida",
+        "time": "12 Meses de Tratamiento"
+      },
+      "c5": {
+        "title": "Restauración de Arcada Completa",
+        "category": "Implantes Dentales All-on-4",
+        "res": "Función Completa",
+        "time": "Procedimiento en 24 Horas"
+      }
+    },
+    "clinic": {
+      "p1": {
+        "title": "Centro Quirúrgico Avanzado",
+        "desc": "Equipado con imágenes CBCT 3D y protocolos de esterilización internacional para precisión quirúrgica y seguridad del paciente."
+      },
+      "p2": {
+        "title": "Área de Recepción de Pacientes",
+        "desc": "Nuestra área de recepción profesional en Estambul está diseñada para que se sienta cómodo desde el momento de su llegada."
+      },
+      "p3": {
+        "title": "Sala de Estar para Pacientes",
+        "desc": "Nuestra confortable sala de espera en Estambul está diseñada para la relajación durante las fases de diagnóstico y tratamiento."
+      }
+    },
+    "ctaDesc": "Nuestros resultados de tratamiento dental se basan en la precisión quirúrgica y la odontología basada en la evidencia. Contacte con nuestra clínica en Estambul para su evaluación personalizada."
   },
   "whatsapp": {
     "title": "FeRa Clinic",
@@ -54,7 +107,7 @@
     "quickActions": "Acciones Rápidas",
     "actionConsultation": "Reserva una Consulta Gratis",
     "actionTreatments": "Ver Tratamientos",
-    "actionTourism": "Turismo Dental",
+    "actionTourism": "Turismo Médico",
     "actionGallery": "Antes y Después",
     "actionWhatsApp": "Chatear por WhatsApp",
     "actionTeam": "Hablar con el Equipo",
@@ -83,7 +136,10 @@
     "faqA3": "Sí, las consultas clínicas iniciales y la planificación del tratamiento en 3D son completamente gratuitas en la Clínica FeRa.",
     "faqQ4": "¿Cuánto cuesta el tratamiento?",
     "faqA4": "Los costos son personalizados. Sin embargo, los pacientes suelen ahorrar hasta un 70% en comparación con los precios occidentales mientras reciben materiales suizos de primera calidad.",
-    "status": "En línea · Responde al instante"
+    "status": "En línea · Responde al instante",
+    "formType": "Asistente de Chat",
+    "submitError": "Error en el envío. Por favor, inténtelo de nuevo.",
+    "phonePlaceholder": "+90..."
   },
   "hero": {
     "heroEyebrow": "Clínica dental de confianza en Estambul",
@@ -91,7 +147,8 @@
     "heroDesc": "En la Clínica FeRa, combinamos la precisión clínica con un diseño artístico para crear sonrisas naturales y duraderas — diseñadas a su medida, guiadas por especialistas y entregadas con cuidado.",
     "ctaPrimary": "Comience su viaje de sonrisa",
     "ctaSecondary": "Ver historias de pacientes",
-    "trustLine": "Certificado ISO • Más de 15 dentistas especialistas • Centro global de pacientes"
+    "trustLine": "Certificado ISO • Más de 15 dentistas especialistas • Centro global de pacientes",
+    "subtitle": "Atención Dental Premium en Estambul"
   },
   "about": {
     "title": "Acerca de la Clínica FeRa",
@@ -151,7 +208,15 @@
       "technologyTitle": "Tecnología Avanzada",
       "technologyDesc": "Equipamiento de última generación y sistemas de planificación de tratamiento digital.",
       "careTitle": "Atención Centrada en el Paciente",
-      "careDesc": "Planes de tratamiento personalizados con coordinadores dedicados para pacientes internacionales."
+      "careDesc": "Planes de tratamiento personalizados con coordinadores dedicados para pacientes internacionales.",
+      "badges": {
+        "certified": "Certificado",
+        "expert": "Experto",
+        "proven": "Probado",
+        "qualified": "Cualificado",
+        "modern": "Moderno",
+        "caring": "Atento"
+      }
     },
     "standardsTitle": "Estándares y Protocolos Clínicos",
     "standardsDesc": "Mantenemos los más altos estándares internacionales en esterilización, seguridad y protocolos de tratamiento para asegurar resultados excepcionales para pacientes en nuestra clínica dental en Estambul.",
@@ -177,25 +242,50 @@
         "specialty": "Prótesis de Alta Precisión",
         "desc": "Dedicado a lograr el equilibrio perfecto entre prótesis funcionales que soportan carga y translucidez dental natural. Cada solución protésica se personaliza según evaluación clínica."
       }
-    }
+    },
+    "boutiqueHub": "Estambul",
+    "boutiqueDesc": "Excelencia Quirúrgica en el Corazón de Estambul",
+    "teamTitle1": "Especialistas",
+    "teamTitle2": "Expertos",
+    "boardCertified": "Especialista Certificado",
+    "viewOutcomes": "Ver Resultados de Transformación",
+    "ctaTitle1": "¿Listo para",
+    "ctaTitle2": "una Evaluación?",
+    "ctaDesc": "Contacte con nuestros coordinadores clínicos para obtener un presupuesto especializado y el protocolo de viaje.",
+    "clinicRoomAlt": "Sala de tratamiento dental de FeRa Clinic",
+    "yearsExperience": "15+ Años",
+    "missionTitle": "Nuestra Misión",
+    "missionDesc": "Brindar una atención dental excepcional que combine la precisión médica con una visión artística, creando sonrisas naturales y duraderas que mejoren tanto la salud como la confianza.",
+    "visionTitle": "Nuestra Visión",
+    "visionDesc": "Convertirnos en un destino global para el cuidado dental premium, donde los pacientes internacionales reciban calidad de ingeniería suiza con la hospitalidad turca.",
+    "ctaText": "Experimente la Diferencia FeRa",
+    "teamDesc": "Nuestro equipo está formado por dentistas especialistas con formación avanzada de Suiza, Alemania y Turquía, aportando experiencia global a su cuidado dental.",
+    "specialistsTitle": "Nuestros Especialistas",
+    "specialistsDesc": "Cada especialista se centra en disciplinas dentales específicas, garantizando una atención experta para cada necesidad de tratamiento.",
+    "technologyTitle": "Tecnología Avanzada",
+    "technologyDesc": "Tecnología dental de ingeniería suiza y sistemas de planificación 3D para resultados precisos y predecibles.",
+    "facilitiesTitle": "Instalaciones Premium",
+    "facilitiesDesc": "Clínica de última generación diseñada para pacientes internacionales, con suites quirúrgicas avanzadas y áreas de recuperación confortables.",
+    "accreditationsTitle": "Acreditaciones Internacionales",
+    "accreditationsDesc": "Instalaciones certificadas por ISO con estándares internacionales de seguridad y garantía de calidad."
   },
   "home": {
-    "heroEyebrow": "Excelencia Institucional",
+    "heroEyebrow": "Especialidades Médicas",
     "heroTitle": "Excelencia Clínica, Estética Dominada",
-    "heroDesc": "Redefiniendo el estándar de la odontología biológica a través de la unión entre precisión clínica y el lujo centrado en el paciente.",
-    "whyChooseUs": "¿Por qué elegir la Clínica FeRa?",
-    "precisionCare": "Precisión Médica.",
-    "premiumCare": "Cuidado Premium.",
-    "precisionDesc": "Cada tratamiento en la Clínica FeRa sigue protocolos internacionales con atención exclusiva de especialistas, diagnósticos avanzados y total transparencia en cada paso.",
+    "heroDesc": "Descubra la clínica dental líder en Estambul, donde la experiencia global se une a la precisión artística para ofrecer transformaciones de sonrisa que cambian la vida en el corazón de Turquía.",
+    "whyChooseUs": "Excelencia Médica",
+    "precisionCare": "Atención Dental Especializada.",
+    "premiumCare": "Estándares Internacionales.",
+    "precisionDesc": "En FeRa Clinic, cada tratamiento dental sigue protocolos internacionales con atención dirigida por especialistas, tecnologías de diagnóstico avanzadas y total transparencia durante todo el viaje del paciente.",
     "technology": {
-      "title": "Tecnología Clínica",
-      "subtitle": "Diagnósticos Avanzados para Precisión Quirúrgica",
-      "desc": "Invertimos en la última tecnología médica para garantizar resultados predecibles y duraderos en cada visita.",
-      "t1": "Imágenes CBCT 3D",
+      "title": "Tecnología",
+      "subtitle": "Precisión Clínica Avanzada",
+      "desc": "Utilizamos las últimas tecnologías digitales y diseño 3D para garantizar resultados de tratamiento precisos y cómodos para los pacientes.",
+      "t1": "3D CBCT Imaging",
       "t1Desc": "Escáneres digitales de alta resolución para una precisión quirúrgica extrema en la colocación de implantes.",
-      "t2": "Diseño Digital de Sonrisa",
+      "t2": "Digital Smile Design",
       "t2Desc": "Simule su resultado final antes de comenzar el tratamiento con mapeo facial avanzado.",
-      "t3": "Tecnología Láser Biolase",
+      "t3": "Biolase Laser Technology",
       "t3Desc": "Procedimientos mínimamente invasivos en tejidos blandos con curación más rápida y cero molestias."
     },
     "reasons": {
@@ -216,39 +306,39 @@
         "desc": "Coordinador de casos dedicado, traslados VIP y reserva de hotel para pacientes internacionales."
       }
     },
-    "beforeAfterDesc": "Pase el ratón o toque cada caso para revelar la transformación. Pacientes reales, resultados reales en la Clínica FeRa.",
-    "viewFullGallery": "Ver Galería Completa",
+    "beforeAfterDesc": "Pacientes reales, resultados reales en FeRa Clinic. Los resultados pueden variar según el caso clínico individual.",
+    "viewFullGallery": "Ver Archivo Clínico",
     "theClinic": "La Clínica",
-    "stateOfArt1": "Instalaciones de",
-    "stateOfArt2": "Última Generación en Estambul",
-    "stateOfArtDesc": "Nuestra clínica está totalmente equipada con imágenes CBCT 3D, estaciones de diseño de sonrisa digital y sistemas de esterilización Clase-B, cumpliendo con los estándares internacionales para la seguridad del paciente y la precisión clínica.",
+    "stateOfArt1": "Clínica Dental",
+    "stateOfArt2": "Avanzada en Estambul",
+    "stateOfArtDesc": "Nuestra clínica en Estambul cuenta con imágenes CBCT 3D, Diseño de Sonrisa Digital y sistemas de esterilización Clase B, cumpliendo con los más altos estándares de seguridad y excelencia médica para los pacientes.",
     "clinic": {
-      "feature1": "Esterilización Clase-B en cada sala",
-      "feature2": "Imagen diagnóstica CBCT 3D",
+      "feature1": "Esterilización Clase B en cada sala",
+      "feature2": "Diagnóstico por imagen CBCT 3D",
       "feature3": "Diseño de Sonrisa Digital (DSD)",
       "feature4": "Protocolos certificados por ISO",
       "feature5": "Coordinador de casos personal"
     },
     "aboutOurClinic": "Sobre nuestra clínica",
-    "medicalTourism": "Turismo Médico",
-    "completeCare1": "Atención Completa para",
-    "completeCare2": "Pacientes Internacionales",
-    "completeCareDesc": "La Clínica FeRa se encarga de todo: desde los traslados al aeropuerto hasta las reservas de hotel y la coordinación clínica, para que usted pueda centrarse por completo en su tratamiento y recuperación.",
+    "medicalTourism": "Cuidado Global del Paciente",
+    "completeCare1": "Atención de Turismo Médico",
+    "completeCare2": "Integral en Estambul",
+    "completeCareDesc": "FeRa Clinic ofrece servicios integrales de turismo médico —desde traslados al aeropuerto y alojamiento en hotel hasta coordinación clínica— permitiéndole concentrarse por completo en su tratamiento y recuperación en Estambul.",
     "tourism": {
-      "vip": "Traslado VIP al Aeropuerto",
-      "hotel": "Coordinación de Hotel",
-      "language": "Soporte de Idiomas",
-      "coordinator": "Coordinador de Casos"
+      "vip": "Traslados VIP",
+      "hotel": "Alojamiento de Lujo",
+      "language": "Multilingüe",
+      "coordinator": "Coordinación"
     },
     "planYourVisit": "Planifique su visita a Estambul",
     "planYourVisitDesc": "Nuestro equipo está disponible los 7 días de la semana para responder a sus preguntas y ayudarle a planificar su tratamiento dental en Estambul. Sin compromiso, sin presiones.",
     "requestFreeConsultation": "Solicitar Consulta Gratuita",
-    "patientTestimonials": "Testimonios de Pacientes",
-    "whatOurPatientsSay": "¿Qué dicen nuestros pacientes?",
-    "realOutcomes": "Resultados reales de pacientes internacionales que completaron su tratamiento en la Clínica FeRa.",
+    "patientTestimonials": "Experiencias Verificadas de Pacientes",
+    "whatOurPatientsSay": "Experiencias de Pacientes",
+    "realOutcomes": "Experiencias reales de pacientes internacionales que completaron sus tratamientos dentales en FeRa Clinic en Estambul.",
     "viewBeforeAfterGallery": "Ver Galería de Antes y Después",
     "readyToGetStarted": "¿Listo para empezar?",
-    "readyToGetStartedDesc": "Contacte con nuestros coordinadores clínicos hoy mismo. Consulta gratuita, sin compromiso, respuesta rápida.",
+    "readyToGetStartedDesc": "Póngase en contacto con nuestros coordinadores de tratamiento hoy mismo. Consulta gratuita, sin compromiso, respuesta profesional de nuestro equipo en Estambul.",
     "whatsappTooltip": "Hable con nuestro equipo y obtenga su consulta gratuita.",
     "treatments": {
       "0": {
@@ -259,29 +349,110 @@
       },
       "2": {
         "desc": "Restauración de arcada completa con solo 4 implantes. Dientes en el mismo día con función inmediata y una estética bella y natural."
-      }
+      },
+      "title": "Tratamientos dentales avanzados especialmente diseñados para alcanzar sus objetivos de sonrisa",
+      "subtitle": "Tratamientos dentales avanzados especialmente diseñados para alcanzar sus objetivos de sonrisa"
     },
     "testimonials": {
       "t1": "Desde el diseño digital hasta la colocación final, la precisión fue excepcional. Se completó en 5 días como se prometió. Estoy más que feliz con mi nueva sonrisa.",
       "t2": "Un entorno quirúrgico altamente profesional. El protocolo All-on-4 se explicó en cada etapa. Los traslados al aeropuerto y la coordinación del hotel fueron impecables.",
-      "t3": "Elegí FeRa por su enfoque en la precisión médica. El resultado es completamente natural y funcional. La atención de seguimiento superó todas mis expectativas."
+      "t3": "Elegí FeRa por su enfoque en la precisión médica. El resultado es completamente natural y funcional. La atención de seguimiento superó todas mis expectativas.",
+      "t4": "La precisión quirúrgica y las modernas instalaciones de FeRa fueron impresionantes. Mi restauración bucal completa fue manejada con inmenso cuidado y coordinación profesional.",
+      "t5": "Un resultado estético increíble. Los doctores se tomaron el tiempo para diseñar una sonrisa que se ve completamente natural y se adapta perfectamente a mi cara. Gracias a todo el equipo.",
+      "t6": "Viajar desde Canadá fue la mejor decisión para mi salud dental. El nivel de especialización aquí es de clase mundial, y el viaje del paciente fue sin esfuerzo."
     },
     "newsletter": {
       "title": "Manténgase Informado",
-      "subtitle": "Conéctese con nosotros. Reciba consejos de sonrisa seleccionados, historias de tratamientos y actualizaciones exclusivas desde nuestra clínica en Estambul.",
+      "subtitle": "Perspectivas de Expertos Dentales y Noticias de la Clínica en Estambul",
       "emailPlaceholder": "Su dirección de correo electrónico",
-      "subscribe": "Suscribirse",
+      "subscribe": "Suscribirse Ahora",
       "success": "¡Gracias por suscribirse! Revise su correo electrónico para la confirmación.",
-      "error": "Algo salió mal. Por favor, inténtelo de nuevo."
+      "error": "Algo salió mal. Por favor, inténtelo de nuevo.",
+      "desc": "Reciba perspectivas de expertos dentales, actualizaciones de tratamientos y ofertas exclusivas directamente de nuestro equipo clínico en Estambul.",
+      "trust": "Confianza"
     },
-    "ctaPrimary": "Consulta Gratuita",
-    "ctaSecondary": "Ver Galería",
+    "ctaPrimary": "Comience su Viaje de Sonrisa",
+    "ctaSecondary": "Ver Resultados de Pacientes",
     "social": {
       "googleReviews": "Opiniones en Google",
       "verifiedReviews": "Reseñas Verificadas"
     },
     "experience": {
       "exclusiveTour": "Tour Exclusivo"
+    },
+    "faq": {
+      "q1": "¿Soy un buen candidato para implantes dentales?",
+      "a1": "Los candidatos ideales para implantes dentales en nuestra clínica de Estambul tienen encías sanas y suficiente densidad ósea. Durante su consulta inicial y escaneo CBCT 3D, nuestros especialistas evaluarán su estructura ósea para asegurar una colocación precisa y duradera. Los resultados pueden variar. Nuestro equipo discutirá los riesgos y beneficios con usted durante su consulta.",
+      "q2": "¿Cuánto dura un tratamiento de Hollywood Smile?",
+      "a2": "Una Sonrisa Hollywood completa con carillas de porcelana o coronas de circonio en nuestra clínica de Estambul suele completarse en 5 a 7 días, requiriendo solo 2 o 3 visitas. Los resultados finales dependen de factores clínicos individuales. Nuestro equipo le explicará el procedimiento detalladamente.",
+      "q3": "¿Las coronas de circonio parecen naturales?",
+      "a3": "Sí. El circonio utilizado en nuestra clínica es altamente duradero y refleja la luz de manera similar al esmalte dental natural. Nuestra tecnología de diseño de sonrisa digital asegura que el tono, la forma y la transparencia coincidan perfectamente con su estructura facial.",
+      "q4": "¿Es el proceso de consulta adecuado para pacientes internacionales?",
+      "a4": "Absolutamente. Ofrecemos consultas virtuales integrales para pacientes internacionales. Al revisar sus fotos y radiografías en línea, nuestros coordinadores médicos pueden proporcionar un plan de tratamiento y cronograma muy precisos antes de que viaje a Turquía.",
+      "q5": "¿Mi plan de tratamiento será personalizado?",
+      "a5": "Cada paciente en nuestra clínica recibe un protocolo de tratamiento totalmente a medida. Utilizamos tecnología avanzada de imagen digital y diseño de sonrisa para adaptar los procedimientos a sus necesidades anatómicas únicas, asegurando estabilidad funcional y perfección estética.",
+      "q6": "¿Cuántos días debo quedarme en Estambul para el tratamiento?",
+      "a6": "Para procedimientos cosméticos como carillas, 5-7 días suelen ser suficientes. Para implantes quirúrgicos, se necesita una visita inicial de 3-4 días, seguida de una segunda visita de 7 días tras el periodo de curación. Nuestro equipo coordina todo su itinerario en Estambul.",
+      "label": "Preguntas Frecuentes",
+      "title": "Preguntas Frecuentes",
+      "desc": "Respuestas claras sobre implantes dentales, diseño de sonrisa, planificación y atención al paciente en Estambul."
+    },
+    "heroTitleMain": "FeRa Clinic Estambul,",
+    "heroTitleSub": "Sonrisas de Clase Mundial",
+    "clinicalProtocol": "Protocolo Clínico",
+    "euCertified": "Estándares de Esterilización Certificados por la UE",
+    "realResults": "Resultados Reales de Pacientes",
+    "callUsNow": "Llámenos Ahora",
+    "phoneNumber": "Número de Teléfono",
+    "verifiedReview": "Reseña Verificada",
+    "googleAlt": "Google",
+    "trustpilotAlt": "Trustpilot",
+    "reviewsAlt": "Reviews.io",
+    "trustBadge1": "Distintivo de Confianza 1",
+    "trustBadge1Label": "Etiqueta de Confianza 1",
+    "trustBadge2": "Distintivo de Confianza 2",
+    "trustBadge2Label": "Etiqueta de Confianza 2",
+    "trustBadge3": "Distintivo de Confianza 3",
+    "trustBadge3Label": "Etiqueta de Confianza 3",
+    "videoTitle": "Experiencia del Paciente en FeRa Clinic",
+    "ctaTitle1": "Comience su Viaje de Transformación",
+    "ctaTitle2": "Hoy",
+    "trustBadgeLabel": "Confianza Global",
+    "trustedByGlobal": "Confiada por pacientes de todo el mundo",
+    "trustedDesc": "Experiencias reales de pacientes. Resultados de tratamiento documentados. Descubra por qué pacientes de todo el mundo eligen FeRa Clinic para su cuidado dental en Estambul.",
+    "socialJourneyLabel": "Viaje Social",
+    "followExcellence": "Siga Nuestra Excelencia Médica",
+    "exploreUpdates": "Explore transformaciones reales, vistazos entre bastidores y actualizaciones diarias de nuestra clínica.",
+    "insideClinicLabel": "Dentro de FeRa Clinic",
+    "insideClinicTitle": "Conozca nuestra clínica en Estambul",
+    "insideClinicDesc": "Un vistazo más cercano a nuestras instalaciones, tecnología y el viaje del paciente. Vea la precisión, el cuidado y los resultados que cambian la vida y que definen los estándares de FeRa.",
+    "hairTransplant": "Restauración Capilar",
+    "services": {
+      "otherDesc": "Protocolos de cirugía plástica de vanguardia para un refinamiento estético de aspecto natural.",
+      "viewAllDental": "Ver Todos los Procedimientos Dentales"
+    },
+    "cosmeticSurgery": "Estética",
+    "hero": {
+      "stats": {
+        "experience": "Años de Precisión",
+        "patients": "Pacientes Internacionales",
+        "satisfaction": "Tasa de Éxito",
+        "specialists": "Médicos Especialistas"
+      }
+    },
+    "portfolio": {
+      "eyebrow": "Portafolio Clínico",
+      "title1": "Transformaciones",
+      "title2": "Documentadas.",
+      "description": "Cada sonrisa que creamos es un equilibrio entre la precisión médica y la visión artística. Explore nuestras transformaciones documentadas e instalaciones de vanguardia.",
+      "cta": "Ver Galería Completa",
+      "liveResult": "Resultado en Vivo",
+      "caseDescription": "Reconstrucción Hollywood Smile usando 20 unidades de carillas E-Max."
+    },
+    "cta": {
+      "callLabel": "Llamar a Especialistas",
+      "standardLabel": "Estándar Global",
+      "certification": "Certificado ISO 9001"
     }
   },
   "treatments": {
@@ -317,17 +488,87 @@
         "title": "Implantes Dentales",
         "desc": "Solución permanente de reemplazo dental usando implantes de titanio premium con cirugía guiada 3D. Restaure la función y la estética con resultados que se ven y sienten completamente naturales.",
         "category": "Restauradora",
-        "duration": "1-2 horas por sitio"
+        "duration": "1-2 horas por sitio",
+        "price": "Desde 500 EUR",
+        "heroDesc": "Reemplazo de dientes perdidos permanente y de aspecto natural mediante implantes de titanio avanzados de ingeniería suiza.",
+        "seo": {
+          "title": "Implantes Dentales en Estambul | FeRa Clinic",
+          "description": "Restaure su sonrisa con implantes dentales premium en Estambul. Cirujanos expertos, implantes de ingeniería suiza y garantía de por vida en FeRa Clinic."
+        },
+        "features": {
+          "0": "Titanio biocompatible de Grado 5",
+          "1": "Planificación quirúrgica CBCT 3D",
+          "2": "Protocolos de carga inmediata",
+          "3": "Precisión guiada por computadora",
+          "4": "Esterilización certificada por ISO"
+        },
+        "benefits": {
+          "0": "Detiene la reabsorción del hueso maxilar",
+          "1": "Restaura el 100% de la fuerza de mordida",
+          "2": "Acabado de porcelana de aspecto natural",
+          "3": "Preservación de dientes adyacentes",
+          "4": "Estabilidad clínica a largo plazo"
+        }
       },
       "2": {
-        "title": "Sonrisa Hollywood",
-        "desc": "Carillas de porcelana personalizadas que transforman su sonrisa con color, forma y alineación perfectos. Logre una sonrisa naturalmente hermosa que complementa sus facciones faciales.",
-        "category": "Cosmética",
-        "duration": "Protocolo 5-7 días"
+        "title": "Hollywood Smile",
+        "desc": "Logre la transformación estética definitiva a través de nuestro proceso de diseño de sonrisa insignia.",
+        "duration": "5-7 Días",
+        "price": "Desde €3.500",
+        "heroDesc": "Transforme su apariencia con nuestro diseño Hollywood Smile premium. Utilizando la planificación digital de la sonrisa y carillas de porcelana E-Max de alta calidad, creamos una sonrisa simétrica, radiante y de aspecto natural adaptada a sus rasgos faciales únicos.",
+        "seo": {
+          "title": "Hollywood Smile Estambul | Carillas Premium y Diseño de Sonrisa | FeRa Clinic",
+          "description": "Logre un Hollywood Smile perfecto en Estambul en FeRa Clinic. Diseño de sonrisa experto, carillas E-Max premium y planificación digital para un aspecto radiante y natural."
+        },
+        "features": {
+          "0": "Diseño de Sonrisa Digital (DSD)",
+          "1": "Disilicato de litio E-Max",
+          "2": "Preparación ultra fina",
+          "3": "Mapeo de translucidez personalizado",
+          "4": "Alineación de simetría gingival"
+        },
+        "benefits": {
+          "0": "Cerámica resistente a las manchas",
+          "1": "Armonía facial perfecta",
+          "2": "Corrección estética instantánea",
+          "3": "Alta durabilidad (más de 15 años)",
+          "4": "Mínimo impacto biológico"
+        },
+        "faqs": {
+          "q1": "¿Cuánto tiempo toma el tratamiento Hollywood Smile?",
+          "a1": "El procedimiento suele requerir de 5 a 7 días en Estambul, lo que incluye la consulta inicial, el diseño digital, la preparación y la cementación final.",
+          "q2": "¿Son las carillas E-Max mejores que la porcelana estándar?",
+          "a2": "Las carillas E-Max son superiores tanto en resistencia como en translucidez, ofreciendo una apariencia más natural y una mayor durabilidad en comparación con la porcelana tradicional.",
+          "q3": "¿Es doloroso el procedimiento?",
+          "a3": "El proceso es mínimamente invasivo y se realiza bajo anestesia local, lo que garantiza una experiencia cómoda con muy poca sensibilidad postoperatoria.",
+          "q4": "¿Cuánto durará mi nueva sonrisa?",
+          "a4": "Con una higiene bucal adecuada y revisiones dentales periódicas, un Hollywood Smile con carillas E-Max puede durar de 15 a 20 años o más."
+        }
       },
       "3": {
         "title": "Ortodoncia",
-        "duration": "10-14 días"
+        "duration": "10-14 días",
+        "desc": "Corrija problemas de alineación complejos discretamente. Desde alineadores transparentes Invisalign hasta brackets cerámicos avanzados, nuestros ortodoncistas especialistas diseñan vías de tratamiento personalizadas que optimizan tanto la función dental como la estética de la sonrisa.",
+        "price": "Desde 2.200 EUR",
+        "heroDesc": "Corrija discretamente los problemas de alineación con los alineadores transparentes Invisalign y los brackets cerámicos avanzados.",
+        "seo": {
+          "title": "Ortodoncia e Invisalign en Estambul | FeRa Clinic",
+          "description": "Tratamientos ortodónticos expertos en Estambul. Invisalign y brackets cerámicos para una alineación perfecta en FeRa Clinic."
+        },
+        "features": {
+          "0": "Invisalign Platinum Elite",
+          "1": "Escaneo digital 3D iTero",
+          "2": "Brackets fijos de cerámica transparente",
+          "3": "Opciones de movimiento acelerado",
+          "4": "Seguimiento virtual del progreso"
+        },
+        "benefits": {
+          "0": "Alineación discreta",
+          "1": "Mejora de la salud periodontal",
+          "2": "Sin restricciones dietéticas (Alineadores)",
+          "3": "Resultados estables a largo plazo",
+          "4": "Corrige la mordida funcional"
+        }
       },
       "4": {
         "title": "Blanqueamiento Dental Estambul",
@@ -344,7 +585,7 @@
         "heroDesc": "Experimenta el blanqueamiento dental profesional en la clínica FeRa. Nuestro sistema avanzado Zoom activado por LED ofrece resultados dramáticos de forma segura y cómoda, transformando tu sonrisa en una sola visita.",
         "whatIsIt": {
           "title": "¿Qué es el Blanqueamiento Dental Profesional?",
-          "description": "El blanqueamiento dental profesional es un procedimiento cosmético clínico que utiliza tecnología LED avanzada para activar geles de blanqueamiento de grado profesional. Este proceso elimina de forma segura las manchas profundas y decoloraciones, revelando el brillo natural de tus dents hasta 8 tonos más claros."
+          "description": "El blanqueamiento dental profesional es un procedimiento cosmético clínico que utiliza tecnología LED avanzada para activar geles de blanqueamiento de grado profesional. Este proceso elimina de forma segura las manchas profundas y decoloraciones, revelando el brillo natural de tus dientes hasta 8 tonos más claros."
         },
         "process": {
           "title": "Tu Viaje de Blanqueamiento",
@@ -358,6 +599,11 @@
           ]
         },
         "benefits": {
+          "0": "Impulso estético instantáneo",
+          "1": "Protocolos seguros para el esmalte",
+          "2": "Elimina años de manchas",
+          "3": "Distribución uniforme del color",
+          "4": "Brillo duradero",
           "title": "Beneficios del Blanqueamiento Profesional",
           "list": [
             "Resultados dramáticos instantáneos (hasta 8 tonos más brillante)",
@@ -396,7 +642,14 @@
             "Ambiente de clínica premium"
           ]
         },
-        "safetyNote": "Los resultados individuales pueden variar según el estado inicial de los dientes y el tipo de manchas. Se requiere consulta profesional para determinar la elegibilidad. No recomendado para mujeres embarazadas o personas con sensibilidad dental severa."
+        "safetyNote": "Los resultados individuales pueden variar según el estado inicial de los dientes y el tipo de manchas. Se requiere consulta profesional para determinar la elegibilidad. No recomendado para mujeres embarazadas o personas con sensibilidad dental severa.",
+        "features": {
+          "0": "Tecnología LED Philips Zoom",
+          "1": "Protección de barrera gingival",
+          "2": "Pretratamiento desensibilizante",
+          "3": "Guía de tonos personalizada",
+          "4": "Kit de mantenimiento en el hogar"
+        }
       },
       "5": {
         "title": "Diseño de Sonrisa Estambul",
@@ -413,11 +666,11 @@
         "heroDesc": "Descubre el arte del diseño de sonrisa premium en la clínica FeRa, donde la tecnología digital de vanguardia se encuentra con la artesanía maestra. Nuestro equipo élite crea tu sonrisa firma a través de diseño personalizado, asegurando que cada detalle armonice perfectamente con tus rasgos faciales únicos y personalidad.",
         "whatIsIt": {
           "title": "¿Qué es el Full Smile Design?",
-          "description": "Full Smile Design es la experiencia dental de lujo definitiva, combinando múltiples tratamientos avanzados en una transformación integral. Utilizando sofisticada tecnología de Diseño Digital de Sonrisa (DSD), planificamos y creamos meticulosamente cada aspecto de tu nueva sonrisa—from la forma y color de los dientes hasta la simetría de la línea gingival—creando una obra maestra que te pertenece exclusivamente."
+          "description": "Full Smile Design es la experiencia dental de lujo definitiva, combinando múltiples tratamientos avanzados en una transformación integral. Utilizando sofisticada tecnología de Diseño Digital de Sonrisa (DSD), planificamos y creamos meticulosamente cada aspecto de tu nueva sonrisa—desde la forma y color de los dientes hasta la simetría de la línea gingival—creando una obra maestra que te pertenece exclusivamente."
         },
         "personalization": {
           "title": "Tu Visión, Realizada con Maestría",
-          "description": "Tu viaje comienza con una consulta íntima donde entendemos tus sueños, estilo de vida y deseos estéticos. Nuestros especialistas usan análisis facial avanzado y modelado digital 3D para diseñar una sonrisa que no solo cumple sino supera tus expectativas. Cada elemento es personalizado—from la translucidez sutil de cada carilla hasta la curva precisa de tu línea de sonrisa.",
+          "description": "Tu viaje comienza con una consulta íntima donde entendemos tus sueños, estilo de vida y deseos estéticos. Nuestros especialistas usan análisis facial avanzado y modelado digital 3D para diseñar una sonrisa que no solo cumple sino supera tus expectativas. Cada elemento es personalizado—desde la translucidez sutil de cada carilla hasta la curva precisa de tu línea de sonrisa.",
           "process": [
             "Análisis facial completo y consulta estética",
             "Diseño Digital de Sonrisa con visualización 3D de tus resultados",
@@ -429,7 +682,7 @@
         },
         "emotionalConnection": {
           "title": "Transforma Más que tu Sonrisa",
-          "description": "Una transformación Full Smile Design va más allá de la estética—it's una experiencia que cambia la vida, restaurando confianza, mejorando tu belleza natural y empoderándote para expresar tu verdadero yo. Nuestros clientes nos dicen que no es solo sobre verse mejor; it's sobre sentirse completamente uno mismo, irradiando la confianza que viene de saber que tu sonrisa refleja perfectamente quién eres.",
+          "description": "Una transformación Full Smile Design va más allá de la estética—es una experiencia que cambia la vida, restaurando confianza, mejorando tu belleza natural y empoderándote para expresar tu verdadero yo. Nuestros clientes nos dicen que no es solo sobre verse mejor; es sobre sentirse completamente uno mismo, irradiando la confianza que viene de saber que tu sonrisa refleja perfectamente quién eres.",
           "benefits": [
             "Confianza renovada y presencia social",
             "Relaciones profesionales y personales mejoradas",
@@ -480,7 +733,21 @@
           "longevity": "Los resultados duran 15+ años con cuidado apropiado",
           "guarantee": "Garantía de artesanía 5 años en todas las restauraciones"
         },
-        "safetyNote": "Los resultados individuales pueden variar según la condición dental inicial y factores personales. Examen completo y consulta personalizada requeridos. Algunos procedimientos pueden tener sensibilidad temporal o períodos de ajuste."
+        "safetyNote": "Los resultados individuales pueden variar según la condición dental inicial y factores personales. Examen completo y consulta personalizada requeridos. Algunos procedimientos pueden tener sensibilidad temporal o períodos de ajuste.",
+        "features": {
+          "0": "Análisis digital de boca completa",
+          "1": "Corrección de mordida funcional",
+          "2": "Triaje multidisciplinar",
+          "3": "Vista previa de encerado diagnóstico",
+          "4": "Enfoque quirúrgico por fases"
+        },
+        "benefits": {
+          "0": "Rejuvenecimiento total de la sonrisa",
+          "1": "Resultado estético cohesivo",
+          "2": "Mejora de la salud bucal",
+          "3": "Soporte facial optimizado",
+          "4": "Restauración de la confianza"
+        }
       },
       "6": {
         "title": "All-on-4 Estambul",
@@ -512,6 +779,11 @@
           ]
         },
         "benefits": {
+          "0": "Resultado de dientes en un día",
+          "1": "Tiempo quirúrgico reducido",
+          "2": "Rehabilitación rentable",
+          "3": "Preserva la estructura facial",
+          "4": "Alternativa fija estable",
           "title": "Beneficios Clave de All-on-4",
           "description": "Esta técnica de restauración avanzada ofrece numerosas ventajas para pacientes con pérdida dental completa:",
           "list": [
@@ -589,19 +861,66 @@
           "success": "95%+ tasa de éxito con planificación y cuidado apropiados",
           "maintenance": "El cuidado profesional regular asegura longevidad óptima"
         },
-        "safetyNote": "Los resultados individuales pueden variar basados en calidad ósea, condiciones médicas y adherencia a instrucciones de cuidado postoperatorio. Evaluación completa requerida para determinar elegibilidad. Los riesgos quirúrgicos incluyen infección, falla de implante y complicaciones nerviosas, aunque raras con planificación apropiada."
+        "safetyNote": "Los resultados individuales pueden variar basados en calidad ósea, condiciones médicas y adherencia a instrucciones de cuidado postoperatorio. Evaluación completa requerida para determinar elegibilidad. Los riesgos quirúrgicos incluyen infección, falla de implante y complicaciones nerviosas, aunque raras con planificación apropiada.",
+        "features": {
+          "0": "Implantes posteriores inclinados",
+          "1": "Carga fija inmediata",
+          "2": "Diseño de puente de arco completo",
+          "3": "Evita el injerto óseo",
+          "4": "Precisión de guía quirúrgica"
+        }
       },
       "7": {
         "title": "Coronas de Circonio",
         "desc": "Coronas estéticas de alta resistencia con translucidez superior que imita el esmalte natural. Solución libre de metal para restauraciones hermosas, duraderas y biocompatibles.",
         "category": "Restauradora",
-        "duration": "Protocolo 4-5 días"
+        "duration": "Protocolo 4-5 días",
+        "price": "Desde 280 EUR por unidad",
+        "heroDesc": "Restauración dental duradera y de aspecto natural con circonio monolítico de primera calidad.",
+        "seo": {
+          "title": "Coronas de Circonio Estambul | Coronas Dentales de Alta Calidad",
+          "description": "Restaure sus dientes con coronas de circonio de primera calidad en Estambul. Resultados duraderos y de aspecto natural en FeRa Clinic."
+        },
+        "features": {
+          "0": "Circonio monolítico sólido",
+          "1": "Precisión de fresado CAD/CAM",
+          "2": "Biocompatibilidad libre de metales",
+          "3": "Alta resistencia a la fractura",
+          "4": "Acabado de glaseado personalizado"
+        },
+        "benefits": {
+          "0": "Fuerza excepcional",
+          "1": "Reflexión de la luz natural",
+          "2": "Biológicamente amigable",
+          "3": "Protege la estructura dental",
+          "4": "Material hipoalergénico"
+        }
       },
       "8": {
         "title": "Esculpir Gingival",
         "desc": "Contorneo gingival láser de precisión para crear una línea de sonrisa perfecta. Mejore las proporciones dentales y logre estética equilibrada con tratamiento mínimamente invasivo.",
         "category": "Cosmética",
-        "duration": "1 hora"
+        "duration": "1 hora",
+        "price": "Desde 400 EUR",
+        "heroDesc": "Logre una simetría perfecta de la sonrisa con un contorneado de encías asistido por láser sin dolor.",
+        "seo": {
+          "title": "Contorneado y Esculpido Gingival Estambul | FeRa Clinic",
+          "description": "Corrija las sonrisas gingivales con el esculpido gingival láser de precisión en Estambul. Curación rápida y simetría perfecta."
+        },
+        "features": {
+          "0": "Tecnología láser de tejidos blandos",
+          "1": "Procedimiento sin puntos",
+          "2": "Diseño de simetría digital",
+          "3": "Mínimo sangrado/hinchazón",
+          "4": "Precisión Biolase"
+        },
+        "benefits": {
+          "0": "Corrige la sonrisa gingival",
+          "1": "Mejora la simetría dental",
+          "2": "Tiempo de curación rápido",
+          "3": "Línea de sonrisa mejorada",
+          "4": "Corrección permanente"
+        }
       }
     },
     "implants": "Implantes Dentales",
@@ -779,7 +1098,11 @@
       },
       "badges": {
         "specialist": "Procedimiento Especializado",
-        "globalStandards": "Estándares Clínicos Globales"
+        "globalStandards": "Estándares Clínicos Globales",
+        "isoCertified": "Certificado ISO",
+        "boardCertified": "Certificado por la Junta",
+        "aesthetics": "Estética",
+        "naturalResults": "Resultados Naturales"
       },
       "cta": {
         "speak": "Hablar con nuestros coordinadores"
@@ -800,8 +1123,43 @@
     "transformInIstanbul": "Transforme Su Sonrisa en Estambul",
     "transformDesc": "Obtenga su diseño de Sonrisa Hollywood personalizado y plan de tratamiento. Nuestro equipo lo guía en cada paso de su viaje de transformación de sonrisa.",
     "whatsappConsultation": "Consulta de Diseño de Sonrisa vía WhatsApp",
-    "saveNotice": "Dentistería cosmética premium a precios de Estambul — ahorre hasta 70% comparado con clínicas occidentales.",
-    "explore": "Explorar Transformación de Sonrisa"
+    "saveNotice": "Odontología cosmética premium a precios de Estambul — ahorre hasta 70% comparado con clínicas occidentales.",
+    "explore": "Explorar Transformación de Sonrisa",
+    "ortho": "Ortodoncia",
+    "orthodontics": "Alineación Ortodóntica",
+    "process": {
+      "consultation": "Consulta inicial y evaluación",
+      "procedure": "Procedimiento de tratamiento",
+      "recovery": "Período de recuperación",
+      "result": "Resultado final del tratamiento"
+    },
+    "candidates": {
+      "missing": "Reemplazo de dientes perdidos",
+      "aesthetic": "Mejora estética",
+      "function": "Restauración funcional",
+      "longterm": "Durabilidad a largo plazo"
+    },
+    "techEyebrow": "Innovación Clínica",
+    "techTitle1": "Precisión",
+    "techTitle2": "Digital.",
+    "techDesc": "Nuestra infraestructura clínica integra las últimas tecnologías dentales para garantizar la máxima seguridad del paciente y resultados predecibles.",
+    "tech": {
+      "precision": "Precisión",
+      "precisionDesc": "Precisión sub-milimétrica en cada procedimiento.",
+      "scanning": "Escaneo",
+      "scanningDesc": "Imágenes 3D digitales sin moldes tradicionales.",
+      "materials": "Materiales",
+      "materialsDesc": "Porcelana y circonio de grado médico premium.",
+      "digitalProcess": "Proceso Digital"
+    },
+    "hollywoodSmile": "Hollywood Smile",
+    "overview": "Descripción General",
+    "understanding": "Entendiendo el Tratamiento",
+    "whoIsItFor": "¿Es este tratamiento para usted?",
+    "clinicalWorkflow": "Flujo de Trabajo Clínico",
+    "whyChoose": "Por qué los pacientes eligen",
+    "benefitsDescription": "Nuestros protocolos clínicos están diseñados para ofrecer no solo la perfección estética, sino también la estabilidad funcional y la salud bucal a largo plazo.",
+    "durationLabel": "Duración"
   },
   "contact": {
     "heroEyebrow": "Contáctenos",
@@ -845,7 +1203,7 @@
       "subtitle": "Nuestro equipo está disponible 24/7 para consultas de emergencia y apoyo al paciente internacional.",
       "callNow": "Llamar ahora",
       "whatsapp": "Soporte de WhatsApp",
-      "whatsappDesc": "Hable con nuestro equipo y obtenga su consulta gratuita."
+      "whatsappDesc": "Soporte Instantáneo para Pacientes"
     },
     "map": {
       "ctaTitle": "Visite Nuestra Clínica",
@@ -867,7 +1225,21 @@
       "description": "Contacte con Clínica FeRa Estambul para atención dental experta. Coordinadores de pacientes internacionales listos para ayudar con implantes dentales, carillas y diseños de sonrisa."
     },
     "ctaPrimary": "Consulta Gratuita",
-    "ctaSecondary": "Ver Galería"
+    "ctaSecondary": "Ver Galería",
+    "mapTitle": "Ubicación de FeRa Clinic",
+    "formTitle": "Ponerse en Contacto",
+    "formSubtitle": "Envíenos un mensaje y nuestro equipo responderá rápidamente con orientación personalizada.",
+    "name": "Nombre Completo",
+    "email": "consultation@FeRaclinic.com",
+    "phone": "+90 536 746 01 00",
+    "message": "Mensaje",
+    "treatment": "Interés en el Tratamiento",
+    "submit": "Enviar Mensaje",
+    "successTitle": "Mensaje Enviado con Éxito",
+    "successDesc": "Gracias por contactar con FeRa Clinic. Nuestro equipo revisará su consulta y responderá en un plazo de 24 horas.",
+    "infoTitle": "Información de la Clínica",
+    "address": "Kazlıçeşme, Kennedy Cad. No:62 D:1, 34020 Zeytinburnu/Estambul",
+    "hours": "Lunes - Viernes: 9:00 AM - 6:00 PM (GMT+3)"
   },
   "common": {
     "tagline": "Cuidado Dental Premium Estambul",
@@ -902,14 +1274,59 @@
       "germany": "Alemania",
       "us": "Estados Unidos",
       "turkey": "Turquía",
-      "france": "Francia"
+      "france": "Francia",
+      "usa": "Estados Unidos",
+      "canada": "Canadá"
     },
     "whatsappNumberDisplay": "+90 536 746 01 00",
     "trustBadges": {
       "iso": "Certificado ISO",
       "specialists": "+15 Dentistas Especialistas",
       "patients": "Miles de Pacientes Satisfechos"
-    }
+    },
+    "expert": "Experto",
+    "designYourSmile": "Diseñe su Sonrisa",
+    "whatsappConsultationLong": "Consulta de Diseño de Sonrisa vía WhatsApp",
+    "restorative": "Restauradora",
+    "cosmetic": "Cosmética",
+    "dentalTourism": "Turismo Dental",
+    "readArticle": "Leer Artículo",
+    "consultationSteps": {
+      "personalInfo": "Información Personal",
+      "treatment": "Selección de Tratamiento",
+      "contactMethod": "Método de Contacto",
+      "review": "Revisar y Enviar"
+    },
+    "whatsapp": "WhatsApp",
+    "other": "Otro",
+    "clinicAddress": "Dirección de la Clínica",
+    "loading": "Procesando...",
+    "legalPages": {
+      "deliveryRefund": "Entrega y Reembolso",
+      "distanceSales": "Venta a Distancia"
+    },
+    "backToHome": "Volver al Inicio",
+    "email": "Correo Electrónico",
+    "emailAddress": "consultation@FeRaclinic.com",
+    "phone": "Teléfono",
+    "phoneNumber": "+90 536 746 01 00",
+    "address": "Dirección",
+    "inIstanbul": "en Estambul",
+    "step": "Paso",
+    "remove": "Eliminar",
+    "clinical": "Clínico",
+    "for": "para",
+    "brandName": "FeRa Clinic",
+    "protocol": "Protocolo",
+    "premiumCare": "Estándar Premium",
+    "faq": "Preguntas Frecuentes",
+    "keyboard": {
+      "enter": "Intro",
+      "esc": "Esc"
+    },
+    "location": "Ubicación",
+    "locationValue": "Zeytinburnu, Estambul",
+    "exploreAll": "Explorar Todo"
   },
   "stats": {
     "patients": "Pacientes Felices",
@@ -919,7 +1336,8 @@
     "experience": "Años de Experiencia",
     "specialists": "Médicos Especialistas",
     "certified": "Certificado",
-    "results": "Resultados Probados"
+    "results": "Resultados Probados",
+    "boardCertified": "Certificado por la Junta"
   },
   "testimonials": {
     "heroTitle": "Historias de Pacientes",
@@ -928,9 +1346,17 @@
     "stats": {
       "patients": "Pacientes Felices",
       "countries": "Países",
-      "satisfaction": "Tasa de Satisfacción",
-      "rating": "Calificación Media"
+      "satisfaction": "100% de Satisfacción",
+      "rating": "5.0/5.0"
     },
+    "medicalGoogleReviews": "Reseñas Médicas de Google",
+    "realPatientExperiences": "Experiencias reales de pacientes en Google",
+    "readAllGoogleReviews": "Leer todas las reseñas de Google",
+    "writeGoogleReview": "Escribir una reseña en Google",
+    "verifiedGoogleReviews": "Reseñas de Google verificadas",
+    "fiveStarExperiences": "Experiencias de pacientes de 5 estrellas",
+    "loadMore": "Cargar más",
+    "noReviews": "No se encontraron reseñas",
     "filters": {
       "all": "Todos los Tratamientos"
     },
@@ -939,7 +1365,50 @@
     "patientStory": "Historia del Paciente",
     "ctaTitle": "Comience su propio viaje de sonrisa",
     "ctaDesc": "Hable con nuestro equipo y dé el siguiente paso hacia un plan de tratamiento adaptado a usted.",
-    "ctaButton": "Comience su viaje"
+    "ctaButton": "Comience su viaje",
+    "list": {
+      "t1": {
+        "name": "Sarah Johnson",
+        "location": "Reino Unido",
+        "quote": "La transformación de Hollywood Smile superó todas mis expectativas. La atención al detalle del equipo y el resultado final son absolutamente extraordinarios.",
+        "date": "Marzo 2024"
+      },
+      "t2": {
+        "name": "Michael Schmidt",
+        "location": "Alemania",
+        "quote": "Profesional, atento y con resultados excepcionales. Mi nueva sonrisa me ha dado una confianza que nunca antes había tenido.",
+        "date": "Febrero 2024"
+      },
+      "t3": {
+        "name": "Giulia Rossi",
+        "location": "Italia",
+        "quote": "Desde la consulta hasta el resultado final, todo fue perfecto. Las instalaciones de la clínica son de clase mundial.",
+        "date": "Enero 2024"
+      },
+      "t4": {
+        "name": "Pierre Dubois",
+        "location": "Francia",
+        "quote": "La mejor experiencia dental que he tenido. El equipo realmente se preocupa por la comodidad del paciente y los resultados.",
+        "date": "Diciembre 2023"
+      },
+      "t5": {
+        "name": "Jennifer Smith",
+        "location": "Estados Unidos",
+        "quote": "FeRa Clinic combina la excelencia médica con una visión artística. La transformación de mi sonrisa es natural y hermosa.",
+        "date": "Noviembre 2023"
+      },
+      "t6": {
+        "name": "Ahmet Yılmaz",
+        "location": "Turquía",
+        "quote": "Atención excepcional de principio a fin. El apoyo al paciente internacional facilitó todo el proceso.",
+        "date": "Octubre 2023"
+      }
+    },
+    "caseImageAlt": "Imagen del caso del paciente",
+    "successCase": "Historia de Éxito",
+    "successCaseDesc": "Comparta su historia de éxito con la comunidad de FeRa Clinic.",
+    "heroEyebrow": "Historias Reales de Pacientes",
+    "ctaText": "Leer Todas las Historias"
   },
   "blog": {
     "subtitle": "Perspectivas dentales de expertos y guías clínicas de la clínica dental premium de Estambul. Artículos basados en evidencia sobre tratamientos avanzados, atención al paciente y las últimas innovaciones en odontología moderna.",
@@ -1013,7 +1482,8 @@
       "reviewInformation": "Revisar Información",
       "getFreeConsultation": "Obtener Consulta Gratuita",
       "submitting": "Enviando...",
-      "back": "Atrás"
+      "back": "Atrás",
+      "reviewInfo": "Revisar Información"
     },
     "trustIndicators": {
       "confidential": "Confidencial",
@@ -1037,7 +1507,8 @@
     },
     "whatsapp": {
       "title": "¿Prefiere mensajería instantánea?",
-      "button": "WhatsApp Nos"
+      "button": "Escríbanos por WhatsApp",
+      "desc": "Obtenga una consulta instantánea a través de WhatsApp con nuestros especialistas dentales."
     },
     "success": {
       "title": "Consulta",
@@ -1059,7 +1530,17 @@
       "returnHome": "Volver al Inicio"
     },
     "ctaPrimary": "Obtener Consulta Gratuita",
-    "ctaSecondary": "Ver Galería"
+    "ctaSecondary": "Ver Galería",
+    "contactMethods": {
+      "whatsapp": "WhatsApp",
+      "phoneCall": "Llamada Telefónica",
+      "email": "Correo Electrónico"
+    },
+    "trustFeatures": {
+      "globalTitle": "Consultas Virtuales"
+    },
+    "formTitle": "Solicite su Consulta Gratuita",
+    "formSubtitle": "Complete el formulario a continuación para recibir su plan de tratamiento y precios personalizados."
   },
   "tourism": {
     "subtitle": "Turismo dental premium en Estambul con coordinación médica VIP para pacientes internacionales que buscan transformaciones de sonrisa de clase mundial.",
@@ -1134,7 +1615,13 @@
       "experience": "15+ Años",
       "experienceDesc": "De excelencia en turismo dental.",
       "satisfaction": "98% Satisfacción",
-      "satisfactionDesc": "Tasa de éxito y felicidad de pacientes."
+      "satisfactionDesc": "Tasa de éxito y felicidad de pacientes.",
+      "badges": {
+        "certified": "Certificada",
+        "global": "Global",
+        "expert": "Experto",
+        "proven": "Probado"
+      }
     },
     "steps": {
       "arrival": {
@@ -1217,17 +1704,34 @@
     "table": {
       "protocol": "Protocolo Quirúrgico",
       "ukCost": "Coste medio en Reino Unido",
-      "feraEstimate": "Presupuesto FeRa",
+      "FeRaEstimate": "Presupuesto FeRa",
       "implantUK": "£2,500",
-      "implantFera": "£650",
+      "implantFeRa": "£650",
       "veneerUK": "£800",
-      "veneerFera": "£250",
+      "veneerFeRa": "£250",
       "smileUK": "£15,000",
-      "smileFera": "£5,500"
-    }
+      "smileFeRa": "£5,500"
+    },
+    "processEyebrow": "Proceso",
+    "servicesEyebrow": "Servicios",
+    "medicalHospitality": "Hospitalidad Médica",
+    "luxuryStay": "Estancia de Lujo",
+    "trustEyebrow": "Confianza",
+    "executiveTransfers": "Traslados Ejecutivos"
   },
   "search": {
-    "globalSearch": "Búsqueda Global FeRa"
+    "globalSearch": "Búsqueda Global FeRa",
+    "placeholder": "Buscar tratamientos, artículos, páginas...",
+    "startTyping": "¿Qué está buscando?",
+    "suggestions": "Intente buscar ",
+    "noResults": "No se encontraron resultados",
+    "noResultsText": "No se encontraron resultados para",
+    "clear": "Limpiar búsqueda",
+    "footer": {
+      "navigate": "navegar",
+      "select": "seleccionar",
+      "close": "cerrar"
+    }
   },
   "a11y": {
     "closeAssistant": "Cerrar asistente",
@@ -1240,7 +1744,8 @@
     "scrollToTop": "Volver arriba",
     "closeSearch": "Cerrar búsqueda",
     "toggleWhatsApp": "Alternar chat de WhatsApp",
-    "viewGoogleMaps": "Ver la Clínica FeRa en Google Maps"
+    "viewGoogleMaps": "Ver la Clínica FeRa en Google Maps",
+    "openMenu": "Abrir Menú Móvil"
   },
   "alt": {
     "homeInterior": "Interior de la Clínica FeRa",
@@ -1251,7 +1756,20 @@
     "clinicInstitutional": "Clínica FeRa Institucional",
     "surgicalTheater": "Quirófano de última generación",
     "clinicalMastery": "Maestría clínica de FeRa",
-    "labTech": "Tecnología de laboratorio dental de alta gama"
+    "labTech": "Tecnología de laboratorio dental de alta gama",
+    "clinicJournal": "Revista de la Clínica FeRa",
+    "consultation": "Consulta en la Clínica FeRa",
+    "dentalTourism": "Turismo Dental en Estambul",
+    "stateOfTheArtClinic": "Clínica de Vanguardia",
+    "luxuryHotel": "Hotel de Lujo",
+    "clinicGallery": "Galería de la Clínica FeRa",
+    "beforeAfter": "${caseData.label} antes y después",
+    "FeRaClinic": "FeRa Clinic",
+    "joinUsHero": "Equipo de FeRa Clinic",
+    "clinicalExcellence": "Excelencia Clínica",
+    "hospitality": "Hospitalidad de la clínica",
+    "medicalDistrict": "Distrito Médico de Estambul",
+    "feraClinic": "FeRa Clinic"
   },
   "corporate": {
     "hero": {
@@ -1278,6 +1796,13 @@
       "dedicated": {
         "title": "Comunicación Dedicada",
         "description": "Punto de contacto único para todas las consultas corporativas con respuesta prioritaria y servicio personalizado."
+      },
+      "list": {
+        "employeePlans": "Planes Dentales para Empleados",
+        "executiveCheckups": "Chequeos Ejecutivos",
+        "groupTreatments": "Tratamientos de Grupo",
+        "onSiteServices": "Servicios Dentales In Situ",
+        "dentalTourism": "Paquetes de Turismo Dental"
       }
     },
     "network": {
@@ -1319,7 +1844,15 @@
       "submit": "Enviar Consulta",
       "success": "¡Consulta Recibida!",
       "successDesc": "Gracias por su interés en nuestros servicios corporativos. Nuestro equipo revisará su consulta y se pondrá en contacto con usted dentro de 24 horas.",
-      "newInquiry": "Nueva Consulta"
+      "newInquiry": "Nueva Consulta",
+      "industry": "Industria",
+      "industryPlaceholder": "Seleccionar industria",
+      "partnershipType": "Tipo de Asociación",
+      "partnershipTypePlaceholder": "Seleccionar tipo de asociación",
+      "websiteOrSocial": "Sitio Web o Redes Sociales",
+      "websiteOrSocialPlaceholder": "Ingrese el sitio web o el usuario de redes sociales",
+      "successTitle": "Consulta Recibida",
+      "nextSteps": "Próximos Pasos"
     },
     "validation": {
       "companyNameRequired": "El nombre de la empresa es requerido",
@@ -1332,6 +1865,36 @@
       "inquiryTypeRequired": "El tipo de consulta es requerido",
       "contactMethodRequired": "El método de contacto preferido es requerido",
       "messageTooLong": "El mensaje debe tener menos de 2000 caracteres"
+    },
+    "partners": {
+      "klinik1": "Socio de atención dental en Estambul",
+      "klinik2": "Socio de coordinación sanitaria",
+      "sevenBlue": "Socio de colaboración en servicios dentales"
+    },
+    "activePartner": "Socio Activo",
+    "availableCollaboration": "Disponible para colaboración",
+    "process": {
+      "title": "Proceso de Asociación",
+      "subtitle": "Pasos sencillos para establecer una asociación de atención dental exitosa con FeRa Clinic.",
+      "steps": {
+        "initialContact": "Contacto Inicial",
+        "consultationMeeting": "Reunión de Consulta",
+        "agreementSigning": "Firma del Acuerdo",
+        "implementation": "Implementación",
+        "ongoingSupport": "Soporte Continuo"
+      }
+    },
+    "benefits": {
+      "title": "¿Por qué asociarse con FeRa Clinic?",
+      "subtitle": "Descubra las ventajas de asociarse con la clínica dental líder de Estambul para las necesidades de atención dental de su organización.",
+      "list": {
+        "premiumCare": "Acceso a Atención Premium",
+        "internationalNetwork": "Red Internacional",
+        "competitivePricing": "Precios Competitivos",
+        "expertTeam": "Acceso a Equipo de Expertos",
+        "marketingSupport": "Soporte de Marketing",
+        "reliableService": "Servicio Confiable"
+      }
     }
   },
   "partnership": {
@@ -1444,7 +2007,13 @@
       "submit": "Enviar Solicitud",
       "success": "¡Solicitud Recibida!",
       "successDesc": "Gracias por su interés en asociarse con FeRa Clinic. Nuestro equipo revisará su solicitud y se comunicará con usted en 3-5 días hábiles.",
-      "newApplication": "Enviar Otra Solicitud"
+      "newApplication": "Enviar Otra Solicitud",
+      "companyInfo": "Información de la Empresa",
+      "legalInfo": "Información Legal",
+      "partnershipDetails": "Detalles de la Asociación",
+      "contactInfo": "Información de Contacto",
+      "successTitle": "Solicitud Recibida",
+      "nextSteps": "Próximos Pasos"
     },
     "validation": {
       "fullNameRequired": "El nombre completo es requerido",
@@ -1458,6 +2027,746 @@
       "websiteInvalid": "Por favor ingrese una URL válida de sitio web o redes sociales",
       "contactMethodRequired": "El método de contacto preferido es requerido",
       "messageTooLong": "El mensaje debe tener menos de 2000 caracteres"
+    },
+    "partnershipTypes": {
+      "title": "Oportunidades de Asociación",
+      "subtitle": "Ofrecemos varios modelos de asociación adaptados a las necesidades y objetivos de su organización.",
+      "list": {
+        "dentalClinics": "Clínicas Dentales",
+        "dentalLabs": "Laboratorios Dentales",
+        "insuranceProviders": "Proveedores de Seguros",
+        "medicalTourism": "Agencias de Turismo Médico",
+        "dentalSuppliers": "Proveedores Dentales"
+      }
+    },
+    "process": {
+      "title": "Proceso de Asociación",
+      "subtitle": "Desde el contacto inicial hasta una asociación exitosa, hacemos que la colaboración sea fluida y mutuamente beneficiosa.",
+      "steps": {
+        "application": "Envío de Solicitud",
+        "review": "Proceso de Revisión",
+        "agreement": "Acuerdo de Asociación",
+        "onboarding": "Incorporación del Socio",
+        "ongoingSupport": "Soporte Continuo"
+      }
+    },
+    "requirements": {
+      "title": "Requisitos de Asociación",
+      "subtitle": "Buscamos socios que compartan nuestro compromiso con la excelencia y el cuidado centrado en el paciente.",
+      "criteria": {
+        "reputation": "Sólida Reputación",
+        "qualityStandards": "Estándares de Calidad",
+        "financialStability": "Estabilidad Financiera",
+        "geographicPresence": "Presencia Geográfica",
+        "patientFocus": "Enfoque en el Paciente"
+      }
+    },
+    "benefits": {
+      "title": "Beneficios de la Asociación",
+      "subtitle": "Haga crecer su negocio con la extensa red de FeRa Clinic y su reputación en el cuidado dental premium.",
+      "list": {
+        "brandAssociation": "Asociación de Marca",
+        "referralProgram": "Programa de Referidos",
+        "exclusiveAccess": "Acceso Exclusivo",
+        "marketingSupport": "Soporte de Marketing",
+        "trainingOpportunities": "Oportunidades de Capacitación"
+      }
+    }
+  },
+  "delivery": {
+    "title": "Política de Entrega y Reembolso",
+    "description": "Nuestras políticas de entrega y reembolso garantizan la transparencia y la equidad en todos los compromisos de tratamiento dental en FeRa Clinic.",
+    "importantNotice": "Aviso Importante",
+    "notProductPolicy": "Tenga en cuenta que esta política se aplica a los servicios de atención médica y no a los bienes físicos.",
+    "serviceExplanation": "Explicación del Servicio",
+    "serviceDelivery": "Prestación de Servicios",
+    "appointmentDelivery": "Prestación de Citas",
+    "appointmentDeliveryDesc": "Las citas se confirman tras la recepción de la solicitud y están sujetas a la disponibilidad clínica y a la evaluación del especialista.",
+    "serviceConfirmation": "Confirmación del Servicio",
+    "serviceConfirmationDesc": "Recibirá una confirmación oficial por correo electrónico o WhatsApp una vez que se programe su plan de tratamiento.",
+    "treatmentTimeline": "Cronología del Tratamiento",
+    "treatmentTimelineDesc": "Los cronogramas de tratamiento son estimaciones basadas en evaluaciones clínicas iniciales y pueden variar según la respuesta biológica individual.",
+    "appointmentCancellation": "Cancelación de Citas",
+    "appointmentCancellationNotice": "Períodos de Aviso de Cancelación",
+    "cancellation48Hours": "Cancelación con 48 Horas",
+    "cancellation48HoursDesc": "Las cancelaciones realizadas con más de 48 horas de antelación son elegibles para la reprogramación sin penalización.",
+    "cancellation24Hours": "Cancelación con 24 Horas",
+    "cancellation24HoursDesc": "Las cancelaciones dentro de las 24-48 horas pueden incurrir en una tasa administrativa según el protocolo de la clínica.",
+    "cancellationLess24Hours": "Cancelación con menos de 24 Horas",
+    "cancellationLess24HoursDesc": "Las cancelaciones con menos de 24 horas de aviso o la no presentación pueden resultar en la pérdida del depósito de la cita.",
+    "cancellationNoShow": "No Presentación",
+    "cancellationNoShowDesc": "La falta de asistencia a una cita programada sin aviso previo se considerará una no presentación.",
+    "emergencyCancellations": "Cancelaciones de Emergencia",
+    "emergencyCancellationsDesc": "Entendemos que ocurren emergencias. En tales casos, revisamos la política caso por caso.",
+    "paymentRefundPolicy": "Política de Reembolso de Pagos",
+    "refundablePayments": "Pagos Reembolsables",
+    "refundablePaymentsDesc": "Los depósitos por tratamientos no iniciados son generalmente reembolsables, menos los gastos administrativos bancarios.",
+    "refundProcessing": "Procesamiento de Reembolsos",
+    "refundProcessing1": "Las solicitudes de reembolso deben presentarse por escrito.",
+    "refundProcessing2": "Los reembolsos se procesan a través del método de pago original.",
+    "refundProcessing3": "Espere de 10 a 14 días hábiles para el procesamiento bancario.",
+    "refundProcessing4": "Se proporcionará confirmación una vez que se emita el reembolso.",
+    "nonRefundableItems": "Artículos no Reembolsables",
+    "generallyNonRefundable": "Lo siguiente generalmente no es reembolsable:",
+    "nonRefundable1": "Servicios dentales ya prestados.",
+    "nonRefundable2": "Costos de materiales personalizados (por ejemplo, carillas fabricadas).",
+    "nonRefundable3": "Tasas administrativas por cancelaciones tardías.",
+    "nonRefundable4": "Costos de vuelos o alojamiento de terceros.",
+    "nonRefundable5": "Pruebas de diagnóstico y radiografías iniciales.",
+    "treatmentPlanModifications": "Modificaciones del Plan de Tratamiento",
+    "treatmentModificationIntro": "Los planes de tratamiento pueden ajustarse durante el curso clínico para asegurar resultados óptimos.",
+    "planAdjustments": "Ajustes del Plan",
+    "planAdjustment1": "Cambios debidos a hallazgos clínicos inesperados.",
+    "planAdjustment2": "Preferencias del paciente durante la fase de diseño.",
+    "planAdjustment3": "Avances tecnológicos que mejoran el protocolo original.",
+    "planAdjustment4": "Variaciones en el tiempo de curación biológica.",
+    "disputeResolution": "Resolución de Disputas",
+    "disputeIntro": "Estamos comprometidos a resolver cualquier preocupación a través del diálogo profesional.",
+    "disputeStep1": "Notifique a su coordinador de pacientes sobre cualquier problema.",
+    "disputeStep2": "Se realizará una revisión clínica formal dentro de las 48 horas.",
+    "disputeStep3": "Se propondrá una reunión de resolución con el director médico.",
+    "disputeStep4": "Nuestro objetivo es la satisfacción del paciente al 100%.",
+    "disputeStep5": "Todas las disputas se manejan bajo las leyes de protección al consumidor de Turquía.",
+    "contactInformation": "Información de Contacto",
+    "contactDescription": "Para cualquier consulta sobre reembolsos o políticas, contacte con nuestra oficina administrativa.",
+    "cancellationHours": "Horas de Cancelación",
+    "cancellationHoursTime": "Aviso mínimo de 48 horas"
+  },
+  "legal": {
+    "lastUpdated": "Última Actualización",
+    "commitmentTitle": "Nuestro Compromiso",
+    "commitmentDesc": "En FeRa Clinic, nos comprometemos a mantener los más altos estándares de excelencia clínica y protección de datos de los pacientes. Este documento describe nuestros protocolos y sus derechos como paciente en nuestras instalaciones de Estambul.",
+    "placeholderTitle": "Contenido bajo Revisión",
+    "placeholderDesc": "Nuestra documentación legal se está actualizando actualmente para reflejar las últimas regulaciones internacionales de atención médica y leyes de protección al paciente. Para consultas inmediatas sobre nuestras políticas, contacte directamente con nuestra oficina de coordinación internacional."
+  },
+  "distance": {
+    "title": "Acuerdo de Venta a Distancia",
+    "description": "Este acuerdo rige la reserva en línea de servicios dentales y protocolos de consulta en FeRa Clinic.",
+    "agreementTitle": "Condiciones del Servicio de Reserva",
+    "agreementIntro": "Al realizar una reserva a través de nuestra plataforma, usted acepta los siguientes términos y condiciones.",
+    "agreementAcceptance": "Aceptación del Acuerdo",
+    "partiesTitle": "Partes del Acuerdo",
+    "serviceProvider": "Proveedor del Servicio",
+    "companyName": "FeRa Clinic (Zeytinburnu, Estambul)",
+    "address": "Kazlıçeşme, Kennedy Cad. No:62 D:1, 34020 Zeytinburnu/Estambul",
+    "phone": "+90 536 746 01 00",
+    "email": "consultation@feraclinic.com",
+    "taxNumber": "Número de Identificación Fiscal",
+    "taxNumberDesc": "Registrado bajo las leyes de la República de Turquía.",
+    "customer": "Paciente / Cliente",
+    "fullName": "Nombre Completo",
+    "toBeProvided": "Información a proporcionar durante la reserva",
+    "subjectTitle": "Objeto del Acuerdo",
+    "subjectIntro": "Este acuerdo se refiere a la prestación de servicios de asesoramiento y reserva dental.",
+    "service1": "Consulta virtual inicial.",
+    "service2": "Planificación preliminar del tratamiento.",
+    "service3": "Coordinación de traslados y alojamiento.",
+    "service4": "Reserva de horario quirúrgico.",
+    "service5": "Asistencia de conserjería internacional.",
+    "service6": "Servicios de traducción clínica.",
+    "serviceDescriptionTitle": "Descripción del Servicio",
+    "serviceDescriptionIntro": "FeRa Clinic proporciona servicios dentales especializados y apoyo logístico para pacientes internacionales.",
+    "specificService1": "Tratamientos de implantología avanzada.",
+    "specificService2": "Odontología estética y carillas.",
+    "specificService3": "Rehabilitación oral completa.",
+    "specificService4": "Cirugía maxilofacial guiada por 3D.",
+    "specificService5": "Seguimiento postoperatorio.",
+    "serviceNote": "Los detalles finales del tratamiento se confirman después de un examen físico presencial.",
+    "paymentTermsTitle": "Términos de Pago",
+    "paymentMethod": "Método de Pago",
+    "paymentMethodDesc": "Tarjetas de crédito/débito, transferencia bancaria o pago seguro a través de iyzico.",
+    "paymentSchedule": "Calendario de Pagos",
+    "paymentSchedule1": "Depósito de reserva requerido para confirmar fechas.",
+    "paymentSchedule2": "Pagos parciales según fases del tratamiento.",
+    "paymentSchedule3": "Liquidación final antes de la finalización del tratamiento.",
+    "paymentSchedule4": "Todos los precios se cotizan en EUR o USD según se acuerde.",
+    "deliveryTermsTitle": "Términos de Prestación",
+    "deliveryTimeline": "Cronograma de Prestación",
+    "deliveryTimelineDesc": "Los servicios se prestan en las fechas programadas acordadas durante la fase de consulta.",
+    "serviceLocation": "Lugar de Prestación",
+    "serviceLocationDesc": "Las instalaciones clínicas centrales de FeRa Clinic en Estambul.",
+    "cancellationTitle": "Derecho de Desistimiento y Cancelación",
+    "cancellationIntro": "Procedimientos para cancelar o modificar su reserva de servicio.",
+    "cancellationWithdrawal": "Derecho de Desistimiento",
+    "cancellationWithdrawalDesc": "Los pacientes tienen derecho a desistir de los servicios de reserva antes de incurrir en costos de materiales.",
+    "cancellationDeposits": "Depósitos de Reserva",
+    "cancellationDepositsDesc": "Los depósitos confirman la disponibilidad de cirujanos y salas quirúrgicas.",
+    "cancellationDevices": "Servicios Digitales",
+    "cancellationDevicesDesc": "Las consultas virtuales ya realizadas no son reembolsables.",
+    "cancellationRefund": "Reembolsos por Cancelación",
+    "cancellationRefundDesc": "Sujeto a los términos de aviso de 48 horas descritos en la política de reembolso.",
+    "cancellationPolicyRef": "Consulte la Política de Entrega y Reembolso completa para más detalles.",
+    "obligationsTitle": "Obligaciones del Paciente",
+    "obligation1": "Proporcionar un historial médico preciso.",
+    "obligation2": "Asistir a las citas programadas puntualmente.",
+    "obligation3": "Seguir las instrucciones pre y postoperatorias.",
+    "obligation4": "Informar sobre cualquier medicamento actual.",
+    "obligation5": "Respetar los protocolos de seguridad de la clínica.",
+    "obligation6": "Cumplir con los términos de pago acordados.",
+    "medicalDisclaimerTitle": "Aviso Médico Legal",
+    "medicalInfoTitle": "Información Médica Importante",
+    "medicalInfo1": "Los resultados varían según la biología individual.",
+    "medicalInfo2": "Los riesgos se discuten durante la consulta presencial.",
+    "medicalInfo3": "La idoneidad se confirma mediante diagnóstico clínico.",
+    "medicalInfo4": "Los planes pueden ajustarse para la seguridad del paciente.",
+    "medicalInfo5": "Se requiere el consentimiento informado para todos los procedimientos.",
+    "confidentialityTitle": "Confidencialidad y GDPR",
+    "confidentialityDesc": "Sus datos se procesan de forma segura según las normativas internacionales de protección de datos.",
+    "governingLawTitle": "Ley Aplicable y Jurisdicción",
+    "governingLawIntro": "Este acuerdo se rige por las leyes de la República de Turquía.",
+    "disputeStep1": "Intento de resolución amistosa a través de la coordinación.",
+    "disputeStep2": "Mediación a través de autoridades locales de salud.",
+    "disputeStep3": "Tribunales y oficinas de ejecución de Estambul.",
+    "acceptanceTitle": "Declaración de Aceptación",
+    "acceptanceIntro": "Al proceder con el pago, usted confirma que:",
+    "acceptance1": "Ha leído y entendido este acuerdo.",
+    "acceptance2": "Acepta los términos de cancelación y reembolso.",
+    "acceptance3": "Proporcionará información médica veraz.",
+    "acceptance4": "Entiende que los planes de tratamiento pueden variar.",
+    "acceptance5": "Autoriza la coordinación de su viaje médico.",
+    "contactTitle": "Contacto Legal",
+    "contactDescription": "Para asuntos legales o contractuales, contacte con administration@feraclinic.com"
+  },
+  "joinUs": {
+    "hero": {
+      "subtitle": "Impulse su carrera en una clínica dental internacional premium en Estambul, donde la excelencia se une a la oportunidad.",
+      "badge": "Únase a nuestro Equipo",
+      "title": "Forme parte del Equipo de FeRa Clinic",
+      "cta": "Postularse Ahora"
+    },
+    "benefits": {
+      "team": {
+        "title": "Equipo Internacional",
+        "description": "Trabaje con profesionales dentales de todo el mundo en un entorno multicultural."
+      },
+      "modern": {
+        "title": "Clínica Moderna",
+        "description": "Instalaciones de vanguardia con la última tecnología y equipamiento dental."
+      },
+      "growth": {
+        "title": "Crecimiento Profesional",
+        "description": "Oportunidades de aprendizaje continuo y programas de desarrollo profesional."
+      },
+      "culture": {
+        "title": "Enfoque en el Paciente",
+        "description": "Sea parte de un equipo que pone el cuidado y la satisfacción del paciente por encima de todo."
+      },
+      "title": "¿Por qué unirse a FeRa Clinic?",
+      "subtitle": "Experimente las recompensas de trabajar en una clínica dental internacional líder en Estambul.",
+      "list": {
+        "professionalGrowth": "Crecimiento Profesional",
+        "internationalExposure": "Exposición Internacional",
+        "advancedTraining": "Capacitación Avanzada",
+        "competitiveCompensation": "Compensación Competitiva",
+        "modernFacilities": "Instalaciones Modernas",
+        "teamCollaboration": "Colaboración en Equipo"
+      }
+    },
+    "positions": {
+      "dentist": "Dentista",
+      "specialist": "Especialista",
+      "assistant": "Asistente Dental",
+      "technician": "Técnico Dental",
+      "coordinator": "Coordinador de Pacientes",
+      "admin": "Personal Administrativo",
+      "other": "Otro",
+      "title": "Puestos Vacantes",
+      "subtitle": "Oportunidades actuales para profesionales dentales que comparten nuestro compromiso con la excelencia.",
+      "list": {
+        "specialistDentist": "Dentista Especialista",
+        "oralSurgeon": "Cirujano Oral",
+        "dentalTechnician": "Técnico Dental",
+        "patientCoordinator": "Coordinador de Pacientes",
+        "clinicManager": "Gerente de Clínica",
+        "marketingSpecialist": "Especialista en Marketing"
+      }
+    },
+    "whyWork": {
+      "title": "Por qué trabajar con nosotros",
+      "subtitle": "Únase a un equipo donde la excelencia se une a la innovación en el corazón del distrito médico de Estambul.",
+      "benefits": {
+        "internationalTeam": "Equipo Internacional",
+        "advancedTech": "Tecnología Avanzada",
+        "careerGrowth": "Crecimiento Profesional",
+        "patientImpact": "Impacto en el Paciente",
+        "competitiveSalary": "Salario Competitivo",
+        "premiumLocation": "Ubicación Premium"
+      }
+    },
+    "application": {
+      "title": "Únase a nuestro Equipo",
+      "subtitle": "Complete el formulario a continuación y nuestro equipo de RR.HH. revisará su postulación.",
+      "success": "¡Postulación Recibida!",
+      "successDesc": "Gracias por su interés en unirse a FeRa Clinic. Nuestro equipo de RR.HH. revisará su perfil y le contactará pronto.",
+      "newApplication": "Enviar otra Postulación"
+    },
+    "form": {
+      "fullName": "Nombre Completo",
+      "fullNamePlaceholder": "Ingrese su nombre completo",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "su.correo@ejemplo.com",
+      "phone": "Número de Teléfono",
+      "phonePlaceholder": "+90 552 123 45 67",
+      "position": "Puesto al que Postula",
+      "selectPosition": "Seleccione un puesto",
+      "experience": "Experiencia Laboral",
+      "experiencePlaceholder": "Cuéntenos sobre su experiencia y por qué desea unirse a FeRa Clinic...",
+      "cvUpload": "Subir CV",
+      "cvOptional": "Opcional",
+      "dropCV": "Arrastre su CV aquí o haga clic para buscar",
+      "cvFormats": "PDF, DOC, DOCX (Máx 5MB)",
+      "submit": "Enviar Postulación",
+      "title": "Postulación Profesional",
+      "subtitle": "Dé el siguiente paso en su carrera dental. Únase a nuestro equipo internacional de especialistas.",
+      "personalInfo": "Información Personal",
+      "professionalInfo": "Información Profesional",
+      "education": "Educación y Antecedentes",
+      "availability": "Disponibilidad",
+      "motivation": "Motivación",
+      "successTitle": "Postulación Recibida",
+      "successDesc": "Gracias por su interés en unirse a FeRa Clinic. Nuestro equipo de RR.HH. revisará su perfil y le contactará en un plazo de 5 días hábiles."
+    },
+    "requirements": {
+      "title": "Requisitos",
+      "subtitle": "Buscamos profesionales cualificados que compartan nuestra visión de excelencia en el cuidado dental.",
+      "list": {
+        "education": "Educación y Certificación",
+        "experience": "Experiencia Profesional",
+        "skills": "Habilidades y Experiencia",
+        "languages": "Idiomas",
+        "documents": "Documentos Requeridos"
+      }
+    }
+  },
+  "validation": {
+    "nameRequired": "Name is required",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Please enter a valid email",
+    "phoneRequired": "Phone number is required",
+    "phoneInvalid": "Please enter a valid phone number",
+    "positionRequired": "Position is required",
+    "experienceTooLong": "Experience Too Long",
+    "treatmentRequired": "Please select a treatment",
+    "contactRequired": "Please select at least one contact method"
+  },
+  "privacy": {
+    "policyDescription": "Policy Description",
+    "tableOfContents": "Table Of Contents",
+    "aboutUsTitle": "About Us Title",
+    "privacyPolicyTitle": "Privacy Policy Title",
+    "deliveryRefundTitle": "Delivery Refund Title",
+    "distanceSalesTitle": "Distance Sales Title",
+    "termsOfServiceTitle": "Terms Of Service Title",
+    "paymentSecurityTitle": "Payment Security Title",
+    "aboutUsSection": "About Us",
+    "companyInfo": "Company Info",
+    "companyInfoTitle": "Company Info Title",
+    "companyDescription": "Company Description",
+    "clinicName": "Clinic Name",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "ourServices": "Our Services",
+    "service1": "Service1",
+    "service2": "Service2",
+    "service3": "Service3",
+    "service4": "Service4",
+    "websitePurpose": "Website Purpose",
+    "websiteDescription": "Website Description",
+    "privacySection": "Privacy Policy",
+    "dataProtection": "Data Protection",
+    "personalDataCollected": "Personal Data Collected",
+    "consultationData": "Consultation Data",
+    "dataItem1": "Data Item1",
+    "dataItem2": "Data Item2",
+    "dataItem3": "Data Item3",
+    "dataItem4": "Data Item4",
+    "dataItem5": "Data Item5",
+    "treatmentInfo": "Treatment Info",
+    "dataItem6": "Data Item6",
+    "dataItem7": "Data Item7",
+    "dataItem8": "Data Item8",
+    "dataItem9": "Data Item9",
+    "dataItem10": "Data Item10",
+    "dataProcessingPurpose": "Data Processing Purpose",
+    "purpose1": "Purpose1",
+    "purpose2": "Purpose2",
+    "purpose3": "Purpose3",
+    "purpose4": "Purpose4",
+    "dataRetention": "Data Retention",
+    "retention1": "Retention1",
+    "retention2": "Retention2",
+    "retention3": "Retention3",
+    "retention4": "Retention4",
+    "retention5": "Retention5",
+    "retention6": "Retention6",
+    "deliveryRefund": "Delivery & Refund",
+    "serviceTerms": "Service Terms",
+    "serviceNature": "Service Nature",
+    "serviceNatureDesc": "Service Nature Desc",
+    "paymentItem1": "Payment Item1",
+    "paymentItem2": "Payment Item2",
+    "paymentItem3": "Payment Item3",
+    "paymentItem4": "Payment Item4",
+    "refundPolicy": "Refund Policy",
+    "consultationCancellations": "Consultation Cancellations",
+    "refund1": "Refund1",
+    "refund2": "Refund2",
+    "refund3": "Refund3",
+    "treatmentDepositPolicy": "Treatment Deposit Policy",
+    "refund4": "Refund4",
+    "refund5": "Tratamientos Iniciados",
+    "refund6": "Costos de Terceros",
+    "refundProcess": "Proceso de Reembolso",
+    "refundProcessDesc": "Las solicitudes deben presentarse formalmente por correo electrónico.",
+    "distanceSalesAgreement": "Acuerdo de Venta a Distancia",
+    "legalAgreementDesc": "Este documento rige las transacciones en línea.",
+    "agreementParties": "Partes del Acuerdo",
+    "serviceProvider": "Proveedor de Servicios",
+    "company": "FeRa Clinic",
+    "customer": "Paciente",
+    "customerName": "Nombre del Paciente",
+    "customerNamePlaceholder": "Ingrese el nombre del paciente",
+    "customerAddress": "Dirección del Paciente",
+    "customerAddressPlaceholder": "Ingrese la dirección del paciente",
+    "customerPhone": "Teléfono del Paciente",
+    "customerPhonePlaceholder": "Ingrese el teléfono del paciente",
+    "customerEmail": "Correo del Paciente",
+    "customerEmailPlaceholder": "Ingrese el correo del paciente",
+    "serviceDescription": "Descripción del Servicio",
+    "serviceDescriptionText": "Servicios dentales y logísticos.",
+    "paymentTerms": "Términos de Pago",
+    "paymentSecure": "Pagos Seguros",
+    "supportedCards": "Tarjetas Soportadas",
+    "paymentConfirmation": "Confirmación de Pago",
+    "paymentReceipt": "Recibo de Pago",
+    "consumerRights": "Derechos del Consumidor",
+    "consumerRightsText": "Protección del Paciente",
+    "consumerRightsDesc": "Todas las disputas se resuelven de acuerdo con las leyes de protección al consumidor de Turquía.",
+    "termsOfService": "Términos de Servicio",
+    "websiteDisclaimer": "Aviso Legal del Sitio Web",
+    "websiteUsage": "Uso del Sitio Web",
+    "websiteUsage1": "Acceso y Seguridad",
+    "websiteUsage2": "Propiedad Intelectual",
+    "websiteUsage3": "Limitaciones de Uso",
+    "websiteUsage4": "Conducta del Usuario",
+    "websiteUsage5": "Enlaces Externos",
+    "medicalDisclaimer": "Aviso Médico",
+    "medicalDisclaimerText": "La información es solo para fines educativos.",
+    "limitationOfLiability": "Limitación de Responsabilidad",
+    "limitationOfLiabilityText": "FeRa Clinic no se hace responsable de las decisiones tomadas basándose únicamente en el contenido del sitio web.",
+    "paymentSecurity": "Seguridad de Pago",
+    "paymentSecurityDesc": "Infraestructura de pago segura certificada.",
+    "paymentSecurityIntegration": "Integración de Seguridad de Pago",
+    "sslEncryption": "Encriptación SSL",
+    "pciCompliant": "Cumplimiento PCI",
+    "iyzicoIntegration": "Integración con iyzico",
+    "noCardStorage": "Sin Almacenamiento de Tarjetas",
+    "fraudDetection": "Detección de Fraude",
+    "acceptedPaymentMethods": "Métodos de Pago Aceptados",
+    "visaCards": "Tarjetas Visa",
+    "mastercard": "Mastercard",
+    "troyCards": "Tarjetas Troy",
+    "iyzicoPayment": "Pago con iyzico",
+    "iyzicoDescription": "Pasarela de pago líder en Turquía.",
+    "certifiedProvider": "Proveedor Certificado",
+    "contactInformation": "Información de Contacto"
+  },
+  "terms": {
+    "termsDescription": "Descripción de Términos",
+    "termsOfServiceContent": "Contenido de los Términos de Servicio",
+    "introduction": "Introducción",
+    "acceptanceOfTerms": "Aceptación de los Términos",
+    "acceptanceDesc": "Al acceder a este sitio, usted acepta estos términos.",
+    "disagreementDesc": "Si no está de acuerdo, por favor no use el sitio.",
+    "serviceDescription": "Descripción del Servicio",
+    "healthcareServices": "Servicios de Salud",
+    "healthcareServicesDesc": "Provisión de cuidados dentales especializados.",
+    "consultationProcess": "Proceso de Consulta",
+    "consultationProcessDesc": "Protocolos para consultas virtuales y presenciales.",
+    "paymentTerms": "Términos de Pago",
+    "paymentProcessing": "Procesamiento de Pagos",
+    "paymentProcessingDesc": "Transacciones seguras a través de socios certificados.",
+    "treatmentPricing": "Precios de Tratamiento",
+    "treatmentPricingDesc": "Presupuestos personalizados basados en necesidades clínicas.",
+    "depositRequirements": "Requisitos de Depósito",
+    "depositRequirementsDesc": "Depósitos necesarios para asegurar fechas quirúrgicas.",
+    "userResponsibilities": "Responsabilidades del Usuario",
+    "responsibility1": "Información veraz",
+    "responsibility2": "Asistencia a citas",
+    "responsibility3": "Cumplimiento de pagos",
+    "responsibility4": "Respeto a las normas de la clínica",
+    "responsibility5": "Seguimiento de instrucciones médicas",
+    "medicalDisclaimer": "Aviso Médico",
+    "importantMedicalInfo": "Información Médica Importante",
+    "disclaimer1": "Resultados variables",
+    "disclaimer2": "Riesgos quirúrgicos",
+    "disclaimer3": "Importancia del diagnóstico",
+    "disclaimer4": "Consentimiento informado",
+    "cancellationAndRefunds": "Cancelaciones y Reembolsos",
+    "cancellationPolicyDesc": "Política que rige la cancelación de citas.",
+    "cancellation1": "Aviso de 48 horas",
+    "cancellation2": "Gastos administrativos",
+    "cancellation3": "Casos de no presentación",
+    "cancellation4": "Proceso de reembolso",
+    "intellectualProperty": "Propiedad Intelectual",
+    "intellectualPropertyDesc": "Todo el contenido es propiedad de FeRa Clinic.",
+    "ip1": "Marcas registradas",
+    "ip2": "Derechos de autor",
+    "ip3": "Uso de imágenes",
+    "ip4": "Restricciones de copia",
+    "limitationOfLiability": "Limitación de Responsabilidad",
+    "limitationOfLiabilityDesc": "Alcance de la responsabilidad legal de la clínica.",
+    "contactInformation": "Información de Contacto",
+    "contactQuestions": "Preguntas sobre el Contrato"
+  },
+  "treatmentProcess": {
+    "planning3D": "Planificación 3D",
+    "implantPlacement": "Colocación de Implantes",
+    "healingPhase": "Fase de Curación",
+    "finalRestoration": "Restauración Final",
+    "smileDesign": "Diseño de Sonrisa",
+    "preparation": "Preparación",
+    "placement": "Colocación",
+    "refinement": "Refinamiento",
+    "assessment": "Evaluación Inicial",
+    "planning": "Planificación del Tratamiento",
+    "aligners": "Alineadores Transparentes",
+    "monitoring": "Seguimiento",
+    "retention": "Retención"
+  },
+  "faq": {
+    "treatment": {
+      "q1": "¿Cuánto tiempo toma el tratamiento Hollywood Smile?",
+      "a1": "Consulta inicial y diseño de sonrisa 3D",
+      "q2": "¿Es cómodo el encerado provisional?",
+      "a2": "Encerado provisional para previsualizar su nueva sonrisa",
+      "q3": "¿Puedo comer y beber normalmente con la restauración temporal?",
+      "a3": "Colocación final y adhesión",
+      "q4": "¿Qué pasa si no estoy satisfecho con el resultado?",
+      "a4": "Seguimiento y ajustes"
+    }
+  },
+  "form_open": "Formulario Abierto",
+  "faq_open": "FAQ Abierto",
+  "faq_close": "FAQ Cerrado",
+  "faq_view_question": "Ver Pregunta FAQ",
+  "form_submit": "Enviar Formulario",
+  "languages": {
+    "english": "Inglés",
+    "turkish": "Turco",
+    "arabic": "Árabe",
+    "french": "Francés",
+    "russian": "Ruso",
+    "spanish": "Español"
+  },
+  "click_whatsapp": "Click WhatsApp",
+  "click_consultation": "Click Consulta",
+  "click_treatments": "Click Tratamientos",
+  "form_close": "Formulario Cerrado",
+  "form": {
+    "letUsCallYouFormType": "Formulario Llámenos",
+    "thankYou": "Gracias",
+    "weWillCallYou": "Le llamaremos",
+    "name": "Nombre",
+    "phone": "Teléfono",
+    "newRequest": "Nueva Solicitud",
+    "letUsCallYou": "Llámenos",
+    "enterPhoneForConsultation": "Ingrese su número para consulta",
+    "phoneNumber": "Número de Teléfono",
+    "phonePlaceholder": "+90 552 123 45 67",
+    "loading": "Cargando",
+    "getFreeConsultation": "Obtener Consulta Gratuita",
+    "termsAgreement": "Acuerdo de Términos",
+    "tellUsMore": "Cuéntenos más",
+    "fullName": "Nombre Completo",
+    "namePlaceholder": "Ingrese su nombre",
+    "email": "Correo Electrónico",
+    "emailPlaceholder": "su.correo@ejemplo.com",
+    "interestedTreatment": "Tratamiento de Interés",
+    "selectTreatment": "Seleccione Tratamiento",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "contactPreference": "Preferencia de Contacto",
+    "selectContactMethods": "Seleccione Métodos de Contacto",
+    "telephone": "Teléfono",
+    "sms": "SMS",
+    "completed": "Completado",
+    "submitError": "Error en el envío. Por favor, inténtelo de nuevo.",
+    "submitErrorWithWhatsApp": "Error en el envío. Intente de nuevo o use WhatsApp.",
+    "orthodontics": "Ortodoncia",
+    "smileMakeover": "Hollywood Smile",
+    "veneers": "Carillas de Porcelana"
+  },
+  "": {
+    "nav-dropdown": "Nav Dropdown"
+  },
+  "aboutTeaser": {
+    "features": [
+      {
+        "title": "Dentistas con Formación Internacional",
+        "desc": "Nuestro equipo combina experiencia clínica avanzada con precisión estética para ofrecer transformaciones de sonrisa naturales y refinadas."
+      },
+      {
+        "title": "Odontología Digital Avanzada",
+        "desc": "Utilizamos imágenes modernas, planificación digital de la sonrisa y materiales de alta calidad para lograr comodidad, precisión y resultados duraderos."
+      },
+      {
+        "title": "Experiencia Personalizada para el Paciente",
+        "desc": "Desde la consulta hasta el postoperatorio, cada paso está cuidadosamente diseñado en torno a su comodidad, expectativas y objetivos de tratamiento."
+      }
+    ],
+    "eyebrow": "Sobre FeRa Clinic",
+    "title1": "Redefiniendo",
+    "title2": "FeRa Clinic",
+    "desc": "En FeRa Clinic, combinamos la odontología moderna, la sensibilidad estética y el cuidado centrado en el paciente para crear un viaje de tratamiento que se siente tan reconfortante como efectivo.",
+    "cta": "Descubra nuestra historia",
+    "trustedCare": "Atención de Confianza",
+    "trustedCareDesc": "Una experiencia refinada para el paciente basada en un tratamiento de calidad, una comunicación clara y atención a cada detalle."
+  },
+  "treatment": {
+    "mainImageAlt": "Main Image Alt",
+    "resultAlt": "Result",
+    "detailAlt": "Detail"
+  },
+  "meta": "Meta",
+  "link": "Link",
+  "comingSoon": {
+    "hero": {
+      "badge": "Próximamente",
+      "title": "Nuevos Servicios en Camino",
+      "subtitle": "Estamos ampliando nuestros servicios para atender mejor sus necesidades dentales. Vuelva pronto para ver las novedades."
+    },
+    "services": {
+      "title": "Servicios Futuros",
+      "subtitle": "Tratamientos avanzados y atención especializada próximamente en FeRa Clinic.",
+      "list": {
+        "digitalSmileDesign": "Diseño de Sonrisa Digital",
+        "3DPrinting": "Impresión Dental 3D",
+        "laserDentistry": "Odontología Láser",
+        "sedationDentistry": "Odontología bajo Sedación"
+      }
+    },
+    "notify": {
+      "title": "Manténgase Actualizado",
+      "subtitle": "Sea el primero en conocer nuestros nuevos servicios y ofertas especiales.",
+      "email": "Ingrese su correo",
+      "emailPlaceholder": "su.correo@ejemplo.com",
+      "submit": "Notificarme",
+      "successTitle": "Notificación Configurada",
+      "successDesc": "¡Gracias! Le mantendremos informado sobre nuestros últimos servicios y ofertas exclusivas."
+    },
+    "seo": {
+      "title": "Próximamente | Futuros Servicios Dentales | FeRa Clinic Estambul",
+      "description": "Descubra los próximos servicios dentales y tratamientos avanzados en FeRa Clinic Estambul. Manténgase informado sobre nuestras últimas innovaciones."
+    }
+  },
+  "error": {
+    "title": "Página no Encontrada",
+    "subtitle": "La página que busca no existe o no está disponible temporalmente.",
+    "description": "Por favor, compruebe la URL e inténtelo de nuevo, o vuelva a nuestra página de inicio para explorar nuestros servicios.",
+    "ctaPrimary": "Ir al Inicio",
+    "ctaSecondary": "Explorar Servicios"
+  },
+  ".nav-dropdown": "Menú desplegable de navegación",
+  "medicalTourism": {
+    "hero": {
+      "eyebrow": "Portal del Paciente Internacional",
+      "title": "Capital del Turismo Médico",
+      "subtitle": "Descubra el principal destino médico de Estambul. FeRa Clinic combina la experiencia clínica de clase mundial con el lujo de un centro global, asegurando que su viaje hacia la belleza sea tan extraordinario como los resultados.",
+      "cta": "Comience su Viaje Global"
+    },
+    "blending": {
+      "title": "Fusión de Turismo y Belleza",
+      "desc": "Donde la majestuosidad histórica de Estambul se encuentra con la precisión de la estética moderna. No solo tratamos pacientes; seleccionamos una experiencia internacional que une la excelencia clínica con la inmersión cultural.",
+      "feature1": "Contexto Histórico",
+      "feature2": "Maestría Clínica"
+    },
+    "support": {
+      "title": "Disponibles para Usted 24/7",
+      "desc": "Desde el momento en que aterriza en Estambul hasta su partida final, nuestro equipo dedicado de coordinación internacional está a su lado. Brindamos comunicación fluida en su idioma preferido, asegurando que nunca se sienta como un extraño.",
+      "support1": "Coordinación Multilingüe",
+      "support2": "Asistencia en Tiempo Real"
+    },
+    "beyond": {
+      "title": "Más allá de la Belleza y el Turismo",
+      "desc": "Nuestro compromiso se extiende más allá de la sala quirúrgica. Nos enfocamos en la recuperación holística, brindando un ambiente sereno donde puede rejuvenecer su espíritu mientras transformamos su apariencia.",
+      "feature1": "Integración de Bienestar",
+      "feature2": "Atención de Conserjería"
+    },
+    "all": {
+      "title": "Turismo Médico para Todos",
+      "desc": "Estándares universales de excelencia accesibles para el mundo. Hemos diseñado nuestros protocolos para dar cabida a la diversidad internacional, haciendo de la atención médica premium una realidad para pacientes de todos los rincones del mundo.",
+      "standard": "Accesibilidad Global",
+      "diversity": "Sensibilidad Cultural"
+    },
+    "pioneer": {
+      "title": "Pionero en la Atención Médica Global",
+      "desc": "FeRa Clinic se erige como un faro de innovación médica en Turquía. Lideramos la industria con tecnología de vanguardia y un enfoque centrado en especialistas que ha redefinido el panorama del turismo médico.",
+      "innovation": "Innovación Quirúrgica",
+      "leadership": "Estándares de la Industria"
+    },
+    "standards": {
+      "title": "Estándares de Lujo",
+      "desc": "Experimente el estándar de oro de la hospitalidad médica. Nuestros hoteles asociados de 5 estrellas y servicios de transporte VIP están diseñados para proporcionar un entorno premium y sin estrés para su recuperación.",
+      "vip": "Logística VIP",
+      "luxury": "Hospitalidad de 5 Estrellas"
+    },
+    "itinerary": {
+      "title": "Su Viaje Médico",
+      "step1": "Consulta Virtual",
+      "step1Desc": "Evaluación experta y planificación digital antes de viajar.",
+      "step2": "Bienvenida VIP",
+      "step2Desc": "Traslado privado a su alojamiento de 5 estrellas.",
+      "step3": "Transformación Clínica",
+      "step3Desc": "Tratamiento de precisión en nuestras instalaciones de vanguardia.",
+      "step4": "Recuperación y Cuidado",
+      "step4Desc": "Apoyo continuo durante su proceso de curación."
+    },
+    "cta": {
+      "title": "¿Listo para su Transformación?",
+      "subtitle": "Únase a los miles de pacientes internacionales que han elegido FeRa Clinic para su viaje estético.",
+      "button": "Comience su Consulta"
+    }
+  },
+  "treatmentProcess": {
+    "implants": {
+      "step1": { "title": "Evaluación de Hueso y Mandíbula", "desc": "Diagnóstico completo por imagen 3D CBCT y evaluación clínica de la densidad ósea." },
+      "step2": { "title": "Colocación Quirúrgica del Implante", "desc": "Colocación de precisión del implante de titanio bajo anestesia local." },
+      "step3": { "title": "Curación y Osteointegración", "desc": "Fase de integración biológica donde el implante se fusiona con el hueso natural." },
+      "step4": { "title": "Colocación de Pilar y Corona", "desc": "Restauración final con una corona personalizada de porcelana o zirconio." }
+    },
+    "veneers": {
+      "step1": { "title": "Análisis de Sonrisa Digital", "desc": "Análisis fotográfico y planificación digital de sus proporciones ideales." },
+      "step2": { "title": "Preparación Mínimamente Invasiva", "desc": "Modelado preciso del esmalte para asegurar un ajuste perfecto de las carillas." },
+      "step3": { "title": "Diseño de Carillas de Precisión", "desc": "Fabricación artesanal en laboratorio de carillas ultra finas de E-Max." },
+      "step4": { "title": "Colocación Clínica y Cementado", "desc": "Colocación final y unión permanente de las carillas para una sonrisa radiante." }
+    },
+    "ortho": {
+      "step1": { "title": "Evaluación Clínica y Escaneo 3D", "desc": "Examen oral completo e impresiones digitales mediante escáner iTero." },
+      "step2": { "title": "Planificación de Tratamiento a Medida", "desc": "Simulación virtual del movimiento dental y diseño de la ruta de alineación." },
+      "step3": { "title": "Colocación de Brackets o Alineadores", "desc": "Instalación del sistema de ortodoncia o entrega de alineadores invisibles." },
+      "step4": { "title": "Seguimiento y Ajustes", "desc": "Visitas clínicas regulares para asegurar la progresión y realizar ajustes." }
+    }
+  },
+  "candidates": {
+    "implants": {
+      "item1": "Pacientes a los que les faltan uno o más dientes",
+      "item2": "Quienes buscan una alternativa permanente a las dentaduras postizas",
+      "item3": "Pacientes que requieren la preservación del hueso mandibular",
+      "item4": "Candidatos con tejidos gingivales sanos"
+    },
+    "veneers": {
+      "item1": "Pacientes con dientes descoloridos o manchados",
+      "item2": "Quienes tienen pequeñas astillas o grietas",
+      "item3": "Pacientes con espacios dentales desiguales",
+      "item4": "Individus que buscan una sonrisa de Hollywood brillante"
+    },
+    "ortho": {
+      "item1": "Pacientes con dientes apiñados o mal alineados",
+      "item2": "Personas con problemas de mordida y alineación",
+      "item3": "Quienes buscan una corrección ortodóntica discreta",
+      "item4": "Adultos y adolescentes que necesitan cerrar espacios"
     }
   }
 }

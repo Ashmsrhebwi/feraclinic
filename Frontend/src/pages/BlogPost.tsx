@@ -1,3 +1,5 @@
+import React from 'react'
+import DOMPurify from 'dompurify'
 import { useParams } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { Calendar, Clock, User, ArrowLeft, Facebook, Twitter, Linkedin, ArrowRight, ShieldCheck, Award, Users } from 'lucide-react'
@@ -9,6 +11,7 @@ import { blogPosts, getPostBySlug, BlogPost } from '../data/blog'
 import { SectionWrapper } from '../components/ui/SectionWrapper'
 import { PrimaryButton } from '../components/ui/PrimaryButton'
 import { BlogCard } from '../components/ui/BlogCard'
+import { getMedia } from '../lib/mediaResolver'
 
 export function BlogPostPage() {
   const { slug } = useParams<{ slug: string }>()
@@ -76,7 +79,7 @@ export function BlogPostPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src={post.image}
+            src={getMedia(post.imageKey || post.image)}
             alt={getTranslated(post, 'title', post.title)}
             className="w-full h-full object-cover object-center"
             style={{ animation: 'heroZoom 20s ease-in-out infinite alternate' }}
@@ -109,7 +112,8 @@ export function BlogPostPage() {
                 to="/blog"
                 className="inline-flex items-center gap-3 text-white/80 hover:text-white transition-all duration-300 group drop-shadow-md"
               >
-                <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform duration-300" />
+                <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 rtl:group-hover:translate-x-1 rtl:rotate-180 transition-transform duration-300" />
+
                 <span className="text-xs font-bold uppercase tracking-widest">{t('blog.backToBlog', 'Back to Blog')}</span>
               </Link>
             </motion.div>
@@ -153,7 +157,7 @@ export function BlogPostPage() {
               </div>
               <div className="flex items-center gap-3">
                 <User className="w-4 h-4" />
-                <span>{post.author}</span>
+                <span>{getTranslated(post, 'author', post.author)}</span>
               </div>
             </motion.div>
           </motion.div>
@@ -182,7 +186,7 @@ export function BlogPostPage() {
                 </div>
                 <div>
                   <p className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-1">{t('blog.articleBy', 'Article by')}</p>
-                  <p className="text-lg font-semibold text-[#13293D]">{post.author}</p>
+                  <p className="text-lg font-semibold text-[#13293D]">{getTranslated(post, 'author', post.author)}</p>
                 </div>
               </div>
 
@@ -216,7 +220,7 @@ export function BlogPostPage() {
             {/* Article Content with Premium Typography */}
             <div
               className="blog-content prose prose-lg max-w-none text-gray-700 leading-relaxed"
-              dangerouslySetInnerHTML={{ __html: getTranslated(post, 'content', post.content) }}
+              dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(getTranslated(post, 'content', post.content)) }}
               style={{
                 fontSize: '18px',
                 lineHeight: '1.8',
@@ -255,7 +259,7 @@ export function BlogPostPage() {
                 </div>
                 <div className="text-center sm:text-start">
                   <p className="text-xs font-bold uppercase tracking-widest text-[#13293D] mb-2">{t('blog.clinicalContributor', 'Clinical Contributor')}</p>
-                  <h3 className="text-2xl font-serif font-bold text-[#13293D] mb-4">{post.author}</h3>
+                  <h3 className="text-2xl font-serif font-bold text-[#13293D] mb-4">{getTranslated(post, 'author', post.author)}</h3>
                   <p className="text-gray-600 leading-relaxed font-light italic max-w-2xl">
                     {t('blog.authorDesc', 'Dental professional focused on evidence-based care, patient education, and treatment planning that supports both function and aesthetics.')}
                   </p>
@@ -291,8 +295,9 @@ export function BlogPostPage() {
                   whileTap={{ scale: 0.98 }}
                 >
                   <span>{t('blog.viewAll', 'View All')}</span>
-                  <ArrowRight className="w-4 h-4" />
+                  <ArrowRight className="w-4 h-4 rtl:rotate-180" />
                 </motion.button>
+
               </Link>
             </motion.div>
 

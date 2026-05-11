@@ -19,9 +19,10 @@ import { LocalizedLink as Link } from '../components/ui/LocalizedLink'
 import { Button } from '../components/ui/button'
 import { TiltCard } from '../components/ui/TiltCard'
 import { BeforeAfterSlider } from '../components/BeforeAfterSlider'
-import { useTranslation } from 'react-i18next'
 import { useSEO } from '../components/useSEO'
 import { SectionWrapper } from '../components/ui/SectionWrapper'
+import { useTranslation } from 'react-i18next'
+import { getMedia } from '../lib/mediaResolver'
 
 export function Gallery() {
   const { t } = useTranslation()
@@ -33,7 +34,9 @@ export function Gallery() {
       title: t('gallery.cases.c1.title', 'Anterior Smile Restoration'),
       category: t('gallery.cases.c1.category', 'Full Mouth Rehabilitation'),
       beforeImage: '/images/fera-clinic/before-after/case1-before.jpg',
+      beforeImageKey: 'case_1_before',
       afterImage: '/images/fera-clinic/before-after/case1-after.jpg',
+      afterImageKey: 'case_1_after',
       metrics: { results: t('gallery.cases.c1.res', 'Natural Harmony'), period: t('gallery.cases.c1.time', '3 Weeks Treatment') }
     },
     {
@@ -41,7 +44,9 @@ export function Gallery() {
       title: t('gallery.cases.c2.title', 'Dental Implant Integration'),
       category: t('gallery.cases.c2.category', 'Implant Surgery'),
       beforeImage: '/images/fera-clinic/before-after/case2-before.jpg',
+      beforeImageKey: 'case_2_before',
       afterImage: '/images/fera-clinic/before-after/case2-after.jpg',
+      afterImageKey: 'case_2_after',
       metrics: { results: t('gallery.cases.c2.res', 'Bone Integration'), period: t('gallery.cases.c2.time', '4 Months Healing') }
     },
     {
@@ -49,7 +54,9 @@ export function Gallery() {
       title: t('gallery.cases.c3.title', 'Smile Design Reconstruction'),
       category: t('gallery.cases.c3.category', 'Porcelain Veneers'),
       beforeImage: '/images/fera-clinic/before-after/case3-before.jpg',
+      beforeImageKey: 'case_3_before',
       afterImage: '/images/fera-clinic/before-after/case3-after.jpg',
+      afterImageKey: 'case_3_after',
       metrics: { results: t('gallery.cases.c3.res', 'Aesthetic Balance'), period: t('gallery.cases.c3.time', '2 Visits') }
     },
     {
@@ -57,7 +64,9 @@ export function Gallery() {
       title: t('gallery.cases.c4.title', 'Orthodontic Correction'),
       category: t('gallery.cases.c4.category', 'Clear Aligners'),
       beforeImage: '/images/fera-clinic/before-after/case4-before.jpg',
+      beforeImageKey: 'case_4_before',
       afterImage: '/images/fera-clinic/before-after/case4-after.jpg',
+      afterImageKey: 'case_4_after',
       metrics: { results: t('gallery.cases.c4.res', 'Bite Alignment'), period: t('gallery.cases.c4.time', '12 Months Treatment') }
     },
     {
@@ -65,7 +74,9 @@ export function Gallery() {
       title: t('gallery.cases.c5.title', 'Full Arch Restoration'),
       category: t('gallery.cases.c5.category', 'All-on-4 Dental Implants'),
       beforeImage: '/images/fera-clinic/before-after/case5-before.jpg',
+      beforeImageKey: 'case_5_before',
       afterImage: '/images/fera-clinic/before-after/case5-after.jpg',
+      afterImageKey: 'case_5_after',
       metrics: { results: t('gallery.cases.c5.res', 'Full Function'), period: t('gallery.cases.c5.time', '24 Hour Procedure') }
     }
   ]
@@ -75,18 +86,21 @@ export function Gallery() {
       id: 1,
       title: t('gallery.clinic.p1.title', 'Advanced Surgical Center'),
       image: '/images/fera-clinic/clinic/surgery-room.webp',
+      imageKey: 'clinic_facility_surgery',
       desc: t('gallery.clinic.p1.desc', 'Equipped with 3D CBCT imaging and international sterilization protocols for surgical precision and patient safety.')
     },
     {
       id: 2,
       title: t('gallery.clinic.p2.title', 'Patient Reception Area'),
       image: '/images/fera-clinic/clinic/reception.webp',
+      imageKey: 'clinic_facility_reception',
       desc: t('gallery.clinic.p2.desc', 'Our professional and welcoming patient reception area in Istanbul is designed to make you feel at ease from the moment you arrive.')
     },
     {
       id: 3,
       title: t('gallery.clinic.p3.title', 'Patient Lounge'),
       image: '/images/fera-clinic/clinic/waiting-area.webp',
+      imageKey: 'clinic_facility_waiting',
       desc: t('gallery.clinic.p3.desc', 'Our comfortable patient lounge in Istanbul is designed for relaxation during diagnostic and treatment phases.')
     }
   ]
@@ -108,7 +122,7 @@ export function Gallery() {
         {/* Background */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/fera-clinic/clinic/waiting-area.webp"
+            src={getMedia('clinic_facility_waiting')}
             alt={t('alt.clinicGallery', 'FeRa Clinic Gallery')}
             className="w-full h-full object-cover object-center"
             style={{ animation: 'heroZoomPan 20s ease-in-out infinite alternate' }}
@@ -217,8 +231,8 @@ export function Gallery() {
                     className="group relative bg-white rounded-[2.5rem] shadow-[0_15px_45px_rgba(11,28,45,0.06)] border border-gray-100/50 overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_25px_60px_rgba(11,28,45,0.12)]"
                   >
                     <BeforeAfterSlider
-                      beforeImage={case_.beforeImage}
-                      afterImage={case_.afterImage}
+                      beforeImage={getMedia((case_ as any).beforeImageKey || case_.beforeImage)}
+                      afterImage={getMedia((case_ as any).afterImageKey || case_.afterImage)}
                       title={case_.category}
                       alt={case_.title}
                       className="rounded-[2.5rem]"
@@ -246,7 +260,7 @@ export function Gallery() {
                   >
                     <div className="aspect-[16/9] w-full overflow-hidden relative">
                       <img
-                        src={photo.image}
+                        src={getMedia((photo as any).imageKey || photo.image)}
                         alt={photo.title}
                         className="w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
                       />

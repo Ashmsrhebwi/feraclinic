@@ -222,7 +222,7 @@ export function ChatAssistant() {
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0.95, opacity: 0, y: 20 }}
             transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
-            className="mb-4 w-80 max-h-[80vh] flex flex-col overflow-hidden rounded-2xl bg-white/95 backdrop-blur-md shadow-luxury-2xl border border-gray-100"
+            className="mb-4 w-[calc(100vw-3rem)] max-w-[320px] max-h-[80vh] flex flex-col overflow-hidden rounded-2xl bg-white/95 backdrop-blur-md shadow-luxury-2xl border border-gray-100"
           >
             {/* Header */}
             <div className="p-4 pb-2 relative shrink-0">

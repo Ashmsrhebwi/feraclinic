@@ -21,6 +21,7 @@ import { useSEO } from '../components/useSEO'
 import { SectionWrapper } from '../components/ui/SectionWrapper'
 import { PrimaryButton } from '../components/ui/PrimaryButton'
 import { SecondaryButton } from '../components/ui/SecondaryButton'
+import { getMedia } from '../lib/mediaResolver'
 
 import { blogPosts, BlogPost } from '../data/blog'
 
@@ -30,11 +31,12 @@ export function Blog() {
 
   const categories = [
     { key: 'all', label: t('blog.filters.all', 'All') },
-    { key: 'restorative', label: t('common.restorative', 'Restorative') },
-    { key: 'cosmetic', label: t('common.cosmetic', 'Cosmetic') },
-    { key: 'orthodontics', label: t('treatments.categories.orthodontics', 'Orthodontics') },
-    { key: 'dentalTourism', label: t('common.dentalTourism', 'Dental Tourism') }
+    { key: 'Dental Implants', label: t('blog.filters.implants', 'Dental Implants') },
+    { key: 'Cosmetic Dentistry', label: t('blog.filters.cosmetic', 'Cosmetic') },
+    { key: 'Orthodontics', label: t('blog.filters.orthodontics', 'Orthodontics') },
+    { key: 'Dental Tourism', label: t('blog.filters.dentalTourism', 'Dental Tourism') }
   ]
+
 
   const [selectedCategory, setSelectedCategory] = useState('all')
   const [searchTerm, setSearchTerm] = useState('')
@@ -49,9 +51,9 @@ export function Blog() {
   const filteredPosts = blogPosts.filter((post) => {
     const postTitle = getTranslated(post, 'title', post.title)
     const postExcerpt = getTranslated(post, 'excerpt', post.excerpt)
-    const postCategory = getTranslated(post, 'category', post.category)
-
+    const postCategory = post.category // Use untranslated for logic
     const matchesCategory = selectedCategory === 'all' || postCategory === selectedCategory
+
     const matchesSearch =
       postTitle.toLowerCase().includes(searchTerm.toLowerCase()) ||
       postExcerpt.toLowerCase().includes(searchTerm.toLowerCase())
@@ -74,10 +76,10 @@ export function Blog() {
         {/* Enhanced Background */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/fera-clinic/clinic/waiting-area.webp"
+            src={getMedia(featuredPosts[0]?.imageKey || featuredPosts[0]?.image || "/images/fera-clinic/clinic/waiting-area.webp")}
             alt={t('alt.clinicJournal', 'FeRa Clinic Journal')}
             className="w-full h-full object-cover object-center"
-            style={{ animation: 'heroZoom 15s ease-in-out infinite alternate' }}
+            style={{ animation: 'heroZoom 20s ease-in-out infinite alternate' }}
             loading="eager"
             fetchPriority="high"
           />
@@ -165,15 +167,16 @@ export function Blog() {
             <div className="flex flex-col items-start gap-8 lg:flex-row lg:items-center lg:justify-between">
               {/* Premium Search */}
               <div className="relative w-full max-w-md group">
-                <Search className="absolute left-5 top-1/2 h-5 w-5 -translate-y-1/2 text-[#0B1C2D]/40 group-focus-within:text-[#0B1C2D] transition-colors" />
+                <Search className="absolute start-5 top-1/2 h-5 w-5 -translate-y-1/2 text-[#0B1C2D]/40 group-focus-within:text-[#0B1C2D] transition-colors" />
                 <input
                   type="text"
                   placeholder={t('blog.searchPlaceholder', 'Search articles, topics, treatments…')}
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  className="w-full rounded-full border border-gray-100 bg-[#F8FAFC] py-4 pl-14 pr-6 text-sm text-[#0B1C2D] outline-none transition-all focus:border-[#0B1C2D]/30 focus:ring-4 focus:ring-[#0B1C2D]/5 shadow-sm"
+                  className="w-full rounded-full border border-gray-100 bg-[#F8FAFC] py-4 ps-14 pe-6 text-sm text-[#0B1C2D] outline-none transition-all focus:border-[#0B1C2D]/30 focus:ring-4 focus:ring-[#0B1C2D]/5 shadow-sm"
                 />
               </div>
+
 
               {/* Premium Category Pills */}
               <div className="flex w-full items-center gap-4 overflow-x-auto lg:w-auto pb-2 lg:pb-0 scrollbar-hide">
@@ -272,7 +275,8 @@ export function Blog() {
                         <div className="flex flex-wrap items-center gap-6 text-[11px] font-bold uppercase tracking-widest text-[#0B1C2D]/40 mb-10 pt-8 border-t border-gray-100">
                           <div className="flex items-center gap-2">
                             <User className="w-4 h-4 text-[#0B1C2D]/60" />
-                            <span>{post.author}</span>
+                            <span>{getTranslated(post, 'author', post.author)}</span>
+
                           </div>
                           <div className="flex items-center gap-2">
                             <Calendar className="w-4 h-4 text-[#0B1C2D]/60" />
@@ -291,8 +295,9 @@ export function Blog() {
                           whileTap={{ scale: 0.98 }}
                         >
                           <span>{t('common.readArticle')}</span>
-                          <ArrowRight className="w-5 h-5 group-hover:translate-x-1.5 transition-transform duration-300" />
+                          <ArrowRight className="w-5 h-5 group-hover:translate-x-1.5 rtl:group-hover:-translate-x-1.5 rtl:rotate-180 transition-transform duration-300" />
                         </motion.div>
+
                       </div>
                     </div>
                   </Link>
@@ -392,7 +397,8 @@ export function Blog() {
                             className="w-10 h-10 rounded-full bg-[#0B1C2D]/5 flex items-center justify-center text-[#0B1C2D] transition-all group-hover:bg-[#0B1C2D] group-hover:text-white"
                             whileHover={{ scale: 1.1 }}
                           >
-                            <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-0.5" />
+                            <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-0.5 rtl:group-hover:-translate-x-0.5 rtl:rotate-180" />
+
                           </motion.div>
                         </div>
                       </div>

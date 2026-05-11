@@ -3,17 +3,19 @@ import { ArrowRight } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { Button } from './button'
 import { useTranslation } from 'react-i18next'
+import { getMedia } from '../../lib/mediaResolver'
 
 interface TreatmentCardProps {
   title: string
   description: string
   image: string
+  imageKey?: string
   category?: string
   href: string
   duration?: string
 }
 
-export function TreatmentCard({ title, description, image, category, href, duration }: TreatmentCardProps) {
+export function TreatmentCard({ title, description, image, imageKey, category, href, duration }: TreatmentCardProps) {
   const { t } = useTranslation()
   return (
     <motion.div
@@ -29,7 +31,7 @@ export function TreatmentCard({ title, description, image, category, href, durat
       {/* Premium Image Container with Enhanced Hover */}
       <div className="aspect-[16/11] overflow-hidden bg-gray-50 relative">
         <img
-          src={image}
+          src={getMedia(imageKey || image)}
           alt={title}
           loading="lazy"
           decoding="async"

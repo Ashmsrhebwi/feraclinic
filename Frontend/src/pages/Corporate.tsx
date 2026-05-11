@@ -213,11 +213,21 @@ export function Corporate() {
     <>
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#0b2a5a] via-[#0B1C2D] to-[#0b2a5a]">
-          <div className="absolute inset-0 bg-black/20" />
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <img
+            src="/images/fera-clinic/Corporate/Corporate.png"
+            alt="FeRa Clinic Corporate Services"
+            className="w-full h-full object-cover"
+            style={{ objectPosition: 'center center' }}
+            loading="eager"
+            fetchPriority="high"
+          />
+          {/* Overlay — text readability without muddying the image */}
+          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/55" />
         </div>
-        
-        <div className="absolute inset-0">
+
+        <div className="absolute inset-0 z-[1]">
           <div className="absolute top-20 left-10 w-32 h-32 bg-white/5 rounded-full blur-3xl animate-pulse" />
           <div className="absolute bottom-20 right-10 w-48 h-48 bg-white/5 rounded-full blur-3xl animate-pulse delay-1000" />
           <div className="absolute top-1/2 left-1/3 w-64 h-64 bg-white/5 rounded-full blur-3xl animate-pulse delay-500" />
@@ -403,7 +413,7 @@ export function Corporate() {
                       </h3>
                       <div className="flex items-center justify-center gap-2 mb-4">
                         <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse shadow-lg shadow-green-500/50" />
-                        <span className="text-sm font-medium text-green-600">Active Partner</span>
+                        <span className="text-sm font-medium text-green-600">{t('corporate.activePartner', 'Active Partner')}</span>
                       </div>
                     </div>
                     
@@ -423,7 +433,7 @@ export function Corporate() {
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
                         </svg>
-                        <span>Available for collaboration</span>
+                        <span>{t('corporate.availableCollaboration', 'Available for collaboration')}</span>
                       </div>
                     </div>
                   </div>

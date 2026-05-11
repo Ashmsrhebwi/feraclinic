@@ -7,6 +7,7 @@ import { BrandDivider } from '../components/ui/BrandDivider'
 import { useTranslation } from 'react-i18next'
 import { useSEO } from '../components/useSEO'
 import { submitLead } from '../lib/leadService'
+import { getMedia } from '../lib/mediaResolver'
 import { HeroCard } from '../components/ui/HeroCard'
 import { SectionWrapper } from '../components/ui/SectionWrapper'
 import { PrimaryButton } from '../components/ui/PrimaryButton'
@@ -79,7 +80,7 @@ export function Consultation() {
 
       setIsSubmitted(true)
     } catch (error: any) {
-      setSubmitError(error.message || 'Submission failed. Please try again or use WhatsApp.')
+      setSubmitError(error.message || t('form.submitErrorWithWhatsApp', 'Submission failed. Please try again or use WhatsApp.'))
     } finally {
       setIsSubmitting(false)
     }
@@ -169,7 +170,7 @@ export function Consultation() {
         {/* Background Layer */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/fera-clinic/treatments/orthodontic-checkup.webp"
+            src={getMedia("consultation_main_image")}
             alt={t('alt.consultation', 'FeRa Clinic Consultation')}
             className="w-full h-full object-cover object-center"
             style={{ animation: 'heroZoomPan 20s ease-in-out infinite alternate' }}

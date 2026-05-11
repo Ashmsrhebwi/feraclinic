@@ -6,7 +6,7 @@
     "gallery": "Galeri",
     "contact": "İletişim",
     "consultation": "Konsültasyon",
-    "dentalTourism": "Diş Turizmi",
+    "dentalTourism": "Sağlık Turizmi",
     "testimonials": "Referanslar",
     "blog": "Blog",
     "joinUs": "Bize Katılın",
@@ -56,7 +56,7 @@
     "quickActions": "Hızlı İşlemler",
     "actionConsultation": "Ücretsiz Konsültasyon Al",
     "actionTreatments": "Tedavileri Gör",
-    "actionTourism": "Diş Turizmi",
+    "actionTourism": "Sağlık Turizmi",
     "actionGallery": "Önce & Sonra",
     "actionWhatsApp": "WhatsApp'ta Sohbet Et",
     "actionTeam": "Ekiple Konuş",
@@ -312,7 +312,7 @@
     "callUsNow": "Şimdi Ara",
     "phoneNumber": "+90 536 746 01 00",
     "verifiedReview": "Doğrulanmış Yorum",
-    "heroTitleMain": "Istanbul Dental Excellence,",
+    "heroTitleMain": "FeRa Clinic,",
     "heroTitleSub": "World-Class Smiles"
   },
   "treatments": {
@@ -344,9 +344,101 @@
       "comprehensive": "Kapsamlı"
     },
     "data": {
-      "testDriveHeading": "Gülüşünüzün \"Test Sürüşü\"",
-      "testDriveDesc": "Geri döndürülemez adımlardan önce, yeni gülüşünüzün geçici bir \"balm mumu\" sunarak, kendi ağzınızda dönüşümü görmenize ve hissetmenize izin veriyoruz.",
-      "gingivalDesc": "Gülüşünüzün çerçevesini mükemmelleştirin. Lazer uzmanlarımızımız, daha simetrik bir görünüm için dişleriniz ve diş etleriniz arasında dengeli oranlar yaratmak üzere \"diş etli\" gülüşleri ve düzensiz diş et çizgilerini düzeltmek için hassas diş eti konturlama kullanır."
+      "1": {
+        "title": "Diş İmplantları",
+        "desc": "Kalıcı diş replasmanı için altın standart. Cerrahi uzmanlarımız İsviçre mühendisliği titanyum implantlar ve 3D bilgisayar destekli protokoller kullanarak tam biyolojik fonksiyonu ve doğal estetiği ömür boyu klinik garanti ile geri kazandırır.",
+        "duration": "İmplant başına 1-2 saat",
+        "price": "500 €'dan başlayan fiyatlarla",
+        "heroDesc": "Gelişmiş İsviçre mühendisliği titanyum implantlar kullanarak eksik dişler için kalıcı, doğal görünümlü bir çözüm.",
+        "seo": {
+          "title": "İstanbul Diş İmplantları | FeRa Clinic",
+          "description": "İstanbul'da premium diş implantları ile gülüşünüzü geri kazanın. FeRa Klinik'te uzman cerrahlar, İsviçre üretimi implantlar ve ömür boyu garanti."
+        },
+        "features": {
+          "0": "Derece-5 biyo-uyumlu titanyum",
+          "1": "3D CBCT cerrahi planlama",
+          "2": "Anında yükleme protokolleri",
+          "3": "Bilgisayar destekli hassasiyet",
+          "4": "ISO sertifikalı sterilizasyon"
+        },
+        "benefits": {
+          "0": "Çene kemiği erimesini durdurur",
+          "1": "%100 ısırma gücünü geri kazandırır",
+          "2": "Doğal görünümlü porselen kaplama",
+          "3": "Komşu dişlerin korunması",
+          "4": "Uzun vadeli klinik stabilite"
+        }
+      },
+      "2": {
+        "title": "Hollywood Smile",
+        "desc": "İmza niteliğindeki gülüş tasarımı sürecimizle nihai estetik dönüşümü elde edin.",
+        "duration": "5-7 Gün",
+        "price": "3.500 €'dan başlayan fiyatlarla",
+        "heroDesc": "Premium Hollywood Smile tasarımımızla görünümünüzü dönüştürün. Dijital gülüş planlaması ve yüksek kaliteli E-Max porselen laminalar kullanarak, benzersiz yüz hatlarınıza göre özelleştirilmiş simetrik, ışıltılı ve doğal görünümlü bir gülüş yaratıyoruz.",
+        "seo": {
+          "title": "Hollywood Smile İstanbul | Premium Laminalar & Gülüş Tasarımı | FeRa Clinic",
+          "description": "İstanbul FeRa Klinik'te mükemmel bir Hollywood Smile'a sahip olun. Işıltılı ve doğal bir görünüm için uzman gülüş tasarımı, premium E-Max laminalar ve dijital planlama."
+        },
+        "features": {
+          "0": "Dijital Gülüş Tasarımı (DSD)",
+          "1": "E-max Lityum Disilikat",
+          "2": "Ultra ince Hazırlık",
+          "3": "Özel Şeffaflık Haritalama",
+          "4": "Diş Eti Simetrisi Hizalaması"
+        },
+        "benefits": {
+          "0": "Leke Dirençli Seramik",
+          "1": "Mükemmel Yüz Uyumu",
+          "2": "Anında Estetik Düzeltme",
+          "3": "Yüksek Dayanıklılık (15+ Yıl)",
+          "4": "Minimum Biyolojik Etki"
+        },
+        "faqs": {
+          "q1": "Hollywood Smile tedavisi ne kadar sürer?",
+          "a1": "Prosedür genellikle İstanbul'da 5 ila 7 gün sürer; bu süreye ilk konsültasyon, dijital tasarım, hazırlık ve final yapıştırma dahildir.",
+          "q2": "E-Max kaplamalar standart porselenden daha mı iyidir?",
+          "a2": "E-Max kaplamalar hem dayanıklılık hem de ışık geçirgenliği açısından üstündür, geleneksel porselene göre daha doğal bir görünüm ve daha yüksek ömür sunar.",
+          "q3": "İşlem ağrılı mıdır?",
+          "a3": "Süreç minimal invazivdir ve lokal anestezi altında gerçekleştirilir, bu da operasyon sonrası hassasiyetin çok az olduğu konforlu bir deneyim sağlar.",
+          "q4": "Yeni gülüşüm ne kadar süre dayanır?",
+          "a4": "Uygun ağız hijyeni ve düzenli diş hekimi kontrolleri ile E-Max kaplamalı bir Hollywood Smile 15 ila 20 yıl veya daha fazla dayanabilir."
+        }
+      },
+      "3": {
+        "title": "Ortodonti",
+        "desc": "Invisalign ve gelişmiş seramik braketler dahil olmak üzere kapsamlı ortodontik çözümlerimizle mükemmel diş dizilimine ulaşın.",
+        "duration": "6-18 Ay",
+        "price": "2.200 €'dan başlayan fiyatlarla",
+        "heroDesc": "Invisalign Platinum Elite ve gelişmiş seramik braketlerle karmaşık dizilim sorunlarını fark edilmeden düzeltin. Ortodonti uzmanlarımız optimum fonksiyon ve estetik için size özel tedavi yolları tasarlar.",
+        "seo": {
+          "title": "İstanbul Ortodonti & Invisalign | Diş Teli Fiyatları | FeRa Clinic",
+          "description": "FeRa Klinik'te uzman ortodonti tedavileri. Mükemmel diş dizilimi için Invisalign Platinum Elite ve seramik diş telleri. Uzmanlarımızla hayalinizdeki gülüşe kavuşun."
+        },
+        "features": {
+          "0": "Invisalign Platinum Elite",
+          "1": "iTero 3D dijital tarama",
+          "2": "Şeffaf seramik sabit braketler",
+          "3": "Hızlandırılmış hareket seçenekleri",
+          "4": "Sanal ilerleme takibi"
+        },
+        "benefits": {
+          "0": "Fark edilmeyen düzeltme",
+          "1": "Gelişmiş diş eti sağlığı",
+          "2": "Diyet kısıtlaması yok (Şeffaf plaklar)",
+          "3": "Stabil uzun vadeli sonuçlar",
+          "4": "Fonksiyonel kapanışı düzeltir"
+        },
+        "faqs": {
+          "q1": "Invisalign tedavisi ne kadar sürer?",
+          "a1": "Tedavi süresi vaka karmaşıklığına göre değişir, ancak çoğu hasta düzenli plak kullanımıyla 6 ila 18 ay içinde istediği sonuçlara ulaşır.",
+          "q2": "Seramik diş telleri gerçekten görünmez mi?",
+          "a2": "Seramik braketler diş renginde braketler ve yarı saydam teller kullanır, bu da onları geleneksel metal tellere göre çok daha az fark edilir kılarken aynı düzeltme gücünü sağlar.",
+          "q3": "Ortodontik tedavi ağrılı mıdır?",
+          "a3": "Plaklar değiştirildiğinde veya teller ayarlandığında hafif baskı veya hassasiyet hissedebilirsiniz, ancak bu durum genellikle 24-48 saat içinde geçer.",
+          "q4": "Invisalign için uygun bir aday mıyım?",
+          "a4": "Invisalign, geniş bir dizilim sorunu yelpazesi için etkilidir. Konsültasyonunuz sırasında, şeffaf plakların sizin için en iyi çözüm olup olmadığını belirlemek için 3D iTero tarama kullanıyoruz."
+        }
+      }
     },
     "implants": "Diş İmplantları",
     "veneers": "Porselen Laminalar",
@@ -594,7 +686,7 @@
       "subtitle": "Ekibimiz acil konsültasyonlar ve uluslararası hasta desteği için 7/24 hizmetinizdedir.",
       "callNow": "Şimdi Ara",
       "whatsapp": "WhatsApp Desteği",
-      "whatsappDesc": "Ekibimizle konuşun ve ücretsiz konsültasyonunuzu alın."
+      "whatsappDesc": "Anında Hasta Desteği"
     },
     "map": {
       "ctaTitle": "Kliniğimizi Ziyaret Edin",
@@ -715,8 +807,16 @@
       "patients": "Mutlu Hasta",
       "countries": "Ülke",
       "satisfaction": "Memnuniyet Oranı",
-      "rating": "Ortalama Puan"
+      "rating": "5.0/5.0"
     },
+    "medicalGoogleReviews": "Tıbbi Google Yorumları",
+    "realPatientExperiences": "Google'dan gerçek hasta deneyimleri",
+    "readAllGoogleReviews": "Tüm Google Yorumlarını Oku",
+    "writeGoogleReview": "Google Yorumu Yaz",
+    "verifiedGoogleReviews": "Doğrulanmış Google Yorumları",
+    "fiveStarExperiences": "5 Yıldızlı Hasta Deneyimleri",
+    "loadMore": "Daha Fazla Yükle",
+    "noReviews": "Yorum bulunamadı",
     "filters": {
       "all": "Tüm Tedaviler"
     },
@@ -738,7 +838,11 @@
     "heroDesc": "Uzman diş hekimleri ekibimizden kanıta dayalı makaleler. Gelişmiş tedaviler, gülüş tasarımı seçenekleri ve İstanbul'daki uluslararası hastalar için kapsamlı diş bakımı kararları.",
     "searchPlaceholder": "Makaleleri, konuları, tedavileri ara…",
     "filters": {
-      "all": "Tüm Makaleler"
+      "all": "Tüm Makaleler",
+      "implants": "Diş İmplantları",
+      "cosmetic": "Estetik Diş Hekimliği",
+      "orthodontics": "Ortodonti",
+      "dentalTourism": "Diş Turizmi"
     },
     "featuredArticles": "Öne Çıkan Klinik İçgörüler",
     "featuredDesc": "Klinik ekibimizden uzman analizleri ve çığır açan tedaviler.",
@@ -765,7 +869,63 @@
     "ctaPrimary": "Ücretsiz Konsültasyon",
     "ctaSecondary": "Galeriyi Görüntüle",
     "readArticle": "Makaleyi Oku",
-    "readMore": "Devamını Oku"
+    "readMore": "Devamını Oku",
+    "posts": {
+      "p1": {
+        "title": "Diş İmplantları İçin Kapsamlı Rehber: Bilmeniz Gereken Her Şey",
+        "excerpt": "İstanbul'da diş implantları hakkında uzman rehberi: tedavi planlaması, prosedürler, iyileşme ve uluslararası hastalar için uzun vadeli bakım.",
+        "category": "Diş İmplantları",
+        "author": "Dr. Sarah Mitchell",
+        "date": "15 Ocak 2024",
+        "readTime": "8 dk okuma",
+        "content": "<h2>Diş İmplantlarını Anlamak</h2><p>Diş implantları, yapay diş kökleri olarak görev yapmak üzere çene kemiğine cerrahi olarak yerleştirilen titanyum postlardır. Doğal dişler gibi görünen, hissedilen ve işlev gören yedek dişler için sağlam bir temel sağlarlar.</p><h2>Diş İmplantları Nasıl Çalışır?</h2><p>Osseointegrasyon adı verilen bir süreçle implant, birkaç ay içinde çene kemiğinizle kaynaşarak yeni dişleriniz için güçlü ve kalıcı bir dayanak oluşturur. Bu biyolojik bağ, implantların doğal diş kökleri gibi ısırma ve çiğneme kuvvetlerine dayanmasını sağlar.</p><h2>Diş İmplantı Yolculuğu</h2><p>İstanbul'daki FeRa Klinik'te, uluslararası hastalarımız için en iyi sonuçları sağlamak amacıyla kapsamlı bir protokol izliyoruz:</p><ol><li><strong>İlk Konsültasyon:</strong> Klinik muayene, 3D görüntüleme ve kişiselleştirilmiş tedavi planlaması</li><li><strong>Cerrahi Planlama:</strong> Dijital gülüş tasarımı ve hassas implant konumlandırma</li><li><strong>İmplant Yerleştirme:</strong> Lokal anestezi altında minimal invaziv cerrahi prosedür</li><li><strong>İyileşme Süreci:</strong> Osseointegrasyon için 3-6 ay (kişiye göre değişir)</li><li><strong>Final Restorasyon:</strong> Özel kronların, köprülerin veya protezlerin yerleştirilmesi</li></ol><h2>Diş İmplantlarının Avantajları</h2><ul><li>Doğal görünüm ve konforlu işlev</li><li>Gelişmiş konuşma ve çiğneme yeteneği</li><li>Uygun bakımla uzun vadeli çözüm</li><li>Çene kemiği ve yüz yapısının korunması</li><li>Doğru planlama ile %95'i aşan başarı oranları</li></ul><h2>Diş İmplantı İçin Uygun Bir Aday mısınız?</h2><p>İdeal adayların genel sağlık durumunun iyi olması, yeterli çene kemiği yoğunluğuna ve sağlıklı diş etlerine sahip olması gerekir. Ancak modern teknikler, kemik grefti ve alternatif yaklaşımlar sayesinde daha önce aday olmayan birçok hastaya yardımcı olmamıza olanak tanır.</p><blockquote><p><strong>Önemli Not:</strong> Bireysel sonuçlar değişebilir. Özel tedavi planınızı ve beklenen sonuçları belirlemek için kapsamlı bir klinik değerlendirme gereklidir.</p></blockquote><h2>Diş İmplantları İçin Neden İstanbul'u Seçmelisiniz?</h2><p>İstanbul, dünya standartlarında diş uzmanlığını önemli maliyet avantajlarıyla birleştirir. Kliniğimiz, önde gelen Avrupa kliniklerinde kullanılan aynı premium malzemeleri ve ileri teknolojiyi daha erişilebilir oranlarda kullanmaktadır.</p><h2>Sıradaki Adımlar</h2><p>Diş implantı yaptırmayı düşünüyorsanız, özel ihtiyaçlarınızı görüşmek ve tedavi seçeneklerinizi keşfetmek için bir konsültasyon randevusu almanızı öneririz. Uluslararası hasta ekibimiz tüm yolculuğunuzu koordine etmenize yardımcı olabilir.</p>"
+      },
+      "p2": {
+        "title": "Hollywood Gülüşünün Sırları: Ünlüler Nasıl Mükemmel Dişlere Sahip Oluyor?",
+        "excerpt": "Ünlülerin gülüşlerinin ardındaki ileri estetik diş hekimliği tekniklerini keşfedin: lamine diş (veneer), dijital gülüş tasarımı ve kişiselleştirilmiş tedavi planlaması.",
+        "category": "Estetik Diş Hekimliği",
+        "author": "Dr. Michael Chen",
+        "date": "10 Ocak 2024",
+        "readTime": "6 dk okuma",
+        "content": "<h2>Hollywood Gülüşünü Ne Oluşturur?</h2><p>Hollywood gülüşü, beyaz dişlerden daha fazlasıdır; diş şekli, rengi, hizalaması ve yüz uyumunu dengeleyen özenle tasarlanmış bir sonuçtur. FeRa Klinik'te, benzersiz özelliklerinizi tamamlayan gülüşler yaratmak için ileri dijital planlama kullanıyoruz.</p><h2>Gülüş Tasarımının Temel Bileşenleri</h2><h3>Dijital Gülüş Planlama</h3><p>Modern gülüş tasarımı, tedavi başlamadan önce potansiyel sonuçlarınızı önizlememize olanak tanıyan gelişmiş dijital araçlarla başlar. Bu, 3D görüntüleme, yüz analizi ve sanal provaları içerir.</p><h3>Porselen Laminalar (Veneers)</h3><p>Dişlerin ön yüzeyine yapıştırılan ince, özel olarak hazırlanmış porselen kabuklar. Minimum diş hazırlığı ile renk, şekil, boyut ve hizalama sorunlarını düzeltebilirler.</p><h3>Profesyonel Diş Beyazlatma</h3><p>Gülüşünüzü güvenli ve etkili bir şekilde birkaç ton açan klinik düzeyde beyazlatma sistemleri. Sonuçlar hemen görülür ve uygun bakımla uzun ömürlüdür.</p><h2>Gülüş Tasarımı Süreci</h2><p>FeRa Klinik'teki yaklaşımımız şunları içerir:</p><ol><li><strong>Kapsamlı Analiz:</strong> Yüz oranları, diş eti hattı, diş şekli ve renk değerlendirmesi</li><li><strong>Dijital Taslak:</strong> Potansiyel gülüşünüzün bilgisayar destekli önizlemesi</li><li><strong>Deneme Gülüşü:</strong> Estetik ve işlevi test etmek için geçici versiyon</li><li><strong>Final Tedavi:</strong> Mükemmel şekilde hazırlanan özel laminalar veya diğer restorasyonlar</li></ol><h2>Gülüş Tasarımı Hakkında Sıkça Sorulan Sorular</h2><h3>Laminalar ne kadar süre dayanır?</h3><p>Uygun bakımla, porselen laminalar genellikle 10-15 yıl dayanır. İyi ağız hijyeni ve düzenli diş hekimi ziyaretleri uzun ömürlülük için gereklidir.</p><h3>Süreç ağrılı mı?</h3><p>Çoğu prosedür minimum rahatsızlık içerir. Tedavi boyunca konforunuzu sağlamak için ileri teknikler ve anestezi kullanıyoruz.</p><h3>Herkes Hollywood gülüşüne sahip olabilir mi?</h3><p>Çoğu sağlıklı yetişkin adaydır. Ancak ağız sağlığınızı değerlendirmemiz ve benzersiz durumunuza göre gerçekçi beklentileri görüşmemiz gerekir.</p><blockquote><p><strong>Tıbbi Not:</strong> Sonuçlar ağız sağlığı, kemik yapısı ve kişisel alışkanlıklar dahil olmak üzere bireysel faktörlere göre değişir. Uygunluğunuzu belirlemek için kapsamlı bir konsültasyon gereklidir.</p></blockquote><h2>Yeni Gülüşünüzü Korumak</h2><ul><li>Düzenli fırçalama ve diş ipi kullanımı</li><li>Düzenli profesyonel temizlik ve kontroller</li><li>Aşırı leke yapan yiyecek ve içeceklerden kaçınma</li><li>Diş gıcırdatma varsa gece plağı kullanımı</li><li>Diş hekiminizin özel bakım talimatlarına uyma</li></ul><h2>Gülüş Tasarımınız İçin Neden FeRa Klinik?</h2><p>İstanbul'daki kliniğimiz sanatsal uzmanlığı klinik mükemmellikle birleştirir. Benzersiz güzelliğinizi artıran doğal görünümlü sonuçlar yaratmak için premium malzemeler, ileri teknoloji ve kişiselleştirilmiş yaklaşımlar kullanıyoruz.</p>"
+      },
+      "p3": {
+        "title": "Neden Diş Tedavisi İçin İstanbul? Diş Turizmi Rehberi",
+        "excerpt": "İstanbul'un neden diş turizmi için küresel bir merkez haline geldiğini keşfedin: uzman diş hekimleri, ileri teknoloji ve premium bakımda önemli maliyet tasarrufları.",
+        "category": "Diş Turizmi",
+        "author": "Dr. Elena Rodriguez",
+        "date": "5 Ocak 2024",
+        "readTime": "7 dk okuma",
+        "content": "<h2>İstanbul'un Diş Turizmindeki Yükselişi</h2><p>İstanbul, yüksek kaliteli bakımı uygun maliyetle birleştirerek diş turizmi için dünyanın en popüler destinasyonlarından biri haline geldi. FeRa Klinik'te, uluslararası hastalarımıza her adımda rehberlik ederek sorunsuz ve premium bir deneyim sunuyoruz.</p><h2>Neden İstanbul'u Seçmelisiniz?</h2><h3>Uzman Diş Hekimleri</h3><p>Türkiye'deki diş hekimleri, özellikle estetik diş hekimliği ve implantoloji alanlarında uluslararası düzeyde tanınan uzmanlığa sahip, titiz bir eğitimden geçerler.</p><h3>İleri Teknoloji</h3><p>İstanbul'daki en iyi klinikler, 3D CBCT görüntüleme, dijital gülüş tasarımı ve CAD/CAM teknolojisi dahil olmak üzere en son diş teknolojileriyle donatılmıştır.</p><h3>Maliyet Tasarrufu</h3><p>Hastalar, kaliteden ödün vermeden Avrupa veya Amerika'daki fiyatlara kıyasla %50 ila %70 arasında tasarruf edebilirler. Bu maliyet farkı, düşük işletme giderlerinden kaynaklanır, malzeme kalitesinden değil.</p><h2>FeRa Klinik Deneyimi</h2><p>Uluslararası hastalarımız için kapsamlı bir destek sunuyoruz:</p><ul><li><strong>VIP Transferler:</strong> Havalimanı, otel ve klinik arasındaki tüm ulaşımınız tarafımızca sağlanır.</li><li><strong>Konaklama:</strong> Dinlenmeniz için özenle seçilmiş 5 yıldızlı otellerle ortaklıklarımız bulunmaktadır.</li><li><strong>Dil Desteği:</strong> Kendi dilinizde iletişim kurabilmeniz için çok dilli koordinatörlerimiz size eşlik eder.</li><li><strong>Şeffaf Planlama:</strong> Tedavi süreciniz ve maliyetleriniz İstanbul'a gelmeden önce net bir şekilde planlanır.</li></ul><h2>Seyahatinizi Planlama</h2><ol><li><strong>Online Konsültasyon:</strong> Fotoğraflarınızı ve röntgenlerinizi göndererek ilk değerlendirmeyi alın.</li><li><strong>Tedavi Planı:</strong> Süre, maliyet ve beklenen sonuçlar hakkında detaylı bilgi alın.</li><li><strong>Seyahat Düzenlemesi:</strong> Uçuşunuzu onaylayın, gerisini biz halledelim.</li><li><strong>Tedavi ve Keşif:</strong> Tedavinizi alırken İstanbul'un tarihi ve kültürel güzelliklerini keşfedin.</li></ol><h2>Tedavi Sonrası Bakım</h2><p>Bakımınız klinikten ayrıldığınızda bitmez. Evinize döndüğünüzde de iyileşme sürecinizi takip etmek için dijital kanallarımız üzerinden sizinle iletişimde kalmaya devam ediyoruz.</p><blockquote><p><strong>Seyahat İpucu:</strong> Çoğu diş tedavisi (implantlar, laminalar) 5-7 günlük bir konaklama gerektirir. Bu süre, hem tedavi hem de İstanbul'un tadını çıkarmak için idealdir.</p></blockquote><h2>Güven ve Güvenlik</h2><p>FeRa Klinik olarak uluslararası sterilizasyon standartlarına ve hasta haklarına sıkı sıkıya bağlıyız. Kullandığımız tüm materyaller uluslararası sertifikalı ve garantilidir.</p>"
+      },
+      "p4": {
+        "title": "Zirkonyum Kronlar ve E-max: Sizin İçin Hangi Restorasyon Doğru?",
+        "excerpt": "Zirkonyum ve E-max diş restorasyonları arasındaki farkları anlayın: dayanıklılık, estetik ve gülüş dönüşümünüz için en iyi seçim.",
+        "category": "Estetik Diş Hekimliği",
+        "author": "Dr. Ahmed Hassan",
+        "date": "28 Aralık 2023",
+        "readTime": "5 dk okuma",
+        "content": "<h2>Zirkonyum ve E-max'e Giriş</h2><p>Modern diş hekimliği, doğal dişlerin görünümünü ve işlevini taklit eden olağanüstü malzemeler sunar. Zirkonyum ve E-max, bugün mevcut olan en popüler ve etkili iki restorasyon seçeneğidir. FeRa Klinik'te, her ikisi için de en iyi sonuçları sağlamak için ileri CAD/CAM teknolojisi kullanıyoruz.</p><h2>Zirkonyum Kronlar: Güç ve Dayanıklılık</h2><p>Zirkonyum, olağanüstü gücü ve dayanıklılığı ile bilinen kristal bir malzemedir. Çiğneme kuvvetlerine karşı son derece dirençlidir, bu da onu özellikle arka dişler (azı dişleri) için ideal hale getirir.</p><h3>Zirkonyumun Avantajları:</h3><ul><li>İnanılmaz derecede güçlü ve kırılmaya dayanıklı</li><li>Biyouyumlu (diş etlerine zarar vermez)</li><li>Doğal diş rengine yakın estetik</li><li>Metal içermez (gri çizgiler oluşmaz)</li><li>Uzun ömürlü restorasyonlar</li></ul><h2>E-max Kronlar: Üstün Estetik</h2><p>E-max (Lityum Disilikat), benzersiz ışık geçirgenliği ve estetik nitelikleri ile tanınan bir cam seramiktir. Doğal diş minesine en yakın görünümü sunar, bu da onu ön diş restorasyonları için mükemmel bir seçenek haline getirir.</p><h3>E-max'in Avantajları:</h3><ul><li>En üst düzey doğal estetik ve ışık geçirgenliği</li><li>Diş minesini mükemmel şekilde taklit eder</li><li>Ön dişler için ideal</li><li>Yüksek direnç ve dayanıklılık</li><li>Minimum diş hazırlığı gerektirir</li></ul><h2>Hangisini Seçmelisiniz?</h2><p>Seçim genellikle restorasyonun konumuna ve özel ihtiyaçlarınıza bağlıdır:</p><ul><li><strong>Arka Dişler için:</strong> Genellikle gücü nedeniyle Zirkonyum önerilir.</li><li><strong>Ön Dişler için:</strong> Genellikle üstün estetiği nedeniyle E-max tercih edilir.</li><li><strong>Köprüler için:</strong> Uzun köprülerde genellikle Zirkonyum'un gücü gereklidir.</li></ul><h2>FeRa Klinik'te CAD/CAM Teknolojisi</h2><p>Hem Zirkonyum ve E-max restorasyonlarımız, mükemmel uyum ve estetik için bilgisayar destekli tasarım ve üretim (CAD/CAM) kullanılarak hazırlanır. Bu teknoloji, hata payını ortadan kaldırır ve tedaviyi hızlandırır.</p><h2>Bakım ve Uzun Ömür</h2><p>Her iki malzeme de uygun bakımla uzun yıllar dayanır:</p><ul><li>Doğru fırçalama ve diş ipi kullanımı</li><li>Sert nesneleri ısırmaktan kaçınma</li><li>Düzenli diş hekimi kontrolleri</li><li>Gece diş gıcırdatma varsa koruyucu plak kullanımı</li></ul><blockquote><p><strong>Klinik Tavsiyesi:</strong> En iyi seçim, ağız yapınızın, ısırma kuvvetlerinizin ve estetik hedeflerinizin kapsamlı bir değerlendirmesinden sonra yapılır. Uzmanlarımız sizin için en uygun materyali belirleyecektir.</p></blockquote><h2>Özet</h2><p>İster Zirkonyum'un gücüne ister E-max'in estetiğine ihtiyacınız olsun, FeRa Klinik olarak en kaliteli malzemeleri ve en son teknolojiyi kullanarak size ömür boyu kullanabileceğiniz bir gülüş sunuyoruz.</p>"
+      },
+      "p5": {
+        "title": "Diş Beyazlatma Hakkında Gerçekler: Mitler ve Gerçekler",
+        "excerpt": "Profesyonel diş beyazlatma hakkındaki gerçekleri efsanelerden ayırın: güvenlik, etkinlik ve daha parlak bir gülüş için gerçekten neyin işe yaradığı.",
+        "category": "Estetik Diş Hekimliği",
+        "author": "Dr. Lisa Park",
+        "date": "20 Aralık 2023",
+        "readTime": "5 dk okuma",
+        "content": "<h2>Profesyonel Diş Beyazlatmayı Anlamak</h2><p>Diş beyazlatma, en popüler estetik diş prosedürlerinden biridir, ancak birçok yanlış anlama ile çevrilidir. Daha parlak, daha beyaz bir gülüşe güvenli ve etkili bir şekilde ulaşmak hakkındaki efsaneleri gerçeklerden ayıralım.</p><h2>Diş Beyazlatma Hakkında Yaygın Mitler</h2><h3>Mit #1: Beyazlatma Diş Minesine Zarar Verir</h3><p><strong>Gerçek:</strong> Kalifiye diş profesyonelleri tarafından uygulanan, onaylı konsantrasyonlardaki karbamid peroksit veya hidrojen peroksit kullanan profesyonel beyazlatma prosedürleri diş minesi için güvenlidir. Aktif bileşenler, diş yapısına zarar vermeden lekeleri parçalamak için mineye nüfuz eder.</p><h3>Mit #2: Tüm Beyazlatma Ürünleri Aynıdır</h3><p><strong>Gerçek:</strong> Reçetesiz satılan ürünler ile profesyonel tedaviler arasında önemli bir fark vardır. Klinik beyazlatma sistemleri daha yüksek konsantrasyonlarda aktif bileşenler kullanır ve daha iyi sonuçlar ve güvenlik için kontrollü koşullar altında uygulanır.</p><h3>Mit #3: Sonuçlar Kalıcıdır</h3><p><strong>Gerçek:</strong> Diş beyazlatma sonuçları uzun ömürlüdür ancak kalıcı değildir. Süre; alışkanlıklarınıza, diyetinize ve ağız hijyeninize bağlıdır. Profesyonel tedaviler tipik olarak uygun bakımla 1-3 yıl sürer.</p><h3>Mit #4: Beyazlatma Tüm Dişlerde İşe Yarar</h3><p><strong>Gerçek:</strong> Beyazlatma en çok doğal dişlerde etkilidir. Kron, lamina veya dolgu gibi diş restorasyonlarında işe yaramaz. Ayrıca, belirli renk değişikliği türleri (tetrasiklin lekeleri gibi) alternatif tedaviler gerektirebilir.</p><h2>Profesyonel Beyazlatma Seçenekleri</h2><h3>Ofis Tipi Beyazlatma</h3><p>Klinik beyazlatma prosedürleri tipik olarak şunları içerir:</p><ul><li>Profesyonel temizlik ve muayene</li><li>Diş etleri ve yumuşak dokular için koruyucu bariyer</li><li>Profesyonel güçte beyazlatma jeli uygulaması</li><li>Gelişmiş sonuçlar için LED veya lazer ışık aktivasyonu</li><li>Tek ziyarette birden fazla 15-20 dakikalık seans</li><li>3-8 ton arası anında beyazlama</li></ul><h3>Özel Ev Tipi Kitler</h3><p>Profesyonel ev tipi beyazlatma şunları içerir:</p><ul><li>Hassas uygulama için kişiye özel hazırlanan plaklar</li><li>Profesyonel düzeyde beyazlatma jeli</li><li>2-4 hafta boyunca denetimli tedavi</li><li>Kademeli, kontrollü beyazlatma süreci</li><li>Mükemmel bir bakım seçeneği</li></ul><h2>Beyazlatma İçin Kimler İyi Bir Adaydır?</h2><p>İdeal adaylar şunlara sahip olmalıdır:</p><ul><li>Genel ağız sağlığının iyi olması</li><li>Aktif diş eti hastalığı veya çürük olmaması</li><li>Parlatılması gereken doğal dişler</li><li>Sonuçlar hakkında gerçekçi beklentiler</li><li>Doğru ağız hijyenine bağlılık</li></ul><h2>Potansiyel Yan Etkiler</h2><p>Genellikle güvenli olsa da, some patients may experience:</p><ul><li>Geçici diş hassasiyeti (genellikle günler içinde geçer)</li><li>Hafif diş eti tahrişi (uygun bariyerlerle önlenir)</li><li>Dengesiz sonuçlar (uygun teknikle giderilir)</li></ul><blockquote><p><strong>Tıbbi Not:</strong> Bireysel sonuçlar doğal diş rengine, lekelenme nedenlerine ve kişisel alışkanlıklara göre değişir. Beyazlatma için uygun bir aday olup olmadığınızı belirlemek için bir diş muayenesi gereklidir.</p></blockquote><h2>Beyazlatılmış Gülüşünüzü Korumak</h2><ul><li>Doğru fırçalama ve diş ipi ile mükemmel ağız hijyeni sağlayın</li><li>Leke yapan yiyecek ve içeceklerden (kahve, çay, kırmızı şarap) kaçının</li><li>Mümkünse koyu renkli içecekler için pipet kullanın</li><li>Sigara veya tütün kullanımını bırakın</li><li>Düzenli diş temizliği randevuları planlayın</li><li>Önerilen şekilde rötuş tedavilerini düşünün</li></ul><h2>Neden Profesyonel Beyazlatmayı Seçmelisiniz?</h2><p>Profesyonel beyazlatma şunları sunar:</p><ul><li>Güvenlik ve etkinlik için denetimli tedavi</li><li>Özel ihtiyaçlarınız için özelleştirilmiş yaklaşım</li><li>Daha güçlü, daha etkili formülasyonlar</li><li>Anında, çarpıcı sonuçlar</li><li>Profesyonel rehberlik ve destek</li></ul>"
+      },
+      "p6": {
+        "title": "All-on-4 İmplantlar: Tam Çene Restorasyonu İçin Çözüm",
+        "excerpt": "Tam gülüş restorasyonu için devrim niteliğindeki All-on-4 implant tekniği: daha az implant, anında işlev ve uygun maliyetli tam çene değişimi.",
+        "category": "Diş İmplantları",
+        "author": "Dr. Robert Johnson",
+        "date": "15 Aralık 2023",
+        "readTime": "9 dk okuma",
+        "content": "<h2>All-on-4 İmplantlarını Anlamak</h2><p>All-on-4, sadece dört adet stratejik olarak yerleştirilmiş implant kullanarak tam bir diş arkının restore edilmesini sağlayan yenilikçi bir diş implantı tekniğidir. Bu devrim niteliğindeki yaklaşım, anında işlev ve önemli maliyet avantajları sunarak tam ağız rekonstrüksiyonunu dönüştürmüştür.</p><h2>All-on-4 Nasıl Çalışır?</h2><p>All-on-4 tekniği, dört adet diş implantının belirli pozisyonlara yerleştirilmesini içerir:</p><ul><li><strong>İki ön implant:</strong> Çenenin ön kısmına dikey olarak yerleştirilir</li><li><strong>İki arka implant:</strong> Çenenin arka kısmına açılı olarak (45°'ye kadar) yerleştirilir</li></ul><p>Bu açılı yerleştirme, mevcut kemik supportsunu maksimize eder ve tam ark protezinin anında yüklenmesine olanak tanır.</p><h2>All-on-4 Tedavisinin Avantajları</h2><h3>Anında İşlev</h3><p>İyileşme için aylar gerektiren geleneksel implant tedavilerinin aksine, All-on-4 genellikle geçici bir protezin anında yerleştirilmesine olanak tanır. Klinikten aynı gün fonksiyonel dişlerle ayrılabilirsiniz.</p><h3>Maliyet Etkinliği</h3><p>Tam bir ark için 6-8 yerine sadece dört implant kullanarak All-on-4, mükemmel stabilite ve işlevi korurken toplam maliyeti önemli ölçüde azaltır.</p><h3>Kemik Greftinden Kaçınma</h3><p>Açılı yerleştirme stratejisi, orta derecede kemik kaybı olan durumlarda bile genellikle kemik grefti prosedürlerine olan ihtiyacı ortadan kaldırarak tedaviyi daha fazla hasta için erişilebilir hale getirir.</p><h3>Yüksek Başarı Oranları</h3><p>All-on-4 prosedürleri, 10 yıl üzerinden %95'i aşan belgelenmiş başarı oranlarına sahiptir, bu da onları güvenilir bir uzun vadeli çözüm haline getirir.</p><h2>All-on-4 Tedavi Süreci</h2><h3>Aşama 1: Planlama ve Hazırlık</h3><ul><li>Kapsamlı ağız muayenesi ve görüntüleme</li><li>Hassas implant planlaması için 3D CBCT taramaları</li><li>Dijital gülüş tasarımı ve protez planlaması</li><li>Tıbbi geçmiş incelemesi</li></ul><h3>Aşama 2: Cerrahi Prosedür</h3><ul><li>Kalan dişlerin çekilmesi (gerekirse)</li><li>Stratejik olarak konumlandırılmış dört implantın yerleştirilmesi</li><li>Geçici protezin anında takılması</li><li>Aynı gün fonksiyonel dişlerle taburcu olma</li></ul><h3>Aşama 3: İyileşme ve Kaynaşma</h3><ul><li>Osseointegrasyon için 3-6 ay</li><li>Düzenli takip randevuları</li><li>Gerektiğinde geçici protez ayarlamaları</li><li>Ağız hijyeni eğitimi ve bakımı</li></ul><h3>Aşama 4: Final Protezi</h3><ul><li>Kalıcı zirkonyum veya hibrit protezin üretilmesi</li><li>Final yerleştirme ve ısırma ayarı</li><li>Uzun vadeli bakım planlaması</li></ul><h2>Kimler All-on-4 İçin Adaydır?</h2><p>İdeal adaylar şunları içerir:</p><ul><li>Birden fazla eksik veya sallanan dişi olan hastalar</li><li>Rahatsız takma diş kullananlar</li><li>Ciddi diş çürüğü veya diş eti hastalığı olan kişiler</li><li>Kalıcı, sabit bir çözüm arayan hastalar</li><li>Cerrahi için yeterli genel sağlığa sahip olanlar</li></ul><h2>All-on-4 vs. Geleneksel Takma Dişler</h2><p>All-on-4'ün geleneksel takma dişlere göre temel avantajları:</p><ul><li>Sabit çözüm - çıkarma gerektirmez</li><li>Üstün çiğneme verimliliği ve ısırma kuvveti</li><li>Çene kemiği ve yüz yapısının korunması</li><li>Gelişmiş konuşma ve özgüven</li><li>Damak kaplaması yok - daha iyi tat alma duyusu</li><li>Uzun vadeli dayanıklılık ve stabilite</li></ul><blockquote><p><strong>Önemli:</strong> All-on-4 kapsamlı planlama gerektiren karmaşık bir cerrahi prosedürdür. Bireysel sonuçlar değişir ve herkes aday değildir. Uygunluğu belirlemek için kapsamlı bir değerlendirme şarttır.</p></blockquote><h2>Uzun Vadeli Bakım</h2><p>Uzun ömürlülük için uygun bakım çok önemlidir:</p><ul><li>Özel fırçalar ve diş ipi ile günlük temizlik</li><li>Her 3-6 ayda bir düzenli profesyonel temizlik</li><li>Başlangıçta sert veya yapışkan yiyeceklerden kaçınma</li><li>Yıllık kontroller ve protez değerlendirmesi</li><li>Herhangi bir sorun veya rahatsızlıkta anında müdahale</li></ul><h2>Neden İstanbul'da All-on-4 Düşünülmeli?</h2><p>İstanbul, önemli ölçüde azaltılmış maliyetlerle dünya standartlarında implantoloji sunar. Kliniğimiz, önde gelen Avrupa klinikleriyle aynı premium implant sistemlerini ve tekniklerini kullanarak All-on-4 tedavisini daha fazla hasta için erişilebilir kılmaktadır.</p>"
+      }
+    }
   },
   "footer": {
     "brandSubtitle": "Seçkin Diş Sağlığı · İstanbul",
@@ -1500,5 +1660,203 @@
   },
   "newsletter": {
     "error": "Bülten aboneliğinde bir hata oluştu"
+  },
+  "medicalTourism": {
+    "hero": {
+      "eyebrow": "Uluslararası Hasta Geçidi",
+      "title": "Sağlık Turizminin Başkenti",
+      "subtitle": "İstanbul'un öncü sağlık destinasyonunu keşfedin. FeRa Klinik, dünya standartlarında klinik uzmanlığı küresel bir merkezin lüksüyle birleştirerek, güzelliğe giden yolculuğunuzun sonuçlar kadar olağanüstü olmasını sağlar.",
+      "cta": "Küresel Yolculuğunuza Başlayın"
+    },
+    "blending": {
+      "title": "Turizm ve Güzelliğin Harmanı",
+      "desc": "İstanbul'un tarihi görkeminin modern estetiğin hassasiyetiyle buluştuğu yer. Sadece hastaları tedavi etmiyoruz; klinik mükemmelliği kültürel daldırma ile birleştiren uluslararası bir deneyim sunuyoruz.",
+      "feature1": "Tarihi Bağlam",
+      "feature2": "Klinik Ustalık"
+    },
+    "support": {
+      "title": "7/24 Yanınızdayız",
+      "desc": "İstanbul'a ayak bastığınız andan son ayrılışınıza kadar, özel uluslararası koordinasyon ekibimiz yanınızda. Tercih ettiğiniz dilde kesintisiz iletişim sağlayarak kendinizi asla yabancı hissetmemenizi sağlıyoruz.",
+      "support1": "Çok Dilli Koordinasyon",
+      "support2": "Gerçek Zamanlı Destek"
+    },
+    "beyond": {
+      "title": "Güzellik ve Turizmin Ötesinde",
+      "desc": "Taahhüdümüz cerrahi süitin ötesine geçer. Biz bütünsel iyileşmeye odaklanıyoruz; görünümünüzü dönüştürürken ruhunuzu canlandırabileceğiniz huzurlu bir ortam sağlıyoruz.",
+      "feature1": "Wellness Entegrasyonu",
+      "feature2": "Concierge Bakımı"
+    },
+    "all": {
+      "title": "Herkes İçin Sağlık Turizmi",
+      "desc": "Dünya için erişilebilir evrensel mükemmellik standartları. Protokollerimizi uluslararası çeşitliliğe uyum sağlayacak şekilde tasarladık ve premium sağlık hizmetini dünyanın her köşesinden gelen hastalar için bir gerçeklik haline getirdik.",
+      "standard": "Küresel Erişilebilirlik",
+      "diversity": "Kültürel Duyarlılık"
+    },
+    "pioneer": {
+      "title": "Küresel Sağlık Hizmetlerinde Bir Öncü",
+      "desc": "FeRa Klinik, Türkiye'de tıbbi inovasyonun bir feneri olarak duruyor. Sektöre son teknoloji ve sağlık turizmi ortamını yeniden tanımlayan uzman öncelikli bir yaklaşımla liderlik ediyoruz.",
+      "innovation": "Cerrahi İnovasyon",
+      "leadership": "Sektör Standartları"
+    },
+    "standards": {
+      "title": "Lüks Standartlar",
+      "desc": "Sağlık misafirperverliğinin altın standardını deneyimleyin. 5 yıldızlı ortak otellerimiz ve VIP ulaşım hizmetlerimiz, iyileşmeniz için stressiz, premium bir ortam sağlamak üzere tasarlanmıştır.",
+      "vip": "VIP Lojistik",
+      "luxury": "5 Yıldızlı Misafirperverlik"
+    },
+    "itinerary": {
+      "title": "Sağlık Yolculuğunuz",
+      "step1": "Sanal Konsültasyon",
+      "step1Desc": "Seyahat etmeden önce uzman değerlendirmesi ve dijital planlama.",
+      "step2": "VIP Karşılama",
+      "step2Desc": "5 yıldızlı konaklamanıza özel transfer.",
+      "step3": "Klinik Dönüşüm",
+      "step3Desc": "Son teknoloji tesisimizde hassas tedavi.",
+      "step4": "İyileşme ve Bakım",
+      "step4Desc": "İyileşme yolculuğunuz boyunca sürekli destek."
+    },
+    "cta": {
+      "title": "Dönüşümünüz İçin Hazır mısınız?",
+      "subtitle": "Estetik yolculukları için FeRa Klinik'i seçen binlerce uluslararası hastaya katılın.",
+      "button": "Konsültasyonunuza Başlayın"
+    }
+  },
+  "privacyProtocols": {
+    "pageTitle": "Gizlilik Protokolleri",
+    "pageSubtitle": "FeRa Clinic için yasal uyum, ödeme güvenliği ve şirket bilgileri",
+    "lastUpdated": "Son Güncelleme",
+    "backHome": "Ana Sayfaya Dön",
+    "tocTitle": "İçindekiler",
+    "aboutTitle": "Hakkımızda",
+    "aboutSubtitle": "Şirket ve Klinik Bilgileri",
+    "aboutDesc": "FeRa Clinic, İstanbul, Türkiye'de faaliyet gösteren premium bir diş kliniğidir. Yerel ve uluslararası hastalara diş implantları, Hollywood Gülüşü, porselen laminalar, ortodonti ve tam ağız restorasyonu gibi dünya standartlarında diş tedavileri sunmaktadır.",
+    "companyInfoTitle": "Şirket Bilgileri",
+    "clinicName": "Klinik Adı",
+    "taxNumber": "Vergi Numarası",
+    "tradeRegistry": "Ticaret Sicil No",
+    "address": "Kayıtlı Adres",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "website": "Web Sitesi",
+    "servicesTitle": "Hizmetlerimiz",
+    "service1": "Diş İmplantları ve Ağız Cerrahisi",
+    "service2": "Hollywood Gülüşü ve Estetik Diş Hekimliği",
+    "service3": "Ortodonti ve Şeffaf Plaklar",
+    "service4": "Tam Ağız Restorasyonu",
+    "service5": "Klinik Diş Beyazlatma ve Koruyucu Bakım",
+    "sslTitle": "SSL ve Güvenli Ödeme Bildirimi",
+    "sslSubtitle": "256-bit SSL Şifreli İşlemler",
+    "sslDesc": "Web sitemizde gerçekleştirilen tüm ödeme işlemleri, 256-bit SSL şifreli bağlantı üzerinden işlenmektedir. Kart bilgileriniz hiçbir zaman sunucularımızda depolanmamaktadır.",
+    "sslPoints": "Ödeme altyapımız PCI-DSS uyumludur. Tüm işlemler, Türkiye'de lisanslı ve denetlenen bir ödeme hizmet sağlayıcısı olan iyzico aracılığıyla işlenmektedir. Kredi/banka kartı verilerini doğrudan depolamaz veya işlemeyiz.",
+    "deliveryTitle": "Teslimat ve İade Politikası",
+    "deliverySubtitle": "Hizmet Koşulları ve İptal Politikası",
+    "serviceNatureTitle": "Hizmet Niteliği",
+    "serviceNatureDesc": "FeRa Clinic medikal ve diş hekimliği hizmetleri sunmaktadır. Hizmetlerimiz İstanbul kliniğimizde yüz yüze sunulduğundan, standart fiziksel ürün teslimat politikaları uygulanmamaktadır. Aşağıdaki koşullar randevular, konsültasyonlar ve tedavi depozitolarını kapsamaktadır:",
+    "cancellationTitle": "Randevu İptali",
+    "cancellation1": "Randevudan 48+ saat önce yapılan iptaller: Ödenen depozitanın tamamı iade edilir.",
+    "cancellation2": "24–48 saat içinde yapılan iptaller: Depozitanın %50'si alıkonulabilir.",
+    "cancellation3": "Gelmeme veya aynı gün iptaller: Depozita iade edilmeyebilir.",
+    "refundTitle": "İade Koşulları",
+    "refund1": "İade talepleri 5 iş günü içinde incelenir.",
+    "refund2": "Onaylanan iadeler, orijinal ödeme yöntemine 7–14 iş günü içinde iade edilir.",
+    "refund3": "Sorgular için iletişim: consultation@feraclinic.com",
+    "privacyTitle": "Gizlilik Politikası",
+    "privacySubtitle": "Veri Toplama ve Koruma",
+    "dataCollectedTitle": "Topladığımız Veriler",
+    "dataCollected1": "Ad, soyad, e-posta adresi, telefon numarası",
+    "dataCollected2": "Tedavi talepleri ve tıbbi geçmiş (sağlandığı durumlarda)",
+    "dataCollected3": "Cihaz, tarayıcı ve kullanım bilgileri (analitik)",
+    "dataPurposeTitle": "Veri Kullanım Amacı",
+    "dataPurpose1": "Konsültasyon ve tedavi taleplerine yanıt vermek",
+    "dataPurpose2": "Randevuları planlamak ve koordine etmek",
+    "dataPurpose3": "Türk sağlık mevzuatına uymak",
+    "dataPurpose4": "Web sitemizi ve hizmet kalitemizi geliştirmek",
+    "dataRetentionTitle": "Veri Saklama",
+    "dataRetention1": "Hasta kayıtları Türk hukukunun gerektirdiği süre boyunca saklanır (tıbbi kayıtlar için en az 10 yıl)",
+    "dataRetention2": "İletişim talep verileri en fazla 3 yıl süreyle saklanır",
+    "dataRetention3": "Tıbbi olmayan verilerinizin silinmesini her zaman talep edebilirsiniz",
+    "kvkkNotice": "Kişisel verileriniz, 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) kapsamında işlenmektedir.",
+    "distanceTitle": "Mesafeli Satış Sözleşmesi",
+    "distanceSubtitle": "Hukuki Sözleşme — Hizmet Sağlayıcı ve Müşteri",
+    "sellerTitle": "Satıcı (Hizmet Sağlayıcı)",
+    "buyerTitle": "Alıcı (Hasta / Müşteri)",
+    "buyerPlaceholder": "Rezervasyon sırasında tamamlanır",
+    "serviceDescTitle": "Konu ve Hizmet Açıklaması",
+    "serviceDescText": "Bu sözleşme, FeRa Clinic web sitesi üzerinden rezerve edilen diş ve tıbbi hizmetleri kapsamaktadır. Hizmet, randevu onayı ve gerekli depozitanın ödenmesiyle başlar.",
+    "paymentTermsTitle": "Ödeme Koşulları",
+    "paymentTerms1": "Ödemeler iyzico aracılığıyla güvenli şekilde işlenmektedir.",
+    "paymentTerms2": "Kabul edilen kartlar: Visa, Mastercard, Troy.",
+    "paymentTerms3": "Ödeme onayı işlem hemen ardından e-posta ile gönderilir.",
+    "paymentTerms4": "Banka ve kart türüne bağlı olarak taksit seçenekleri sunulabilir.",
+    "rightOfWithdrawal": "Cayma Hakkı",
+    "rightOfWithdrawalText": "6502 sayılı Türk Tüketici Koruma Kanunu kapsamında, hastalar rezervasyon tarihinden itibaren 14 gün içinde, hizmet başlamadığı sürece cayma hakkını kullanabilir. Tıbbi konsültasyon veya tedavi prosedürü başladıktan sonra cayma hakkı uygulanmayabilir.",
+    "disputeTitle": "Uyuşmazlık Çözümü",
+    "disputeText": "Bu sözleşmeden doğan tüm anlaşmazlıklar Türk hukukuna tabidir ve İstanbul Tüketici Hakem Heyetleri veya İstanbul Mahkemeleri tarafından çözüme kavuşturulur.",
+    "paymentTitle": "Ödeme Güvenliği",
+    "paymentSubtitle": "iyzico Güvencesiyle Güvenli Ödemeler",
+    "paymentDesc": "Tüm online ödemeler, Türkiye'nin önde gelen lisanslı ödeme hizmet sağlayıcısı olan iyzico tarafından işlenmektedir. iyzico, Türkiye Bankacılık Düzenleme ve Denetleme Kurumu (BDDK) tarafından denetlenmektedir.",
+    "securityFeatures": "Güvenlik Özellikleri",
+    "security1": "Tüm işlemlerde 256-bit SSL/TLS şifreleme",
+    "security2": "PCI-DSS Seviye 1 uyumlu altyapı",
+    "security3": "3D Secure (3DS) kimlik doğrulama desteği",
+    "security4": "FeRa Clinic sunucularında kart verisi depolanmaz",
+    "security5": "Gerçek zamanlı dolandırıcılık izleme ve önleme",
+    "acceptedCardsTitle": "Kabul Edilen Ödeme Yöntemleri",
+    "visaLabel": "Visa",
+    "mastercardLabel": "Mastercard",
+    "troyLabel": "Troy",
+    "iyzicoLabel": "iyzico",
+    "paymentBadgeAlt": "iyzico ile öde — Visa, Mastercard, Troy kabul edilir",
+    "iyzicoFooterAlt": "iyzico güvencesiyle güvenli ödeme",
+    "contactTitle": "İletişim Bilgileri",
+    "contactSubtitle": "Ekibimize Ulaşın",
+    "emailLabel": "E-posta",
+    "phoneLabel": "Telefon",
+    "addressLabel": "Adres",
+    "workingHours": "Çalışma Saatleri",
+    "workingHoursValue": "Pazartesi – Cuma: 09:00 – 18:00 (GMT+3)",
+    "placeholderLegalName": "FERA CLINIC SAĞLIK TURİZM VE HİZMET TİCARET LİMİTED ŞİRKETİ",
+    "placeholderTaxNo": "3851854339",
+    "placeholderTradeRegistry": "409822-5"
+  },
+  "treatmentProcess": {
+    "implants": {
+      "step1": { "title": "Kemik ve Çene Değerlendirmesi", "desc": "Çene kemiği yoğunluğunun kapsamlı 3D CBCT görüntülemesi ve klinik değerlendirmesi." },
+      "step2": { "title": "Cerrahi İmplant Yerleştirme", "desc": "Titanyum implantın lokal anestezi altında hassas bir şekilde yerleştirilmesi." },
+      "step3": { "title": "İyileşme ve Osseointegrasyon", "desc": "İmplantın doğal çene kemiği ile kaynaştığı biyolojik entegrasyon aşaması." },
+      "step4": { "title": "Dayanak ve Kuron Yerleşimi", "desc": "Özel olarak hazırlanmış porselen veya zirkonyum kuron ile final restorasyon." }
+    },
+    "veneers": {
+      "step1": { "title": "Dijital Gülüş Analizi", "desc": "İdeal gülüş oranlarının fotoğraf analizi ve dijital planlaması." },
+      "step2": { "title": "Minimal İnvaziv Hazırlık", "desc": "Laminaların mükemmel uyumu için diş minesinin hassas bir şekilde şekillendirilmesi." },
+      "step3": { "title": "Hassas Lamina Tasarımı", "desc": "Ultra ince E-Max porselen kabukların özel sanatsal tasarımı ve laboratuvar üretimi." },
+      "step4": { "title": "Klinik Prova ve Yapıştırma", "desc": "Işıltılı bir gülüş için laminaların final yerleşimi ve kalıcı yapıştırılması." }
+    },
+    "ortho": {
+      "step1": { "title": "Klinik Değerlendirme ve 3D Tarama", "desc": "iTero tarama teknolojisi kullanılarak kapsamlı ağız muayenesi ve dijital ölçü alımı." },
+      "step2": { "title": "Kişiye Özel Tedavi Planlaması", "desc": "Diş hareketinin sanal simülasyonu ve hizalama yolunun tasarımı." },
+      "step3": { "title": "Braket veya Şeffaf Plak Uygulaması", "desc": "Ortodontik apareyin takılması veya özel şeffaf plakların teslimi." },
+      "step4": { "title": "İzleme ve Ayarlamalar", "desc": "İlerlemeyi sağlamak ve gerekli ince ayarları yapmak için düzenli klinik ziyaretler." }
+    }
+  },
+  "candidates": {
+    "implants": {
+      "item1": "Bir veya daha fazla diş eksikliği olan hastalar",
+      "item2": "Takma dişlere kalıcı bir alternatif arayanlar",
+      "item3": "Çene kemiği korunması gereken hastalar",
+      "item4": "Sağlıklı diş eti dokusuna sahip adaylar"
+    },
+    "veneers": {
+      "item1": "Renklenmiş veya lekelenmiş dişleri olan hastalar",
+      "item2": "Küçük çatlak veya kırıkları olanlar",
+      "item3": "Düzensiz diş boşlukları olan hastalar",
+      "item4": "Işıltılı bir Hollywood Gülüşü isteyen bireyler"
+    },
+    "ortho": {
+      "item1": "Çapraşık veya eğri dişleri olan hastalar",
+      "item2": "Isırma ve hizalama sorunu olan bireyler",
+      "item3": "Estetik ve şeffaf düzeltme arayanlar",
+      "item4": "Boşluk kapatma ihtiyacı olan yetişkinler ve gençler"
+    }
   }
 }

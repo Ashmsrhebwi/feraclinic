@@ -1,6 +1,0 @@
-home.ctaPrimary
-home.ctaSecondary
-blog.ctaPrimary
-blog.ctaSecondary
-contact.ctaPrimary
-contact.ctaSecondary

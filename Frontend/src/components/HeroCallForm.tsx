@@ -251,7 +251,7 @@ export const HeroCallForm = () => {
                 {t('form.phoneNumber', 'Phone Number')}
               </label>
               <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <div className="absolute inset-y-0 start-0 ps-3 flex items-center pointer-events-none">
                   <Globe className="w-5 h-5 text-gray-400" />
                 </div>
                 <input
@@ -259,11 +259,11 @@ export const HeroCallForm = () => {
                   value={formData.phone}
                   onChange={(e) => updateFormData('phone', e.target.value)}
                   placeholder={t('form.phonePlaceholder', '+90 552 123 45 67')}
-                  className={`w-full pl-10 pr-3 py-3 border rounded-xl focus:outline-none focus:ring-2 focus:ring-[#0B1C2D] focus:border-transparent transition-colors ${
+                  className={`w-full ps-10 pe-3 py-3 border rounded-xl focus:outline-none focus:ring-2 focus:ring-[#0B1C2D] focus:border-transparent transition-colors ${
                     errors.phone ? 'border-red-500' : 'border-gray-300'
                   }`}
                 />
-                <div className="absolute inset-y-0 right-0 pr-3 flex items-center">
+                <div className="absolute inset-y-0 end-0 pe-3 flex items-center">
                   <div className="w-6 h-4 bg-gradient-to-r from-red-500 to-white rounded-sm" />
                 </div>
               </div>
@@ -316,7 +316,7 @@ export const HeroCallForm = () => {
                 {t('form.fullName', 'Full Name')}
               </label>
               <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <div className="absolute inset-y-0 start-0 ps-3 flex items-center pointer-events-none">
                   <User className="w-5 h-5 text-gray-400" />
                 </div>
                 <input
@@ -324,7 +324,7 @@ export const HeroCallForm = () => {
                   value={formData.name}
                   onChange={(e) => updateFormData('name', e.target.value)}
                   placeholder={t('form.namePlaceholder', 'John Doe')}
-                  className={`w-full pl-10 pr-3 py-3 border rounded-xl focus:outline-none focus:ring-2 focus:ring-[#0B1C2D] focus:border-transparent transition-colors ${
+                  className={`w-full ps-10 pe-3 py-3 border rounded-xl focus:outline-none focus:ring-2 focus:ring-[#0B1C2D] focus:border-transparent transition-colors ${
                     errors.name ? 'border-red-500' : 'border-gray-300'
                   }`}
                 />
@@ -339,7 +339,7 @@ export const HeroCallForm = () => {
                 {t('form.email', 'Email Address')}
               </label>
               <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <div className="absolute inset-y-0 start-0 ps-3 flex items-center pointer-events-none">
                   <Mail className="w-5 h-5 text-gray-400" />
                 </div>
                 <input
@@ -347,7 +347,7 @@ export const HeroCallForm = () => {
                   value={formData.email}
                   onChange={(e) => updateFormData('email', e.target.value)}
                   placeholder={t('form.emailPlaceholder', 'john@example.com')}
-                  className={`w-full pl-10 pr-3 py-3 border rounded-xl focus:outline-none focus:ring-2 focus:ring-[#0B1C2D] focus:border-transparent transition-colors ${
+                  className={`w-full ps-10 pe-3 py-3 border rounded-xl focus:outline-none focus:ring-2 focus:ring-[#0B1C2D] focus:border-transparent transition-colors ${
                     errors.email ? 'border-red-500' : 'border-gray-300'
                   }`}
                 />
@@ -362,13 +362,13 @@ export const HeroCallForm = () => {
                 {t('form.interestedTreatment', 'Interested Treatment')}
               </label>
               <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <div className="absolute inset-y-0 start-0 ps-3 flex items-center pointer-events-none">
                   <Calendar className="w-5 h-5 text-gray-400" />
                 </div>
                 <select
                   value={formData.treatment}
                   onChange={(e) => updateFormData('treatment', e.target.value)}
-                  className={`w-full pl-10 pr-10 py-3 border rounded-xl focus:outline-none focus:ring-2 focus:ring-[#0B1C2D] focus:border-transparent transition-colors appearance-none bg-white ${
+                  className={`w-full ps-10 pe-10 py-3 border rounded-xl focus:outline-none focus:ring-2 focus:ring-[#0B1C2D] focus:border-transparent transition-colors appearance-none bg-white ${
                     errors.treatment ? 'border-red-500' : 'border-gray-300'
                   }`}
                 >
@@ -379,7 +379,7 @@ export const HeroCallForm = () => {
                     </option>
                   ))}
                 </select>
-                <div className="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
+                <div className="absolute inset-y-0 end-0 pe-3 flex items-center pointer-events-none">
                   <ArrowRight className="w-5 h-5 text-gray-400" />
                 </div>
               </div>
@@ -433,7 +433,7 @@ export const HeroCallForm = () => {
                   onChange={() => updateContactChannel('telephone')}
                   className="w-5 h-5 text-[#0B1C2D] border-gray-300 rounded focus:ring-[#0B1C2D] focus:ring-2"
                 />
-                <Phone className="w-5 h-5 text-gray-600 ml-3 mr-3" />
+                <Phone className="w-5 h-5 text-gray-600 ms-3 me-3" />
                 <span className="text-gray-700">{t('form.telephone', 'Telephone')}</span>
               </label>
 
@@ -444,7 +444,7 @@ export const HeroCallForm = () => {
                   onChange={() => updateContactChannel('mail')}
                   className="w-5 h-5 text-[#0B1C2D] border-gray-300 rounded focus:ring-[#0B1C2D] focus:ring-2"
                 />
-                <Mail className="w-5 h-5 text-gray-600 ml-3 mr-3" />
+                <Mail className="w-5 h-5 text-gray-600 ms-3 me-3" />
                 <span className="text-gray-700">{t('form.email', 'Email')}</span>
               </label>
 
@@ -455,7 +455,7 @@ export const HeroCallForm = () => {
                   onChange={() => updateContactChannel('whatsapp')}
                   className="w-5 h-5 text-[#0B1C2D] border-gray-300 rounded focus:ring-[#0B1C2D] focus:ring-2"
                 />
-                <MessageSquare className="w-5 h-5 text-green-600 ml-3 mr-3" />
+                <MessageSquare className="w-5 h-5 text-green-600 ms-3 me-3" />
                 <span className="text-gray-700">{t('common.whatsapp')}</span>
               </label>
 
@@ -466,7 +466,7 @@ export const HeroCallForm = () => {
                   onChange={() => updateContactChannel('sms')}
                   className="w-5 h-5 text-[#0B1C2D] border-gray-300 rounded focus:ring-[#0B1C2D] focus:ring-2"
                 />
-                <Send className="w-5 h-5 text-gray-600 ml-3 mr-3" />
+                <Send className="w-5 h-5 text-gray-600 ms-3 me-3" />
                 <span className="text-gray-700">{t('form.sms', 'SMS')}</span>
               </label>
             </div>

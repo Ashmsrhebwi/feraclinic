@@ -119,7 +119,7 @@ export function JoinUs() {
       if (!response.ok) {
         const errorMsg = data.errors 
           ? Object.values(data.errors).flat().join(', ')
-          : data.message || 'Submission failed. Please try again.'
+          : data.message || t('form.submitError', 'Submission failed. Please try again.')
         console.error('Submission error:', errorMsg, data)
         throw new Error(errorMsg)
       }
@@ -137,7 +137,7 @@ export function JoinUs() {
         cvFile: null
       })
     } catch (err: any) {
-      setSubmitError(err.message || 'Submission failed. Please try again.')
+      setSubmitError(err.message || t('form.submitError', 'Submission failed. Please try again.'))
     } finally {
       setIsSubmitting(false)
     }
@@ -183,15 +183,15 @@ export function JoinUs() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=1920&h=1080"
+            src="/images/fera-clinic/Join Us/Join_us.png"
             alt={t('alt.joinUsHero', 'FeRa Clinic Team')}
-            className="w-full h-full object-cover object-center"
-            style={{ animation: 'heroZoom 15s ease-in-out infinite alternate' }}
+            className="w-full h-full object-cover"
+            style={{ objectPosition: 'center center' }}
             loading="eager"
             fetchPriority="high"
           />
-          {/* Improved soft dark overlay for text readability */}
-          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50" />
+          {/* Overlay — text readability without muddying the image */}
+          <div className="absolute inset-0 bg-gradient-to-b from-black/35 via-black/25 to-black/45" />
         </div>
 
         {/* Hero Content */}

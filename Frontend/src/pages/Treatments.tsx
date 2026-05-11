@@ -22,6 +22,7 @@ import { ScrollReveal } from '../components/ui/ScrollReveal'
 import { treatments } from '../data/treatments'
 import { useTranslation } from 'react-i18next'
 import { useSEO } from '../components/useSEO'
+import { getMedia } from '../lib/mediaResolver'
 export function Treatments() {
   const { t, i18n } = useTranslation()
   useSEO({ 
@@ -37,7 +38,7 @@ export function Treatments() {
         {/* Background */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/fera-clinic/clinic/waiting-area.webp"
+            src={getMedia("hero_treatments_main")}
             alt={t('alt.clinicalExcellence')}
             className="w-full h-full object-cover object-center"
             style={{ animation: 'heroZoomPan 20s ease-in-out infinite alternate' }}
@@ -124,7 +125,7 @@ export function Treatments() {
                     {/* Image Container */}
                     <div className="relative aspect-[1.3/1] overflow-hidden">
                       <img
-                        src={item.image}
+                        src={getMedia(item.imageKey || item.image)}
                         alt={t(`treatments.data.${item.id}.title`)}
                         className="w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
                       />

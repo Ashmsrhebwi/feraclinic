@@ -50,6 +50,7 @@
     scroll-behavior: smooth;
     background-color: var(--bg-body);
     color: var(--text-main);
+    overflow-x: hidden;
   }
 
   body {
@@ -88,7 +89,7 @@
 @layer components {
   /* Section standard rhythm */
   .section {
-    @apply py-20 lg:py-32 px-6;
+    @apply py-14 sm:py-20 lg:py-32 px-4 sm:px-6;
   }
   .container-std {
     @apply max-w-7xl mx-auto;
@@ -101,7 +102,7 @@
 
   /* Section heading */
   .section-heading {
-    @apply text-4xl lg:text-[64px] font-bold text-fera-deep tracking-tighter leading-[1.05];
+    @apply text-3xl sm:text-4xl md:text-5xl lg:text-[64px] font-bold text-fera-deep tracking-tighter leading-[1.05];
   }
 
   /* Body description */
@@ -135,6 +136,15 @@
   .gpu { will-change: transform; }
   .text-balance { text-wrap: balance; }
 
+  /* Safe overflow guard for flex/grid children */
+  .min-w-0-safe { min-width: 0; }
+
+  /* Word break for long content */
+  .break-safe {
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
   .custom-scrollbar::-webkit-scrollbar { width: 5px; }
   .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
   .custom-scrollbar::-webkit-scrollbar-thumb {
@@ -148,6 +158,14 @@
 @keyframes heroZoom {
   from { transform: scale(1.03) translateX(0px); }
   to   { transform: scale(1.08) translateX(-12px); }
+}
+
+/* ─── heroZoomPan — subtle premium ken-burns effect ─── */
+/* Intentionally modest scale range (1.02→1.05) to stay overflow-safe on mobile */
+@keyframes heroZoomPan {
+  0%   { transform: scale(1.02) translateX(0%)    translateY(0%); }
+  50%  { transform: scale(1.04) translateX(-0.5%) translateY(-0.3%); }
+  100% { transform: scale(1.05) translateX(0.5%)  translateY(-0.5%); }
 }
 
 @keyframes orbFloat {
@@ -387,35 +405,35 @@
 }
 
 /* ─────────────────────────────────────── 
-   ARABIC LOCALIZATION — TEXT ALIGNMENT ONLY
-   (Layout remains LTR as per branding)
+   ARABIC LOCALIZATION — RTL SUPPORT
 ──────────────────────────────────────── */
-html[lang="ar"] h1, 
-html[lang="ar"] h2, 
-html[lang="ar"] h3, 
-html[lang="ar"] h4, 
-html[lang="ar"] h5, 
-html[lang="ar"] h6, 
-html[lang="ar"] p, 
-html[lang="ar"] span, 
-html[lang="ar"] label,
-html[lang="ar"] input,
-html[lang="ar"] textarea {
-  text-align: right;
+[dir="rtl"] {
+  font-family: 'Inter', 'Outfit', sans-serif; /* Fallback for Arabic if needed */
+}
+
+[dir="rtl"] .blog-content {
+  text-align: start;
 }
 
 /* Ensure icons and flex items within right-aligned containers don't break */
-html[lang="ar"] .flex {
-  text-align: inherit;
+[dir="rtl"] .flex {
+  /* text-align: inherit; */
 }
 
 /* Maintain explicit centering where intended */
-html[lang="ar"] .text-center,
-html[lang="ar"] .text-center * {
-  text-align: center;
+.text-center,
+.text-center * {
+  text-align: center !important;
 }
 
-/* Specific overrides for hero and forms */
-html[lang="ar"] .hero-content-card * {
-  text-align: right;
-}
+/* Mirror icons globally in RTL */
+[dir="rtl"] .lucide-chevron-right,
+[dir="rtl"] .lucide-arrow-right {
+  transform: rotate(180deg);
+}
+
+[dir="rtl"] .lucide-chevron-left,
+[dir="rtl"] .lucide-arrow-left {
+  transform: rotate(180deg);
+}
+

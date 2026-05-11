@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { ArrowRight, ShieldCheck, Award, Users } from 'lucide-react'
 import { Button } from '../ui/button'
 import { useTranslation } from 'react-i18next'
+import { getMedia } from '../../lib/mediaResolver'
 
 export const Hero = () => {
   const { t } = useTranslation()
@@ -13,7 +14,7 @@ export const Hero = () => {
       {/* Cinematic Background */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://feraclinic.com/wp-content/uploads/Anasafya-scaled-3.webp?v=123"
+          src={getMedia('hero_home_main')}
           alt={t('alt.feraClinic', 'FeRa Clinic')}
           className="w-full h-full object-cover object-[center_35%] scale-[1.03]"
           style={{ animation: 'heroZoom 45s linear infinite alternate' }}
